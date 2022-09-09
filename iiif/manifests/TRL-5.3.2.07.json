@@ -1,0 +1,98 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://dlc.services/iiif-resource/7/string1string2string3/kaartenproject/TRL-5.3.2.07",
+    "@type": "sc:Manifest",
+    "label": "Kaart van de rivier de Waal boven en beneden den mond van het Pannerdensche Canaal",
+    "metadata": [
+      {
+        "label": "Title",
+        "value": "Kaart van de rivier de Waal boven en beneden den mond van het Pannerdensche Canaal, met de peilingen door Beyerinck, Bolstra en Veltgen in november 1766, gedaan op een waters-hoogte van 2¾ tot 2½ voet aan de peilschaal in Arnhem; beneffens de middelen tot redres in december 1766. geprojecteerd door J. Lulofs en M. Bolstra, bestaande in een ryswerk van a tot b, in twee kribben A en B, en in een end dyks van c tot d."
+      },
+      {
+        "label": "Year",
+        "value": "1766"
+      },
+      {
+        "label": "Scale",
+        "value": "1:12.500"
+      }
+    ],
+    "sequences": [
+      {
+        "@id": "https://dlc.services/iiif-query/7/?sequence=n1&manifest=s1&canvas=n2&s1=kaartenproject&n1=",
+        "@type": "sc:Sequence",
+        "label": "Sequence 0",
+        "canvases": [
+          {
+            "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaartenproject&n1=&n2=114",
+            "@type": "sc:Canvas",
+            "thumbnail": {
+              "@id": "https://dlc.services/thumbs/7/4/df8bdc76-4c49-4418-a9f4-8ae4ca1b1d84/full/full/0/default.jpg",
+              "@type": "dctypes:Image",
+              "service": {
+                "@context": "http://iiif.io/api/image/2/context.json",
+                "@id": "https://apex.dlc.services/thumbs/7/4/df8bdc76-4c49-4418-a9f4-8ae4ca1b1d84",
+                "profile": [
+                  "http://iiif.io/api/image/2/level0.json",
+                  {
+                    "formats": [
+                      "jpg"
+                    ],
+                    "qualities": [
+                      "color"
+                    ],
+                    "supports": [
+                      "sizeByWhListed"
+                    ]
+                  }
+                ],
+                "width": 1024,
+                "height": 503,
+                "sizes": [
+                  {
+                    "width": 1024,
+                    "height": 503
+                  },
+                  {
+                    "width": 400,
+                    "height": 197
+                  },
+                  {
+                    "width": 200,
+                    "height": 98
+                  },
+                  {
+                    "width": 100,
+                    "height": 49
+                  }
+                ]
+              }
+            },
+            "height": 2840,
+            "width": 5777,
+            "images": [
+              {
+                "@id": "https://dlc.services/iiif-img/7/4/df8bdc76-4c49-4418-a9f4-8ae4ca1b1d84/anno",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                  "@id": "https://dlc.services/iiif-img/7/4/df8bdc76-4c49-4418-a9f4-8ae4ca1b1d84/full/!2000,2000/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "height": 2840,
+                  "width": 5777,
+                  "service": {
+                    "@id": "https://dlc.services/iiif-img/7/4/df8bdc76-4c49-4418-a9f4-8ae4ca1b1d84",
+                    "protocol": "http://iiif.io/api/image",
+                    "height": 2840,
+                    "width": 5777,
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                },
+                "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaartenproject&n1=&n2=114"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
