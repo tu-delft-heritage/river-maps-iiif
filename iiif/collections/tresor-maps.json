@@ -1,0 +1,21 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://theberlage.github.io/river-maps/iiif/collections/tresor-maps.json",
+    "@type": "sc:Collection",
+    "label": "Trésor Maps",
+    "viewingHint": "top",
+    "description": "",
+    "attribution": "TU Delft Library",
+    "manifests": [
+        {
+            "@id": "https://theberlage.github.io/river-maps/iiif/manifests/TRL-6.1.4.json",
+            "@type": "sc:Manifest",
+            "label": "Eerste druk, Serie 5"
+        },
+        {
+            "@id": "https://theberlage.github.io/river-maps/iiif/manifests/TRL-6.1.3.json",
+            "@type": "sc:Manifest",
+            "label": "Eerste druk, Serie 6"
+        }
+    ]
+}
