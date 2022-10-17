@@ -11,6 +11,9 @@ Prefix for manifest and collection `@ids`:
 
 `https://theberlage.github.io/river-maps/iiif/[manifests/collections]/[filename.json]`
 
+Source of scans:
+- [https://downloads.rijkswaterstaatdata.nl/rivierkaart/](https://downloads.rijkswaterstaatdata.nl/rivierkaart/)
+
 Todo:
 - Add more relevant [Trésor maps](https://observablehq.com/@sammeltassen/tresor-maps)
 - Add manifests of maps from other collections (VU, Utrecht)
