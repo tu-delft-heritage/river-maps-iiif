@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/collection.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "River maps"
+    ],
+    "nl": [
+      "Rivierkaarten"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Historical river maps, grouped by edition, with scans from Utrecht University Library."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/collections/first-edition.json",
+      "type": "Collection",
+      "label": {
+        "en": [
+          "First edition"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/collections/first-edition.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "First edition"
+    ]
+  },
+  "partOf": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/collection.json",
+      "type": "Collection"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-1.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Series 1 — Boven Rijn, de Waal, de Merwede, de Oude en een gedeelte van de Nieuwe Maas, van Lobith tot Brielle"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-2.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Series 2 — Boven en Neder-Rijn, de Lek en de Nieuwe Maas, van Lobith tot Brielle"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-3.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Series 3 — IJssel van Westervoort tot Kampen"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-4.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Series 4 — Boven Maas van Visé tot Woudrichem"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-5.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Series 5 — Oude en Nieuwe Merwede en de killen in het Bergsche Veld"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-6.json",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "Series 6 — Hollandsche IJssel van Gouda tot IJsselmonde"
+        ]
+      }
+    }
+  ]
+}

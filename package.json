@@ -1,0 +1,23 @@
+{
+  "name": "river-maps-iiif",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.17.1",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "sync": "node scripts/sync.ts",
+    "build": "node scripts/build.ts",
+    "check": "tsc --noEmit",
+    "test": "node --test scripts/*.test.ts",
+    "validate": "pnpm check && pnpm test && pnpm build"
+  },
+  "dependencies": {
+    "@iiif/helpers": "4.0.5",
+    "@iiif/parser": "^4.0.7"
+  },
+  "devDependencies": {
+    "@iiif/presentation-3": "2.2.4",
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  }
+}
