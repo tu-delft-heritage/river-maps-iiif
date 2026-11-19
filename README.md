@@ -100,18 +100,6 @@ continue to be served by Utrecht University Library; they are not downloaded.
 The checks catch missing/wrong records and broken collection links; they are not
 a comprehensive IIIF schema validator.
 
-### Source corrections
-
-The original README repeated other series' manifest URLs for series 2, 4, and 6.
-The links above and the catalog use the records matching their reader URLs and
-library title metadata:
-
-| Series | Correct library record | Title identifies |
-| --- | --- | --- |
-| 2 | `20.500.14918-462106` | Boven en Neder-Rijn, de Lek en de Nieuwe Maas |
-| 4 | `20.500.14918-462072` | Boven Maas van Visé tot Woudrichem |
-| 6 | `20.500.14918-462063` | Hollandsche IJssel van Gouda tot IJsselmonde |
-
 ### Adding an edition or series
 
 1. Add an edition or series to `scripts/catalog.ts`, with a stable slug, label,
