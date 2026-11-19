@@ -1,57 +1,40 @@
-name: Build and deploy IIIF
+name: Deploy IIIF to GitHub Pages
 
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+    paths:
+      - 'iiif/**'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
 
+# All branches publish to the same site, so serialize their deployments.
 concurrency:
-  group: pages-${{ github.ref }}
+  group: github-pages
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      - uses: pnpm/action-setup@v6
-      - uses: actions/setup-node@v7
-        with:
-          node-version: '24'
-          cache: pnpm
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm check
-      - run: pnpm test
-      - name: Configure Pages
-        id: pages
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-        uses: actions/configure-pages@v5
-      - name: Build collection and manifests from local sources
-        run: pnpm build
-        env:
-          IIIF_BASE_URL: ${{ steps.pages.outputs.base_url || 'https://tu-delft-heritage.github.io/river-maps-iiif' }}
-      - name: Upload Pages artifact
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: iiif
-
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-    needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v7
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      # iiif/ is committed build output: publish it without installing or rebuilding.
+      - name: Upload committed website and IIIF JSON
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: iiif
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

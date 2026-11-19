@@ -14,6 +14,15 @@ importers:
       '@iiif/parser':
         specifier: ^4.0.7
         version: 4.0.7
+      htm:
+        specifier: ^3.1.1
+        version: 3.1.1
+      preact:
+        specifier: ^11.2.0
+        version: 11.2.0(preact-render-to-string@6.8.3)
+      preact-render-to-string:
+        specifier: ^6.8.3
+        version: 6.8.3(preact@11.2.0)
     devDependencies:
       '@iiif/presentation-3':
         specifier: 2.2.4
@@ -180,11 +189,27 @@ packages:
     resolution: {integrity: sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg==}
     engines: {node: '>=0.3.1'}
 
+  htm@3.1.1:
+    resolution: {integrity: sha512-983Vyg8NwUE7JkZ6NmOqpCZ+sh1bKv2iYTlUkzlWmA5JD2acKoxd4KVxbMmxX/85mtfdnDmTFoNKcg5DGAvxNQ==}
+
   mitt@3.0.1:
     resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
 
   parse-svg-path@0.1.2:
     resolution: {integrity: sha512-JyPSBnkTJ0AI8GGJLfMXvKq42cj5c006fnLz6fXy6zfoVjJizi8BNTpu8on8ziI1cKy9d9DGNuY17Ce7wuejpQ==}
+
+  preact-render-to-string@6.8.3:
+    resolution: {integrity: sha512-yg04edGH7f5yfBUV4uyL2brzPB3e26AimLO5WNfUtwoCv8LBJ7Z+dElG8P5v+o8UqMUM6kZhnn4I/HEXNyP0ZQ==}
+    peerDependencies:
+      preact: '>=10 || >= 11.0.0-0'
+
+  preact@11.2.0:
+    resolution: {integrity: sha512-/HfHI/7N84e6GrWBJ3J280z3mLaRJiDcSvj/A+y/4AbLnND/1UlGHe1sR6oYuTGwId0nP7dqDU9OnLxMPZ7xBg==}
+    peerDependencies:
+      preact-render-to-string: '>=6.7.0'
+    peerDependenciesMeta:
+      preact-render-to-string:
+        optional: true
 
   svg-arc-to-cubic-bezier@3.2.0:
     resolution: {integrity: sha512-djbJ/vZKZO+gPoSDThGNpKDO+o+bAeA4XQKovvkNCqnIS2t+S4qnLAGQhyyrulhCFRl1WWzAp0wUDV8PpTVU3g==}
@@ -297,10 +322,20 @@ snapshots:
 
   diff@8.0.2: {}
 
+  htm@3.1.1: {}
+
   mitt@3.0.1: {}
 
   parse-svg-path@0.1.2:
     optional: true
+
+  preact-render-to-string@6.8.3(preact@11.2.0):
+    dependencies:
+      preact: 11.2.0(preact-render-to-string@6.8.3)
+
+  preact@11.2.0(preact-render-to-string@6.8.3):
+    optionalDependencies:
+      preact-render-to-string: 6.8.3(preact@11.2.0)
 
   svg-arc-to-cubic-bezier@3.2.0:
     optional: true

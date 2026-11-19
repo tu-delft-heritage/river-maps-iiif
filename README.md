@@ -45,6 +45,7 @@ _Hollandsche IJssel van Gouda tot IJsselmonde_
 - [IIIF Manifest Editor](https://manifest-editor.digirati.services/)
 - [Allmaps Editor](https://editor.allmaps.org/?lang=en)
 - [Map Series Editor](https://github.com/allmaps/map-series-editor)
+
 ## IIIF collection
 
 The IIIF Presentation 3 collection is generated with Node.js 24, TypeScript,
@@ -80,15 +81,19 @@ pnpm validate
   [`scripts/catalog.ts`](scripts/catalog.ts). It replaces the local source JSON
   only after every download succeeds. Refreshing requires internet access.
 - `pnpm build` generates `iiif/` entirely from local source files, without network
-  access. The directory is generated output and is replaced on each build.
+  access, including the manifest browse page. The directory is generated output
+  and is replaced on each build.
 - `pnpm check` checks the TypeScript types.
 - `pnpm test` checks record identities, collection links, additional editions,
   custom base URLs, parsing with the IIIF Vault, and preservation of source data.
 - `pnpm validate` runs the type check, tests, and build.
 
 Commit the source manifests in `data/iiif-manifests/`, the generated `iiif/`
-files, and `pnpm-lock.yaml`. Downloads are separate from builds so publishing
-works even when the library's server is unavailable.
+files (including `index.html` and `assets/`), and `pnpm-lock.yaml`. GitHub Pages
+publishes the committed `iiif/` directory as-is; it does not run these scripts.
+Run `pnpm validate` locally after changing sources, the catalog, or the website,
+then commit the regenerated output. Only run `pnpm sync` when adding or refreshing
+library records.
 
 The source JSON is preserved as downloaded, with formatting applied. Published
 manifests receive local IDs, readable series labels, an edition `partOf` link,
@@ -99,6 +104,28 @@ continue to be served by Utrecht University Library; they are not downloaded.
 
 The checks catch missing/wrong records and broken collection links; they are not
 a comprehensive IIIF schema validator.
+
+### Website
+
+The homepage lists the generated manifests by edition, with publication dates,
+scan counts, direct JSON links, and links to Allmaps Editor, IIIF Manifest Editor,
+and Theseus Viewer. It follows the generated collection tree on every build, so
+new editions and series appear automatically without editing the page.
+
+The lightweight framework is [Preact](https://preactjs.com/), rendered at build
+time with `preact-render-to-string` and HTM templates. The deployed page is static
+HTML and CSS, with no browser JavaScript, external fonts, or runtime CDN
+dependencies. Components and link generation live in `scripts/site.ts`; styles
+live in `site/style.css`. The existing Pages workflow deploys the page and its
+stylesheet alongside the IIIF JSON.
+
+Tool links use the published manifest IDs (including a custom `IIIF_BASE_URL`),
+while JSON and stylesheet links are relative to the homepage. The Manifest Editor
+link imports a copy into that editor; it does not change the JSON in this repo.
+
+Link formats are based on [Allmaps' workshop guide](https://pages.allmaps.org/workshops/2026-open-science-week.html),
+[Manifest Editor's import handler](https://github.com/digirati-co-uk/iiif-manifest-editor/blob/main/apps/web/src/components/share/SharePage.tsx),
+and [its Theseus integration](https://github.com/digirati-co-uk/iiif-manifest-editor/blob/main/apps/docs/content/developer/previews.mdx).
 
 ### Adding an edition or series
 
@@ -119,16 +146,29 @@ to restore the default GitHub Pages URLs before committing generated files.
 
 ### GitHub Pages
 
-[The workflow](.github/workflows/pages.yml) checks pull requests and deploys pushes
-to `main`. It can also be run manually from `main`. It installs the locked pnpm
-dependencies, runs the checks, builds from the committed source manifests, and
-uploads only `iiif/` using the official GitHub Pages actions. The build uses the
-base URL returned by `actions/configure-pages`, including a configured custom
-domain. Pull requests and manual runs on other branches do not deploy.
+[The workflow](.github/workflows/pages.yml) publishes the committed `iiif/`
+directory using checkout, configure-pages, upload-pages-artifact, and deploy-pages.
+It does not install Node.js or pnpm, download library data, run tests, or rebuild
+the collection or website. Generation and validation are local development steps.
+
+Pushes to `main` deploy only when `iiif/**` or the workflow itself changes.
+Documentation-only and source-only commits do not trigger deployment. Pull
+requests do not deploy.
+
+Manual runs deploy the selected branch's committed `iiif/` directory. Choose
+**Actions → Deploy IIIF to GitHub Pages → Run workflow**, select the branch
+(for example, `watertijdreis`), and run it. The `github-pages` environment must
+allow that branch; `main` and `watertijdreis` are currently allowed. Manual runs
+publish to the same public site, and deployments are serialized across branches.
+
+When changing the public domain or repository path, regenerate locally with
+`IIIF_BASE_URL` set to the final Pages URL and commit the output before deploying.
+The workflow publishes the IDs and tool links exactly as committed.
 
 In the repository's **Settings → Pages → Build and deployment**, set **Source**
-to **GitHub Actions** before the first deployment. Then merge or push these files
-to `main`. No personal access token is required; deployment uses the workflow's
+to **GitHub Actions** before the first deployment. This repository already uses
+that setting. Commit and push the workflow and all generated `iiif/` files before
+running it. No personal access token is required; deployment uses the workflow's
 `GITHUB_TOKEN` and its `github-pages` environment.
 
 References: [IIIF Presentation 3 collections](https://iiif.io/api/presentation/3.0/#51-collection)

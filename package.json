@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.17.1",
-  "engines": { "node": ">=24" },
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "sync": "node scripts/sync.ts",
     "build": "node scripts/build.ts",
@@ -13,7 +15,10 @@
   },
   "dependencies": {
     "@iiif/helpers": "4.0.5",
-    "@iiif/parser": "^4.0.7"
+    "@iiif/parser": "^4.0.7",
+    "htm": "^3.1.1",
+    "preact": "^11.2.0",
+    "preact-render-to-string": "^6.8.3"
   },
   "devDependencies": {
     "@iiif/presentation-3": "2.2.4",
