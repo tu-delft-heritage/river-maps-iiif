@@ -46,6 +46,58 @@ _Hollandsche IJssel van Gouda tot IJsselmonde_
 - [Allmaps Editor](https://editor.allmaps.org/?lang=en)
 - [Map Series Editor](https://github.com/allmaps/map-series-editor)
 
+## Scans from Nationaal Archief
+
+The **Nieuwe Stijl** edition uses digitized records in section D of
+[inventory 2.16.5150](https://www.nationaalarchief.nl/onderzoeken/archief/2.16.5150).
+Its microfilms were digitized in mid-2025. The saved inventory version is
+30 July 2026; metadata was retrieved on 19 November 2026.
+
+[`iiif/collections/nieuwe-stijl.json`](iiif/collections/nieuwe-stijl.json) contains
+**17 Presentation 3 Manifests and 1,009 image Canvases**. One Manifest corresponds
+to each group D.01–D.17, in inventory order: 15 river groups, the index/legend
+sheets, and the Netherlands–Belgium border-agreement appendices. Subgroups under
+D.01 and D.05 are retained as IIIF Ranges. Only records with digital-object links
+and resolved scans are included; descriptions without scans produce no Canvas.
+Earlier, undigitized editions in this inventory are not added.
+
+The collection's public URL after deployment is:
+
+<https://tu-delft-heritage.github.io/river-maps-iiif/collections/nieuwe-stijl.json>
+
+Canvas metadata retains Dutch titles, inventory numbers, handles and UUIDs,
+dates (including normalized dates), scales, photography notes, duplicate-copy
+notes, related material, processing notes, and inherited series descriptions.
+Each Canvas links to its archival description, METS record, Image API metadata,
+and full-resolution JPEG. Original Image API 3 services, capabilities, resolution
+limits, and physical-scale information are preserved. The METS records classify
+all 1,009 scans as public domain; the generated resources use the Public Domain
+Mark and credit Nationaal Archief. Source images remain hosted by the archive.
+
+The exact EAD XML, full METS XML responses, and Image API responses are saved in
+[`data/nationaal-archief/`](data/nationaal-archief/). The complete EAD is retained
+as source evidence, including descriptions that are excluded from the IIIF
+collection. A copy is published under `iiif/sources/nationaal-archief/` and linked
+with `seeAlso`; the build checks its SHA-256 against the metadata snapshot.
+No map image files are downloaded or committed.
+
+To refresh this source (Python 3, standard library only):
+
+```sh
+pnpm sync:na
+pnpm validate
+```
+
+`sync:na` downloads the current EAD and resolves every linked METS record and
+image's `info.json`. It caches completed requests in `.cache/nationaal-archief/`,
+limits request rates, and retries temporary failures. It leaves committed source
+files untouched if any download or parse fails. Run `pnpm sync:na --refresh` to
+also refresh cached METS and image metadata. `--ead /path/to/inventory.xml` accepts
+a specific local EAD snapshot. Builds and tests use only the committed files and
+do not require network access. The importer lives in
+[`scripts/sync-nationaal-archief.py`](scripts/sync-nationaal-archief.py); IIIF
+generation lives in [`scripts/nationaal-archief.ts`](scripts/nationaal-archief.ts).
+
 ## IIIF collection
 
 The IIIF Presentation 3 collection is generated with Node.js 24, TypeScript,
@@ -58,19 +110,25 @@ its public URL is:
 
 ```text
 River maps (collection.json)
-└── First edition (collections/first-edition.json)
-    ├── Series 1 (manifests/first-edition/series-1.json)
-    ├── Series 2 (manifests/first-edition/series-2.json)
-    ├── Series 3 (manifests/first-edition/series-3.json)
-    ├── Series 4 (manifests/first-edition/series-4.json)
-    ├── Series 5 (manifests/first-edition/series-5.json)
-    └── Series 6 (manifests/first-edition/series-6.json)
+├── First edition (collections/first-edition.json)
+│   ├── Series 1 (manifests/first-edition/series-1.json)
+│   ├── Series 2 (manifests/first-edition/series-2.json)
+│   ├── Series 3 (manifests/first-edition/series-3.json)
+│   ├── Series 4 (manifests/first-edition/series-4.json)
+│   ├── Series 5 (manifests/first-edition/series-5.json)
+│   └── Series 6 (manifests/first-edition/series-6.json)
+└── Nieuwe Stijl (collections/nieuwe-stijl.json)
+    ├── D.01 Index sheets and legends (manifests/nieuwe-stijl/series-01.json)
+    ├── D.02–D.16 River groups (manifests/nieuwe-stijl/series-02.json … series-16.json)
+    └── D.17 Border-agreement appendices (manifests/nieuwe-stijl/series-17.json)
 ```
 
 Future editions become sibling collections; existing URLs remain stable. There
 are no empty placeholder editions.
 
 ### Local development
+
+Requires Node.js 24+, pnpm, and Python 3 (for Nationaal Archief sync and source checks).
 
 ```sh
 pnpm install --frozen-lockfile
@@ -80,22 +138,25 @@ pnpm validate
 - `pnpm sync` downloads and checks the library manifests listed in
   [`scripts/catalog.ts`](scripts/catalog.ts). It replaces the local source JSON
   only after every download succeeds. Refreshing requires internet access.
+- `pnpm sync:na` refreshes Nationaal Archief metadata as described above.
 - `pnpm build` generates `iiif/` entirely from local source files, without network
   access, including the manifest browse page. The directory is generated output
   and is replaced on each build.
 - `pnpm check` checks the TypeScript types.
 - `pnpm test` checks record identities, collection links, additional editions,
-  custom base URLs, parsing with the IIIF Vault, and preservation of source data.
+  custom base URLs, parsing with the IIIF Vault, preservation of source data,
+  complete EAD-to-scan coverage, and exclusion of undigitized descriptions.
 - `pnpm validate` runs the type check, tests, and build.
 
-Commit the source manifests in `data/iiif-manifests/`, the generated `iiif/`
+Commit the source manifests in `data/iiif-manifests/`, the archive snapshots in
+`data/nationaal-archief/`, the generated `iiif/`
 files (including `index.html` and `assets/`), and `pnpm-lock.yaml`. GitHub Pages
 publishes the committed `iiif/` directory as-is; it does not run these scripts.
 Run `pnpm validate` locally after changing sources, the catalog, or the website,
 then commit the regenerated output. Only run `pnpm sync` when adding or refreshing
-library records.
+library records; use `pnpm sync:na` for archive records.
 
-The source JSON is preserved as downloaded, with formatting applied. Published
+The Utrecht source JSON is preserved as downloaded, with formatting applied. Published
 manifests receive local IDs, readable series labels, an edition `partOf` link,
 and a `seeAlso` link to the original manifest. The original library label is
 retained in metadata. All embedded canvas and annotation IDs, image URLs,
@@ -131,10 +192,17 @@ and [its Theseus integration](https://github.com/digirati-co-uk/iiif-manifest-ed
 
 ### Adding an edition or series
 
+For sources that already provide IIIF manifests:
+
 1. Add an edition or series to `scripts/catalog.ts`, with a stable slug, label,
    and the source Presentation 3 manifest URL. Slugs become public URL paths.
 2. Run `pnpm sync` and inspect the downloaded records and titles.
 3. Run `pnpm validate` and commit the catalog, source JSON, and generated JSON.
+
+Nationaal Archief's Nieuwe Stijl groups are discovered directly from section D
+of the EAD instead of being entered in `scripts/catalog.ts`. A refresh updates
+the series, descriptions and scans together. Existing Canvas IDs use archival
+and scan UUIDs, so changes to source order do not change their identity.
 
 For another host, repository path, or local server, set the public base URL:
 
@@ -143,7 +211,9 @@ IIIF_BASE_URL=https://example.org/river-maps/ pnpm build
 ```
 
 This changes collection/manifest IDs and collection links, while retaining
-library canvas IDs and image service URLs. Run `pnpm build` without the variable
+library canvas IDs and all remote image service URLs. New Nationaal Archief
+Canvas, annotation and Range IDs use fragments of their Manifest URL and follow
+the configured host. Run `pnpm build` without the variable
 to restore the default GitHub Pages URLs before committing generated files.
 
 ### GitHub Pages

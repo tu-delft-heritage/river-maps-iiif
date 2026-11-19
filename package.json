@@ -8,9 +8,10 @@
   },
   "scripts": {
     "sync": "node scripts/sync.ts",
+    "sync:na": "python3 scripts/sync-nationaal-archief.py",
     "build": "node scripts/build.ts",
     "check": "tsc --noEmit",
-    "test": "node --test scripts/*.test.ts",
+    "test": "node --test scripts/*.test.ts && python3 -m unittest discover -s scripts -p '*_test.py'",
     "validate": "pnpm check && pnpm test && pnpm build"
   },
   "dependencies": {

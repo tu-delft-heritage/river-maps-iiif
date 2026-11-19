@@ -78,7 +78,7 @@ export function generateCollection(
     id: url('collection.json'),
     type: 'Collection',
     label: { en: ['River maps'], nl: ['Rivierkaarten'] },
-    summary: { en: ['Historical river maps, grouped by edition, with scans from Utrecht University Library.'] },
+    summary: { en: ['Historical river maps, grouped by edition, with scans from Utrecht University Library and Nationaal Archief.'] },
     items: [],
   };
   documents.set('collection.json', root);

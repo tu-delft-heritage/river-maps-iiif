@@ -1,0 +1,4568 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json",
+  "type": "Manifest",
+  "label": {
+    "nl": [
+      "D.01 — Bladwijzers en legenda's"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "nl": [
+          "Archief"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Toegang"
+        ]
+      },
+      "value": {
+        "nl": [
+          "2.16.5150"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Inventarisversie"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Versie: 30-07-2026"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (series_code)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "D"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (urn:uuid)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "4e7657e3-67a4-9dce-e063-6df0900acdd5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Digitale versies van de rivierkaarten 'Nieuwe Stijl' op schalen 1:5.000 en 1:2.000"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Verantwoording bewerking"
+        ]
+      },
+      "value": {
+        "nl": [
+          "In de beschrijvingen komen de volgende afkortingen betreffende de rivierkilometrering voor: km. (kilometer), kmrpn. (kilometerraaipaalnummer) en rpn. (raaipaalnummer)."
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Ordening / exemplaar"
+        ]
+      },
+      "value": {
+        "nl": [
+          "De beschrijvingen zijn geordend per stroomgebied, daarbinnen per bladnummer en daarbinnen oplopend chronologisch. De nummering van de beschrijvingen komt overeen met de volgorde waarin de individuele substituutopnames werden gemaakt. De volgorde van deze nummering reflecteert de mate van ordening van het gehele bestand rivierkaarten 'Nieuwe Stijl' zoals dat door de Meetkundige Dienst ter substitutie aangeboden werd. Hieronder bevindt zich een aantal dubbele exemplaren. Inventarisnummers 820 en 1251 werden niet toegekend. De bladnummers 775 t/m 781 zijn deel van de serie Boven- en Beneden-Merwede, en zijn toegevoegd aan de serie bladnummers 701 t/m 721; de bladnummers 782 t/m 796 zijn deel van de serie Maas (vanaf Gennep), en zijn toegevoegd aan de serie bladnummers 336 t/m 354."
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Geschiedenis van het beheer"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Voor een zo eenvoudig mogelijke toegankelijkheid van de op microfilm gesubstitueerde kaarten werden die microfilms (inv.nrs. 2001 t/m 2003 ) medio 2025 gedigitaliseerd."
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (series_code)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "D.01"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (urn:uuid)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "4e7657e3-7099-9dce-e063-6df0900acdd5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Bladwijzers en legenda's"
+        ]
+      }
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://www.nationaalarchief.nl/",
+      "type": "Agent",
+      "label": {
+        "nl": [
+          "Nationaal Archief"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://www.nationaalarchief.nl/",
+          "type": "Text",
+          "format": "text/html"
+        }
+      ]
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "nl": [
+        "Bronvermelding"
+      ]
+    },
+    "value": {
+      "nl": [
+        "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150."
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "homepage": [
+    {
+      "id": "http://hdl.handle.net/10648/fb54ce3b-8a45-446f-b79e-0aae3bf1faac",
+      "type": "Text",
+      "format": "text/html",
+      "label": {
+        "nl": [
+          "Archiefbeschrijving"
+        ]
+      }
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://www.nationaalarchief.nl/onderzoeken/archief/2.16.5150/download/xml",
+      "type": "Dataset",
+      "format": "application/xml",
+      "label": {
+        "nl": [
+          "EAD-inventaris (actuele versie)"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/sources/nationaal-archief/2.16.5150.xml",
+      "type": "Dataset",
+      "format": "application/xml",
+      "label": {
+        "nl": [
+          "EAD-bronbestand — Versie: 30-07-2026"
+        ]
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/collections/nieuwe-stijl.json",
+      "type": "Collection"
+    }
+  ],
+  "behavior": [
+    "individuals"
+  ],
+  "thumbnail": [
+    {
+      "id": "https://service.archief.nl/api/file/v1/thumb/3e4459af-8289-42a3-bd23-cb562822e1a7",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3201-2ed5-e063-6df0900ada39-ID3e4459af-8289-42a3-bd23-cb562822e1a7",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "469: Bladindeling rivierkaart voor de kaartschalen 1:10.000 (Tweede Herziening) en 1:5.000 (Nieuwe Stijl), Directie Limburg en Directie Waterhuishouding en Waterbeweging, blad 1 — 1983"
+        ]
+      },
+      "width": 7270,
+      "height": 5156,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "469"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7af9fe-3201-2ed5-e063-6df0900ada39"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7af9fe-3201-2ed5-e063-6df0900ada39"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaart voor de kaartschalen 1:10.000 (Tweede Herziening) en 1:5.000 (Nieuwe Stijl), Directie Limburg en Directie Waterhuishouding en Waterbeweging, blad 1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1983"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1983"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:200.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Met staat van bijwerking voor de bladen 'Nieuwe Stijl' 301 t/m 335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-709a-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Gecombineerde bladwijzers voor de rivierkaarten van de Tweede Herziening en de 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_469.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 469."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7af9fe-3201-2ed5-e063-6df0900ada39",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/175afff5-0311-4e52-a33e-88e9a838ccd4",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=17/5a/ff/f5/03/11/4e/52/a3/3e/88/e9/a8/38/cc/d4/3e4459af-8289-42a3-bd23-cb562822e1a7.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/3e4459af-8289-42a3-bd23-cb562822e1a7",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/3e4459af-8289-42a3-bd23-cb562822e1a7",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3201-2ed5-e063-6df0900ada39-ID3e4459af-8289-42a3-bd23-cb562822e1a7-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3201-2ed5-e063-6df0900ada39-ID3e4459af-8289-42a3-bd23-cb562822e1a7-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3201-2ed5-e063-6df0900ada39-ID3e4459af-8289-42a3-bd23-cb562822e1a7",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/3e4459af-8289-42a3-bd23-cb562822e1a7",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7270,
+                "height": 5156,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7270,
+                    "height": 5156,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 322
+                      },
+                      {
+                        "width": 908,
+                        "height": 644
+                      },
+                      {
+                        "width": 1817,
+                        "height": 1289
+                      },
+                      {
+                        "width": 3635,
+                        "height": 2578
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=17/5a/ff/f5/03/11/4e/52/a3/3e/88/e9/a8/38/cc/d4/3e4459af-8289-42a3-bd23-cb562822e1a7.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3202-2ed5-e063-6df0900ada39-IDe33d2ffa-7e10-4afb-aad9-64e9a5dae2f0",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "475: Bladindeling rivierkaart voor de kaartschalen 1:10.000 (Tweede Herziening) en 1:5.000 (Nieuwe Stijl), Directie Bovenrivieren en en Directie Overijssel en Directie Waterhuishouding en Waterbeweging, blad 2 — 1981"
+        ]
+      },
+      "width": 7279,
+      "height": 5167,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "475"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7af9fe-3202-2ed5-e063-6df0900ada39"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7af9fe-3202-2ed5-e063-6df0900ada39"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaart voor de kaartschalen 1:10.000 (Tweede Herziening) en 1:5.000 (Nieuwe Stijl), Directie Bovenrivieren en en Directie Overijssel en Directie Waterhuishouding en Waterbeweging, blad 2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1981"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1981"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:200.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Met staat van bijwerking voor de bladen 'Nieuwe Stijl' 203 en 401 t/m 437."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-709a-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Gecombineerde bladwijzers voor de rivierkaarten van de Tweede Herziening en de 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_475.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 475."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7af9fe-3202-2ed5-e063-6df0900ada39",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/b41653dc-c45e-46d8-89b1-8535dad4d6ed",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=b4/16/53/dc/c4/5e/46/d8/89/b1/85/35/da/d4/d6/ed/e33d2ffa-7e10-4afb-aad9-64e9a5dae2f0.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/e33d2ffa-7e10-4afb-aad9-64e9a5dae2f0",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/e33d2ffa-7e10-4afb-aad9-64e9a5dae2f0",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3202-2ed5-e063-6df0900ada39-IDe33d2ffa-7e10-4afb-aad9-64e9a5dae2f0-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3202-2ed5-e063-6df0900ada39-IDe33d2ffa-7e10-4afb-aad9-64e9a5dae2f0-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3202-2ed5-e063-6df0900ada39-IDe33d2ffa-7e10-4afb-aad9-64e9a5dae2f0",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/e33d2ffa-7e10-4afb-aad9-64e9a5dae2f0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7279,
+                "height": 5167,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7279,
+                    "height": 5167,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 322
+                      },
+                      {
+                        "width": 909,
+                        "height": 645
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1291
+                      },
+                      {
+                        "width": 3639,
+                        "height": 2583
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=b4/16/53/dc/c4/5e/46/d8/89/b1/85/35/da/d4/d6/ed/e33d2ffa-7e10-4afb-aad9-64e9a5dae2f0.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7657e3-709b-9dce-e063-6df0900acdd5-ID4c52dd11-2758-44a7-9180-916dc0d2bd12",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "472: Bladindeling rivierkaart voor de kaartschalen 1:10.000 (Tweede Herziening) en 1:5.000 (Nieuwe Stijl), Directie Bovenrivieren - Directie Limburg en Directie Waterhuishouding en Waterbeweging, blad 3 — ongedateerd"
+        ]
+      },
+      "width": 7264,
+      "height": 5151,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "472"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-709b-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-709b-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaart voor de kaartschalen 1:10.000 (Tweede Herziening) en 1:5.000 (Nieuwe Stijl), Directie Bovenrivieren - Directie Limburg en Directie Waterhuishouding en Waterbeweging, blad 3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Met staat van bijwerking voor bladen 'Nieuwe Stijl' 101 t/m 126, 201 t/m 224, 336 t/m 354 en 401 t/m 402."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-709a-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Gecombineerde bladwijzers voor de rivierkaarten van de Tweede Herziening en de 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_472.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 472."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-709b-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/35de59e6-51f2-43a7-a38e-2842c8393c4c",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=35/de/59/e6/51/f2/43/a7/a3/8e/28/42/c8/39/3c/4c/4c52dd11-2758-44a7-9180-916dc0d2bd12.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/4c52dd11-2758-44a7-9180-916dc0d2bd12",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/4c52dd11-2758-44a7-9180-916dc0d2bd12",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7657e3-709b-9dce-e063-6df0900acdd5-ID4c52dd11-2758-44a7-9180-916dc0d2bd12-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7657e3-709b-9dce-e063-6df0900acdd5-ID4c52dd11-2758-44a7-9180-916dc0d2bd12-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7657e3-709b-9dce-e063-6df0900acdd5-ID4c52dd11-2758-44a7-9180-916dc0d2bd12",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/4c52dd11-2758-44a7-9180-916dc0d2bd12",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7264,
+                "height": 5151,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7264,
+                    "height": 5151,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 160
+                      },
+                      {
+                        "width": 454,
+                        "height": 321
+                      },
+                      {
+                        "width": 908,
+                        "height": 643
+                      },
+                      {
+                        "width": 1816,
+                        "height": 1287
+                      },
+                      {
+                        "width": 3632,
+                        "height": 2575
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=35/de/59/e6/51/f2/43/a7/a3/8e/28/42/c8/39/3c/4c/4c52dd11-2758-44a7-9180-916dc0d2bd12.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3203-2ed5-e063-6df0900ada39-IDafe48e89-629d-4472-8b58-c9de91c908c6",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "477: Bladindeling rivierkaarten voor de kaartschalen 1:10.000; 1:5.000 (Tweede Herziening) en 1:5.000; 1:2000 (Nieuwe Stijl), Directie Benedenrivieren, blad 4 — ongedateerd"
+        ]
+      },
+      "width": 7287,
+      "height": 5169,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "477"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7af9fe-3203-2ed5-e063-6df0900ada39"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7af9fe-3203-2ed5-e063-6df0900ada39"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaarten voor de kaartschalen 1:10.000; 1:5.000 (Tweede Herziening) en 1:5.000; 1:2000 (Nieuwe Stijl), Directie Benedenrivieren, blad 4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:100.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Met staat van bijwerking voor bladen 'Nieuwe Stijl' 124 t/m 126, 351 t/m 365, 367 t/m 376, 501 t/m 530, 601 t/m 611, 701 t/m 781 en 801 t/m 893."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-709a-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.1 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Gecombineerde bladwijzers voor de rivierkaarten van de Tweede Herziening en de 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_477.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 477."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7af9fe-3203-2ed5-e063-6df0900ada39",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/af7aa2a0-636e-4954-ae86-efdad9678a6a",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=af/7a/a2/a0/63/6e/49/54/ae/86/ef/da/d9/67/8a/6a/afe48e89-629d-4472-8b58-c9de91c908c6.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/afe48e89-629d-4472-8b58-c9de91c908c6",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/afe48e89-629d-4472-8b58-c9de91c908c6",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3203-2ed5-e063-6df0900ada39-IDafe48e89-629d-4472-8b58-c9de91c908c6-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3203-2ed5-e063-6df0900ada39-IDafe48e89-629d-4472-8b58-c9de91c908c6-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3203-2ed5-e063-6df0900ada39-IDafe48e89-629d-4472-8b58-c9de91c908c6",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/afe48e89-629d-4472-8b58-c9de91c908c6",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7287,
+                "height": 5169,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7287,
+                    "height": 5169,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 455,
+                        "height": 323
+                      },
+                      {
+                        "width": 910,
+                        "height": 646
+                      },
+                      {
+                        "width": 1821,
+                        "height": 1292
+                      },
+                      {
+                        "width": 3643,
+                        "height": 2584
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=af/7a/a2/a0/63/6e/49/54/ae/86/ef/da/d9/67/8a/6a/afe48e89-629d-4472-8b58-c9de91c908c6.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e051-33b9-e063-6df0900aa6f5-IDba98e87a-5eab-4006-96a8-c3437986794d",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "473: Bladindeling rivierkaarten, blad 1 — ongedateerd"
+        ]
+      },
+      "width": 7258,
+      "height": 5154,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "473"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7b07e0-e051-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7b07e0-e051-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaarten, blad 1"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "'Nieuwe Stijl' bladen 301 t/m 335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-27b2-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers voor de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_473.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 473."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7b07e0-e051-33b9-e063-6df0900aa6f5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/5d23c7e4-1e39-4ecc-8390-53c601e2adbf",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=5d/23/c7/e4/1e/39/4e/cc/83/90/53/c6/01/e2/ad/bf/ba98e87a-5eab-4006-96a8-c3437986794d.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/ba98e87a-5eab-4006-96a8-c3437986794d",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/ba98e87a-5eab-4006-96a8-c3437986794d",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e051-33b9-e063-6df0900aa6f5-IDba98e87a-5eab-4006-96a8-c3437986794d-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e051-33b9-e063-6df0900aa6f5-IDba98e87a-5eab-4006-96a8-c3437986794d-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e051-33b9-e063-6df0900aa6f5-IDba98e87a-5eab-4006-96a8-c3437986794d",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/ba98e87a-5eab-4006-96a8-c3437986794d",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7258,
+                "height": 5154,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7258,
+                    "height": 5154,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 907,
+                        "height": 644
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1288
+                      },
+                      {
+                        "width": 3629,
+                        "height": 2577
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=5d/23/c7/e4/1e/39/4e/cc/83/90/53/c6/01/e2/ad/bf/ba98e87a-5eab-4006-96a8-c3437986794d.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7675ea-27b3-908c-e063-6df0900a4619-IDfd5dd904-1c81-4042-ac57-ee1e800d6b9c",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "474: Bladindeling rivierkaarten, blad 2 — ongedateerd"
+        ]
+      },
+      "width": 7276,
+      "height": 5165,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "474"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7675ea-27b3-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-27b3-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaarten, blad 2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "'Nieuwe Stijl' bladen 203 en 401 t/m 427."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-27b2-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers voor de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_474.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 474."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7675ea-27b3-908c-e063-6df0900a4619",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/c5ac2621-7517-4379-b605-c8042a03ead4",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=c5/ac/26/21/75/17/43/79/b6/05/c8/04/2a/03/ea/d4/fd5dd904-1c81-4042-ac57-ee1e800d6b9c.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/fd5dd904-1c81-4042-ac57-ee1e800d6b9c",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/fd5dd904-1c81-4042-ac57-ee1e800d6b9c",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7675ea-27b3-908c-e063-6df0900a4619-IDfd5dd904-1c81-4042-ac57-ee1e800d6b9c-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7675ea-27b3-908c-e063-6df0900a4619-IDfd5dd904-1c81-4042-ac57-ee1e800d6b9c-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7675ea-27b3-908c-e063-6df0900a4619-IDfd5dd904-1c81-4042-ac57-ee1e800d6b9c",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/fd5dd904-1c81-4042-ac57-ee1e800d6b9c",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7276,
+                "height": 5165,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7276,
+                    "height": 5165,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 322
+                      },
+                      {
+                        "width": 909,
+                        "height": 645
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1291
+                      },
+                      {
+                        "width": 3638,
+                        "height": 2582
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=c5/ac/26/21/75/17/43/79/b6/05/c8/04/2a/03/ea/d4/fd5dd904-1c81-4042-ac57-ee1e800d6b9c.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e052-33b9-e063-6df0900aa6f5-ID9efb4b88-e48b-432d-9f35-d251843aa87f",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "470: Bladindeling rivierkaarten, blad 3 — ongedateerd"
+        ]
+      },
+      "width": 7257,
+      "height": 5163,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "470"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7b07e0-e052-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7b07e0-e052-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaarten, blad 3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "'Nieuwe Stijl' bladen 101 t/m 123 en 125, 201 t/m 224, 336 t/m 351 en 401 t/m 402."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-27b2-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers voor de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_470.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 470."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7b07e0-e052-33b9-e063-6df0900aa6f5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/921def5d-f4e1-4530-bbff-ce6831375c1f",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=92/1d/ef/5d/f4/e1/45/30/bb/ff/ce/68/31/37/5c/1f/9efb4b88-e48b-432d-9f35-d251843aa87f.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/9efb4b88-e48b-432d-9f35-d251843aa87f",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/9efb4b88-e48b-432d-9f35-d251843aa87f",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e052-33b9-e063-6df0900aa6f5-ID9efb4b88-e48b-432d-9f35-d251843aa87f-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e052-33b9-e063-6df0900aa6f5-ID9efb4b88-e48b-432d-9f35-d251843aa87f-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e052-33b9-e063-6df0900aa6f5-ID9efb4b88-e48b-432d-9f35-d251843aa87f",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/9efb4b88-e48b-432d-9f35-d251843aa87f",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7257,
+                "height": 5163,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7257,
+                    "height": 5163,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 907,
+                        "height": 645
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1290
+                      },
+                      {
+                        "width": 3628,
+                        "height": 2581
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=92/1d/ef/5d/f4/e1/45/30/bb/ff/ce/68/31/37/5c/1f/9efb4b88-e48b-432d-9f35-d251843aa87f.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e053-33b9-e063-6df0900aa6f5-ID246f7ca1-71b4-4878-b51b-0c8a7135b816",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "468: Bladindeling rivierkaarten, blad 4 — ongedateerd"
+        ]
+      },
+      "width": 7241,
+      "height": 5159,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "468"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7b07e0-e053-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7b07e0-e053-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladindeling rivierkaarten, blad 4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "'Nieuwe Stijl' bladen 220 t/m 224, 351, 355, 357, 359, 362 t/m 365, 367 t/m 376, 501 t/m 530, 601 t/m 611, 701 t/m 744, 746 t/m 755, 757 t/m 773, 775 t/m 796, 801 t/m 811, 813 t/m 827, 837 t/m 840, 842 t/m 843, 846 t/m 850, 852 t/m 880, 880A en 881 t/m 887. Met aantekeningen."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.2"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-27b2-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.2 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers voor de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_468.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 468."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7b07e0-e053-33b9-e063-6df0900aa6f5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/ed26e7db-bbcb-4878-9de3-bd2315f1b29e",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=ed/26/e7/db/bb/cb/48/78/9d/e3/bd/23/15/f1/b2/9e/246f7ca1-71b4-4878-b51b-0c8a7135b816.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/246f7ca1-71b4-4878-b51b-0c8a7135b816",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/246f7ca1-71b4-4878-b51b-0c8a7135b816",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e053-33b9-e063-6df0900aa6f5-ID246f7ca1-71b4-4878-b51b-0c8a7135b816-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e053-33b9-e063-6df0900aa6f5-ID246f7ca1-71b4-4878-b51b-0c8a7135b816-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e053-33b9-e063-6df0900aa6f5-ID246f7ca1-71b4-4878-b51b-0c8a7135b816",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/246f7ca1-71b4-4878-b51b-0c8a7135b816",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7241,
+                "height": 5159,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7241,
+                    "height": 5159,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 452,
+                        "height": 322
+                      },
+                      {
+                        "width": 905,
+                        "height": 644
+                      },
+                      {
+                        "width": 1810,
+                        "height": 1289
+                      },
+                      {
+                        "width": 3620,
+                        "height": 2579
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=ed/26/e7/db/bb/cb/48/78/9d/e3/bd/23/15/f1/b2/9e/246f7ca1-71b4-4878-b51b-0c8a7135b816.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e76d073-baa0-e0c7-e063-6df0900a2ca4-IDcea2f437-3d44-4d20-9c41-e6c7128377c7",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "471: Legenda rivierkaarten schaal 1:5.000 — ongedateerd"
+        ]
+      },
+      "width": 7259,
+      "height": 5165,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "471"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e76d073-baa0-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-baa0-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Legenda rivierkaarten schaal 1:5.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Voor gebruik tekenkamer."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.3 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.3 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-ba9f-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.3 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Legenda's bij de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_471.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 471."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e76d073-baa0-e0c7-e063-6df0900a2ca4",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/6815f051-0bc5-449e-9f29-a50211eb1f5f",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=68/15/f0/51/0b/c5/44/9e/9f/29/a5/02/11/eb/1f/5f/cea2f437-3d44-4d20-9c41-e6c7128377c7.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/cea2f437-3d44-4d20-9c41-e6c7128377c7",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/cea2f437-3d44-4d20-9c41-e6c7128377c7",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e76d073-baa0-e0c7-e063-6df0900a2ca4-IDcea2f437-3d44-4d20-9c41-e6c7128377c7-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e76d073-baa0-e0c7-e063-6df0900a2ca4-IDcea2f437-3d44-4d20-9c41-e6c7128377c7-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e76d073-baa0-e0c7-e063-6df0900a2ca4-IDcea2f437-3d44-4d20-9c41-e6c7128377c7",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/cea2f437-3d44-4d20-9c41-e6c7128377c7",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7259,
+                "height": 5165,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7259,
+                    "height": 5165,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 907,
+                        "height": 645
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1291
+                      },
+                      {
+                        "width": 3629,
+                        "height": 2582
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=68/15/f0/51/0b/c5/44/9e/9f/29/a5/02/11/eb/1f/5f/cea2f437-3d44-4d20-9c41-e6c7128377c7.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e054-33b9-e063-6df0900aa6f5-IDfb618af7-7efd-4724-960a-383a39bbf5ca",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "476: Legenda rivierkaarten schaal 1:2.000 — ongedateerd"
+        ]
+      },
+      "width": 7266,
+      "height": 5175,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "476"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7b07e0-e054-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7b07e0-e054-33b9-e063-6df0900aa6f5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Legenda rivierkaarten schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "ongedateerd"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.3 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01.3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.3 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-ba9f-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.01.3 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Legenda's bij de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_476.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 476."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7b07e0-e054-33b9-e063-6df0900aa6f5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/21357f8c-7ef2-4820-92e5-664021b9522d",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=21/35/7f/8c/7e/f2/48/20/92/e5/66/40/21/b9/52/2d/fb618af7-7efd-4724-960a-383a39bbf5ca.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/fb618af7-7efd-4724-960a-383a39bbf5ca",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/fb618af7-7efd-4724-960a-383a39bbf5ca",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e054-33b9-e063-6df0900aa6f5-IDfb618af7-7efd-4724-960a-383a39bbf5ca-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e054-33b9-e063-6df0900aa6f5-IDfb618af7-7efd-4724-960a-383a39bbf5ca-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e054-33b9-e063-6df0900aa6f5-IDfb618af7-7efd-4724-960a-383a39bbf5ca",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/fb618af7-7efd-4724-960a-383a39bbf5ca",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7266,
+                "height": 5175,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7266,
+                    "height": 5175,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 323
+                      },
+                      {
+                        "width": 908,
+                        "height": 646
+                      },
+                      {
+                        "width": 1816,
+                        "height": 1293
+                      },
+                      {
+                        "width": 3633,
+                        "height": 2587
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=21/35/7f/8c/7e/f2/48/20/92/e5/66/40/21/b9/52/2d/fb618af7-7efd-4724-960a-383a39bbf5ca.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#range-4e7657e3-7099-9dce-e063-6df0900acdd5",
+      "type": "Range",
+      "label": {
+        "nl": [
+          "D.01 — Bladwijzers en legenda's"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.01"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7099-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Bladwijzers en legenda's"
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#range-4e7657e3-709a-9dce-e063-6df0900acdd5",
+          "type": "Range",
+          "label": {
+            "nl": [
+              "D.01.1 — Gecombineerde bladwijzers voor de rivierkaarten van de Tweede Herziening en de 'Nieuwe Stijl'"
+            ]
+          },
+          "metadata": [
+            {
+              "label": {
+                "nl": [
+                  "Identificatie (series_code)"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "D.01.1"
+                ]
+              }
+            },
+            {
+              "label": {
+                "nl": [
+                  "Identificatie (urn:uuid)"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "4e7657e3-709a-9dce-e063-6df0900acdd5"
+                ]
+              }
+            },
+            {
+              "label": {
+                "nl": [
+                  "Titel"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "Gecombineerde bladwijzers voor de rivierkaarten van de Tweede Herziening en de 'Nieuwe Stijl'"
+                ]
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3201-2ed5-e063-6df0900ada39-ID3e4459af-8289-42a3-bd23-cb562822e1a7",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3202-2ed5-e063-6df0900ada39-IDe33d2ffa-7e10-4afb-aad9-64e9a5dae2f0",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7657e3-709b-9dce-e063-6df0900acdd5-ID4c52dd11-2758-44a7-9180-916dc0d2bd12",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7af9fe-3203-2ed5-e063-6df0900ada39-IDafe48e89-629d-4472-8b58-c9de91c908c6",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#range-4e7675ea-27b2-908c-e063-6df0900a4619",
+          "type": "Range",
+          "label": {
+            "nl": [
+              "D.01.2 — Bladwijzers voor de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          },
+          "metadata": [
+            {
+              "label": {
+                "nl": [
+                  "Identificatie (series_code)"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "D.01.2"
+                ]
+              }
+            },
+            {
+              "label": {
+                "nl": [
+                  "Identificatie (urn:uuid)"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "4e7675ea-27b2-908c-e063-6df0900a4619"
+                ]
+              }
+            },
+            {
+              "label": {
+                "nl": [
+                  "Titel"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "Bladwijzers voor de rivierkaarten 'Nieuwe Stijl'"
+                ]
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e051-33b9-e063-6df0900aa6f5-IDba98e87a-5eab-4006-96a8-c3437986794d",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7675ea-27b3-908c-e063-6df0900a4619-IDfd5dd904-1c81-4042-ac57-ee1e800d6b9c",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e052-33b9-e063-6df0900aa6f5-ID9efb4b88-e48b-432d-9f35-d251843aa87f",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e053-33b9-e063-6df0900aa6f5-ID246f7ca1-71b4-4878-b51b-0c8a7135b816",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#range-4e76d073-ba9f-e0c7-e063-6df0900a2ca4",
+          "type": "Range",
+          "label": {
+            "nl": [
+              "D.01.3 — Legenda's bij de rivierkaarten 'Nieuwe Stijl'"
+            ]
+          },
+          "metadata": [
+            {
+              "label": {
+                "nl": [
+                  "Identificatie (series_code)"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "D.01.3"
+                ]
+              }
+            },
+            {
+              "label": {
+                "nl": [
+                  "Identificatie (urn:uuid)"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "4e76d073-ba9f-e0c7-e063-6df0900a2ca4"
+                ]
+              }
+            },
+            {
+              "label": {
+                "nl": [
+                  "Titel"
+                ]
+              },
+              "value": {
+                "nl": [
+                  "Legenda's bij de rivierkaarten 'Nieuwe Stijl'"
+                ]
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e76d073-baa0-e0c7-e063-6df0900a2ca4-IDcea2f437-3d44-4d20-9c41-e6c7128377c7",
+              "type": "Canvas"
+            },
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-01.json#canvas-4e7b07e0-e054-33b9-e063-6df0900aa6f5-IDfb618af7-7efd-4724-960a-383a39bbf5ca",
+              "type": "Canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

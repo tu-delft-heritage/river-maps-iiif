@@ -97,7 +97,7 @@ export function renderBrowsePage(documents: Documents): string {
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>River maps</title>
-      <meta name="description" content="Historical river maps from Utrecht University Library, with links to IIIF viewers and editors." />
+      <meta name="description" content="Historical river maps from Utrecht University Library and Nationaal Archief, with links to IIIF viewers and editors." />
       <link rel="stylesheet" href="assets/site.css" />
     </head>
     <body>

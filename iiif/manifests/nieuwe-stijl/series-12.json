@@ -1,0 +1,6845 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json",
+  "type": "Manifest",
+  "label": {
+    "nl": [
+      "D.12 — Noord (bladnummers 750-758)"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "nl": [
+          "Archief"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Toegang"
+        ]
+      },
+      "value": {
+        "nl": [
+          "2.16.5150"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Inventarisversie"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Versie: 30-07-2026"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (series_code)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "D"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (urn:uuid)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "4e7657e3-67a4-9dce-e063-6df0900acdd5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Digitale versies van de rivierkaarten 'Nieuwe Stijl' op schalen 1:5.000 en 1:2.000"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Verantwoording bewerking"
+        ]
+      },
+      "value": {
+        "nl": [
+          "In de beschrijvingen komen de volgende afkortingen betreffende de rivierkilometrering voor: km. (kilometer), kmrpn. (kilometerraaipaalnummer) en rpn. (raaipaalnummer)."
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Ordening / exemplaar"
+        ]
+      },
+      "value": {
+        "nl": [
+          "De beschrijvingen zijn geordend per stroomgebied, daarbinnen per bladnummer en daarbinnen oplopend chronologisch. De nummering van de beschrijvingen komt overeen met de volgorde waarin de individuele substituutopnames werden gemaakt. De volgorde van deze nummering reflecteert de mate van ordening van het gehele bestand rivierkaarten 'Nieuwe Stijl' zoals dat door de Meetkundige Dienst ter substitutie aangeboden werd. Hieronder bevindt zich een aantal dubbele exemplaren. Inventarisnummers 820 en 1251 werden niet toegekend. De bladnummers 775 t/m 781 zijn deel van de serie Boven- en Beneden-Merwede, en zijn toegevoegd aan de serie bladnummers 701 t/m 721; de bladnummers 782 t/m 796 zijn deel van de serie Maas (vanaf Gennep), en zijn toegevoegd aan de serie bladnummers 336 t/m 354."
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Geschiedenis van het beheer"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Voor een zo eenvoudig mogelijke toegankelijkheid van de op microfilm gesubstitueerde kaarten werden die microfilms (inv.nrs. 2001 t/m 2003 ) medio 2025 gedigitaliseerd."
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (series_code)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "D.12"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Identificatie (urn:uuid)"
+        ]
+      },
+      "value": {
+        "nl": [
+          "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Noord (bladnummers 750-758)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "nl": [
+          "Inhoud"
+        ]
+      },
+      "value": {
+        "nl": [
+          "Inv.nrs. 706-712 en 1327-1335."
+        ]
+      }
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://www.nationaalarchief.nl/",
+      "type": "Agent",
+      "label": {
+        "nl": [
+          "Nationaal Archief"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://www.nationaalarchief.nl/",
+          "type": "Text",
+          "format": "text/html"
+        }
+      ]
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "nl": [
+        "Bronvermelding"
+      ]
+    },
+    "value": {
+      "nl": [
+        "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150."
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "homepage": [
+    {
+      "id": "http://hdl.handle.net/10648/fb54ce3b-8a45-446f-b79e-0aae3bf1faac",
+      "type": "Text",
+      "format": "text/html",
+      "label": {
+        "nl": [
+          "Archiefbeschrijving"
+        ]
+      }
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://www.nationaalarchief.nl/onderzoeken/archief/2.16.5150/download/xml",
+      "type": "Dataset",
+      "format": "application/xml",
+      "label": {
+        "nl": [
+          "EAD-inventaris (actuele versie)"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/sources/nationaal-archief/2.16.5150.xml",
+      "type": "Dataset",
+      "format": "application/xml",
+      "label": {
+        "nl": [
+          "EAD-bronbestand — Versie: 30-07-2026"
+        ]
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/collections/nieuwe-stijl.json",
+      "type": "Collection"
+    }
+  ],
+  "behavior": [
+    "individuals"
+  ],
+  "thumbnail": [
+    {
+      "id": "https://service.archief.nl/api/file/v1/thumb/4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-6f19-9dce-e063-6df0900acdd5-ID4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1327: Blad no. 750 rivierkaart gedeelte Noord, rpn. 977.3-978.3 — bijgewerkt tot juni 1964"
+        ]
+      },
+      "width": 7276,
+      "height": 5142,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1327"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-6f19-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f19-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 750 rivierkaart gedeelte Noord, rpn. 977.3-978.3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot juni 1964"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1964-06"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1963."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1327.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1327."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-6f19-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/c4e78f3c-86c8-45bc-b4e1-e572bbe840e5",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=c4/e7/8f/3c/86/c8/45/bc/b4/e1/e5/72/bb/e8/40/e5/4cdd324f-b8fe-4589-b9c5-deb7ec269fd0.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-6f19-9dce-e063-6df0900acdd5-ID4cdd324f-b8fe-4589-b9c5-deb7ec269fd0-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-6f19-9dce-e063-6df0900acdd5-ID4cdd324f-b8fe-4589-b9c5-deb7ec269fd0-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-6f19-9dce-e063-6df0900acdd5-ID4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7276,
+                "height": 5142,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7276,
+                    "height": 5142,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 160
+                      },
+                      {
+                        "width": 454,
+                        "height": 321
+                      },
+                      {
+                        "width": 909,
+                        "height": 642
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1285
+                      },
+                      {
+                        "width": 3638,
+                        "height": 2571
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=c4/e7/8f/3c/86/c8/45/bc/b4/e1/e5/72/bb/e8/40/e5/4cdd324f-b8fe-4589-b9c5-deb7ec269fd0.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-bb91-e0c7-e063-6df0900a2ca4-IDe7531189-ba1c-4724-bfdd-6bea04e2bbb8",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "706: Blad no. 750 rivierkaart gedeelte Noord, rpn. 977.3-978.3 — bijgewerkt tot mei 1976"
+        ]
+      },
+      "width": 7274,
+      "height": 5180,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "706"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e76d073-bb91-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-bb91-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 750 rivierkaart gedeelte Noord, rpn. 977.3-978.3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot mei 1976"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1976-05"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_706.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 706."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e76d073-bb91-e0c7-e063-6df0900a2ca4",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/3b7f53ce-1345-4ef8-bbff-103a60190aff",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=3b/7f/53/ce/13/45/4e/f8/bb/ff/10/3a/60/19/0a/ff/e7531189-ba1c-4724-bfdd-6bea04e2bbb8.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/e7531189-ba1c-4724-bfdd-6bea04e2bbb8",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/e7531189-ba1c-4724-bfdd-6bea04e2bbb8",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-bb91-e0c7-e063-6df0900a2ca4-IDe7531189-ba1c-4724-bfdd-6bea04e2bbb8-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-bb91-e0c7-e063-6df0900a2ca4-IDe7531189-ba1c-4724-bfdd-6bea04e2bbb8-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-bb91-e0c7-e063-6df0900a2ca4-IDe7531189-ba1c-4724-bfdd-6bea04e2bbb8",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/e7531189-ba1c-4724-bfdd-6bea04e2bbb8",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7274,
+                "height": 5180,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7274,
+                    "height": 5180,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 323
+                      },
+                      {
+                        "width": 909,
+                        "height": 647
+                      },
+                      {
+                        "width": 1818,
+                        "height": 1295
+                      },
+                      {
+                        "width": 3637,
+                        "height": 2590
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=3b/7f/53/ce/13/45/4e/f8/bb/ff/10/3a/60/19/0a/ff/e7531189-ba1c-4724-bfdd-6bea04e2bbb8.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-7f75-9dce-e063-6df0900acdd5-IDf6a0b288-fd05-4d23-ae23-78e7fca4a80b",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1328: Blad no. 751 rivierkaart gedeelte Noord, rpn. 978.4-979.6 — bijgewerkt tot juni 1964"
+        ]
+      },
+      "width": 7259,
+      "height": 5142,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1328"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-7f75-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-7f75-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 751 rivierkaart gedeelte Noord, rpn. 978.4-979.6"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot juni 1964"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1964-06"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1963."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1328.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1328."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-7f75-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/df56c800-fb98-4792-961d-6322e6d447b8",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=df/56/c8/00/fb/98/47/92/96/1d/63/22/e6/d4/47/b8/f6a0b288-fd05-4d23-ae23-78e7fca4a80b.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/f6a0b288-fd05-4d23-ae23-78e7fca4a80b",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/f6a0b288-fd05-4d23-ae23-78e7fca4a80b",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-7f75-9dce-e063-6df0900acdd5-IDf6a0b288-fd05-4d23-ae23-78e7fca4a80b-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-7f75-9dce-e063-6df0900acdd5-IDf6a0b288-fd05-4d23-ae23-78e7fca4a80b-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-7f75-9dce-e063-6df0900acdd5-IDf6a0b288-fd05-4d23-ae23-78e7fca4a80b",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/f6a0b288-fd05-4d23-ae23-78e7fca4a80b",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7259,
+                "height": 5142,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7259,
+                    "height": 5142,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 160
+                      },
+                      {
+                        "width": 453,
+                        "height": 321
+                      },
+                      {
+                        "width": 907,
+                        "height": 642
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1285
+                      },
+                      {
+                        "width": 3629,
+                        "height": 2571
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=df/56/c8/00/fb/98/47/92/96/1d/63/22/e6/d4/47/b8/f6a0b288-fd05-4d23-ae23-78e7fca4a80b.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c1c-908c-e063-6df0900a4619-IDe08a37d9-452e-4d9c-8f08-cd69162e0a70",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "707: Blad no. 751 rivierkaart gedeelte Noord, rpn. 978.4-979.6 — bijgewerkt tot april 1976"
+        ]
+      },
+      "width": 7294,
+      "height": 5145,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "707"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7675ea-2c1c-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-2c1c-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 751 rivierkaart gedeelte Noord, rpn. 978.4-979.6"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot april 1976"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1976-04"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_707.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 707."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7675ea-2c1c-908c-e063-6df0900a4619",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/ac477340-0c2d-4433-bc97-e2c1e218feb0",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=ac/47/73/40/0c/2d/44/33/bc/97/e2/c1/e2/18/fe/b0/e08a37d9-452e-4d9c-8f08-cd69162e0a70.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/e08a37d9-452e-4d9c-8f08-cd69162e0a70",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/e08a37d9-452e-4d9c-8f08-cd69162e0a70",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c1c-908c-e063-6df0900a4619-IDe08a37d9-452e-4d9c-8f08-cd69162e0a70-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c1c-908c-e063-6df0900a4619-IDe08a37d9-452e-4d9c-8f08-cd69162e0a70-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c1c-908c-e063-6df0900a4619-IDe08a37d9-452e-4d9c-8f08-cd69162e0a70",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/e08a37d9-452e-4d9c-8f08-cd69162e0a70",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7294,
+                "height": 5145,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7294,
+                    "height": 5145,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 160
+                      },
+                      {
+                        "width": 455,
+                        "height": 321
+                      },
+                      {
+                        "width": 911,
+                        "height": 643
+                      },
+                      {
+                        "width": 1823,
+                        "height": 1286
+                      },
+                      {
+                        "width": 3647,
+                        "height": 2572
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=ac/47/73/40/0c/2d/44/33/bc/97/e2/c1/e2/18/fe/b0/e08a37d9-452e-4d9c-8f08-cd69162e0a70.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c7c-908c-e063-6df0900a4619-ID8c36c168-4778-47fc-8a54-a8df5dc7eab0",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1329: Blad no. 752 rivierkaart gedeelte Noord, rpn. 979.3-980.3 — bijgewerkt tot september 1964"
+        ]
+      },
+      "width": 7252,
+      "height": 5154,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1329"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7675ea-2c7c-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7675ea-2c7c-908c-e063-6df0900a4619"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 752 rivierkaart gedeelte Noord, rpn. 979.3-980.3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot september 1964"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1964-09"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1963."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1329.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1329."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7675ea-2c7c-908c-e063-6df0900a4619",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/dcf6f671-5598-4126-b059-02b516fce055",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=dc/f6/f6/71/55/98/41/26/b0/59/02/b5/16/fc/e0/55/8c36c168-4778-47fc-8a54-a8df5dc7eab0.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/8c36c168-4778-47fc-8a54-a8df5dc7eab0",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/8c36c168-4778-47fc-8a54-a8df5dc7eab0",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c7c-908c-e063-6df0900a4619-ID8c36c168-4778-47fc-8a54-a8df5dc7eab0-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c7c-908c-e063-6df0900a4619-ID8c36c168-4778-47fc-8a54-a8df5dc7eab0-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c7c-908c-e063-6df0900a4619-ID8c36c168-4778-47fc-8a54-a8df5dc7eab0",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/8c36c168-4778-47fc-8a54-a8df5dc7eab0",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7252,
+                "height": 5154,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7252,
+                    "height": 5154,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 906,
+                        "height": 644
+                      },
+                      {
+                        "width": 1813,
+                        "height": 1288
+                      },
+                      {
+                        "width": 3626,
+                        "height": 2577
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=dc/f6/f6/71/55/98/41/26/b0/59/02/b5/16/fc/e0/55/8c36c168-4778-47fc-8a54-a8df5dc7eab0.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-724c-9dce-e063-6df0900acdd5-ID140927d0-985c-4f1f-8077-da54542849ef",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "708: Blad no. 752 rivierkaart gedeelte Noord, rpn. 979.3-980.3 — bijgewerkt tot april 1976"
+        ]
+      },
+      "width": 7262,
+      "height": 5162,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "708"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-724c-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-724c-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 752 rivierkaart gedeelte Noord, rpn. 979.3-980.3"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot april 1976"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1976-04"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_708.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 708."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-724c-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/390af444-b568-49bb-a6f8-fbd9b1ae49e9",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=39/0a/f4/44/b5/68/49/bb/a6/f8/fb/d9/b1/ae/49/e9/140927d0-985c-4f1f-8077-da54542849ef.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/140927d0-985c-4f1f-8077-da54542849ef",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/140927d0-985c-4f1f-8077-da54542849ef",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-724c-9dce-e063-6df0900acdd5-ID140927d0-985c-4f1f-8077-da54542849ef-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-724c-9dce-e063-6df0900acdd5-ID140927d0-985c-4f1f-8077-da54542849ef-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-724c-9dce-e063-6df0900acdd5-ID140927d0-985c-4f1f-8077-da54542849ef",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/140927d0-985c-4f1f-8077-da54542849ef",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7262,
+                "height": 5162,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7262,
+                    "height": 5162,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 907,
+                        "height": 645
+                      },
+                      {
+                        "width": 1815,
+                        "height": 1290
+                      },
+                      {
+                        "width": 3631,
+                        "height": 2581
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=39/0a/f4/44/b5/68/49/bb/a6/f8/fb/d9/b1/ae/49/e9/140927d0-985c-4f1f-8077-da54542849ef.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-c073-e0c7-e063-6df0900a2ca4-IDba13e07c-1fa1-4561-b1ba-7d9b1292a8af",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1330: Blad no. 753 rivierkaart gedeelte Noord, rpn. 980.4-981.4 — bijgewerkt tot november 1964"
+        ]
+      },
+      "width": 7276,
+      "height": 5159,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1330"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e76d073-c073-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-c073-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 753 rivierkaart gedeelte Noord, rpn. 980.4-981.4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot november 1964"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1964-11"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1963."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1330.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1330."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e76d073-c073-e0c7-e063-6df0900a2ca4",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/b0285862-1f9c-4a6c-bc7f-97c6e70cceb9",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=b0/28/58/62/1f/9c/4a/6c/bc/7f/97/c6/e7/0c/ce/b9/ba13e07c-1fa1-4561-b1ba-7d9b1292a8af.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/ba13e07c-1fa1-4561-b1ba-7d9b1292a8af",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/ba13e07c-1fa1-4561-b1ba-7d9b1292a8af",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-c073-e0c7-e063-6df0900a2ca4-IDba13e07c-1fa1-4561-b1ba-7d9b1292a8af-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-c073-e0c7-e063-6df0900a2ca4-IDba13e07c-1fa1-4561-b1ba-7d9b1292a8af-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-c073-e0c7-e063-6df0900a2ca4-IDba13e07c-1fa1-4561-b1ba-7d9b1292a8af",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/ba13e07c-1fa1-4561-b1ba-7d9b1292a8af",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7276,
+                "height": 5159,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7276,
+                    "height": 5159,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 322
+                      },
+                      {
+                        "width": 909,
+                        "height": 644
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1289
+                      },
+                      {
+                        "width": 3638,
+                        "height": 2579
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=b0/28/58/62/1f/9c/4a/6c/bc/7f/97/c6/e7/0c/ce/b9/ba13e07c-1fa1-4561-b1ba-7d9b1292a8af.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e773293-3642-f0f5-e063-6df0900abdfc-ID97106bab-db91-429c-81bd-49ebc603fbbb",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "709: Blad no. 753 rivierkaart gedeelte Noord, rpn. 980.4-981.4 — bijgewerkt tot juni 1976"
+        ]
+      },
+      "width": 7264,
+      "height": 5168,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "709"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e773293-3642-f0f5-e063-6df0900abdfc"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e773293-3642-f0f5-e063-6df0900abdfc"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 753 rivierkaart gedeelte Noord, rpn. 980.4-981.4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot juni 1976"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1976-06"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_709.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 709."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e773293-3642-f0f5-e063-6df0900abdfc",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/dda4348d-98d7-42d8-a32a-d479c155e110",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=dd/a4/34/8d/98/d7/42/d8/a3/2a/d4/79/c1/55/e1/10/97106bab-db91-429c-81bd-49ebc603fbbb.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/97106bab-db91-429c-81bd-49ebc603fbbb",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/97106bab-db91-429c-81bd-49ebc603fbbb",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e773293-3642-f0f5-e063-6df0900abdfc-ID97106bab-db91-429c-81bd-49ebc603fbbb-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e773293-3642-f0f5-e063-6df0900abdfc-ID97106bab-db91-429c-81bd-49ebc603fbbb-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e773293-3642-f0f5-e063-6df0900abdfc-ID97106bab-db91-429c-81bd-49ebc603fbbb",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/97106bab-db91-429c-81bd-49ebc603fbbb",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7264,
+                "height": 5168,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7264,
+                    "height": 5168,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 323
+                      },
+                      {
+                        "width": 908,
+                        "height": 646
+                      },
+                      {
+                        "width": 1816,
+                        "height": 1292
+                      },
+                      {
+                        "width": 3632,
+                        "height": 2584
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=dd/a4/34/8d/98/d7/42/d8/a3/2a/d4/79/c1/55/e1/10/97106bab-db91-429c-81bd-49ebc603fbbb.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-a4f3-8798-e063-6df0900ae38e-IDb5faf019-a314-4134-b899-4dd17514cd4f",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1331: Blad no. 754 rivierkaart gedeelte Noord, rpn. 981.4-982.4 — bijgewerkt tot augustus 1969"
+        ]
+      },
+      "width": 7259,
+      "height": 5159,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1331"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7693bd-a4f3-8798-e063-6df0900ae38e"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7693bd-a4f3-8798-e063-6df0900ae38e"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 754 rivierkaart gedeelte Noord, rpn. 981.4-982.4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot augustus 1969"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1969-08"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM juni 1967."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1331.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1331."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7693bd-a4f3-8798-e063-6df0900ae38e",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/5c3cbe9a-a7ca-4eb8-b9d1-dea2b612b82e",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=5c/3c/be/9a/a7/ca/4e/b8/b9/d1/de/a2/b6/12/b8/2e/b5faf019-a314-4134-b899-4dd17514cd4f.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/b5faf019-a314-4134-b899-4dd17514cd4f",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/b5faf019-a314-4134-b899-4dd17514cd4f",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-a4f3-8798-e063-6df0900ae38e-IDb5faf019-a314-4134-b899-4dd17514cd4f-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-a4f3-8798-e063-6df0900ae38e-IDb5faf019-a314-4134-b899-4dd17514cd4f-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-a4f3-8798-e063-6df0900ae38e-IDb5faf019-a314-4134-b899-4dd17514cd4f",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/b5faf019-a314-4134-b899-4dd17514cd4f",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7259,
+                "height": 5159,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7259,
+                    "height": 5159,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 907,
+                        "height": 644
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1289
+                      },
+                      {
+                        "width": 3629,
+                        "height": 2579
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=5c/3c/be/9a/a7/ca/4e/b8/b9/d1/de/a2/b6/12/b8/2e/b5faf019-a314-4134-b899-4dd17514cd4f.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-70b3-9dce-e063-6df0900acdd5-ID9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "710: Blad no. 754 rivierkaart gedeelte Noord, rpn. 981.4-982.4 — bijgewerkt tot september 1976"
+        ]
+      },
+      "width": 7276,
+      "height": 5155,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "710"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-70b3-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-70b3-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 754 rivierkaart gedeelte Noord, rpn. 981.4-982.4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot september 1976"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1976-09"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_710.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 710."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-70b3-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/c294d560-6fcc-4893-8c59-30a8dda310aa",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=c2/94/d5/60/6f/cc/48/93/8c/59/30/a8/dd/a3/10/aa/9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-70b3-9dce-e063-6df0900acdd5-ID9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-70b3-9dce-e063-6df0900acdd5-ID9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-70b3-9dce-e063-6df0900acdd5-ID9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7276,
+                "height": 5155,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7276,
+                    "height": 5155,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 322
+                      },
+                      {
+                        "width": 909,
+                        "height": 644
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1288
+                      },
+                      {
+                        "width": 3638,
+                        "height": 2577
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=c2/94/d5/60/6f/cc/48/93/8c/59/30/a8/dd/a3/10/aa/9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-76e7-9dce-e063-6df0900acdd5-ID51652921-bbb1-4f7c-b38f-0852ec743f92",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1332: Blad no. 755 rivierkaart gedeelte Noord, rpn. 982.5-983.5 — bijgewerkt tot augsutus 1969"
+        ]
+      },
+      "width": 7276,
+      "height": 5176,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1332"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-76e7-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-76e7-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 755 rivierkaart gedeelte Noord, rpn. 982.5-983.5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot augsutus 1969"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1969-08"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM juni 1967."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1332.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1332."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-76e7-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/ad382875-efb4-42bb-b88c-432127105b47",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=ad/38/28/75/ef/b4/42/bb/b8/8c/43/21/27/10/5b/47/51652921-bbb1-4f7c-b38f-0852ec743f92.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/51652921-bbb1-4f7c-b38f-0852ec743f92",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/51652921-bbb1-4f7c-b38f-0852ec743f92",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-76e7-9dce-e063-6df0900acdd5-ID51652921-bbb1-4f7c-b38f-0852ec743f92-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-76e7-9dce-e063-6df0900acdd5-ID51652921-bbb1-4f7c-b38f-0852ec743f92-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-76e7-9dce-e063-6df0900acdd5-ID51652921-bbb1-4f7c-b38f-0852ec743f92",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/51652921-bbb1-4f7c-b38f-0852ec743f92",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7276,
+                "height": 5176,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7276,
+                    "height": 5176,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 323
+                      },
+                      {
+                        "width": 909,
+                        "height": 647
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1294
+                      },
+                      {
+                        "width": 3638,
+                        "height": 2588
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=ad/38/28/75/ef/b4/42/bb/b8/8c/43/21/27/10/5b/47/51652921-bbb1-4f7c-b38f-0852ec743f92.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-766f-9dce-e063-6df0900acdd5-ID03001c5f-6bb2-43d4-8841-8bdfa735a66d",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "711: Blad no. 755 rivierkaart gedeelte Noord, rpn. 982.5-983.5 — bijgewerkt tot september 1976"
+        ]
+      },
+      "width": 7276,
+      "height": 5150,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "711"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7657e3-766f-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-766f-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 755 rivierkaart gedeelte Noord, rpn. 982.5-983.5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot september 1976"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1976-09"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_711.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 711."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7657e3-766f-9dce-e063-6df0900acdd5",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/986a16a0-e140-4a3f-b5e4-f11abedd31c6",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=98/6a/16/a0/e1/40/4a/3f/b5/e4/f1/1a/be/dd/31/c6/03001c5f-6bb2-43d4-8841-8bdfa735a66d.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/03001c5f-6bb2-43d4-8841-8bdfa735a66d",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/03001c5f-6bb2-43d4-8841-8bdfa735a66d",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-766f-9dce-e063-6df0900acdd5-ID03001c5f-6bb2-43d4-8841-8bdfa735a66d-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-766f-9dce-e063-6df0900acdd5-ID03001c5f-6bb2-43d4-8841-8bdfa735a66d-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-766f-9dce-e063-6df0900acdd5-ID03001c5f-6bb2-43d4-8841-8bdfa735a66d",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/03001c5f-6bb2-43d4-8841-8bdfa735a66d",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7276,
+                "height": 5150,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7276,
+                    "height": 5150,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 160
+                      },
+                      {
+                        "width": 454,
+                        "height": 321
+                      },
+                      {
+                        "width": 909,
+                        "height": 643
+                      },
+                      {
+                        "width": 1819,
+                        "height": 1287
+                      },
+                      {
+                        "width": 3638,
+                        "height": 2575
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=98/6a/16/a0/e1/40/4a/3f/b5/e4/f1/1a/be/dd/31/c6/03001c5f-6bb2-43d4-8841-8bdfa735a66d.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-ab9e-8798-e063-6df0900ae38e-ID92d76dc3-d1b0-428e-8529-8e142fbc007c",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1333: Blad no. 756 rivierkaart gedeelte Noord, rpn. geen — bijgewerkt tot juli 1969"
+        ]
+      },
+      "width": 7259,
+      "height": 5142,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1333"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e7693bd-ab9e-8798-e063-6df0900ae38e"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7693bd-ab9e-8798-e063-6df0900ae38e"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 756 rivierkaart gedeelte Noord, rpn. geen"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot juli 1969"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1969-07"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM juni 1967."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1333.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1333."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e7693bd-ab9e-8798-e063-6df0900ae38e",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/92c7bcb2-5b3f-4ccd-8ca5-f13dc8b1489a",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=92/c7/bc/b2/5b/3f/4c/cd/8c/a5/f1/3d/c8/b1/48/9a/92d76dc3-d1b0-428e-8529-8e142fbc007c.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/92d76dc3-d1b0-428e-8529-8e142fbc007c",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/92d76dc3-d1b0-428e-8529-8e142fbc007c",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-ab9e-8798-e063-6df0900ae38e-ID92d76dc3-d1b0-428e-8529-8e142fbc007c-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-ab9e-8798-e063-6df0900ae38e-ID92d76dc3-d1b0-428e-8529-8e142fbc007c-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-ab9e-8798-e063-6df0900ae38e-ID92d76dc3-d1b0-428e-8529-8e142fbc007c",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/92d76dc3-d1b0-428e-8529-8e142fbc007c",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7259,
+                "height": 5142,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7259,
+                    "height": 5142,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 160
+                      },
+                      {
+                        "width": 453,
+                        "height": 321
+                      },
+                      {
+                        "width": 907,
+                        "height": 642
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1285
+                      },
+                      {
+                        "width": 3629,
+                        "height": 2571
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=92/c7/bc/b2/5b/3f/4c/cd/8c/a5/f1/3d/c8/b1/48/9a/92d76dc3-d1b0-428e-8529-8e142fbc007c.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b3c7-e0c7-e063-6df0900a2ca4-IDd1859ff7-a116-4169-98b6-ca97da52676c",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1335: Blad no. 757 rivierkaart gedeelte Noord, rpn. 983.6-984.5 — bijgewerkt tot mei 1969"
+        ]
+      },
+      "width": 7259,
+      "height": 5159,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1335"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e76d073-b3c7-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-b3c7-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 757 rivierkaart gedeelte Noord, rpn. 983.6-984.5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot mei 1969"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1969-05"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM juni 1967."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1335.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1335."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e76d073-b3c7-e0c7-e063-6df0900a2ca4",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/4e8d41a7-99fa-44c2-959c-92c31405213b",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=4e/8d/41/a7/99/fa/44/c2/95/9c/92/c3/14/05/21/3b/d1859ff7-a116-4169-98b6-ca97da52676c.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/d1859ff7-a116-4169-98b6-ca97da52676c",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/d1859ff7-a116-4169-98b6-ca97da52676c",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b3c7-e0c7-e063-6df0900a2ca4-IDd1859ff7-a116-4169-98b6-ca97da52676c-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b3c7-e0c7-e063-6df0900a2ca4-IDd1859ff7-a116-4169-98b6-ca97da52676c-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b3c7-e0c7-e063-6df0900a2ca4-IDd1859ff7-a116-4169-98b6-ca97da52676c",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/d1859ff7-a116-4169-98b6-ca97da52676c",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7259,
+                "height": 5159,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7259,
+                    "height": 5159,
+                    "sizes": [
+                      {
+                        "width": 226,
+                        "height": 161
+                      },
+                      {
+                        "width": 453,
+                        "height": 322
+                      },
+                      {
+                        "width": 907,
+                        "height": 644
+                      },
+                      {
+                        "width": 1814,
+                        "height": 1289
+                      },
+                      {
+                        "width": 3629,
+                        "height": 2579
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=4e/8d/41/a7/99/fa/44/c2/95/9c/92/c3/14/05/21/3b/d1859ff7-a116-4169-98b6-ca97da52676c.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e77125b-483d-ed5c-e063-6df0900ae03b-ID227bd680-b6ca-41da-bbf9-87c6825cfcd1",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "1334: Blad no. 757 rivierkaart gedeelte Noord, rpn. 983.6-984.6 — bijgewerkt tot mei 1978"
+        ]
+      },
+      "width": 7268,
+      "height": 5170,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1334"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e77125b-483d-ed5c-e063-6df0900ae03b"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e77125b-483d-ed5c-e063-6df0900ae03b"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 757 rivierkaart gedeelte Noord, rpn. 983.6-984.6"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot mei 1978"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1978-05"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974. In manuscript boven de titel: 'Voorlopige uitgave'."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_1334.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 1334."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e77125b-483d-ed5c-e063-6df0900ae03b",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/2c837f45-f36c-476a-a6fb-15c0c0daba61",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=2c/83/7f/45/f3/6c/47/6a/a6/fb/15/c0/c0/da/ba/61/227bd680-b6ca-41da-bbf9-87c6825cfcd1.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/227bd680-b6ca-41da-bbf9-87c6825cfcd1",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/227bd680-b6ca-41da-bbf9-87c6825cfcd1",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e77125b-483d-ed5c-e063-6df0900ae03b-ID227bd680-b6ca-41da-bbf9-87c6825cfcd1-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e77125b-483d-ed5c-e063-6df0900ae03b-ID227bd680-b6ca-41da-bbf9-87c6825cfcd1-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e77125b-483d-ed5c-e063-6df0900ae03b-ID227bd680-b6ca-41da-bbf9-87c6825cfcd1",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/227bd680-b6ca-41da-bbf9-87c6825cfcd1",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7268,
+                "height": 5170,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7268,
+                    "height": 5170,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 161
+                      },
+                      {
+                        "width": 454,
+                        "height": 323
+                      },
+                      {
+                        "width": 908,
+                        "height": 646
+                      },
+                      {
+                        "width": 1817,
+                        "height": 1292
+                      },
+                      {
+                        "width": 3634,
+                        "height": 2585
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=2c/83/7f/45/f3/6c/47/6a/a6/fb/15/c0/c0/da/ba/61/227bd680-b6ca-41da-bbf9-87c6825cfcd1.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b67c-e0c7-e063-6df0900a2ca4-IDf849370d-92f9-4e05-8b9a-cc6ffca3508f",
+      "type": "Canvas",
+      "label": {
+        "nl": [
+          "712: Blad no. 757 rivierkaart gedeelte Noord, rpn. 983.6-984.6 — bijgewerkt tot april 1981"
+        ]
+      },
+      "width": 7283,
+      "height": 5191,
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Archief"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inventaris van het archief van de Meetkundige Dienst: Rivierkaarten, 1827-1997"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Toegang"
+            ]
+          },
+          "value": {
+            "nl": [
+              "2.16.5150"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inventarisversie"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Versie: 30-07-2026"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (BD)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "712"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (handle)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "http://hdl.handle.net/10648/4e76d073-b67c-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e76d073-b67c-e0c7-e063-6df0900a2ca4"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Blad no. 757 rivierkaart gedeelte Noord, rpn. 983.6-984.6"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering"
+            ]
+          },
+          "value": {
+            "nl": [
+              "bijgewerkt tot april 1981"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Datering (ISO)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "1981-04"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Kaartschaal / materiaal (scale)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Schaal 1:2.000"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Luchtfotografie: opname KLM april 1974."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Trefwoorden"
+            ]
+          },
+          "value": {
+            "nl": [
+              "kaart"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "D.12 — Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Scanbestand"
+            ]
+          },
+          "value": {
+            "nl": [
+              "NL-HaNA_2.16.5150_712.tif"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Rechtencategorie (METS)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "PUBLIC DOMAIN"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "RightsHolder"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Nationaal Archief DIT betreft de collecties die wegens ouderdom inmiddels rechtenvrij zijn of in het publiek domein vallen: collecties Eerste Wereldoorlog, KNVB (let op: bij gebruik foto's KNVB moet toestemming aan KNVB gevraagd worden), Rijkswaterstaat en Van Houten. Nationaal Archief Prins Willem Alexanderhof 20, 2595 BE Den Haag, NL +31 (0)70 331 54 00 info@nationaalarchief.nl"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ],
+          "nl": [
+            "Bronvermelding"
+          ]
+        },
+        "value": {
+          "nl": [
+            "Nationaal Archief, Den Haag, Meetkundige Dienst: Rivierkaarten, toegang 2.16.5150, inventarisnummer 712."
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "homepage": [
+        {
+          "id": "http://hdl.handle.net/10648/4e76d073-b67c-e0c7-e063-6df0900a2ca4",
+          "type": "Text",
+          "format": "text/html",
+          "label": {
+            "nl": [
+              "Archiefbeschrijving"
+            ]
+          }
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://service.archief.nl/gaf/api/mets/v1/7e82ca27-da6d-4db4-8de7-96bce89167da",
+          "type": "Dataset",
+          "format": "application/xml",
+          "label": {
+            "nl": [
+              "METS-scangegevens"
+            ]
+          }
+        },
+        {
+          "id": "https://service.archief.nl/iip/iipsrv?IIIF=7e/82/ca/27/da/6d/4d/b4/8d/e7/96/bc/e8/91/67/da/f849370d-92f9-4e05-8b9a-cc6ffca3508f.jp2/info.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "label": {
+            "nl": [
+              "IIIF Image API metadata"
+            ]
+          }
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/default/f849370d-92f9-4e05-8b9a-cc6ffca3508f",
+          "type": "Image",
+          "format": "image/jpeg",
+          "label": {
+            "en": [
+              "Download full-resolution scan (JPEG)"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://service.archief.nl/api/file/v1/thumb/f849370d-92f9-4e05-8b9a-cc6ffca3508f",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b67c-e0c7-e063-6df0900a2ca4-IDf849370d-92f9-4e05-8b9a-cc6ffca3508f-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b67c-e0c7-e063-6df0900a2ca4-IDf849370d-92f9-4e05-8b9a-cc6ffca3508f-painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b67c-e0c7-e063-6df0900a2ca4-IDf849370d-92f9-4e05-8b9a-cc6ffca3508f",
+              "body": {
+                "id": "https://service.archief.nl/api/file/v1/default/f849370d-92f9-4e05-8b9a-cc6ffca3508f",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 7283,
+                "height": 5191,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 7283,
+                    "height": 5191,
+                    "sizes": [
+                      {
+                        "width": 227,
+                        "height": 162
+                      },
+                      {
+                        "width": 455,
+                        "height": 324
+                      },
+                      {
+                        "width": 910,
+                        "height": 648
+                      },
+                      {
+                        "width": 1820,
+                        "height": 1297
+                      },
+                      {
+                        "width": 3641,
+                        "height": 2595
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://service.archief.nl/iip/iipsrv?IIIF=7e/82/ca/27/da/6d/4d/b4/8d/e7/96/bc/e8/91/67/da/f849370d-92f9-4e05-8b9a-cc6ffca3508f.jp2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "maxWidth": 5000,
+                    "maxHeight": 5000,
+                    "extraQualities": [
+                      "gray",
+                      "bitonal"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "webp"
+                    ],
+                    "extraFeatures": [
+                      "regionByPct",
+                      "sizeByPct",
+                      "sizeByConfinedWh",
+                      "sizeUpscaling",
+                      "rotationBy90s",
+                      "mirroring"
+                    ],
+                    "service": [
+                      {
+                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                        "profile": "http://iiif.io/api/annex/services/physdim",
+                        "physicalScale": 0.000628728,
+                        "physicalUnits": "cm"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#range-4e7657e3-6f18-9dce-e063-6df0900acdd5",
+      "type": "Range",
+      "label": {
+        "nl": [
+          "D.12 — Noord (bladnummers 750-758)"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "nl": [
+              "Identificatie (series_code)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "D.12"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Identificatie (urn:uuid)"
+            ]
+          },
+          "value": {
+            "nl": [
+              "4e7657e3-6f18-9dce-e063-6df0900acdd5"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Titel"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Noord (bladnummers 750-758)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "nl": [
+              "Inhoud"
+            ]
+          },
+          "value": {
+            "nl": [
+              "Inv.nrs. 706-712 en 1327-1335."
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-6f19-9dce-e063-6df0900acdd5-ID4cdd324f-b8fe-4589-b9c5-deb7ec269fd0",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-bb91-e0c7-e063-6df0900a2ca4-IDe7531189-ba1c-4724-bfdd-6bea04e2bbb8",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-7f75-9dce-e063-6df0900acdd5-IDf6a0b288-fd05-4d23-ae23-78e7fca4a80b",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c1c-908c-e063-6df0900a4619-IDe08a37d9-452e-4d9c-8f08-cd69162e0a70",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7675ea-2c7c-908c-e063-6df0900a4619-ID8c36c168-4778-47fc-8a54-a8df5dc7eab0",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-724c-9dce-e063-6df0900acdd5-ID140927d0-985c-4f1f-8077-da54542849ef",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-c073-e0c7-e063-6df0900a2ca4-IDba13e07c-1fa1-4561-b1ba-7d9b1292a8af",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e773293-3642-f0f5-e063-6df0900abdfc-ID97106bab-db91-429c-81bd-49ebc603fbbb",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-a4f3-8798-e063-6df0900ae38e-IDb5faf019-a314-4134-b899-4dd17514cd4f",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-70b3-9dce-e063-6df0900acdd5-ID9dc0435e-cd4b-427b-a19f-2bf08f9f4d9c",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-76e7-9dce-e063-6df0900acdd5-ID51652921-bbb1-4f7c-b38f-0852ec743f92",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7657e3-766f-9dce-e063-6df0900acdd5-ID03001c5f-6bb2-43d4-8841-8bdfa735a66d",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e7693bd-ab9e-8798-e063-6df0900ae38e-ID92d76dc3-d1b0-428e-8529-8e142fbc007c",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b3c7-e0c7-e063-6df0900a2ca4-IDd1859ff7-a116-4169-98b6-ca97da52676c",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e77125b-483d-ed5c-e063-6df0900ae03b-ID227bd680-b6ca-41da-bbf9-87c6825cfcd1",
+          "type": "Canvas"
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-12.json#canvas-4e76d073-b67c-e0c7-e063-6df0900a2ca4-IDf849370d-92f9-4e05-8b9a-cc6ffca3508f",
+          "type": "Canvas"
+        }
+      ]
+    }
+  ]
+}
