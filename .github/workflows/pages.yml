@@ -2,7 +2,7 @@ name: Deploy IIIF to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [watertijdreis]
     paths:
       - 'iiif/**'
       - '.github/workflows/pages.yml'
