@@ -9,8 +9,6 @@ export interface BrowseManifest {
   id: string;
   path: string;
   label: string;
-  published: string;
-  canvases: number;
 }
 export interface BrowseGroup {
   id: string;
@@ -20,15 +18,16 @@ export interface BrowseGroup {
 }
 
 // URLSearchParams preserves URLs containing their own query strings or fragments.
-export function toolLinks(manifestId: string) {
+export function toolLinks(resourceId: string, resourceType: 'Manifest' | 'Collection' = 'Manifest') {
   const allmaps = new URL('https://editor.allmaps.org/images');
-  allmaps.searchParams.set('url', manifestId);
+  allmaps.searchParams.set('url', resourceId);
   allmaps.searchParams.set('lang', 'en');
   const editor = new URL('https://manifest-editor.digirati.services/share');
-  editor.searchParams.set('iiif-content', manifestId);
+  editor.searchParams.set('iiif-content', resourceId);
   editor.searchParams.set('action', 'import');
+  if (resourceType === 'Collection') editor.searchParams.set('resource-type', 'Collection');
   const theseus = new URL('https://theseusviewer.org/');
-  theseus.searchParams.set('iiif-content', manifestId);
+  theseus.searchParams.set('iiif-content', resourceId);
   return { allmaps: allmaps.href, editor: editor.href, theseus: theseus.href };
 }
 
@@ -55,13 +54,10 @@ export function createBrowseModel(documents: Documents): BrowseGroup[] {
         visit(entry.document, labels);
       } else {
         const manifest = entry.document;
-        const published = manifest.metadata?.find(item => getValue(item.label).toLowerCase() === 'published');
         group.manifests.push({
           id: manifest.id,
           path: entry.path,
           label: getValue(manifest.label),
-          published: published ? getValue(published.value) : '',
-          canvases: manifest.items.length,
         });
       }
     }
@@ -71,85 +67,53 @@ export function createBrowseModel(documents: Documents): BrowseGroup[] {
   return groups;
 }
 
-function RiverMark() {
-  return html`<svg viewBox="0 0 36 36" fill="none" aria-hidden="true">
-    <path d="M9 3C27 8 2 16 20 22S15 31 23 34M18 2C36 7 11 15 29 21S24 30 32 33M0 4C18 9-7 17 11 23S6 32 14 35" stroke="currentColor" stroke-width="2" />
-  </svg>`;
+function ResourceLinks({ resource, type, jsonLabel }: {
+  resource: BrowseManifest;
+  type: 'Manifest' | 'Collection';
+  jsonLabel: string;
+}) {
+  const links = toolLinks(resource.id, type);
+  return html`<nav class="resource-links" aria-label=${`Open ${resource.label}`}>
+      <a href=${links.allmaps}>Allmaps Editor</a>
+      <a href=${links.editor}>IIIF Manifest Editor</a>
+      <a href=${links.theseus}>Theseus Viewer</a>
+      <a href=${resource.path}>${jsonLabel}</a>
+    </nav>`;
 }
 
 function ManifestRow({ manifest }: { manifest: BrowseManifest }) {
-  const links = toolLinks(manifest.id);
-  const split = manifest.label.indexOf(' — ');
-  const series = split >= 0 ? manifest.label.slice(0, split) : 'Manifest';
-  const title = split >= 0 ? manifest.label.slice(split + 3) : manifest.label;
   return html`<li class="manifest-row">
-    <div class="manifest-description">
-      <div class="manifest-meta"><span class="series">${series}</span>
-        ${manifest.published && html`<span>${manifest.published}</span>`}
-        <span>${manifest.canvases} scanned pages</span>
-      </div>
-      <h3>${title}</h3>
-    </div>
-    <nav class="manifest-tools" aria-label=${`Open ${manifest.label}`}>
-      <a class="tool tool-view" href=${links.theseus}>Theseus Viewer</a>
-      <a class="tool" href=${links.allmaps}>Allmaps Editor</a>
-      <a class="tool" href=${links.editor}>IIIF Manifest Editor</a>
-      <a class="json-link" href=${manifest.path}>Manifest JSON</a>
-    </nav>
+    <h3>${manifest.label}</h3>
+    <${ResourceLinks} resource=${manifest} type="Manifest" jsonLabel="Manifest JSON" />
   </li>`;
 }
 
 export function renderBrowsePage(documents: Documents): string {
   const groups = createBrowseModel(documents);
-  const manifests = new Map(groups.flatMap(group => group.manifests.map(manifest => [manifest.id, manifest] as const)));
-  const canvasCount = [...manifests.values()].reduce((sum, manifest) => sum + manifest.canvases, 0);
   const root = documents.get('collection.json')!;
-  const collectionViewer = toolLinks(root.id).theseus;
+  const collection = { id: root.id, path: 'collection.json', label: getValue(root.label) };
   return '<!doctype html>\n' + render(html`<html lang="en">
     <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>River maps · IIIF collection</title>
-      <meta name="description" content="Explore historical river maps from Utrecht University Library. Open each series in Theseus Viewer, Allmaps Editor, or IIIF Manifest Editor." />
+      <title>River maps</title>
+      <meta name="description" content="Historical river maps from Utrecht University Library, with links to IIIF viewers and editors." />
       <link rel="stylesheet" href="assets/site.css" />
     </head>
     <body>
-      <a class="skip-link" href="#manifests">Skip to manifests</a>
-      <header class="masthead"><div class="wrap masthead-inner">
-        <a class="brand" href="./"><${RiverMark} /><span>River maps<span class="brand-subtitle">IIIF collection</span></span></a>
-        <a class="header-link" href="https://github.com/tu-delft-heritage/river-maps-iiif">View on GitHub</a>
-      </div></header>
-      <main class="wrap">
-        <section class="intro" aria-labelledby="page-title">
-          <div><p class="eyebrow">Utrecht University Library · Digitised collections</p>
-            <h1 id="page-title">Follow the rivers.<br /><em>Explore the maps.</em></h1>
-            <p class="lede">Historic maps of the Dutch rivers, organised by edition and series.
-              View the scans, georeference a map, or work with its IIIF manifest.</p>
-            <div class="collection-actions"><a class="button" href=${collectionViewer}>Explore the collection</a>
-              <a class="text-link" href="collection.json">Collection JSON</a></div>
-          </div>
-          <dl class="collection-stats" aria-label="Collection overview">
-            <div><dt>Editions</dt><dd>${groups.length}</dd></div>
-            <div><dt>Manifests</dt><dd>${manifests.size}</dd></div>
-            <div><dt>Scanned pages</dt><dd>${canvasCount}</dd></div>
-          </dl>
-        </section>
-        <div class="catalog-heading" id="manifests"><h2>Browse the manifests</h2><span>Choose a series to get started</span></div>
+      <main>
+        <header class="page-heading">
+          <h1>River maps</h1>
+          <${ResourceLinks} resource=${collection} type="Collection" jsonLabel="Collection JSON" />
+        </header>
         ${groups.map((group, index) => html`<section class="edition" aria-labelledby=${`edition-${index}`}>
-          <header class="edition-heading"><div><h2 id=${`edition-${index}`}>${group.label}</h2>
-            <span>${group.manifests.length} ${group.manifests.length === 1 ? 'manifest' : 'manifests'}</span></div>
-            <a href=${group.path}>Edition JSON</a></header>
+          <header class="edition-heading">
+            <h2 id=${`edition-${index}`}>${group.label}</h2>
+            <${ResourceLinks} resource=${group} type="Collection" jsonLabel="Edition JSON" />
+          </header>
           <ul class="manifest-list">${group.manifests.map(manifest => html`<${ManifestRow} key=${manifest.id} manifest=${manifest} />`)}</ul>
         </section>`)}
-        <aside class="tool-guide" aria-labelledby="tools-heading">
-          <h2 id="tools-heading">A tool for every next step</h2>
-          <div class="guide-grid"><div><h3>Theseus Viewer</h3><p>Browse the scanned pages and zoom in on the details.</p></div>
-            <div><h3>Allmaps Editor</h3><p>Place historic maps in the world by georeferencing them.</p></div>
-            <div><h3>IIIF Manifest Editor</h3><p>Import a copy to edit its metadata, structure, and annotations.</p></div></div>
-        </aside>
       </main>
-      <footer class="wrap"><span>Scans from <a href="https://www.uu.nl/en/university-library">Utrecht University Library</a></span>
-        <a href="collection.json">IIIF Presentation 3</a></footer>
     </body>
   </html>`) + '\n';
 }

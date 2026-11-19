@@ -107,9 +107,11 @@ a comprehensive IIIF schema validator.
 
 ### Website
 
-The homepage lists the generated manifests by edition, with publication dates,
-scan counts, direct JSON links, and links to Allmaps Editor, IIIF Manifest Editor,
-and Theseus Viewer. It follows the generated collection tree on every build, so
+The homepage is a plain list of manifests grouped by edition, with direct JSON
+links and links to Allmaps Editor, IIIF Manifest Editor, and Theseus Viewer.
+The main collection and each edition have the same tool links; collection links
+open as collections in IIIF Manifest Editor.
+It follows the generated collection tree on every build, so
 new editions and series appear automatically without editing the page.
 
 The lightweight framework is [Preact](https://preactjs.com/), rendered at build
@@ -119,7 +121,7 @@ dependencies. Components and link generation live in `scripts/site.ts`; styles
 live in `site/style.css`. The existing Pages workflow deploys the page and its
 stylesheet alongside the IIIF JSON.
 
-Tool links use the published manifest IDs (including a custom `IIIF_BASE_URL`),
+Tool links use the published collection and manifest IDs (including a custom `IIIF_BASE_URL`),
 while JSON and stylesheet links are relative to the homepage. The Manifest Editor
 link imports a copy into that editor; it does not change the JSON in this repo.
 
