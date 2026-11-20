@@ -190,12 +190,18 @@ pnpm validate
 - `pnpm test` checks record identities, collection links, additional editions,
   custom base URLs, parsing with the IIIF Vault, preservation of source data,
   complete EAD-to-scan coverage, and exclusion of undigitized descriptions.
-- `pnpm validate` runs the type check, tests, and build.
+- `pnpm check:allmaps` parses the committed collections and manifests with the pinned
+  [`@allmaps/iiif-parser`](https://allmaps.org/docs/packages/iiif-parser/) package
+  and the published georeference pages with `@allmaps/annotation`. It checks every
+  file, reports its path on failure, and requires every canvas and map to survive
+  parsing. It makes no network requests and does not modify the output.
+- `pnpm build` also performs the parser check in memory before replacing `iiif/`.
+- `pnpm validate` runs the type check, tests, build, and committed-output parser check.
 
 Commit the source manifests in `data/iiif-manifests/`, the archive snapshots in
 `data/nationaal-archief/`, the generated `iiif/`
 files (including `index.html` and `assets/`), and `pnpm-lock.yaml`. GitHub Pages
-publishes the committed `iiif/` directory as-is; it does not run these scripts.
+validates and publishes the committed `iiif/` directory as-is; it does not rebuild it.
 Run `pnpm validate` locally after changing sources, the catalog, or the website,
 then commit the regenerated output. Only run `pnpm sync` when adding or refreshing
 library records; use `pnpm sync:na` for archive records.
@@ -264,8 +270,10 @@ to restore the default GitHub Pages URLs before committing generated files.
 
 [The workflow](.github/workflows/pages.yml) publishes the committed `iiif/`
 directory using checkout, configure-pages, upload-pages-artifact, and deploy-pages.
-It does not install Node.js or pnpm, download library data, run tests, or rebuild
-the collection or website. Generation and validation are local development steps.
+A required validation job installs Node.js 24, the pinned pnpm version and locked
+dependencies, then runs `pnpm check:allmaps` against the committed output. Parser
+failures block deployment. The workflow does not download archival images or
+regenerate the collection or website; generation and the full test suite run locally.
 
 Pushes to `watertijdreis` deploy only when `iiif/**` or the workflow itself changes.
 Documentation-only and source-only commits do not trigger deployment. Pull

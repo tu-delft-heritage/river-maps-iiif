@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { defaultBaseUrl, editions } from './catalog.ts';
 import { generateCollection, sourcePath } from './collection.ts';
 import { renderBrowsePage } from './site.ts';
+import { validateAllmapsDocuments, allmapsCheckSummary } from './check-allmaps.ts';
 import { publishGeoreferencing } from './published-georeferencing.ts';
 import {
   archiveEadPath, archiveSnapshotPath, generateArchiveCollection, publishedEadPath,
@@ -42,6 +43,10 @@ for (const [path, document] of archiveDocuments) {
   }
 }
 const georeferencing = await publishGeoreferencing(documents, process.env.IIIF_BASE_URL ?? defaultBaseUrl);
+const compatibility = validateAllmapsDocuments(new Map<string, unknown>([
+  ...documents, ...[...georeferencing.files].filter(([path]) => path.startsWith('annotations/')),
+]));
+console.log(allmapsCheckSummary(compatibility));
 const page = renderBrowsePage(documents, georeferencing.counts);
 await rm(output, { recursive: true, force: true });
 for (const [path, document] of documents) {

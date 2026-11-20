@@ -12,16 +12,18 @@
     "build": "node scripts/build.ts",
     "check": "tsc --noEmit",
     "test": "node --test scripts/*.test.ts && python3 -m unittest discover -s scripts -p '*_test.py'",
-    "validate": "pnpm check && pnpm test && pnpm build"
+    "validate": "pnpm check && pnpm test && pnpm build && pnpm check:allmaps",
+    "check:allmaps": "node scripts/check-allmaps.ts"
   },
   "dependencies": {
+    "@allmaps/annotation": "1.0.0-beta.38",
+    "@allmaps/iiif-parser": "1.0.0-beta.49",
+    "@allmaps/transform": "1.0.0-beta.53",
     "@iiif/helpers": "4.0.5",
     "@iiif/parser": "^4.0.7",
     "htm": "^3.1.1",
     "preact": "^11.2.0",
-    "preact-render-to-string": "^6.8.3",
-    "@allmaps/annotation": "1.0.0-beta.38",
-    "@allmaps/transform": "1.0.0-beta.53"
+    "preact-render-to-string": "^6.8.3"
   },
   "devDependencies": {
     "@iiif/presentation-3": "2.2.4",
