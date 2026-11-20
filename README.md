@@ -75,11 +75,11 @@ all 1,009 scans as public domain; the generated resources use the Public Domain
 Mark and credit Nationaal Archief. Source images remain hosted by the archive.
 
 The exact EAD XML, full METS XML responses, and Image API responses are saved in
-[`data/nationaal-archief/`](data/nationaal-archief/). The complete EAD is retained
+[`data/nationaal-archief/`](data/nationaal-archief). The complete EAD is retained
 as source evidence, including descriptions that are excluded from the IIIF
 collection. A copy is published under `iiif/sources/nationaal-archief/` and linked
 with `seeAlso`; the build checks its SHA-256 against the metadata snapshot.
-No map image files are downloaded or committed.
+Catalog sync does not download map images. The georeferencing pilot caches small photographic overviews and details locally; those images are ignored by Git.
 
 To refresh this source (Python 3, standard library only):
 
@@ -97,6 +97,51 @@ a specific local EAD snapshot. Builds and tests use only the committed files and
 do not require network access. The importer lives in
 [`scripts/sync-nationaal-archief.py`](scripts/sync-nationaal-archief.py); IIIF
 generation lives in [`scripts/nationaal-archief.ts`](scripts/nationaal-archief.ts).
+
+## Published georeferencing and navigation
+
+All **999 Nieuwe Stijl maps in D.02–D.17** have been visually reviewed, including
+the corrected placements. Each series has an AnnotationPage under
+[`iiif/annotations/nieuwe-stijl/`](iiif/annotations/nieuwe-stijl), linked from the
+[index](iiif/index.html), its Manifest and its Canvases. The index opens the hosted
+annotations directly in Allmaps Viewer. D.01 contains ten index/legend scans and
+has no georeference annotations. Three existing First Edition annotations are
+also published, with their original masks and transformation models.
+
+The release preserves original projected observations (including RD Old where
+printed), converted RD New coordinates, WGS84 control points, archival metadata,
+held-out checks, human approval fingerprints and numerical flags. See the
+[release provenance](iiif/georeferencing/nieuwe-stijl/release.json).
+
+Each georeferenced Canvas has a `navPlace` GeoJSON FeatureCollection containing
+a Polygon of its transformed mask. `@allmaps/transform` fits the annotation's
+transformation in Web Mercator, as Allmaps Viewer does, then converts the refined
+boundary to WGS84 longitude/latitude. Rings are closed and counterclockwise;
+these are map extents, not rectangular image bounds. Manifests include the
+[IIIF navPlace context](https://iiif.io/api/extension/navplace/).
+
+Canvas `navDate` uses the latest valid date in that sheet's own `Datering` and
+`Datering (ISO)` metadata, including later additions. Malformed ISO values are
+ignored when the written date provides usable evidence. Conflicting valid dates
+use the latest one; the original fields are retained and the discrepancies are
+listed in the [navigation audit](iiif/georeferencing/navigation-report.json).
+For month/year precision, missing components use the start of that period at
+midnight UTC as a navigation convention, not an assertion of exact dating.
+Undated sheets and sheets without their own date metadata are omitted. Broad
+series publication ranges and digitization dates are not assigned to sheets.
+There are 998 dated Nieuwe Stijl Canvases and 11 without a usable date; the 144
+Utrecht Canvases have no sheet-level dates. There are 1,002 geographic masks:
+999 Nieuwe Stijl and three existing First Edition maps.
+
+The reviewed publication inputs live in `data/iiif-annotations/`; `pnpm build`
+validates the Nieuwe Stijl checksums and generates their published copies plus
+navigation properties. This build needs no image cache, CV pipeline or Python
+georeferencing environment. Source metadata changes require a matching reviewed
+publication snapshot. Pages continues to publish committed `iiif/` files.
+
+The processing scripts, canonical measurements, approval history, diagnostics,
+local dashboard, and illustrated essay are retained on branch
+`codex/nieuwe-stijl-georeferencing-plan`.
 
 ## IIIF collection
 
@@ -223,7 +268,7 @@ directory using checkout, configure-pages, upload-pages-artifact, and deploy-pag
 It does not install Node.js or pnpm, download library data, run tests, or rebuild
 the collection or website. Generation and validation are local development steps.
 
-Pushes to `main` deploy only when `iiif/**` or the workflow itself changes.
+Pushes to `watertijdreis` deploy only when `iiif/**` or the workflow itself changes.
 Documentation-only and source-only commits do not trigger deployment. Pull
 requests do not deploy.
 

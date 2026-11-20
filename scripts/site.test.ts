@@ -46,3 +46,20 @@ test('the page follows new edition collections and safely renders their labels w
   documents.delete('manifests/second.json');
   assert.throws(() => renderBrowsePage(documents), /missing document/);
 });
+
+test('Allmaps Viewer links load hosted annotation pages and preserve nested URL characters', async () => {
+  const {allmapsViewerLink} = await import('./site.ts');
+  const page = 'https://example.org/annotations.json?a=1&b=2#page';
+  const link = new URL(allmapsViewerLink(page));
+  assert.equal(link.origin, 'https://viewer.allmaps.org');
+  assert.equal(link.searchParams.get('url'), page);
+  const root: LinkedCollection = {id: 'https://example.org/collection.json', type: 'Collection', label: {en: ['Maps']}, items: [
+    {id: 'https://example.org/series.json', type: 'Manifest', label: {en: ['A series']}},
+  ]};
+  const reference = {id: page, type: 'Dataset' as const, format: 'application/ld+json', profile: 'http://iiif.io/api/extension/georef/1/context.json'};
+  const manifest: Manifest = {id: root.items[0].id, type: 'Manifest', label: root.items[0].label, items: [], seeAlso: [reference]};
+  const html = renderBrowsePage(new Map<string, LinkedCollection | Manifest>([['collection.json', root], ['series.json', manifest]]), new Map([[manifest.id, 76]]));
+  assert.match(html, /Open 76 maps in Allmaps/);
+  assert.match(html, /Annotation JSON/);
+  assert.doesNotMatch(html, /Pilot georeferencing|pilot-report/);
+});

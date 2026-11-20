@@ -9,6 +9,8 @@ export interface BrowseManifest {
   id: string;
   path: string;
   label: string;
+  annotationUrl?: string;
+  mapCount?: number;
 }
 export interface BrowseGroup {
   id: string;
@@ -31,7 +33,7 @@ export function toolLinks(resourceId: string, resourceType: 'Manifest' | 'Collec
   return { allmaps: allmaps.href, editor: editor.href, theseus: theseus.href };
 }
 
-export function createBrowseModel(documents: Documents): BrowseGroup[] {
+export function createBrowseModel(documents: Documents, counts: ReadonlyMap<string, number> = new Map()): BrowseGroup[] {
   const root = documents.get('collection.json');
   if (!root || root.type !== 'Collection') throw new Error('Missing root collection for the browse page.');
   const byId = new Map([...documents].map(([path, document]) => [document.id, { path, document }]));
@@ -58,6 +60,8 @@ export function createBrowseModel(documents: Documents): BrowseGroup[] {
           id: manifest.id,
           path: entry.path,
           label: getValue(manifest.label),
+          mapCount: counts.get(manifest.id),
+          annotationUrl: manifest.seeAlso?.find(s => 'profile' in s && s.profile === 'http://iiif.io/api/extension/georef/1/context.json')?.id,
         });
       }
     }
@@ -81,15 +85,22 @@ function ResourceLinks({ resource, type, jsonLabel }: {
     </nav>`;
 }
 
+export function allmapsViewerLink(annotationUrl: string): string {
+  const url = new URL('https://viewer.allmaps.org/');
+  url.searchParams.set('url', annotationUrl);
+  return url.href;
+}
+
 function ManifestRow({ manifest }: { manifest: BrowseManifest }) {
   return html`<li class="manifest-row">
     <h3>${manifest.label}</h3>
     <${ResourceLinks} resource=${manifest} type="Manifest" jsonLabel="Manifest JSON" />
+    ${manifest.annotationUrl && html`<nav class="resource-links" aria-label="Georeferenced maps"><a href=${allmapsViewerLink(manifest.annotationUrl)}>Open ${manifest.mapCount ?? ""} maps in Allmaps</a><a href=${manifest.annotationUrl}>Annotation JSON</a></nav>`}
   </li>`;
 }
 
-export function renderBrowsePage(documents: Documents): string {
-  const groups = createBrowseModel(documents);
+export function renderBrowsePage(documents: Documents, counts: ReadonlyMap<string, number> = new Map()): string {
+  const groups = createBrowseModel(documents, counts);
   const root = documents.get('collection.json')!;
   const collection = { id: root.id, path: 'collection.json', label: getValue(root.label) };
   return '<!doctype html>\n' + render(html`<html lang="en">
@@ -104,6 +115,7 @@ export function renderBrowsePage(documents: Documents): string {
       <main>
         <header class="page-heading">
           <h1>River maps</h1>
+          <p>Explore 999 reviewed Nieuwe Stijl maps in Allmaps, grouped by series.</p>
           <${ResourceLinks} resource=${collection} type="Collection" jsonLabel="Collection JSON" />
         </header>
         ${groups.map((group, index) => html`<section class="edition" aria-labelledby=${`edition-${index}`}>

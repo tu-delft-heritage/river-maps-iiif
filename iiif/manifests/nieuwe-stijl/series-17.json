@@ -1,5 +1,8 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
   "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json",
   "type": "Manifest",
   "label": {
@@ -241,6 +244,17 @@
       "label": {
         "nl": [
           "EAD-bronbestand — Versie: 30-07-2026"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-17.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "http://iiif.io/api/extension/georef/1/context.json",
+      "label": {
+        "en": [
+          "Georeference annotations — 3 maps"
         ]
       }
     }
@@ -550,6 +564,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-17.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -664,7 +689,161 @@
             }
           ]
         }
-      ]
+      ],
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    5.71208241332048,
+                    50.8170526861454
+                  ],
+                  [
+                    5.677701990237739,
+                    50.815518204898645
+                  ],
+                  [
+                    5.678105962702865,
+                    50.81187719913141
+                  ],
+                  [
+                    5.678509935167993,
+                    50.808235909525784
+                  ],
+                  [
+                    5.673298565844168,
+                    50.80800720413597
+                  ],
+                  [
+                    5.673842282520581,
+                    50.803383102792814
+                  ],
+                  [
+                    5.6743859991969945,
+                    50.79875854377091
+                  ],
+                  [
+                    5.674929715873406,
+                    50.79413352705507
+                  ],
+                  [
+                    5.67547343254982,
+                    50.7895080526301
+                  ],
+                  [
+                    5.69212337810512,
+                    50.79023903508498
+                  ],
+                  [
+                    5.692725629734727,
+                    50.78480789693169
+                  ],
+                  [
+                    5.6933278813643335,
+                    50.77937612780969
+                  ],
+                  [
+                    5.676729491544912,
+                    50.77864723949512
+                  ],
+                  [
+                    5.677325662577723,
+                    50.77349142181912
+                  ],
+                  [
+                    5.677921833610533,
+                    50.76833503575692
+                  ],
+                  [
+                    5.678518004643344,
+                    50.76317808128765
+                  ],
+                  [
+                    5.679114175676155,
+                    50.7580205583904
+                  ],
+                  [
+                    5.718776803768807,
+                    50.75976298079551
+                  ],
+                  [
+                    5.7183584043657865,
+                    50.763345644368265
+                  ],
+                  [
+                    5.7179400049627676,
+                    50.76692803364319
+                  ],
+                  [
+                    5.717521605559745,
+                    50.770510148627245
+                  ],
+                  [
+                    5.717103206156724,
+                    50.77409198932753
+                  ],
+                  [
+                    5.716684806753704,
+                    50.777673555750965
+                  ],
+                  [
+                    5.716266407350684,
+                    50.78125484790458
+                  ],
+                  [
+                    5.715848007947664,
+                    50.78483586579539
+                  ],
+                  [
+                    5.715429608544642,
+                    50.7884166094304
+                  ],
+                  [
+                    5.715011209141623,
+                    50.79199707881667
+                  ],
+                  [
+                    5.714592809738601,
+                    50.795577273961186
+                  ],
+                  [
+                    5.714174410335582,
+                    50.79915719487098
+                  ],
+                  [
+                    5.713756010932561,
+                    50.80273684155309
+                  ],
+                  [
+                    5.713337611529539,
+                    50.806316214014544
+                  ],
+                  [
+                    5.71291921212652,
+                    50.80989531226239
+                  ],
+                  [
+                    5.7125008127234995,
+                    50.81347413630366
+                  ],
+                  [
+                    5.71208241332048,
+                    50.8170526861454
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2",
@@ -954,6 +1133,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-17.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -1068,7 +1258,109 @@
             }
           ]
         }
-      ]
+      ],
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    5.715733955356293,
+                    50.78582784305839
+                  ],
+                  [
+                    5.692625619916896,
+                    50.7848265375457
+                  ],
+                  [
+                    5.693242522491864,
+                    50.77939152189122
+                  ],
+                  [
+                    5.676776601535158,
+                    50.77861618866322
+                  ],
+                  [
+                    5.677144738415406,
+                    50.77546277752814
+                  ],
+                  [
+                    5.6775128752956565,
+                    50.77230915376449
+                  ],
+                  [
+                    5.677881012175905,
+                    50.76915531736757
+                  ],
+                  [
+                    5.678249149056154,
+                    50.76600126833254
+                  ],
+                  [
+                    5.678617285936404,
+                    50.762847006654674
+                  ],
+                  [
+                    5.678985422816652,
+                    50.75969253232916
+                  ],
+                  [
+                    5.679353559696903,
+                    50.756537845351225
+                  ],
+                  [
+                    5.679721696577151,
+                    50.75338294571609
+                  ],
+                  [
+                    5.719269650125885,
+                    50.755272115096545
+                  ],
+                  [
+                    5.718827688279688,
+                    50.759092672633194
+                  ],
+                  [
+                    5.718385726433489,
+                    50.76291291828388
+                  ],
+                  [
+                    5.7179437645872895,
+                    50.76673285205711
+                  ],
+                  [
+                    5.71750180274109,
+                    50.77055247396137
+                  ],
+                  [
+                    5.7170598408948905,
+                    50.774371784005105
+                  ],
+                  [
+                    5.716617879048691,
+                    50.77819078219689
+                  ],
+                  [
+                    5.716175917202493,
+                    50.78200946854511
+                  ],
+                  [
+                    5.715733955356293,
+                    50.78582784305839
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0f4a-2461-3f5b-e063-6df0900a5fa9-ID3c266f6e-c931-4f54-9205-af3830ed4dfa",
@@ -1322,6 +1614,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-17.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -1436,7 +1739,133 @@
             }
           ]
         }
-      ]
+      ],
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0f4a-2461-3f5b-e063-6df0900a5fa9-ID3c266f6e-c931-4f54-9205-af3830ed4dfa-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-17.json#canvas-4e7b0f4a-2461-3f5b-e063-6df0900a5fa9-ID3c266f6e-c931-4f54-9205-af3830ed4dfa-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    5.714206626431018,
+                    50.799109116359155
+                  ],
+                  [
+                    5.679815963786531,
+                    50.79755094885933
+                  ],
+                  [
+                    5.680213708266796,
+                    50.79390952509861
+                  ],
+                  [
+                    5.68061145274706,
+                    50.79026781761604
+                  ],
+                  [
+                    5.675427937260781,
+                    50.79003682974203
+                  ],
+                  [
+                    5.675688839471179,
+                    50.788144430300285
+                  ],
+                  [
+                    5.687364562317044,
+                    50.788664743442475
+                  ],
+                  [
+                    5.6879143978615,
+                    50.783629865981425
+                  ],
+                  [
+                    5.688464233405956,
+                    50.77859444629229
+                  ],
+                  [
+                    5.676847712316204,
+                    50.77807665990568
+                  ],
+                  [
+                    5.677202878514864,
+                    50.774990700381935
+                  ],
+                  [
+                    5.67755804471352,
+                    50.771904537232395
+                  ],
+                  [
+                    5.677913210912178,
+                    50.768818170452526
+                  ],
+                  [
+                    5.678268377110836,
+                    50.76573160003788
+                  ],
+                  [
+                    5.678623543309495,
+                    50.76264482598398
+                  ],
+                  [
+                    5.678978709508153,
+                    50.759557848286356
+                  ],
+                  [
+                    5.679333875706811,
+                    50.756470666940494
+                  ],
+                  [
+                    5.679689041905468,
+                    50.753383281941964
+                  ],
+                  [
+                    5.719262703448047,
+                    50.75530402000958
+                  ],
+                  [
+                    5.718630693820918,
+                    50.76078190099922
+                  ],
+                  [
+                    5.71799868419379,
+                    50.76625914081139
+                  ],
+                  [
+                    5.7173666745666605,
+                    50.77173573947109
+                  ],
+                  [
+                    5.7167346649395325,
+                    50.77721169700338
+                  ],
+                  [
+                    5.716102655312405,
+                    50.78268701343325
+                  ],
+                  [
+                    5.715470645685275,
+                    50.788161688785756
+                  ],
+                  [
+                    5.714838636058146,
+                    50.79363572308605
+                  ],
+                  [
+                    5.714206626431018,
+                    50.799109116359155
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     }
   ],
   "structures": [

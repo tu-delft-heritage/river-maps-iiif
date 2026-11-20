@@ -1,0 +1,129 @@
+{
+  "datedCanvases": 998,
+  "undatedCanvases": 155,
+  "georeferencedCanvases": 1002,
+  "dateIssues": [
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b76d-e0c7-e063-6df0900a2ca4-ID5fc29ab6-3dd8-4236-885d-f6b9220479df",
+      "navDate": "1994-12-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-12"
+        }
+      ],
+      "note": "Date fields disagree; latest usable date selected as requested."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-8337-9dce-e063-6df0900acdd5-IDd934a891-ff1b-4fb1-bf35-a154880a461e",
+      "navDate": "1979-09-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "09-1979"
+        }
+      ],
+      "note": "Malformed normalized date ignored; readable date used where available."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-04.json#canvas-4e76d073-bffc-e0c7-e063-6df0900a2ca4-IDfc5899ad-156c-48d0-9a3c-b01e2761435a",
+      "navDate": "1979-06-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juni 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "19749-06"
+        }
+      ],
+      "note": "Malformed normalized date ignored; readable date used where available."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-04.json#canvas-4e7657e3-7747-9dce-e063-6df0900acdd5-IDd05e1eed-0970-474e-b976-0626f8fe6e1c",
+      "navDate": "1983-02-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot februari 1983"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1983-01"
+        }
+      ],
+      "note": "Date fields disagree; latest usable date selected as requested."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-08.json#canvas-4e76d073-af44-e0c7-e063-6df0900a2ca4-IDf2998ef3-ac89-41e7-9435-7d0cd56212b2",
+      "navDate": "1998-04-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1989"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1998-04"
+        }
+      ],
+      "note": "Date fields disagree; latest usable date selected as requested."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-10.json#canvas-4e7657e3-7475-9dce-e063-6df0900acdd5-ID3a41b648-8bed-4070-b952-24ddcb51bea3",
+      "navDate": "1968-02-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot februari 1968"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "11968-02"
+        }
+      ],
+      "note": "Malformed normalized date ignored; readable date used where available."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-11.json#canvas-4e773293-3491-f0f5-e063-6df0900abdfc-ID5c958f34-3fa2-4cf8-8d37-658ad5471a36",
+      "navDate": "1977-10-01T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1977"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1977-07"
+        }
+      ],
+      "note": "Date fields disagree; latest usable date selected as requested."
+    },
+    {
+      "canvas": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-16.json#canvas-4e76d073-b604-e0c7-e063-6df0900a2ca4-IDa1ac4492-3f42-4f86-b696-9467e21631c9",
+      "navDate": "1983-03-31T00:00:00Z",
+      "sourceFields": [
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot mei 1978, met toevoegingen tot 31 maart 1982"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "19830331"
+        }
+      ],
+      "note": "Date fields disagree; latest usable date selected as requested."
+    }
+  ],
+  "datePolicy": "Latest usable date in the sheet’s own metadata; no inherited series dates. Unknown month/day uses the start of the known period at midnight UTC for navigation, not a claim of exact dating.",
+  "maskPolicy": "Allmaps transformation fitted in Web Mercator, transformed back to WGS84 longitude/latitude. Adaptive boundary refinement, closed counterclockwise exterior ring. Source masks and control points unchanged."
+}

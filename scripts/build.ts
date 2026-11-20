@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { defaultBaseUrl, editions } from './catalog.ts';
 import { generateCollection, sourcePath } from './collection.ts';
 import { renderBrowsePage } from './site.ts';
+import { publishGeoreferencing } from './published-georeferencing.ts';
 import {
   archiveEadPath, archiveSnapshotPath, generateArchiveCollection, publishedEadPath,
   type ArchiveSnapshot,
@@ -40,9 +41,15 @@ for (const [path, document] of archiveDocuments) {
     main.items!.push({ id: document.id, type: 'Collection', label: document.label });
   }
 }
-const page = renderBrowsePage(documents);
+const georeferencing = await publishGeoreferencing(documents, process.env.IIIF_BASE_URL ?? defaultBaseUrl);
+const page = renderBrowsePage(documents, georeferencing.counts);
 await rm(output, { recursive: true, force: true });
 for (const [path, document] of documents) {
+  const destination = resolve(output, path);
+  await mkdir(dirname(destination), { recursive: true });
+  await writeFile(destination, `${JSON.stringify(document, null, 2)}\n`);
+}
+for (const [path, document] of georeferencing.files) {
   const destination = resolve(output, path);
   await mkdir(dirname(destination), { recursive: true });
   await writeFile(destination, `${JSON.stringify(document, null, 2)}\n`);

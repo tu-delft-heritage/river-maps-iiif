@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "edition": "Nieuwe Stijl",
+  "mapCount": 999,
+  "seriesCount": 16,
+  "excludedIndexScans": 10,
+  "sourceSha256": "d9a49265828e8d29cdabdde3ffc83889e67e46b5495f5794086ddd722ff71745",
+  "series": [
+    {
+      "series": "D.02",
+      "filename": "series-02.json",
+      "mapCount": 76,
+      "sha256": "59f21f1135c053efd3452b524ad80ff9aa91f5ae8be13f3f5e66b027532608f9"
+    },
+    {
+      "series": "D.03",
+      "filename": "series-03.json",
+      "mapCount": 83,
+      "sha256": "ce4afc5c8b86fc1e7aa1cd3daa06f66a1b313ee5817b4d94b58ce3670389648f"
+    },
+    {
+      "series": "D.04",
+      "filename": "series-04.json",
+      "mapCount": 145,
+      "sha256": "1c238f6ae2176bc8eebd22fe57c9a49d19961f4265282d8af4e199cdc9a5ca7d"
+    },
+    {
+      "series": "D.05",
+      "filename": "series-05.json",
+      "mapCount": 73,
+      "sha256": "a6e223287d094bbcabaec4700f18861e568a93c08f3a369bbb22dc39eeff24f8"
+    },
+    {
+      "series": "D.06",
+      "filename": "series-06.json",
+      "mapCount": 38,
+      "sha256": "4e137b1be3fae83c283c1bfcf49ea7cafeb3552f4bdc1606aa22000ef9a910a2"
+    },
+    {
+      "series": "D.07",
+      "filename": "series-07.json",
+      "mapCount": 55,
+      "sha256": "38808e1f4c4fe94c094a89fa27ae122191056a7b34bcd13ba51931259ac8ddb1"
+    },
+    {
+      "series": "D.08",
+      "filename": "series-08.json",
+      "mapCount": 109,
+      "sha256": "c633a04c927a9230186b33f141086a9016296a765c22af9ba0122f5e7c672fcc"
+    },
+    {
+      "series": "D.09",
+      "filename": "series-09.json",
+      "mapCount": 44,
+      "sha256": "a3358a56cff6b1d96084b67c02cdaa5673666f2de0414d9ca2a896d1c5a5ef03"
+    },
+    {
+      "series": "D.10",
+      "filename": "series-10.json",
+      "mapCount": 44,
+      "sha256": "5de5b3ca3d0c78e5fec6d7dc221bfb804d6b4d6d1c0a33aa88653eb7d6bb1e70"
+    },
+    {
+      "series": "D.11",
+      "filename": "series-11.json",
+      "mapCount": 80,
+      "sha256": "6032813e71f42ae0c9a02b377fe16834f8172b9cae593b9f47b6692cac5452f9"
+    },
+    {
+      "series": "D.12",
+      "filename": "series-12.json",
+      "mapCount": 16,
+      "sha256": "13a61c8975a8baae644ab85e9578d149d48fec65efc6119d5f312bc56ea5a206"
+    },
+    {
+      "series": "D.13",
+      "filename": "series-13.json",
+      "mapCount": 12,
+      "sha256": "3edfba5ece2bb2337e2f3118c29d8ff7f54aabab3139315f854ac59830e701d8"
+    },
+    {
+      "series": "D.14",
+      "filename": "series-14.json",
+      "mapCount": 23,
+      "sha256": "f007abec5f2551358255ab9e4bb269f8e97f9fb68ee9a0d82249e0bdbddc5cd8"
+    },
+    {
+      "series": "D.15",
+      "filename": "series-15.json",
+      "mapCount": 69,
+      "sha256": "b52c4425ca0fcbf281d4fdc04f44b853d73bc14935d25eefca94eb1367d3f39d"
+    },
+    {
+      "series": "D.16",
+      "filename": "series-16.json",
+      "mapCount": 129,
+      "sha256": "3e06c08fba16b3704f354a201cac68416e8682e63d52874826b4d90292e1e78d"
+    },
+    {
+      "series": "D.17",
+      "filename": "series-17.json",
+      "mapCount": 3,
+      "sha256": "7e0cd9dbbc7c2246341992f439a2cf9acac8b0bbeda325e96620cd3e861034c4"
+    }
+  ],
+  "selection": "Every digitized map in D.02–D.17 with current human approval of its exact mask and measured points. D.01 sheet indices and legends excluded.",
+  "quality": "Visual acceptance does not erase numerical flags or establish survey accuracy. Held-out points are preserved as evidence and excluded from the fitted transformation.",
+  "coordinates": "Control-point geometry is WGS84 longitude/latitude. rm:originalProjected preserves printed coordinates and their CRS, including RD Old EPSG:28991 where applicable. rm:rdNew preserves converted RD New EPSG:28992 metres.",
+  "transformation": "The approved annotations use polynomial order 1. Canvas navPlace masks use @allmaps/transform 1.0.0-beta.53 fitted in EPSG:3857, matching Allmaps Viewer, and return closed counterclockwise WGS84 longitude/latitude polygons.",
+  "dates": "navDate uses the latest valid date from the sheet’s own Datering and Datering (ISO) metadata. Missing month/day is represented by January/1st at 00:00:00Z for navigation only. Original text and precision remain in metadata. Undated sheets and missing sheet dates are omitted; series date ranges are not inherited.",
+  "projection": {
+    "sourceCrs": "EPSG:28992",
+    "targetCrs": "OGC:CRS84",
+    "axisOrder": [
+      "longitude",
+      "latitude"
+    ],
+    "operation": "Inverse of RD New + Amersfoort to WGS 84 (4), EPSG:4833",
+    "accuracyMetres": 1,
+    "pipeline": "+proj=pipeline +step +inv +proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +step +proj=push +v_3 +step +proj=cart +ellps=bessel +step +proj=helmert +x=565.4171 +y=50.3319 +z=465.5524 +rx=0.398957388243134 +ry=-0.343987817378283 +rz=1.87740163998045 +s=4.0725 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=unitconvert +xy_in=rad +xy_out=deg",
+    "gridFiles": [],
+    "networkEnabled": false,
+    "ballpark": false,
+    "suppliedDefinitionUrl": "https://epsg.io/28992.json",
+    "suppliedDefinitionSha256": "729bdf38cc127d454cfd3f7907459d3854aa9faa53ccdd301a375ed3c274a622",
+    "pyprojVersion": "3.7.2",
+    "projVersion": "9.5.1",
+    "epsgVersion": "v11.022",
+    "sourceDefinition": {
+      "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+      "type": "ProjectedCRS",
+      "name": "Amersfoort / RD New",
+      "base_crs": {
+        "name": "Amersfoort",
+        "datum": {
+          "type": "GeodeticReferenceFrame",
+          "name": "Amersfoort",
+          "ellipsoid": {
+            "name": "Bessel 1841",
+            "semi_major_axis": 6377397.155,
+            "inverse_flattening": 299.1528128
+          }
+        },
+        "coordinate_system": {
+          "subtype": "ellipsoidal",
+          "axis": [
+            {
+              "name": "Geodetic latitude",
+              "abbreviation": "Lat",
+              "direction": "north",
+              "unit": "degree"
+            },
+            {
+              "name": "Geodetic longitude",
+              "abbreviation": "Lon",
+              "direction": "east",
+              "unit": "degree"
+            }
+          ]
+        },
+        "id": {
+          "authority": "EPSG",
+          "code": 4289
+        }
+      },
+      "conversion": {
+        "name": "RD New",
+        "method": {
+          "name": "Oblique Stereographic",
+          "id": {
+            "authority": "EPSG",
+            "code": 9809
+          }
+        },
+        "parameters": [
+          {
+            "name": "Latitude of natural origin",
+            "value": 52.1561605555556,
+            "unit": "degree",
+            "id": {
+              "authority": "EPSG",
+              "code": 8801
+            }
+          },
+          {
+            "name": "Longitude of natural origin",
+            "value": 5.38763888888889,
+            "unit": "degree",
+            "id": {
+              "authority": "EPSG",
+              "code": 8802
+            }
+          },
+          {
+            "name": "Scale factor at natural origin",
+            "value": 0.9999079,
+            "unit": "unity",
+            "id": {
+              "authority": "EPSG",
+              "code": 8805
+            }
+          },
+          {
+            "name": "False easting",
+            "value": 155000,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8806
+            }
+          },
+          {
+            "name": "False northing",
+            "value": 463000,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8807
+            }
+          }
+        ]
+      },
+      "coordinate_system": {
+        "subtype": "Cartesian",
+        "axis": [
+          {
+            "name": "Easting",
+            "abbreviation": "X",
+            "direction": "east",
+            "unit": "metre"
+          },
+          {
+            "name": "Northing",
+            "abbreviation": "Y",
+            "direction": "north",
+            "unit": "metre"
+          }
+        ]
+      },
+      "scope": "Engineering survey, topographic mapping.",
+      "area": "Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone.",
+      "bbox": {
+        "south_latitude": 50.75,
+        "west_longitude": 3.2,
+        "north_latitude": 53.7,
+        "east_longitude": 7.22
+      },
+      "id": {
+        "authority": "EPSG",
+        "code": 28992
+      }
+    },
+    "rdOldDefinition": {
+      "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+      "type": "ProjectedCRS",
+      "name": "Amersfoort / RD Old",
+      "base_crs": {
+        "name": "Amersfoort",
+        "datum": {
+          "type": "GeodeticReferenceFrame",
+          "name": "Amersfoort",
+          "ellipsoid": {
+            "name": "Bessel 1841",
+            "semi_major_axis": 6377397.155,
+            "inverse_flattening": 299.1528128
+          }
+        },
+        "coordinate_system": {
+          "subtype": "ellipsoidal",
+          "axis": [
+            {
+              "name": "Geodetic latitude",
+              "abbreviation": "Lat",
+              "direction": "north",
+              "unit": "degree"
+            },
+            {
+              "name": "Geodetic longitude",
+              "abbreviation": "Lon",
+              "direction": "east",
+              "unit": "degree"
+            }
+          ]
+        },
+        "id": {
+          "authority": "EPSG",
+          "code": 4289
+        }
+      },
+      "conversion": {
+        "name": "RD Old",
+        "method": {
+          "name": "Oblique Stereographic",
+          "id": {
+            "authority": "EPSG",
+            "code": 9809
+          }
+        },
+        "parameters": [
+          {
+            "name": "Latitude of natural origin",
+            "value": 52.1561605555556,
+            "unit": "degree",
+            "id": {
+              "authority": "EPSG",
+              "code": 8801
+            }
+          },
+          {
+            "name": "Longitude of natural origin",
+            "value": 5.38763888888889,
+            "unit": "degree",
+            "id": {
+              "authority": "EPSG",
+              "code": 8802
+            }
+          },
+          {
+            "name": "Scale factor at natural origin",
+            "value": 0.9999079,
+            "unit": "unity",
+            "id": {
+              "authority": "EPSG",
+              "code": 8805
+            }
+          },
+          {
+            "name": "False easting",
+            "value": 0,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8806
+            }
+          },
+          {
+            "name": "False northing",
+            "value": 0,
+            "unit": "metre",
+            "id": {
+              "authority": "EPSG",
+              "code": 8807
+            }
+          }
+        ]
+      },
+      "coordinate_system": {
+        "subtype": "Cartesian",
+        "axis": [
+          {
+            "name": "Easting",
+            "abbreviation": "X",
+            "direction": "east",
+            "unit": "metre"
+          },
+          {
+            "name": "Northing",
+            "abbreviation": "Y",
+            "direction": "north",
+            "unit": "metre"
+          }
+        ]
+      },
+      "scope": "Engineering survey, topographic mapping.",
+      "area": "Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone.",
+      "bbox": {
+        "south_latitude": 50.75,
+        "west_longitude": 3.2,
+        "north_latitude": 53.7,
+        "east_longitude": 7.22
+      },
+      "id": {
+        "authority": "EPSG",
+        "code": 28991
+      }
+    },
+    "rdOldNormalization": {
+      "offsetMetres": [
+        155000,
+        463000
+      ],
+      "reason": "Same Amersfoort oblique stereographic conversion; different false origin. Applied only after signed border-label review."
+    }
+  },
+  "researchBranch": "codex/nieuwe-stijl-georeferencing-plan"
+}
