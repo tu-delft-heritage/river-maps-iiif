@@ -49,11 +49,13 @@ const escape = (value: string) => value.replaceAll('&', '&amp;').replaceAll('<',
 const fields = (values: Field[]): MetadataItem[] => values.map(({ label, value }) => ({
   label: { nl: [label] }, value: { nl: [escape(value)] },
 }));
+const webPage = (id: string, label = 'Archiefbeschrijving') => ({
+  id, type: 'Text' as const, format: 'text/html', label: { nl: [label] },
+});
 const provider: ResourceProvider[] = [{
   id: 'https://www.nationaalarchief.nl/', type: 'Agent', label: { nl: ['Nationaal Archief'] },
-  homepage: [{ id: 'https://www.nationaalarchief.nl/', type: 'Text', format: 'text/html' }],
+  homepage: [webPage('https://www.nationaalarchief.nl/', 'Nationaal Archief')],
 }];
-const webPage = (id: string) => ({ id, type: 'Text' as const, format: 'text/html', label: { nl: ['Archiefbeschrijving'] } });
 const dataset = (id: string, label: string, format = 'application/xml') => ({
   id, type: 'Dataset' as const, format, label: { nl: [label] },
 });
