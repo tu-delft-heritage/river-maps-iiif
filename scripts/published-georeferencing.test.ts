@@ -1,6 +1,9 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { readFile } from 'node:fs/promises';
+import { readFile, mkdtemp, mkdir, symlink, writeFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parseAnnotation } from '@allmaps/annotation';
 import { defaultBaseUrl, editions } from './catalog.ts';
 import { generateCollection, sourcePath } from './collection.ts';
@@ -24,7 +27,7 @@ test('published snapshot contains every reviewed series, and supplies polygons a
   const maps = [...files].filter(([p]) => p.startsWith('annotations/nieuwe-stijl/')).flatMap(([, p]) => parseAnnotation(p));
   assert.equal(maps.length, 999);
   assert.equal(new Set(maps.map(m => m.id)).size, 999);
-  assert.equal(counts.size, 17); // 16 reviewed series plus three pre-existing First Edition maps.
+  assert.equal(counts.size, 16);
   const manifests = [...docs.values()].filter((d): d is Manifest => d.type === 'Manifest');
   const canvases = manifests.flatMap(m => m.items);
   assert.equal(canvases.filter(c => c.navDate).length, 998);
@@ -43,7 +46,14 @@ test('published snapshot contains every reviewed series, and supplies polygons a
       assert.ok(ring.every(([x, y]: number[]) => Number.isFinite(x) && Number.isFinite(y) && x > 3 && x < 8 && y > 50 && y < 54));
     }
   }
-  assert.equal(canvases.filter(c => 'navPlace' in c).length, 1002);
+  assert.equal(canvases.filter(c => 'navPlace' in c).length, 999);
+  assert.ok(![...files.keys()].some(path => path.startsWith('annotations/first-edition/')));
+  for (const [path, document] of docs) {
+    if (!path.startsWith('manifests/first-edition/') || document.type !== 'Manifest') continue;
+    assert.ok(!counts.has(document.id));
+    assert.ok(document.items.every(canvas => !('navPlace' in canvas)));
+    assert.ok(!document.seeAlso?.some(link => link.id?.includes('/annotations/first-edition/')));
+  }
   const indices = docs.get('manifests/nieuwe-stijl/series-01.json') as Manifest;
   assert.ok(indices.items.every(c => !('navPlace' in c)));
   assert.ok(!files.has('annotations/nieuwe-stijl/series-01.json'));
@@ -63,7 +73,7 @@ test('publication supports another base URL without rewriting archive image URLs
     assert.equal(p.id, base + path);
     for (const a of p.items) {
       const map = parseAnnotation(a)[0];
-      assert.ok(map.resource.id.startsWith('https://service.archief.nl/') || map.resource.id.startsWith('https://objects.library.uu.nl/'));
+      assert.ok(map.resource.id.startsWith('https://service.archief.nl/'));
       for (const link of a.seeAlso ?? []) if (link.id.startsWith(base)) assert.ok(files.has(link.id.slice(base.length)));
       assert.doesNotMatch(JSON.stringify(a), /georeferencing\/nieuwe-stijl\/maps\/|urn:river-maps:review/);
     }
@@ -74,4 +84,21 @@ test('a missing annotated canvas prevents publication', async () => {
   const docs = await documents();
   (docs.get('manifests/nieuwe-stijl/series-02.json') as Manifest).items = [];
   await assert.rejects(publishGeoreferencing(docs), /no matching canvas/);
+});
+
+
+test('unreviewed annotation files in other editions cannot enter the publication', async () => {
+  const repo = await mkdtemp(join(tmpdir(), 'river-maps-publication-test-'));
+  try {
+    await mkdir(join(repo, 'data/iiif-annotations/first-edition'), {recursive: true});
+    for (const path of ['data/iiif-annotations/nieuwe-stijl', 'data/nationaal-archief']) {
+      await symlink(fileURLToPath(new URL('../' + path, import.meta.url)), join(repo, path), 'dir');
+    }
+    await writeFile(join(repo, 'data/iiif-annotations/first-edition/series-1.json'), 'unreviewed, invalid annotation data');
+    const {files, counts} = await publishGeoreferencing(await documents(), defaultBaseUrl, repo);
+    assert.equal(counts.size, 16);
+    assert.ok(!files.has('annotations/first-edition/series-1.json'));
+  } finally {
+    await rm(repo, {recursive: true, force: true});
+  }
 });

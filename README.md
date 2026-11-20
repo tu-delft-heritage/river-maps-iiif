@@ -105,8 +105,8 @@ the corrected placements. Each series has an AnnotationPage under
 [`iiif/annotations/nieuwe-stijl/`](iiif/annotations/nieuwe-stijl), linked from the
 [index](iiif/index.html), its Manifest and its Canvases. The index opens the hosted
 annotations directly in Allmaps Viewer. D.01 contains ten index/legend scans and
-has no georeference annotations. Three existing First Edition annotations are
-also published, with their original masks and transformation models.
+has no georeference annotations. Only the reviewed Nieuwe Stijl release is
+published; First Edition manifests and scans have no georeference annotations.
 
 The release preserves original projected observations (including RD Old where
 printed), converted RD New coordinates, WGS84 control points, archival metadata,
@@ -130,8 +130,7 @@ midnight UTC as a navigation convention, not an assertion of exact dating.
 Undated sheets and sheets without their own date metadata are omitted. Broad
 series publication ranges and digitization dates are not assigned to sheets.
 There are 998 dated Nieuwe Stijl Canvases and 11 without a usable date; the 144
-Utrecht Canvases have no sheet-level dates. There are 1,002 geographic masks:
-999 Nieuwe Stijl and three existing First Edition maps.
+Utrecht Canvases have no sheet-level dates. There are 999 geographic masks, all for reviewed Nieuwe Stijl maps.
 
 The reviewed publication inputs live in `data/iiif-annotations/`; `pnpm build`
 validates the Nieuwe Stijl checksums and generates their published copies plus
