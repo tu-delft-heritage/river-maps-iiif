@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-12",
+  "startedAt": "2026-11-19T20:32:04.979362+00:00",
+  "completedAt": "2026-11-19T22:55:36.646Z",
+  "elapsedSeconds": 8611.667,
+  "timingBasis": "Recorded wall-clock interval including preparation, review and waits; not CPU or model latency.",
+  "commands": [
+    {
+      "command": "select",
+      "startedAt": "2026-11-19T20:32:04.979362+00:00",
+      "completedAt": "2026-11-19T20:32:05.039990+00:00",
+      "elapsedSeconds": 0.060629458050243556,
+      "success": true
+    },
+    {
+      "command": "acquire",
+      "startedAt": "2026-11-19T20:32:05.042016+00:00",
+      "completedAt": "2026-11-19T20:33:22.953796+00:00",
+      "elapsedSeconds": 77.91167625004891,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:39:59.595947+00:00",
+      "completedAt": "2026-11-19T22:40:00.667253+00:00",
+      "elapsedSeconds": 1.0713186250068247,
+      "success": true
+    },
+    {
+      "command": "targeted-top-frame-detail",
+      "startedAt": "2026-11-19T22:51:45.631184+00:00",
+      "completedAt": "2026-11-19T22:51:46.919050+00:00",
+      "elapsedSeconds": 1.2878725409973413,
+      "success": true
+    },
+    {
+      "command": "propose",
+      "startedAt": "2026-11-19T22:52:22.554347+00:00",
+      "completedAt": "2026-11-19T22:52:36.427877+00:00",
+      "elapsedSeconds": 13.873447458958253,
+      "success": true
+    },
+    {
+      "command": "targeted-top-frame-detail",
+      "startedAt": "2026-11-19T22:53:49.333504+00:00",
+      "completedAt": "2026-11-19T22:53:50.384837+00:00",
+      "elapsedSeconds": 1.0513340840116143,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:55:07.179647+00:00",
+      "completedAt": "2026-11-19T22:55:09.152318+00:00",
+      "elapsedSeconds": 1.9725861250190064,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:55:34.027193+00:00",
+      "completedAt": "2026-11-19T22:55:35.999094+00:00",
+      "elapsedSeconds": 1.9718198330374435,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T22:55:36.584Z",
+      "completedAt": "2026-11-19T22:55:36.646Z",
+      "elapsedSeconds": 0.06037533300000001,
+      "success": true
+    }
+  ]
+}

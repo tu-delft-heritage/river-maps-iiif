@@ -1,0 +1,449 @@
+{
+  "pair": [
+    "947",
+    "948"
+  ],
+  "overviewCandidates": 447,
+  "overviewInliers": 393,
+  "overviewAffine": [
+    [
+      0.9988790232539233,
+      -0.0036206887103120223,
+      -1029.6956456122075
+    ],
+    [
+      0.00201162473041306,
+      0.9991326117713732,
+      1.7948995622022017
+    ]
+  ],
+  "ties": [
+    {
+      "id": "tie-1",
+      "role": "fit",
+      "mapIds": [
+        "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+        "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main"
+      ],
+      "resourceCoords": [
+        [
+          4906.419036865234,
+          2146.5401611328125
+        ],
+        [
+          775.2494812011719,
+          2161.817657470703
+        ]
+      ],
+      "evidence": [
+        {
+          "id": "2fd6d1a3341749a5fa68dab980a6a878358c998a70df03f6a22e8b320d73fb7d",
+          "mapId": "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+          "inventoryNumber": "947",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=66/22/22/f2/44/6e/40/3b/ac/2c/2f/e5/84/3b/59/49/aee3d1b0-c207-4cbf-8631-63fbbc2733ef.jp2/4707,1945,400,400/400,/0/default.jpg",
+          "region": [
+            4707,
+            1945,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "46f58ab86ff1a65980f9571acf90a159d8d89c9ee31faca32b2d1af868287125",
+          "bytes": 44375,
+          "retrievedAt": "2026-11-19T17:02:06.602215+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:38 GMT"
+        },
+        {
+          "id": "5692bc3cd0efe98765222108af1f1b31f37a97eeb907b4a5a1d74d3080b2c6ed",
+          "mapId": "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main",
+          "inventoryNumber": "948",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=c0/f8/fa/26/20/3e/44/19/ac/53/5e/9c/8c/8f/b3/b8/b0d02fa8-c4b6-4410-82a6-68aeb07569b2.jp2/576,1962,400,400/400,/0/default.jpg",
+          "region": [
+            576,
+            1962,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "b3c45b54eb51250d197811990cf52e3876ce0fd229bf604fdc2d9afe42b58cb2",
+          "bytes": 43250,
+          "retrievedAt": "2026-11-19T17:02:07.618245+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:39 GMT"
+        }
+      ],
+      "overviewDescriptorDistance": 42.39103698730469,
+      "nativeMatchCount": 971,
+      "nativeDescriptorDistance": 48.249351501464844,
+      "visualReview": "accepted",
+      "matchingMethod": "SIFT ratio .65, affine RANSAC 1.5 pixels; local native SIFT refinement",
+      "reviewer": "Codex vision",
+      "reviewDate": "2026-11-19"
+    },
+    {
+      "id": "tie-2",
+      "role": "check",
+      "mapIds": [
+        "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+        "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main"
+      ],
+      "resourceCoords": [
+        [
+          5341.761260986328,
+          2954.641128540039
+        ],
+        [
+          1203.642562866211,
+          2970.250930786133
+        ]
+      ],
+      "evidence": [
+        {
+          "id": "099ada9192b6d09e81a8b861c9b29f6b382b85b41f219c6c20337bd1bfed8378",
+          "mapId": "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+          "inventoryNumber": "947",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=66/22/22/f2/44/6e/40/3b/ac/2c/2f/e5/84/3b/59/49/aee3d1b0-c207-4cbf-8631-63fbbc2733ef.jp2/5142,2755,400,400/400,/0/default.jpg",
+          "region": [
+            5142,
+            2755,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "94baa2e7a88eaa911edd86a00a2c9947e280510c4db1df9d1b32fd80e2213cf9",
+          "bytes": 33532,
+          "retrievedAt": "2026-11-19T17:02:08.500100+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:38 GMT"
+        },
+        {
+          "id": "984cabdec67f0dcfe3ed9702d208e6a594accca269ac493118b171e6bfa12fa3",
+          "mapId": "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main",
+          "inventoryNumber": "948",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=c0/f8/fa/26/20/3e/44/19/ac/53/5e/9c/8c/8f/b3/b8/b0d02fa8-c4b6-4410-82a6-68aeb07569b2.jp2/1004,2771,400,400/400,/0/default.jpg",
+          "region": [
+            1004,
+            2771,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "bb2d1fb28168ea2c8beeb785c68980df40f73b438f8ac19c588f776be3d15141",
+          "bytes": 33938,
+          "retrievedAt": "2026-11-19T17:02:09.491644+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:39 GMT"
+        }
+      ],
+      "overviewDescriptorDistance": 98.55962371826172,
+      "nativeMatchCount": 321,
+      "nativeDescriptorDistance": 42.142616271972656,
+      "visualReview": "accepted",
+      "matchingMethod": "SIFT ratio .65, affine RANSAC 1.5 pixels; local native SIFT refinement",
+      "reviewer": "Codex vision",
+      "reviewDate": "2026-11-19"
+    },
+    {
+      "id": "tie-3",
+      "role": "fit",
+      "mapIds": [
+        "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+        "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main"
+      ],
+      "resourceCoords": [
+        [
+          6182.216873168945,
+          3464.748321533203
+        ],
+        [
+          2044.1342315673828,
+          3481.5795288085938
+        ]
+      ],
+      "evidence": [
+        {
+          "id": "fae80f0016057bf0cabfb3e5d76cd19a0061052dd333823af12ddce498e5049d",
+          "mapId": "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+          "inventoryNumber": "947",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=66/22/22/f2/44/6e/40/3b/ac/2c/2f/e5/84/3b/59/49/aee3d1b0-c207-4cbf-8631-63fbbc2733ef.jp2/5983,3265,400,400/400,/0/default.jpg",
+          "region": [
+            5983,
+            3265,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "5edf28cd80fa18511fb032dbaff59dab760c9189e217803e5aea23a51377283d",
+          "bytes": 33733,
+          "retrievedAt": "2026-11-19T17:02:10.491122+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:38 GMT"
+        },
+        {
+          "id": "06d7da7bf6f7e304185c82f52e5dce2041247846e56691fc55b679e4611f78f3",
+          "mapId": "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main",
+          "inventoryNumber": "948",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=c0/f8/fa/26/20/3e/44/19/ac/53/5e/9c/8c/8f/b3/b8/b0d02fa8-c4b6-4410-82a6-68aeb07569b2.jp2/1845,3283,400,400/400,/0/default.jpg",
+          "region": [
+            1845,
+            3283,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "859848722066ef7da7dea518283fe2e81e12c0019729bf4b9394e035120895bc",
+          "bytes": 35602,
+          "retrievedAt": "2026-11-19T17:02:11.490895+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:39 GMT"
+        }
+      ],
+      "overviewDescriptorDistance": 95.4725112915039,
+      "nativeMatchCount": 501,
+      "nativeDescriptorDistance": 40.583248138427734,
+      "visualReview": "accepted",
+      "matchingMethod": "SIFT ratio .65, affine RANSAC 1.5 pixels; local native SIFT refinement",
+      "reviewer": "Codex vision",
+      "reviewDate": "2026-11-19"
+    },
+    {
+      "id": "tie-4",
+      "role": "check",
+      "mapIds": [
+        "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+        "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main"
+      ],
+      "resourceCoords": [
+        [
+          6273.561706542969,
+          2522.7991943359375
+        ],
+        [
+          2139.526138305664,
+          2540.5173950195312
+        ]
+      ],
+      "evidence": [
+        {
+          "id": "4c33df4243178eca57c81247e0c28c1464518244c5adc82d392d3be5045f4d6e",
+          "mapId": "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+          "inventoryNumber": "947",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=66/22/22/f2/44/6e/40/3b/ac/2c/2f/e5/84/3b/59/49/aee3d1b0-c207-4cbf-8631-63fbbc2733ef.jp2/6074,2322,400,400/400,/0/default.jpg",
+          "region": [
+            6074,
+            2322,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "e0baa65a1ccf4b914b3e67be056b457f1275221ee5604f36f448d967c5ef23e0",
+          "bytes": 34009,
+          "retrievedAt": "2026-11-19T17:02:12.492237+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:38 GMT"
+        },
+        {
+          "id": "e379dc824d7d3b6e3d522f1031687238438674cc23f7c0858783938dc2f0f3d0",
+          "mapId": "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main",
+          "inventoryNumber": "948",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=c0/f8/fa/26/20/3e/44/19/ac/53/5e/9c/8c/8f/b3/b8/b0d02fa8-c4b6-4410-82a6-68aeb07569b2.jp2/1940,2342,400,400/400,/0/default.jpg",
+          "region": [
+            1940,
+            2342,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "6314e18c8232926b11342cf315e3ba8e68e7c79848b0c01c80f66146fbbe6435",
+          "bytes": 35546,
+          "retrievedAt": "2026-11-19T17:02:13.505170+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:39 GMT"
+        }
+      ],
+      "overviewDescriptorDistance": 121.34249114990234,
+      "nativeMatchCount": 212,
+      "nativeDescriptorDistance": 86.27861785888672,
+      "visualReview": "accepted",
+      "matchingMethod": "SIFT ratio .65, affine RANSAC 1.5 pixels; local native SIFT refinement",
+      "reviewer": "Codex vision",
+      "reviewDate": "2026-11-19"
+    },
+    {
+      "id": "tie-5",
+      "role": "fit",
+      "mapIds": [
+        "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+        "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main"
+      ],
+      "resourceCoords": [
+        [
+          7064.766311645508,
+          2972.275146484375
+        ],
+        [
+          2928.353805541992,
+          2991.349151611328
+        ]
+      ],
+      "evidence": [
+        {
+          "id": "7763fb6169b539fc062097f4ba533290600a2e0802a75c98fe63d7f74eeade08",
+          "mapId": "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+          "inventoryNumber": "947",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=66/22/22/f2/44/6e/40/3b/ac/2c/2f/e5/84/3b/59/49/aee3d1b0-c207-4cbf-8631-63fbbc2733ef.jp2/6864,2773,400,400/400,/0/default.jpg",
+          "region": [
+            6864,
+            2773,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "32c1bd2f62c9b1f7dd499b5e11d8b0d66e0da601da2a143ca35536aa47e1a5c2",
+          "bytes": 28480,
+          "retrievedAt": "2026-11-19T17:02:14.523596+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:38 GMT"
+        },
+        {
+          "id": "fb2173729e5b6d908fc8f7687450606e0ecaa773d50aa92bbe964f9dc0ed26ad",
+          "mapId": "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main",
+          "inventoryNumber": "948",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=c0/f8/fa/26/20/3e/44/19/ac/53/5e/9c/8c/8f/b3/b8/b0d02fa8-c4b6-4410-82a6-68aeb07569b2.jp2/2729,2792,400,400/400,/0/default.jpg",
+          "region": [
+            2729,
+            2792,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "a289145730679706b88a0b042c0924c6f1ef95858c17ccd340d6dd7965a029ce",
+          "bytes": 31471,
+          "retrievedAt": "2026-11-19T17:02:15.572104+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:39 GMT"
+        }
+      ],
+      "overviewDescriptorDistance": 153.7563018798828,
+      "nativeMatchCount": 117,
+      "nativeDescriptorDistance": 62.68971252441406,
+      "visualReview": "accepted",
+      "matchingMethod": "SIFT ratio .65, affine RANSAC 1.5 pixels; local native SIFT refinement",
+      "reviewer": "Codex vision",
+      "reviewDate": "2026-11-19"
+    },
+    {
+      "id": "tie-6",
+      "role": "check",
+      "mapIds": [
+        "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+        "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main"
+      ],
+      "resourceCoords": [
+        [
+          7074.383026123047,
+          3848.366989135742
+        ],
+        [
+          2932.0083770751953,
+          3865.5572204589844
+        ]
+      ],
+      "evidence": [
+        {
+          "id": "c731ef30fbf31b14d745d3287f1f38c2317ad04304044688099df3e0ab9586c2",
+          "mapId": "4e7b0f4a-2460-3f5b-e063-6df0900a5fa9-IDaee3d1b0-c207-4cbf-8631-63fbbc2733ef-main",
+          "inventoryNumber": "947",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=66/22/22/f2/44/6e/40/3b/ac/2c/2f/e5/84/3b/59/49/aee3d1b0-c207-4cbf-8631-63fbbc2733ef.jp2/6876,3658,400,400/400,/0/default.jpg",
+          "region": [
+            6876,
+            3658,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "35030c68525ea49326a650e30c544fe6738dccfcd5bab20ff4d6eb26574cb80e",
+          "bytes": 29263,
+          "retrievedAt": "2026-11-19T17:02:16.606478+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:38 GMT"
+        },
+        {
+          "id": "ed48cebc2df5e55da1e62eef7c4b4603c8476a7419a26ac727de243b7d09b97b",
+          "mapId": "4e7b0ef4-fcb4-467b-e063-6df0900a02b1-IDb0d02fa8-c4b6-4410-82a6-68aeb07569b2-main",
+          "inventoryNumber": "948",
+          "kind": "detail",
+          "url": "https://service.archief.nl/iip/iipsrv?IIIF=c0/f8/fa/26/20/3e/44/19/ac/53/5e/9c/8c/8f/b3/b8/b0d02fa8-c4b6-4410-82a6-68aeb07569b2.jp2/2736,3676,400,400/400,/0/default.jpg",
+          "region": [
+            2736,
+            3676,
+            400,
+            400
+          ],
+          "decodedSize": [
+            400,
+            400
+          ],
+          "sha256": "40c947809945b370845913a88538c50e1a6309d6e96a36ebc481e342fdf26f83",
+          "bytes": 35096,
+          "retrievedAt": "2026-11-19T17:02:17.581837+00:00",
+          "etag": null,
+          "lastModified": "Thu, 02 Apr 2026 07:35:39 GMT"
+        }
+      ],
+      "overviewDescriptorDistance": 144.8551025390625,
+      "nativeMatchCount": 180,
+      "nativeDescriptorDistance": 136.7259979248047,
+      "visualReview": "accepted",
+      "matchingMethod": "SIFT ratio .65, affine RANSAC 1.5 pixels; local native SIFT refinement",
+      "reviewer": "Codex vision",
+      "reviewDate": "2026-11-19"
+    }
+  ],
+  "notes": "Same-sheet ties are correlated evidence; no extra geographic observations."
+}

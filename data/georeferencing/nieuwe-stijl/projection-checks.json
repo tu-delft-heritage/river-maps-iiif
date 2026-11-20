@@ -1,0 +1,39 @@
+{
+  "referenceSource": "https://github.com/OSGeo/PROJ/issues/1663",
+  "toleranceMetres": 1,
+  "results": [
+    {
+      "name": "08 No_geoid",
+      "rd": [
+        100000.67,
+        350000.89
+      ],
+      "referenceLonLat": [
+        4.601375361,
+        51.136825197
+      ],
+      "computedLonLat": [
+        4.601375717170753,
+        51.136825274186435
+      ],
+      "differenceMetres": 0.02636627180812647
+    },
+    {
+      "name": "09 No_rd",
+      "rd": [
+        79000.01,
+        500000.23
+      ],
+      "referenceLonLat": [
+        4.268403889,
+        52.482440839
+      ],
+      "computedLonLat": [
+        4.268403887207544,
+        52.48244083673597
+      ],
+      "differenceMetres": 0.00027982107794471235
+    }
+  ],
+  "interpretation": "External coordinate sanity check at the selected operation accuracy; not centimetre validation or current-epoch WGS84 realization."
+}

@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "rm": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#",
+    "rm:originalProjected": {
+      "@id": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#originalProjected",
+      "@type": "@json"
+    },
+    "rm:rdNew": {
+      "@id": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#rdNew",
+      "@type": "@json"
+    },
+    "rm:coordinateDerivation": {
+      "@id": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#coordinateDerivation",
+      "@type": "@json"
+    },
+    "rm:quality": {
+      "@id": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#quality",
+      "@type": "@json"
+    },
+    "rm:pointId": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#pointId",
+    "rm:evidenceId": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#evidenceId",
+    "rm:provenance": {
+      "@id": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#provenance",
+      "@type": "@json"
+    },
+    "rm:heldOutChecks": {
+      "@id": "https://tu-delft-heritage.github.io/river-maps-iiif/contexts/river-maps-georeferencing.json#heldOutChecks",
+      "@type": "@json"
+    }
+  }
+}

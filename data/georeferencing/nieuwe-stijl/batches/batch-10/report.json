@@ -1,0 +1,594 @@
+{
+  "batchId": "batch-10",
+  "scans": 43,
+  "selectedScans": 43,
+  "passed": 19,
+  "needsReview": 24,
+  "humanReview": "pending",
+  "results": [
+    {
+      "inventoryNumber": "1253",
+      "mapId": "4e7657e3-68b1-9dce-e063-6df0900acdd5-IDfd81dfbe-9f84-40d8-b2cd-212592a335cf-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.0157405763251814,
+      "rmsMetres": 0.7751426430421566,
+      "maxCheckPixels": 1.3294769146578924,
+      "controlHullFraction": 0.5881680603380544,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "660",
+      "mapId": "4e7657e3-71ec-9dce-e063-6df0900acdd5-IDa35c77e6-5be4-4219-a0df-c85104ecb835-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 3.040725724051047,
+      "rmsMetres": 1.168034406767848,
+      "maxCheckPixels": 3.004342721633668,
+      "controlHullFraction": 0.5887748167156627,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1257",
+      "mapId": "4e76d073-b7e5-e0c7-e063-6df0900a2ca4-ID9f9db12d-9161-4036-aee2-fa7908aeb1e0-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.3126064627473157,
+      "rmsMetres": 0.8889373640238692,
+      "maxCheckPixels": 1.2994532211178182,
+      "controlHullFraction": 0.5518007069433706,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1255",
+      "mapId": "4e7693bd-ab56-8798-e063-6df0900ae38e-ID83cd0b4b-7537-4dfc-86c7-8366e09e36f7-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.1171218929716762,
+      "rmsMetres": 0.4291524125042114,
+      "maxCheckPixels": 0.5574029230851102,
+      "controlHullFraction": 0.5154395712463902,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1254",
+      "mapId": "4e773293-356a-f0f5-e063-6df0900abdfc-ID2dbfea4b-cf1a-446e-9239-07cdf1e5acbb-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.820798893250255,
+      "rmsMetres": 0.6997269169474183,
+      "maxCheckPixels": 1.4390807507364065,
+      "controlHullFraction": 0.5151679158817595,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1256",
+      "mapId": "4e7675ea-2cc6-908c-e063-6df0900a4619-ID2e8130a9-d447-4070-b2a4-972b2ca8e3eb-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.3468328144999424,
+      "rmsMetres": 0.5180314459137726,
+      "maxCheckPixels": 1.1973821333257324,
+      "controlHullFraction": 0.5150158296846469,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1259",
+      "mapId": "4e77125b-4c16-ed5c-e063-6df0900ae03b-ID1c7006fd-ea7b-4739-8594-080e7c3a7af0-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.433155941239596,
+      "rmsMetres": 0.9354450543248076,
+      "maxCheckPixels": 1.3291350349367994,
+      "controlHullFraction": 0.6080455339143862,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1258",
+      "mapId": "4e7657e3-82d7-9dce-e063-6df0900acdd5-IDbd48c8fe-624e-4e30-9d0b-d0429f04ffae-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.0815545137438427,
+      "rmsMetres": 0.800252690430201,
+      "maxCheckPixels": 1.9611824848672739,
+      "controlHullFraction": 0.5524902315432565,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "661",
+      "mapId": "4e7657e3-7536-9dce-e063-6df0900acdd5-IDb2d9a086-aa06-4af2-854a-2924442c974b-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.2085341744207807,
+      "rmsMetres": 0.8485576937657902,
+      "maxCheckPixels": 1.6489342396161826,
+      "controlHullFraction": 0.5523618754915497,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "662",
+      "mapId": "4e7657e3-78df-9dce-e063-6df0900acdd5-ID04a50f4a-8f9b-4fa8-921c-7864a8669536-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.1384208493789736,
+      "rmsMetres": 0.4373130263406456,
+      "maxCheckPixels": 1.1901818674341706,
+      "controlHullFraction": 0.5165560785166524,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1260",
+      "mapId": "4e7657e3-77d7-9dce-e063-6df0900acdd5-IDda8bb966-c810-4615-a549-4e37b153c3e6-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.4427331632967118,
+      "rmsMetres": 0.9390021796638309,
+      "maxCheckPixels": 1.828690440973593,
+      "controlHullFraction": 0.6909342270792413,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "663",
+      "mapId": "4e773293-36d2-f0f5-e063-6df0900abdfc-ID745243c5-7620-4635-b026-5d273a47a715-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.8081608698248854,
+      "rmsMetres": 1.07931368106196,
+      "maxCheckPixels": 2.0703611601990777,
+      "controlHullFraction": 0.6902631257002069,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1261",
+      "mapId": "4e76d073-c0d4-e0c7-e063-6df0900a2ca4-ID4afd8bca-3629-4380-a623-7679c14d1cf1-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.052698545018574,
+      "rmsMetres": 0.4047402820286284,
+      "maxCheckPixels": 3.178912122885097,
+      "controlHullFraction": 0.5989004091918034,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "664",
+      "mapId": "4e7693bd-aac4-8798-e063-6df0900ae38e-ID6803de58-b785-4d75-acf5-98faf3e91b92-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.1133973108525734,
+      "rmsMetres": 0.8117246937669952,
+      "maxCheckPixels": 1.6590618710674263,
+      "controlHullFraction": 0.598851438729948,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1262",
+      "mapId": "4e77125b-4be6-ed5c-e063-6df0900ae03b-IDa54ec819-bfb7-4175-973a-845bd33196e5-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.4437542076115757,
+      "rmsMetres": 0.9395884276498392,
+      "maxCheckPixels": 2.0577500416606784,
+      "controlHullFraction": 0.6261338845140073,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "665",
+      "mapId": "4e7675ea-2a0c-908c-e063-6df0900a4619-ID292f433a-e21c-4fd5-8b58-50d6504a90f3-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.2713128386770216,
+      "rmsMetres": 0.8731564546132716,
+      "maxCheckPixels": 1.6330381884347547,
+      "controlHullFraction": 0.626479014460974,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1263",
+      "mapId": "4e76d073-b126-e0c7-e063-6df0900a2ca4-IDb3c87e1c-ba8f-4ed7-ab0d-d0673801f942-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 0.9267191883728261,
+      "rmsMetres": 0.35598086582824984,
+      "maxCheckPixels": 0.7739797520390945,
+      "controlHullFraction": 0.553217634419254,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "666",
+      "mapId": "4e7675ea-27e3-908c-e063-6df0900a4619-ID353ea05d-937f-443c-ae3d-633259f55e69-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 0.9787813398220769,
+      "rmsMetres": 0.3764640447656374,
+      "maxCheckPixels": 0.8475288575526913,
+      "controlHullFraction": 0.5526014136606906,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1264",
+      "mapId": "4e7657e3-7082-9dce-e063-6df0900acdd5-ID97d370b4-cfa8-42fe-9e13-284be391956b-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 3.19332426272301,
+      "rmsMetres": 1.2275790204240262,
+      "maxCheckPixels": 1.954147135861106,
+      "controlHullFraction": 0.6900299222795653,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "667",
+      "mapId": "4e7675ea-2a84-908c-e063-6df0900a4619-ID9a18806d-ff26-415d-898f-569b9012537c-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.09826143985072,
+      "rmsMetres": 0.8075811198566585,
+      "maxCheckPixels": 1.5821172565980115,
+      "controlHullFraction": 0.6893631094906364,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1265",
+      "mapId": "4e7693bd-ac8f-8798-e063-6df0900ae38e-ID0cafbd7d-7018-4dac-8653-3b113be8f85c-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.5117202133492587,
+      "rmsMetres": 0.9659521730007901,
+      "maxCheckPixels": 1.9281586387117455,
+      "controlHullFraction": 0.5896468029934548,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "668",
+      "mapId": "4e77125b-4372-ed5c-e063-6df0900ae03b-IDd65220b2-6819-4e96-a549-d3339f5eb9fb-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.346595009198116,
+      "rmsMetres": 0.5183454057476727,
+      "maxCheckPixels": 1.3261586838316304,
+      "controlHullFraction": 0.5874453760940097,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "669",
+      "mapId": "4e7657e3-8066-9dce-e063-6df0900acdd5-IDe1a369c8-b5a0-40b9-bef8-ed1d5da005f9-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 0.7316867688301847,
+      "rmsMetres": 0.28081976284372406,
+      "maxCheckPixels": 0.9212026227152668,
+      "controlHullFraction": 0.4798017896427904,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "670",
+      "mapId": "4e76d073-bbc1-e0c7-e063-6df0900a2ca4-IDfb7a909d-768d-480e-a2cf-8f80578ee0f6-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.307052159357806,
+      "rmsMetres": 0.5027137991742963,
+      "maxCheckPixels": 2.0592859246400943,
+      "controlHullFraction": 0.5068389979978228,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1266",
+      "mapId": "4e7657e3-7475-9dce-e063-6df0900acdd5-ID3a41b648-8bed-4070-b952-24ddcb51bea3-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.8118036615293756,
+      "rmsMetres": 0.696284913126929,
+      "maxCheckPixels": 1.4256975783458612,
+      "controlHullFraction": 0.5898424050150274,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "671",
+      "mapId": "4e7657e3-7b21-9dce-e063-6df0900acdd5-ID02ae6879-9e1e-4ec0-8b53-c5d7dfd0aaac-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.2500073900439754,
+      "rmsMetres": 0.8648467797430169,
+      "maxCheckPixels": 1.1269572385767834,
+      "controlHullFraction": 0.5889277991032138,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1268",
+      "mapId": "4e7657e3-79e7-9dce-e063-6df0900acdd5-ID71ddb2f4-1435-459c-ab51-59f51221da2a-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.7681301482108467,
+      "rmsMetres": 0.6796481657012096,
+      "maxCheckPixels": 4.100606389984479,
+      "controlHullFraction": 0.5898056590342652,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1267",
+      "mapId": "4e7675ea-2ae4-908c-e063-6df0900a4619-ID2ca99366-99e0-42bb-8771-f8024a82151c-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.250015210968774,
+      "rmsMetres": 0.4802491500593378,
+      "maxCheckPixels": 3.8777994338077515,
+      "controlHullFraction": 0.5896378245707696,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "672",
+      "mapId": "4e76d073-b066-e0c7-e063-6df0900a2ca4-ID0fc607e1-8f20-498a-9edf-42f6d25fd0c1-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "check-above-5px"
+      ],
+      "rmsPixels": 1.7500656435434232,
+      "rmsMetres": 0.672520050575118,
+      "maxCheckPixels": 5.397988325726411,
+      "controlHullFraction": 0.5909480154811777,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1269",
+      "mapId": "4e7657e3-7807-9dce-e063-6df0900acdd5-ID6702017d-f2f9-478b-bb15-90b50107fb37-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.293838598072402,
+      "rmsMetres": 0.4972116274017685,
+      "maxCheckPixels": 1.4267557947109606,
+      "controlHullFraction": 0.5546652386701402,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "673",
+      "mapId": "4e773293-312f-f0f5-e063-6df0900abdfc-ID9d8ab9c2-aaa3-488b-998c-c472fd9dbd4b-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.3335671199405774,
+      "rmsMetres": 0.8960720754624638,
+      "maxCheckPixels": 2.1070372090613145,
+      "controlHullFraction": 0.5529639937349192,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1270",
+      "mapId": "4e7657e3-6c74-9dce-e063-6df0900acdd5-IDca589376-a75a-4a9a-ae16-db085d33bd8e-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.511362255174738,
+      "rmsMetres": 0.9652827526119753,
+      "maxCheckPixels": 1.2210238502140258,
+      "controlHullFraction": 0.5186526379691407,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "674",
+      "mapId": "4e77125b-51d1-ed5c-e063-6df0900ae03b-ID4e76f9cd-dd7f-45b5-8afa-50c95b9f1079-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.063096256790731,
+      "rmsMetres": 0.7930157350154337,
+      "maxCheckPixels": 2.010629862302854,
+      "controlHullFraction": 0.5151406913113655,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "675",
+      "mapId": "4e77125b-48e5-ed5c-e063-6df0900ae03b-ID3ae183dd-a3d8-4a5f-ac6d-c13b3c1013fc-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.6765652794004215,
+      "rmsMetres": 0.6444792955129168,
+      "maxCheckPixels": 2.289477033781863,
+      "controlHullFraction": 0.6464546744484476,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "676",
+      "mapId": "4e779063-ae8e-0dcc-e063-6df0900ababf-ID63a15d7c-9317-4134-855f-628f5ffa7446-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.8732804494759314,
+      "rmsMetres": 0.7197215434928245,
+      "maxCheckPixels": 1.4157922394139273,
+      "controlHullFraction": 0.5550236768860062,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "677",
+      "mapId": "4e77125b-49bd-ed5c-e063-6df0900ae03b-ID2b390834-1924-4e39-a839-b2a8e79ebe8d-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.0654464174239346,
+      "rmsMetres": 0.7944396787939876,
+      "maxCheckPixels": 2.8728655785074872,
+      "controlHullFraction": 0.6927988886078322,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "1271",
+      "mapId": "4e76d073-b49f-e0c7-e063-6df0900a2ca4-ID47567707-8faf-49ab-b867-d79a15f1dbdf-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.4989300953263187,
+      "rmsMetres": 0.5765751795210058,
+      "maxCheckPixels": 1.4541666378957547,
+      "controlHullFraction": 0.4802814261027121,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "678",
+      "mapId": "4e7693bd-a9ec-8798-e063-6df0900ae38e-IDd769cf60-eddb-4418-aa5b-16b96d9f9a4f-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.5336385723064123,
+      "rmsMetres": 0.5896978204798106,
+      "maxCheckPixels": 0.2938992063783652,
+      "controlHullFraction": 0.4812820380961597,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1272",
+      "mapId": "4e77125b-4f31-ed5c-e063-6df0900ae03b-ID38d0ad1f-3b87-4fbb-8864-854671dfe438-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.759213329284169,
+      "rmsMetres": 1.0609165418208553,
+      "maxCheckPixels": 2.458335282722456,
+      "controlHullFraction": 0.5537768591164627,
+      "originalCrs": "EPSG:28991"
+    },
+    {
+      "inventoryNumber": "679",
+      "mapId": "4e7657e3-6ddf-9dce-e063-6df0900acdd5-IDd322d7fc-7191-4704-83b6-6103ec32eb35-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.0674640927012176,
+      "rmsMetres": 0.7950057145586782,
+      "maxCheckPixels": 0.9051165838922468,
+      "controlHullFraction": 0.551550676403425,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1355",
+      "mapId": "4e77125b-498d-ed5c-e063-6df0900ae03b-ID3fa950f7-b2e8-48be-a8ac-4a7c1564596a-main",
+      "series": "D.10",
+      "status": "batch-pass",
+      "reasons": [],
+      "rmsPixels": 1.5838905316682608,
+      "rmsMetres": 0.6091553237672902,
+      "maxCheckPixels": 2.248257761677926,
+      "controlHullFraction": 0.5895621129811908,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1356",
+      "mapId": "4e773293-2fdf-f0f5-e063-6df0900abdfc-ID42d4cee7-003e-4da5-b777-732e7784e8b4-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.429518920866004,
+      "rmsMetres": 0.9342249120114408,
+      "maxCheckPixels": 1.8054157416164676,
+      "controlHullFraction": 0.6622359898017636,
+      "originalCrs": "EPSG:28992"
+    },
+    {
+      "inventoryNumber": "1357",
+      "mapId": "4e7675ea-285c-908c-e063-6df0900a4619-IDc38b3c40-46fe-4731-9c35-aa7ddee16011-main",
+      "series": "D.10",
+      "status": "needs-review",
+      "reasons": [
+        "rms-above-2px"
+      ],
+      "rmsPixels": 2.5494109771393934,
+      "rmsMetres": 0.9806693920584887,
+      "maxCheckPixels": 0.9002289686829116,
+      "controlHullFraction": 0.6103256054763984,
+      "originalCrs": "EPSG:28992"
+    }
+  ],
+  "qualityLimits": {
+    "version": 1,
+    "rmsPixelsLimit": 2.0,
+    "checkPixelsLimit": 5.0,
+    "sigmaPixels": 2.0,
+    "sigmaStatus": "assumed, not calibrated from independent repeated measurements",
+    "minControlHullFraction": 0.2,
+    "maxDesignCondition": 1000,
+    "statusMeaning": "pilot-pass is a provisional processing screen, not a ground-accuracy or statistical claim",
+    "maxOverviewLongSide": 2000,
+    "maxDetailsPerMap": 12,
+    "maxDetailArea": 1800000
+  },
+  "priorPilotFeedback": "User visually accepted all 24 pilot maps; numerical thresholds and assumed uncertainty remain unchanged.",
+  "limitations": [
+    "Pixel sigma is assumed, not statistically calibrated.",
+    "Checks share border anchors with controls.",
+    "Datum operation accuracy and historical map accuracy are separate from fit residuals.",
+    "Repeat-edition registration proposes image positions only; no attach tie points enter the absolute fit."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-09",
+  "startedAt": "2026-11-19T20:17:48.490091+00:00",
+  "completedAt": "2026-11-19T22:16:03.836Z",
+  "elapsedSeconds": 7095.346,
+  "timingBasis": "Recorded wall-clock interval including preparation, review and waits; not CPU or model latency.",
+  "commands": [
+    {
+      "command": "select",
+      "startedAt": "2026-11-19T20:17:48.490091+00:00",
+      "completedAt": "2026-11-19T20:17:48.549304+00:00",
+      "elapsedSeconds": 0.05921408405993134,
+      "success": true
+    },
+    {
+      "command": "acquire",
+      "startedAt": "2026-11-19T20:17:48.550905+00:00",
+      "completedAt": "2026-11-19T20:21:26.990464+00:00",
+      "elapsedSeconds": 218.43925566598773,
+      "success": true
+    },
+    {
+      "command": "propose",
+      "startedAt": "2026-11-19T22:06:42.821188+00:00",
+      "completedAt": "2026-11-19T22:07:42.702429+00:00",
+      "elapsedSeconds": 59.88140416704118,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:12:58.466477+00:00",
+      "completedAt": "2026-11-19T22:12:59.623073+00:00",
+      "elapsedSeconds": 1.1566054589347914,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:15:58.940222+00:00",
+      "completedAt": "2026-11-19T22:16:03.149092+00:00",
+      "elapsedSeconds": 4.2087700420524925,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T22:16:03.754Z",
+      "completedAt": "2026-11-19T22:16:03.836Z",
+      "elapsedSeconds": 0.08002516700000001,
+      "success": true
+    }
+  ]
+}

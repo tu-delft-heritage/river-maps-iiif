@@ -1,0 +1,34 @@
+{
+  "scope": "All native labels and source crosses, 215 final control/check patches, 172 frame corners, title exclusions and 43 mask overlays inspected.",
+  "corrections": [
+    {
+      "inventoryNumber": "665",
+      "point": "p4",
+      "before": [
+        "bl",
+        811,
+        726,
+        -40000,
+        -38800
+      ],
+      "after": [
+        "bl",
+        811,
+        694,
+        -40000,
+        -38800
+      ],
+      "reason": "Native cross centre; initial transcription was 32 pixels too low."
+    }
+  ],
+  "confirmed": [
+    {
+      "inventoryNumber": "663",
+      "reason": "Bottom-right inner frame is broken near the 118.6 tick; the corner is correct."
+    },
+    {
+      "inventoryNumber": "677",
+      "reason": "Bottom-right corner follows the inner frame/title boundary."
+    }
+  ]
+}

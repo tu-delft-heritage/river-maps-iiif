@@ -1,0 +1,4555 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-06",
+  "sourceSha256": "d9a49265828e8d29cdabdde3ffc83889e67e46b5495f5794086ddd722ff71745",
+  "eadSha256": "4ed28eb23044c5753d0bbaefd6c04159ea0547d59a69fd33839a2f3b745606ab",
+  "selectedCount": 37,
+  "series": "D.06",
+  "requestedLimit": null,
+  "mode": "whole-series",
+  "selectionRule": "Next unprocessed digitized maps within scope, in saved archival source order; exclude pilot and earlier batches.",
+  "records": [
+    {
+      "id": "4e77125b-4ea1-ed5c-e063-6df0900ae03b-IDe2cce69e-df76-4dfd-8822-314e578baa48-main",
+      "inventoryNumber": "1086",
+      "series": "D.06",
+      "title": "Blad no. 355 rivierkaart gedeelte Bergsche Maas, rpn. 230.7-235.6",
+      "sourceRecordId": "4e77125b-4ea1-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDe2cce69e-df76-4dfd-8822-314e578baa48",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=a2/2d/ca/45/9b/5a/45/a0/8f/62/80/d0/91/07/a0/dd/e2cce69e-df76-4dfd-8822-314e578baa48.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-4ea1-ed5c-e063-6df0900ae03b-IDe2cce69e-df76-4dfd-8822-314e578baa48",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1086"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4ea1-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4ea1-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 355 rivierkaart gedeelte Bergsche Maas, rpn. 230.7-235.6"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM november 1973."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "2e exemplaar. Variant: door een iets aangepaste oriëntatie is het blad efficiënter gebruikt dan bij inv.nr. 1085 het geval is."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/a22dca45-9b5a-45a0-8f62-80d09107a0dd",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4ea1-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-359a-f0f5-e063-6df0900abdfc-ID73bd0852-ba00-4035-8c73-f1598b9b7934-main",
+      "inventoryNumber": "1087",
+      "series": "D.06",
+      "title": "Blad no. 355 rivierkaart gedeelte Bergsche Maas, km. 230.2-235.2",
+      "sourceRecordId": "4e773293-359a-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID73bd0852-ba00-4035-8c73-f1598b9b7934",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=49/38/59/5e/f8/66/41/48/80/c2/b3/42/e6/b4/5d/ee/73bd0852-ba00-4035-8c73-f1598b9b7934.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e773293-359a-f0f5-e063-6df0900abdfc-ID73bd0852-ba00-4035-8c73-f1598b9b7934",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1087"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-359a-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-359a-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 355 rivierkaart gedeelte Bergsche Maas, km. 230.2-235.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM november 1973."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/4938595e-f866-4148-80c2-b342e6b45dee",
+      "homepage": "http://hdl.handle.net/10648/4e773293-359a-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-6b6a-9dce-e063-6df0900acdd5-ID4d5cd3e3-c52e-434f-9f85-8bd363539802-main",
+      "inventoryNumber": "579",
+      "series": "D.06",
+      "title": "Blad no. 355 rivierkaart gedeelte Bergsche Maas, km. 230.2-235.2",
+      "sourceRecordId": "4e7657e3-6b6a-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID4d5cd3e3-c52e-434f-9f85-8bd363539802",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7274,
+        "height": 5158,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1818,
+            "height": 1289
+          },
+          {
+            "width": 3637,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=9b/60/7f/bb/ad/03/42/b3/96/fc/da/6f/4b/cc/74/49/4d5cd3e3-c52e-434f-9f85-8bd363539802.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-6b6a-9dce-e063-6df0900acdd5-ID4d5cd3e3-c52e-434f-9f85-8bd363539802",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "579"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-6b6a-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-6b6a-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 355 rivierkaart gedeelte Bergsche Maas, km. 230.2-235.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM november 1973."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/9b607fbb-ad03-42b3-96fc-da6f4bcc7449",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-6b6a-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b61c-e0c7-e063-6df0900a2ca4-ID5287e395-9bb2-47a4-a1f7-17a5c65e051a-main",
+      "inventoryNumber": "1090",
+      "series": "D.06",
+      "title": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2",
+      "sourceRecordId": "4e76d073-b61c-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID5287e395-9bb2-47a4-a1f7-17a5c65e051a",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7221,
+        "height": 5157,
+        "sizes": [
+          {
+            "width": 225,
+            "height": 161
+          },
+          {
+            "width": 451,
+            "height": 322
+          },
+          {
+            "width": 902,
+            "height": 644
+          },
+          {
+            "width": 1805,
+            "height": 1289
+          },
+          {
+            "width": 3610,
+            "height": 2578
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=bc/07/74/b0/c0/b7/49/8d/b7/ea/73/19/1a/b2/6a/0f/5287e395-9bb2-47a4-a1f7-17a5c65e051a.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e76d073-b61c-e0c7-e063-6df0900a2ca4-ID5287e395-9bb2-47a4-a1f7-17a5c65e051a",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1090"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b61c-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b61c-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot november 1973"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1973-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/bc0774b0-c0b7-498d-b7ea-73191ab26a0f",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b61c-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7693bd-a80b-8798-e063-6df0900ae38e-ID6886eeb2-9d9e-471b-9a3f-3957dd37845b-main",
+      "inventoryNumber": "1089",
+      "series": "D.06",
+      "title": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2",
+      "sourceRecordId": "4e7693bd-a80b-8798-e063-6df0900ae38e",
+      "sourceImageId": "ID6886eeb2-9d9e-471b-9a3f-3957dd37845b",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=4b/dd/b1/98/90/b9/47/a3/a0/b6/0f/c2/a2/f6/0b/6f/6886eeb2-9d9e-471b-9a3f-3957dd37845b.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7693bd-a80b-8798-e063-6df0900ae38e-ID6886eeb2-9d9e-471b-9a3f-3957dd37845b",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1089"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7693bd-a80b-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7693bd-a80b-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/4bddb198-90b9-47a3-a0b6-0fc2a2f60b6f",
+      "homepage": "http://hdl.handle.net/10648/4e7693bd-a80b-8798-e063-6df0900ae38e",
+      "pilot": false
+    },
+    {
+      "id": "4e7693bd-aa7c-8798-e063-6df0900ae38e-ID6227d486-8497-4437-a216-f2790ac22a63-main",
+      "inventoryNumber": "580",
+      "series": "D.06",
+      "title": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2",
+      "sourceRecordId": "4e7693bd-aa7c-8798-e063-6df0900ae38e",
+      "sourceImageId": "ID6227d486-8497-4437-a216-f2790ac22a63",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7278,
+        "height": 5181,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 909,
+            "height": 647
+          },
+          {
+            "width": 1819,
+            "height": 1295
+          },
+          {
+            "width": 3639,
+            "height": 2590
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=10/ac/79/52/7c/07/42/bf/aa/9c/cc/91/cf/47/4a/4f/6227d486-8497-4437-a216-f2790ac22a63.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7693bd-aa7c-8798-e063-6df0900ae38e-ID6227d486-8497-4437-a216-f2790ac22a63",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "580"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7693bd-aa7c-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7693bd-aa7c-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "1e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/10ac7952-7c07-42bf-aa9c-cc91cf474a4f",
+      "homepage": "http://hdl.handle.net/10648/4e7693bd-aa7c-8798-e063-6df0900ae38e",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-c02a-e0c7-e063-6df0900a2ca4-IDc34e0333-68bb-483b-9ac4-6ac7fb2ad2c6-main",
+      "inventoryNumber": "1088",
+      "series": "D.06",
+      "title": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2",
+      "sourceRecordId": "4e76d073-c02a-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "IDc34e0333-68bb-483b-9ac4-6ac7fb2ad2c6",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5176,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 323
+          },
+          {
+            "width": 907,
+            "height": 647
+          },
+          {
+            "width": 1814,
+            "height": 1294
+          },
+          {
+            "width": 3629,
+            "height": 2588
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=51/66/49/52/da/8d/49/11/8f/fb/90/9a/f0/0c/0e/bd/c34e0333-68bb-483b-9ac4-6ac7fb2ad2c6.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e76d073-c02a-e0c7-e063-6df0900a2ca4-IDc34e0333-68bb-483b-9ac4-6ac7fb2ad2c6",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1088"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-c02a-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-c02a-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 357 rivierkaart gedeelte Bergsche Maas, rpn. 235.3-240.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "2e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/51664952-da8d-4911-8ffb-909af00c0ebd",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-c02a-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-73cd-9dce-e063-6df0900acdd5-ID57db3ab3-ab87-4c59-8a97-710f8ff60162-main",
+      "inventoryNumber": "1092",
+      "series": "D.06",
+      "title": "Blad no. 359 rivierkaart gedeelte Bergsche Maas, rpn. 240.3-245.2",
+      "sourceRecordId": "4e7657e3-73cd-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID57db3ab3-ab87-4c59-8a97-710f8ff60162",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=3a/04/dc/c6/52/35/47/9e/91/9b/4f/db/45/2e/b6/da/57db3ab3-ab87-4c59-8a97-710f8ff60162.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-73cd-9dce-e063-6df0900acdd5-ID57db3ab3-ab87-4c59-8a97-710f8ff60162",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1092"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-73cd-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-73cd-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 359 rivierkaart gedeelte Bergsche Maas, rpn. 240.3-245.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/3a04dcc6-5235-479e-919b-4fdb452eb6da",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-73cd-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-6820-9dce-e063-6df0900acdd5-ID19d5425d-55e3-445c-9dc4-3895bb6d1d5f-main",
+      "inventoryNumber": "1091",
+      "series": "D.06",
+      "title": "Blad no. 359 rivierkaart gedeelte Bergsche Maas, rpn. 240.3-245.2",
+      "sourceRecordId": "4e7657e3-6820-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID19d5425d-55e3-445c-9dc4-3895bb6d1d5f",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5176,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 323
+          },
+          {
+            "width": 907,
+            "height": 647
+          },
+          {
+            "width": 1814,
+            "height": 1294
+          },
+          {
+            "width": 3629,
+            "height": 2588
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=10/d8/28/97/21/05/47/5d/b2/28/a8/b9/15/df/9e/e6/19d5425d-55e3-445c-9dc4-3895bb6d1d5f.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-6820-9dce-e063-6df0900acdd5-ID19d5425d-55e3-445c-9dc4-3895bb6d1d5f",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1091"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-6820-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-6820-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 359 rivierkaart gedeelte Bergsche Maas, rpn. 240.3-245.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "1e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/10d82897-2105-475d-b228-a8b915df9ee6",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-6820-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-512c-ed5c-e063-6df0900ae03b-IDc244c945-4a0c-42c0-ba3f-07906650ab26-main",
+      "inventoryNumber": "581",
+      "series": "D.06",
+      "title": "Blad no. 359 rivierkaart gedeelte Bergsche Maas, rpn. 240.3-245.2",
+      "sourceRecordId": "4e77125b-512c-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDc244c945-4a0c-42c0-ba3f-07906650ab26",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7235,
+        "height": 5172,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 452,
+            "height": 323
+          },
+          {
+            "width": 904,
+            "height": 646
+          },
+          {
+            "width": 1808,
+            "height": 1293
+          },
+          {
+            "width": 3617,
+            "height": 2586
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=61/32/1d/1c/e4/0d/4b/91/a8/ca/f8/2c/24/1c/bf/66/c244c945-4a0c-42c0-ba3f-07906650ab26.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-512c-ed5c-e063-6df0900ae03b-IDc244c945-4a0c-42c0-ba3f-07906650ab26",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "581"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-512c-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-512c-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 359 rivierkaart gedeelte Bergsche Maas, rpn. 240.3-245.2"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1971."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "2e exemplaar. Bevat meer informatie."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/61321d1c-e40d-4b91-a8ca-f82c241cbf66",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-512c-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4915-ed5c-e063-6df0900ae03b-ID9e62a7e5-11f3-4b72-8817-0e3ea7bd8627-main",
+      "inventoryNumber": "1093",
+      "series": "D.06",
+      "title": "Blad no. 362 rivierkaart gedeelte Biesbosch / Bergsche Maas, rpn. 245.1-250.0",
+      "sourceRecordId": "4e77125b-4915-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID9e62a7e5-11f3-4b72-8817-0e3ea7bd8627",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=63/49/d1/01/6e/54/4b/03/b1/09/2f/f9/35/fe/90/ed/9e62a7e5-11f3-4b72-8817-0e3ea7bd8627.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-4915-ed5c-e063-6df0900ae03b-ID9e62a7e5-11f3-4b72-8817-0e3ea7bd8627",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1093"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4915-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4915-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 362 rivierkaart gedeelte Biesbosch / Bergsche Maas, rpn. 245.1-250.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/6349d101-6e54-4b03-b109-2ff935fe90ed",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4915-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-6881-9dce-e063-6df0900acdd5-ID719a3744-c3e7-4fb1-9649-8d7c42ddea51-main",
+      "inventoryNumber": "1094",
+      "series": "D.06",
+      "title": "Blad no. 362 rivierkaart gedeelte Biesbosch / Bergsche Maas, rpn. 245.1-250.0",
+      "sourceRecordId": "4e7657e3-6881-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID719a3744-c3e7-4fb1-9649-8d7c42ddea51",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=c1/df/02/05/ea/b3/4f/61/a6/4f/6e/5c/1c/9b/fb/8b/719a3744-c3e7-4fb1-9649-8d7c42ddea51.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-6881-9dce-e063-6df0900acdd5-ID719a3744-c3e7-4fb1-9649-8d7c42ddea51",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1094"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-6881-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-6881-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 362 rivierkaart gedeelte Biesbosch / Bergsche Maas, rpn. 245.1-250.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/c1df0205-eab3-4f61-a64f-6e5c1c9bfb8b",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-6881-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-37dc-f0f5-e063-6df0900abdfc-IDfac6e737-c0ce-4643-a65e-b58d2ecd56c5-main",
+      "inventoryNumber": "582",
+      "series": "D.06",
+      "title": "Blad no. 362 rivierkaart gedeelte Biesbosch - Bergsche Maas, rpn. 245.1-250.0",
+      "sourceRecordId": "4e773293-37dc-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "IDfac6e737-c0ce-4643-a65e-b58d2ecd56c5",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7245,
+        "height": 5162,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 452,
+            "height": 322
+          },
+          {
+            "width": 905,
+            "height": 645
+          },
+          {
+            "width": 1811,
+            "height": 1290
+          },
+          {
+            "width": 3622,
+            "height": 2581
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=db/f9/8d/06/44/64/49/74/ba/9b/ea/46/d0/f6/ae/b0/fac6e737-c0ce-4643-a65e-b58d2ecd56c5.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e773293-37dc-f0f5-e063-6df0900abdfc-IDfac6e737-c0ce-4643-a65e-b58d2ecd56c5",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "582"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-37dc-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-37dc-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 362 rivierkaart gedeelte Biesbosch - Bergsche Maas, rpn. 245.1-250.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot januari 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-01"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/dbf98d06-4464-4974-ba9b-ea46d0f6aeb0",
+      "homepage": "http://hdl.handle.net/10648/4e773293-37dc-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-2ff7-f0f5-e063-6df0900abdfc-IDb8d97d5b-227f-4f0d-b529-f52ca2077bef-main",
+      "inventoryNumber": "583",
+      "series": "D.06",
+      "title": "Blad no. 363 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e773293-2ff7-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "IDb8d97d5b-227f-4f0d-b529-f52ca2077bef",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7256,
+        "height": 5153,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1288
+          },
+          {
+            "width": 3628,
+            "height": 2576
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=29/91/45/6e/cc/ed/45/e6/a1/a7/9a/f1/ca/b3/07/53/b8d97d5b-227f-4f0d-b529-f52ca2077bef.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e773293-2ff7-f0f5-e063-6df0900abdfc-IDb8d97d5b-227f-4f0d-b529-f52ca2077bef",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "583"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-2ff7-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-2ff7-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 363 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "1976-1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1976/1979"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Zonder titel, opnamegegevens of toponiemen - vermoedelijk een schets."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/2991456e-cced-45e6-a1a7-9af1cab30753",
+      "homepage": "http://hdl.handle.net/10648/4e773293-2ff7-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-50b3-ed5c-e063-6df0900ae03b-IDf1a9bd4b-7d93-4b03-9e54-f59937f530dc-main",
+      "inventoryNumber": "1095",
+      "series": "D.06",
+      "title": "Blad no. 363 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e77125b-50b3-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDf1a9bd4b-7d93-4b03-9e54-f59937f530dc",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=1a/25/e8/93/b9/19/4d/97/9b/14/3e/a1/0a/23/d1/1b/f1a9bd4b-7d93-4b03-9e54-f59937f530dc.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-50b3-ed5c-e063-6df0900ae03b-IDf1a9bd4b-7d93-4b03-9e54-f59937f530dc",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1095"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-50b3-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-50b3-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 363 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/1a25e893-b919-4d97-9b14-3ea10a23d11b",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-50b3-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4df9-ed5c-e063-6df0900ae03b-ID42519619-3b05-4dc3-abd2-f8a21b3e93e7-main",
+      "inventoryNumber": "584",
+      "series": "D.06",
+      "title": "Blad no. 364 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e77125b-4df9-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID42519619-3b05-4dc3-abd2-f8a21b3e93e7",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7249,
+        "height": 5169,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 323
+          },
+          {
+            "width": 906,
+            "height": 646
+          },
+          {
+            "width": 1812,
+            "height": 1292
+          },
+          {
+            "width": 3624,
+            "height": 2584
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=3e/61/75/e0/cf/ee/48/8a/b9/bf/94/14/db/aa/72/9e/42519619-3b05-4dc3-abd2-f8a21b3e93e7.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-4df9-ed5c-e063-6df0900ae03b-ID42519619-3b05-4dc3-abd2-f8a21b3e93e7",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "584"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4df9-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4df9-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 364 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/3e6175e0-cfee-488a-b9bf-9414dbaa729e",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4df9-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4735-ed5c-e063-6df0900ae03b-ID0c1fb8ce-3f90-41f4-a6c5-b6f7cfdfdd57-main",
+      "inventoryNumber": "585",
+      "series": "D.06",
+      "title": "Blad no. 365 rivierkaart gedeelte Biesbosch - Nieuwe Merwede, rpn. 962-963",
+      "sourceRecordId": "4e77125b-4735-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID0c1fb8ce-3f90-41f4-a6c5-b6f7cfdfdd57",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7269,
+        "height": 5177,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 908,
+            "height": 647
+          },
+          {
+            "width": 1817,
+            "height": 1294
+          },
+          {
+            "width": 3634,
+            "height": 2588
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=d1/6c/16/c8/f5/d2/41/31/aa/07/29/f2/bc/0d/7a/d3/0c1fb8ce-3f90-41f4-a6c5-b6f7cfdfdd57.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-4735-ed5c-e063-6df0900ae03b-ID0c1fb8ce-3f90-41f4-a6c5-b6f7cfdfdd57",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "585"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4735-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4735-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 365 rivierkaart gedeelte Biesbosch - Nieuwe Merwede, rpn. 962-963"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot augustus 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/d16c16c8-f5d2-4131-aa07-29f2bc0d7ad3",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4735-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-7b81-9dce-e063-6df0900acdd5-ID4068784d-c08a-45af-a5ef-cc8ccbaf9c21-main",
+      "inventoryNumber": "586",
+      "series": "D.06",
+      "title": "Blad no. 367 rivierkaart gedeelte Biesbosch - Nieuwe Merwede, rpn. 964-968",
+      "sourceRecordId": "4e7657e3-7b81-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID4068784d-c08a-45af-a5ef-cc8ccbaf9c21",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7261,
+        "height": 5156,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1815,
+            "height": 1289
+          },
+          {
+            "width": 3630,
+            "height": 2578
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=e3/41/ee/dc/17/72/4b/13/9b/0a/18/3d/5b/a0/de/db/4068784d-c08a-45af-a5ef-cc8ccbaf9c21.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-7b81-9dce-e063-6df0900acdd5-ID4068784d-c08a-45af-a5ef-cc8ccbaf9c21",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "586"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-7b81-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-7b81-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 367 rivierkaart gedeelte Biesbosch - Nieuwe Merwede, rpn. 964-968"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/e341eedc-1772-4b13-9b0a-183d5ba0dedb",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-7b81-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-bb79-e0c7-e063-6df0900a2ca4-ID0b27179f-4fab-4ecd-8e48-4a30cb19856d-main",
+      "inventoryNumber": "1096",
+      "series": "D.06",
+      "title": "Blad no. 368 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e76d073-bb79-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID0b27179f-4fab-4ecd-8e48-4a30cb19856d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=21/6d/53/bd/ce/64/4e/27/a8/42/1f/4e/4f/86/d8/eb/0b27179f-4fab-4ecd-8e48-4a30cb19856d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e76d073-bb79-e0c7-e063-6df0900a2ca4-ID0b27179f-4fab-4ecd-8e48-4a30cb19856d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1096"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-bb79-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-bb79-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 368 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/216d53bd-ce64-4e27-a842-1f4e4f86d8eb",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-bb79-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-748d-9dce-e063-6df0900acdd5-ID785418a4-244f-4a3f-b4ce-970dc77655a1-main",
+      "inventoryNumber": "587",
+      "series": "D.06",
+      "title": "Blad no. 368 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e7657e3-748d-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID785418a4-244f-4a3f-b4ce-970dc77655a1",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5155,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1288
+          },
+          {
+            "width": 3629,
+            "height": 2577
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=07/ed/1c/f8/9e/94/4f/17/93/eb/0c/2a/c2/b8/1b/b6/785418a4-244f-4a3f-b4ce-970dc77655a1.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-748d-9dce-e063-6df0900acdd5-ID785418a4-244f-4a3f-b4ce-970dc77655a1",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "587"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-748d-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-748d-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 368 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot januari 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-01"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/07ed1cf8-9e94-4f17-93eb-0c2ac2b81bb6",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-748d-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-5114-ed5c-e063-6df0900ae03b-IDf69cc8d2-433a-4cae-a0f1-7eb1f6973d7d-main",
+      "inventoryNumber": "1097",
+      "series": "D.06",
+      "title": "Blad no. 369 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e77125b-5114-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDf69cc8d2-433a-4cae-a0f1-7eb1f6973d7d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7289,
+        "height": 5144,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 455,
+            "height": 321
+          },
+          {
+            "width": 911,
+            "height": 643
+          },
+          {
+            "width": 1822,
+            "height": 1286
+          },
+          {
+            "width": 3644,
+            "height": 2572
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=be/0e/62/8e/ca/e2/45/bd/b2/7b/a1/e4/51/46/87/ed/f69cc8d2-433a-4cae-a0f1-7eb1f6973d7d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-5114-ed5c-e063-6df0900ae03b-IDf69cc8d2-433a-4cae-a0f1-7eb1f6973d7d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1097"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-5114-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-5114-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 369 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1980"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1980-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/be0e628e-cae2-45bd-b27b-a1e4514687ed",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-5114-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-bef4-e0c7-e063-6df0900a2ca4-ID171cc541-dad3-4f7b-9c14-d5ba45869d1d-main",
+      "inventoryNumber": "588",
+      "series": "D.06",
+      "title": "Blad no. 369 rivierkaart gedeelte Biesbosch",
+      "sourceRecordId": "4e76d073-bef4-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID171cc541-dad3-4f7b-9c14-d5ba45869d1d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7271,
+        "height": 5152,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1817,
+            "height": 1288
+          },
+          {
+            "width": 3635,
+            "height": 2576
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=ad/f8/cd/8e/70/7f/48/a9/b2/5b/87/46/dc/b2/32/a5/171cc541-dad3-4f7b-9c14-d5ba45869d1d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e76d073-bef4-e0c7-e063-6df0900a2ca4-ID171cc541-dad3-4f7b-9c14-d5ba45869d1d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "588"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-bef4-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-bef4-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 369 rivierkaart gedeelte Biesbosch"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot januari 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-01"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/adf8cd8e-707f-48a9-b25b-8746dcb232a5",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-bef4-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b694-e0c7-e063-6df0900a2ca4-IDffb84c69-3918-4ae7-afe2-abcb56119399-main",
+      "inventoryNumber": "1099",
+      "series": "D.06",
+      "title": "Blad no. 370 rivierkaart gedeelte Biesbosch - Bergsche Maas - Amer, rpn. 250.1-255.0",
+      "sourceRecordId": "4e76d073-b694-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "IDffb84c69-3918-4ae7-afe2-abcb56119399",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=85/34/9f/f7/8d/a9/4c/51/b3/e6/f3/8e/b4/a5/55/5e/ffb84c69-3918-4ae7-afe2-abcb56119399.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e76d073-b694-e0c7-e063-6df0900a2ca4-IDffb84c69-3918-4ae7-afe2-abcb56119399",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1099"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b694-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b694-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 370 rivierkaart gedeelte Biesbosch - Bergsche Maas - Amer, rpn. 250.1-255.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "1e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/85349ff7-8da9-4c51-b3e6-f38eb4a5555e",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b694-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-6b0a-9dce-e063-6df0900acdd5-IDd7107bfc-a56f-4f14-93ee-40fa42eddd4d-main",
+      "inventoryNumber": "1098",
+      "series": "D.06",
+      "title": "Blad no. 370 rivierkaart gedeelte Biesbosch - Bergsche Maas - Amer, rpn. 250.1-255.0",
+      "sourceRecordId": "4e7657e3-6b0a-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDd7107bfc-a56f-4f14-93ee-40fa42eddd4d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=31/a2/64/64/cc/22/44/11/bb/63/f5/30/2c/62/a8/9b/d7107bfc-a56f-4f14-93ee-40fa42eddd4d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-6b0a-9dce-e063-6df0900acdd5-IDd7107bfc-a56f-4f14-93ee-40fa42eddd4d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1098"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-6b0a-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-6b0a-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 370 rivierkaart gedeelte Biesbosch - Bergsche Maas - Amer, rpn. 250.1-255.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "2e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/31a26464-cc22-4411-bb63-f5302c62a89b",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-6b0a-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-739c-9dce-e063-6df0900acdd5-ID8a044540-d8f7-448c-be17-9a8064d70243-main",
+      "inventoryNumber": "589",
+      "series": "D.06",
+      "title": "Blad no. 370 rivierkaart gedeelte Biesbosch - Bergsche Maas - Amer, rpn. 250.1-255.0",
+      "sourceRecordId": "4e7657e3-739c-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID8a044540-d8f7-448c-be17-9a8064d70243",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7266,
+        "height": 5191,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 162
+          },
+          {
+            "width": 454,
+            "height": 324
+          },
+          {
+            "width": 908,
+            "height": 648
+          },
+          {
+            "width": 1816,
+            "height": 1297
+          },
+          {
+            "width": 3633,
+            "height": 2595
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=d9/76/4f/80/3d/6a/4d/b5/95/c5/05/8e/a7/1d/ad/91/8a044540-d8f7-448c-be17-9a8064d70243.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-739c-9dce-e063-6df0900acdd5-ID8a044540-d8f7-448c-be17-9a8064d70243",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "589"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-739c-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-739c-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 370 rivierkaart gedeelte Biesbosch - Bergsche Maas - Amer, rpn. 250.1-255.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot januari 1997"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1997-01"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/d9764f80-3d6a-4db5-95c5-058ea71dad91",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-739c-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4e59-ed5c-e063-6df0900ae03b-IDf6a80c3f-2fc8-426a-b589-59a9ce2b6163-main",
+      "inventoryNumber": "590",
+      "series": "D.06",
+      "title": "Blad no. 371 rivierkaart gedeelte Amer / Biesbosch, rpn. 255.1-260.1",
+      "sourceRecordId": "4e77125b-4e59-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDf6a80c3f-2fc8-426a-b589-59a9ce2b6163",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7273,
+        "height": 5170,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 909,
+            "height": 646
+          },
+          {
+            "width": 1818,
+            "height": 1292
+          },
+          {
+            "width": 3636,
+            "height": 2585
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=21/7f/7a/24/e6/71/4b/6d/a9/85/61/f7/ed/67/d9/11/f6a80c3f-2fc8-426a-b589-59a9ce2b6163.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-4e59-ed5c-e063-6df0900ae03b-IDf6a80c3f-2fc8-426a-b589-59a9ce2b6163",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "590"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4e59-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4e59-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 371 rivierkaart gedeelte Amer / Biesbosch, rpn. 255.1-260.1"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juni 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-06"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/217f7a24-e671-4b6d-a985-61f7ed67d911",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4e59-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4c5f-ed5c-e063-6df0900ae03b-ID145a31eb-7b36-4e45-ba11-e57fb5948623-main",
+      "inventoryNumber": "1100",
+      "series": "D.06",
+      "title": "Blad no. 372 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 975-976",
+      "sourceRecordId": "4e77125b-4c5f-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID145a31eb-7b36-4e45-ba11-e57fb5948623",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7261,
+        "height": 5166,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 645
+          },
+          {
+            "width": 1815,
+            "height": 1291
+          },
+          {
+            "width": 3630,
+            "height": 2583
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=94/0c/6a/62/6f/09/49/bc/8a/b4/7b/7c/16/01/41/7f/145a31eb-7b36-4e45-ba11-e57fb5948623.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e77125b-4c5f-ed5c-e063-6df0900ae03b-ID145a31eb-7b36-4e45-ba11-e57fb5948623",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1100"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4c5f-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4c5f-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 372 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 975-976"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot december 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-12"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/940c6a62-6f09-49bc-8ab4-7b7c1601417f",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4c5f-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-32f9-f0f5-e063-6df0900abdfc-ID234fc92f-ddcc-436d-8d1a-b840b2739a8f-main",
+      "inventoryNumber": "591",
+      "series": "D.06",
+      "title": "Blad no. 372 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 975-976",
+      "sourceRecordId": "4e773293-32f9-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID234fc92f-ddcc-436d-8d1a-b840b2739a8f",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7283,
+        "height": 5160,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 455,
+            "height": 322
+          },
+          {
+            "width": 910,
+            "height": 645
+          },
+          {
+            "width": 1820,
+            "height": 1290
+          },
+          {
+            "width": 3641,
+            "height": 2580
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=68/56/69/39/dc/87/44/c5/a4/9a/bc/f3/87/6a/f6/ad/234fc92f-ddcc-436d-8d1a-b840b2739a8f.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e773293-32f9-f0f5-e063-6df0900abdfc-ID234fc92f-ddcc-436d-8d1a-b840b2739a8f",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "591"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-32f9-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-32f9-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 372 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 975-976"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/68566939-dc87-44c5-a49a-bcf3876af6ad",
+      "homepage": "http://hdl.handle.net/10648/4e773293-32f9-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-78c7-9dce-e063-6df0900acdd5-ID47b14852-ded9-4c2a-91f4-483961e9e6cd-main",
+      "inventoryNumber": "1102",
+      "series": "D.06",
+      "title": "Blad no. 373 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 972-974",
+      "sourceRecordId": "4e7657e3-78c7-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID47b14852-ded9-4c2a-91f4-483961e9e6cd",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=a3/b4/01/43/bc/68/4b/7d/b6/9e/68/6a/6e/4f/f3/f0/47b14852-ded9-4c2a-91f4-483961e9e6cd.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-78c7-9dce-e063-6df0900acdd5-ID47b14852-ded9-4c2a-91f4-483961e9e6cd",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1102"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-78c7-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-78c7-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 373 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 972-974"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot december 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-12"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/a3b40143-bc68-4b7d-b69e-686a6e4ff3f0",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-78c7-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-32c9-f0f5-e063-6df0900abdfc-ID79ea05cf-63fd-43f6-ba74-6193f7541689-main",
+      "inventoryNumber": "1101",
+      "series": "D.06",
+      "title": "Blad no. 373 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 972-974",
+      "sourceRecordId": "4e773293-32c9-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID79ea05cf-63fd-43f6-ba74-6193f7541689",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=fd/41/af/fd/95/d3/41/3b/af/82/f3/dc/23/c2/2d/4a/79ea05cf-63fd-43f6-ba74-6193f7541689.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e773293-32c9-f0f5-e063-6df0900abdfc-ID79ea05cf-63fd-43f6-ba74-6193f7541689",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1101"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-32c9-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-32c9-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 373 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 972-974"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot november 1987"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1987-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/fd41affd-95d3-413b-af82-f3dc23c22d4a",
+      "homepage": "http://hdl.handle.net/10648/4e773293-32c9-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-c164-e0c7-e063-6df0900a2ca4-ID02482963-0d11-485f-bcf5-9d265a835e70-main",
+      "inventoryNumber": "592",
+      "series": "D.06",
+      "title": "Blad no. 373 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 972-974",
+      "sourceRecordId": "4e76d073-c164-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID02482963-0d11-485f-bcf5-9d265a835e70",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7253,
+        "height": 5156,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 906,
+            "height": 644
+          },
+          {
+            "width": 1813,
+            "height": 1289
+          },
+          {
+            "width": 3626,
+            "height": 2578
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=2f/58/62/cf/c1/cf/41/b6/88/26/ac/cc/24/bb/aa/b8/02482963-0d11-485f-bcf5-9d265a835e70.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e76d073-c164-e0c7-e063-6df0900a2ca4-ID02482963-0d11-485f-bcf5-9d265a835e70",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "592"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-c164-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-c164-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 373 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 972-974"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/2f5862cf-c1cf-41b6-8826-accc24bbaab8",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-c164-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7693bd-a3eb-8798-e063-6df0900ae38e-IDee6da1d2-8f2d-48d9-bc45-ec247e7df73b-main",
+      "inventoryNumber": "1103",
+      "series": "D.06",
+      "title": "Blad no. 374 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 969-971",
+      "sourceRecordId": "4e7693bd-a3eb-8798-e063-6df0900ae38e",
+      "sourceImageId": "IDee6da1d2-8f2d-48d9-bc45-ec247e7df73b",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7225,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 225,
+            "height": 161
+          },
+          {
+            "width": 451,
+            "height": 322
+          },
+          {
+            "width": 903,
+            "height": 644
+          },
+          {
+            "width": 1806,
+            "height": 1289
+          },
+          {
+            "width": 3612,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=fb/af/3e/08/8f/0c/44/ec/9f/a0/1d/e5/64/f4/54/e6/ee6da1d2-8f2d-48d9-bc45-ec247e7df73b.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7693bd-a3eb-8798-e063-6df0900ae38e-IDee6da1d2-8f2d-48d9-bc45-ec247e7df73b",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1103"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7693bd-a3eb-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7693bd-a3eb-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 374 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 969-971"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1986"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1986-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/fbaf3e08-8f0c-44ec-9fa0-1de564f454e6",
+      "homepage": "http://hdl.handle.net/10648/4e7693bd-a3eb-8798-e063-6df0900ae38e",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-7fa6-9dce-e063-6df0900acdd5-ID13fb5759-68d4-442a-8ce4-f78096b4e2ac-main",
+      "inventoryNumber": "593",
+      "series": "D.06",
+      "title": "Blad no. 374 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 969-971",
+      "sourceRecordId": "4e7657e3-7fa6-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID13fb5759-68d4-442a-8ce4-f78096b4e2ac",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7250,
+        "height": 5161,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 906,
+            "height": 645
+          },
+          {
+            "width": 1812,
+            "height": 1290
+          },
+          {
+            "width": 3625,
+            "height": 2580
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=3b/7a/64/66/6c/14/40/76/b2/10/df/d8/fe/78/ee/cd/13fb5759-68d4-442a-8ce4-f78096b4e2ac.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-7fa6-9dce-e063-6df0900acdd5-ID13fb5759-68d4-442a-8ce4-f78096b4e2ac",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "593"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-7fa6-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-7fa6-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 374 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 969-971"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/3b7a6466-6c14-4076-b210-dfd8fe78eecd",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-7fa6-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-72c4-9dce-e063-6df0900acdd5-ID0f4972a6-6985-4195-9337-c8df07f3a03b-main",
+      "inventoryNumber": "1104",
+      "series": "D.06",
+      "title": "Blad no. 375 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 977-978",
+      "sourceRecordId": "4e7657e3-72c4-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID0f4972a6-6985-4195-9337-c8df07f3a03b",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=fc/57/6f/66/76/5a/49/2e/b1/73/b8/47/c2/f3/d8/4b/0f4972a6-6985-4195-9337-c8df07f3a03b.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-72c4-9dce-e063-6df0900acdd5-ID0f4972a6-6985-4195-9337-c8df07f3a03b",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1104"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-72c4-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-72c4-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 375 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 977-978"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/fc576f66-765a-492e-b173-b847c2f3d84b",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-72c4-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-3461-f0f5-e063-6df0900abdfc-IDbfc0fc6b-e368-43a6-815b-8cdb5bd8f94b-main",
+      "inventoryNumber": "594",
+      "series": "D.06",
+      "title": "Blad no. 375 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 977-978",
+      "sourceRecordId": "4e773293-3461-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "IDbfc0fc6b-e368-43a6-815b-8cdb5bd8f94b",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7277,
+        "height": 5151,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 643
+          },
+          {
+            "width": 1819,
+            "height": 1287
+          },
+          {
+            "width": 3638,
+            "height": 2575
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=69/d2/6d/11/04/c0/48/63/ab/62/33/8b/d6/68/33/fa/bfc0fc6b-e368-43a6-815b-8cdb5bd8f94b.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e773293-3461-f0f5-e063-6df0900abdfc-IDbfc0fc6b-e368-43a6-815b-8cdb5bd8f94b",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "594"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-3461-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-3461-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 375 rivierkaart gedeelte Nieuwe Merwede / Biesbosch, rpn. 977-978"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/69d26d11-04c0-4863-ab62-338bd66833fa",
+      "homepage": "http://hdl.handle.net/10648/4e773293-3461-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-8157-9dce-e063-6df0900acdd5-ID0e7988f8-8ab1-4b80-ba46-6adc01f4a1ce-main",
+      "inventoryNumber": "1105",
+      "series": "D.06",
+      "title": "Blad no. 376 rivierkaart gedeelte Amer / Nieuwe Merwede / Hollandsch Diep, rpn. 260.2-262.3 (Amer), 978-980 (Nieuwe Merwede) en 980-982 (Hollandsch Diep)",
+      "sourceRecordId": "4e7657e3-8157-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID0e7988f8-8ab1-4b80-ba46-6adc01f4a1ce",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7270,
+        "height": 5154,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1817,
+            "height": 1288
+          },
+          {
+            "width": 3635,
+            "height": 2577
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=0d/5b/5b/9b/5e/34/40/00/8e/80/4b/c4/1a/84/a6/0e/0e7988f8-8ab1-4b80-ba46-6adc01f4a1ce.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7657e3-8157-9dce-e063-6df0900acdd5-ID0e7988f8-8ab1-4b80-ba46-6adc01f4a1ce",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "1105"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-8157-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-8157-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 376 rivierkaart gedeelte Amer / Nieuwe Merwede / Hollandsch Diep, rpn. 260.2-262.3 (Amer), 978-980 (Nieuwe Merwede) en 980-982 (Hollandsch Diep)"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1992"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1992-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/0d5b5b9b-5e34-4000-8e80-4bc41a84a60e",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-8157-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7693bd-a433-8798-e063-6df0900ae38e-IDa390713e-c831-4df5-b1cb-e3b369761455-main",
+      "inventoryNumber": "595",
+      "series": "D.06",
+      "title": "Blad no. 376, rivierkaart gedeelte Amer / Nieuwe Merwede / Hollandsch Diep, rpn. 260.2-262.3 (Amer), 978-980 (Nieuwe Merwede) en 980-982 (Hollandsch Diep)",
+      "sourceRecordId": "4e7693bd-a433-8798-e063-6df0900ae38e",
+      "sourceImageId": "IDa390713e-c831-4df5-b1cb-e3b369761455",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7234,
+        "height": 5166,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 452,
+            "height": 322
+          },
+          {
+            "width": 904,
+            "height": 645
+          },
+          {
+            "width": 1808,
+            "height": 1291
+          },
+          {
+            "width": 3617,
+            "height": 2583
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=d9/37/84/89/15/a1/43/b0/83/33/2e/c0/1b/9d/f7/5c/a390713e-c831-4df5-b1cb-e3b369761455.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-06.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-06.json#canvas-4e7693bd-a433-8798-e063-6df0900ae38e-IDa390713e-c831-4df5-b1cb-e3b369761455",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "595"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7693bd-a433-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7693bd-a433-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 376, rivierkaart gedeelte Amer / Nieuwe Merwede / Hollandsch Diep, rpn. 260.2-262.3 (Amer), 978-980 (Nieuwe Merwede) en 980-982 (Hollandsch Diep)"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juni 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-06"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1976."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/d9378489-15a1-43b0-8333-2ec01b9df75c",
+      "homepage": "http://hdl.handle.net/10648/4e7693bd-a433-8798-e063-6df0900ae38e",
+      "pilot": false
+    }
+  ]
+}

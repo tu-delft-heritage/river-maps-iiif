@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-03",
+  "startedAt": "2026-11-19T19:00:43.278911+00:00",
+  "completedAt": "2026-11-19T19:26:39.858Z",
+  "elapsedSeconds": 1556.58,
+  "timingBasis": "Recorded wall-clock interval from batch setup to completed export, including preparation, visual review and waits; not CPU or model latency.",
+  "commands": [
+    {
+      "command": "select",
+      "startedAt": "2026-11-19T19:01:10.908795+00:00",
+      "completedAt": "2026-11-19T19:01:10.950077+00:00",
+      "elapsedSeconds": 0.04116429190617055,
+      "success": true
+    },
+    {
+      "command": "acquire",
+      "startedAt": "2026-11-19T19:01:26.103793+00:00",
+      "completedAt": "2026-11-19T19:08:13.801949+00:00",
+      "elapsedSeconds": 407.69788754102774,
+      "success": true
+    },
+    {
+      "command": "propose",
+      "startedAt": "2026-11-19T19:08:43.795715+00:00",
+      "completedAt": "2026-11-19T19:10:32.858380+00:00",
+      "elapsedSeconds": 109.06255983305164,
+      "success": true
+    },
+    {
+      "command": "packs",
+      "startedAt": "2026-11-19T19:10:39.051963+00:00",
+      "completedAt": "2026-11-19T19:10:43.643378+00:00",
+      "elapsedSeconds": 4.591305959038436,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T19:15:44.317010+00:00",
+      "completedAt": "2026-11-19T19:16:14.596299+00:00",
+      "elapsedSeconds": 30.2793079999974,
+      "success": false
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T19:16:31.689206+00:00",
+      "completedAt": "2026-11-19T19:16:32.231629+00:00",
+      "elapsedSeconds": 0.5424167920136824,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T19:18:07.717201+00:00",
+      "completedAt": "2026-11-19T19:18:08.315127+00:00",
+      "elapsedSeconds": 0.5979222919559106,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T19:22:05.278911+00:00",
+      "completedAt": "2026-11-19T19:22:14.179029+00:00",
+      "elapsedSeconds": 8.90001216600649,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T19:23:15.582780+00:00",
+      "completedAt": "2026-11-19T19:23:23.551385+00:00",
+      "elapsedSeconds": 7.9684524580370635,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T19:24:37.010632+00:00",
+      "completedAt": "2026-11-19T19:24:45.188640+00:00",
+      "elapsedSeconds": 8.177887958008796,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T19:26:31.309290+00:00",
+      "completedAt": "2026-11-19T19:26:39.067367+00:00",
+      "elapsedSeconds": 7.757971209008247,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T19:26:39.744Z",
+      "completedAt": "2026-11-19T19:26:39.858Z",
+      "elapsedSeconds": 0.11305058399999995,
+      "success": true
+    },
+    {
+      "command": "hydrate",
+      "startedAt": "2026-11-19T19:28:17.663724+00:00",
+      "completedAt": "2026-11-19T19:28:18.354025+00:00",
+      "elapsedSeconds": 0.6901887500425801,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T19:28:18.546373+00:00",
+      "completedAt": "2026-11-19T19:28:26.022742+00:00",
+      "elapsedSeconds": 7.47624512494076,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T19:28:26.609Z",
+      "completedAt": "2026-11-19T19:28:26.732Z",
+      "elapsedSeconds": 0.12174533400000001,
+      "success": true
+    }
+  ],
+  "tokenUsage": null,
+  "visionTokenUsage": null,
+  "usageAvailability": "Per-batch model and Vision token telemetry is not exposed by the available tools; no estimates."
+}

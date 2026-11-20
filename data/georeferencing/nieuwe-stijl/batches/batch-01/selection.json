@@ -1,0 +1,6129 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-01",
+  "sourceSha256": "d9a49265828e8d29cdabdde3ffc83889e67e46b5495f5794086ddd722ff71745",
+  "eadSha256": "4ed28eb23044c5753d0bbaefd6c04159ea0547d59a69fd33839a2f3b745606ab",
+  "selectionRule": "Next 50 unprocessed digitized maps in saved archival source order; exclude pilot and earlier batches.",
+  "records": [
+    {
+      "id": "4e7657e3-7a78-9dce-e063-6df0900acdd5-IDa8bcfcac-e887-4a11-bf46-73a1ec3c508e-main",
+      "inventoryNumber": "822",
+      "series": "D.02",
+      "title": "Blad no. 101 rivierkaart gedeelte Boven-Rijn, rpn. 857.0-859.7",
+      "sourceRecordId": "4e7657e3-7a78-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDa8bcfcac-e887-4a11-bf46-73a1ec3c508e",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7270,
+        "height": 5154,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1817,
+            "height": 1288
+          },
+          {
+            "width": 3635,
+            "height": 2577
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=95/9a/cc/6d/43/9e/4f/49/89/30/a0/4a/aa/16/b0/0a/a8bcfcac-e887-4a11-bf46-73a1ec3c508e.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-7a78-9dce-e063-6df0900acdd5-IDa8bcfcac-e887-4a11-bf46-73a1ec3c508e",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "822"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-7a78-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-7a78-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 101 rivierkaart gedeelte Boven-Rijn, rpn. 857.0-859.7"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt 1977"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1977"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/959acc6d-439e-4f49-8930-a04aaa16b00a",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-7a78-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e779063-aed5-0dcc-e063-6df0900ababf-IDaee5a6ff-269d-4452-82c9-1e83ecfa1082-main",
+      "inventoryNumber": "823",
+      "series": "D.02",
+      "title": "Blad no. 101 rivierkaart gedeelte Boven-Rijn, km. 857.0-859.7",
+      "sourceRecordId": "4e779063-aed5-0dcc-e063-6df0900ababf",
+      "sourceImageId": "IDaee5a6ff-269d-4452-82c9-1e83ecfa1082",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7260,
+        "height": 5165,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 645
+          },
+          {
+            "width": 1815,
+            "height": 1291
+          },
+          {
+            "width": 3630,
+            "height": 2582
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=aa/87/b7/59/10/c2/48/35/88/7a/a5/d7/9f/af/15/4b/aee5a6ff-269d-4452-82c9-1e83ecfa1082.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e779063-aed5-0dcc-e063-6df0900ababf-IDaee5a6ff-269d-4452-82c9-1e83ecfa1082",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "823"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e779063-aed5-0dcc-e063-6df0900ababf"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e779063-aed5-0dcc-e063-6df0900ababf"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 101 rivierkaart gedeelte Boven-Rijn, km. 857.0-859.7"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1983"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1983-10"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM juli 1983."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/aa87b759-10c2-4835-887a-a5d79faf154b",
+      "homepage": "http://hdl.handle.net/10648/4e779063-aed5-0dcc-e063-6df0900ababf",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-c0a4-e0c7-e063-6df0900a2ca4-ID43e49dec-0d10-46f6-b461-811f1690759c-main",
+      "inventoryNumber": "479",
+      "series": "D.02",
+      "title": "Blad no. 101 rivierkaart gedeelte Boven-Rijn, km. 857.0-859.7",
+      "sourceRecordId": "4e76d073-c0a4-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID43e49dec-0d10-46f6-b461-811f1690759c",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7264,
+        "height": 5168,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 908,
+            "height": 646
+          },
+          {
+            "width": 1816,
+            "height": 1292
+          },
+          {
+            "width": 3632,
+            "height": 2584
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=06/97/66/d3/40/88/48/17/ae/c0/db/de/4a/60/43/7e/43e49dec-0d10-46f6-b461-811f1690759c.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-c0a4-e0c7-e063-6df0900a2ca4-ID43e49dec-0d10-46f6-b461-811f1690759c",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "479"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-c0a4-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-c0a4-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 101 rivierkaart gedeelte Boven-Rijn, km. 857.0-859.7"
+        },
+        {
+          "label": "Datering",
+          "value": "april 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname april 1996."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/069766d3-4088-4817-aec0-dbde4a60437e",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-c0a4-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b427-e0c7-e063-6df0900a2ca4-ID9d7ca715-1b41-413d-8334-2acc9735aa14-main",
+      "inventoryNumber": "826",
+      "series": "D.02",
+      "title": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, rpn. 859.7-862.4",
+      "sourceRecordId": "4e76d073-b427-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID9d7ca715-1b41-413d-8334-2acc9735aa14",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7279,
+        "height": 5183,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 909,
+            "height": 647
+          },
+          {
+            "width": 1819,
+            "height": 1295
+          },
+          {
+            "width": 3639,
+            "height": 2591
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=92/af/09/32/67/28/4c/cd/97/f1/7d/bf/15/50/66/cf/9d7ca715-1b41-413d-8334-2acc9735aa14.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b427-e0c7-e063-6df0900a2ca4-ID9d7ca715-1b41-413d-8334-2acc9735aa14",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "826"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b427-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b427-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, rpn. 859.7-862.4"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1960"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1960-10"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM november 1953 en september 1958. Voorlopige uitgave."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/92af0932-6728-4ccd-97f1-7dbf155066cf",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b427-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-7687-9dce-e063-6df0900acdd5-ID8ff04679-dcd4-4cf8-8ebb-d8fb81430b5d-main",
+      "inventoryNumber": "825",
+      "series": "D.02",
+      "title": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, rpn. 859.7-862.5",
+      "sourceRecordId": "4e7657e3-7687-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID8ff04679-dcd4-4cf8-8ebb-d8fb81430b5d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7282,
+        "height": 5185,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 162
+          },
+          {
+            "width": 455,
+            "height": 324
+          },
+          {
+            "width": 910,
+            "height": 648
+          },
+          {
+            "width": 1820,
+            "height": 1296
+          },
+          {
+            "width": 3641,
+            "height": 2592
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=2d/8a/68/8a/98/6b/45/5e/a3/98/f6/a4/91/b1/b1/93/8ff04679-dcd4-4cf8-8ebb-d8fb81430b5d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-7687-9dce-e063-6df0900acdd5-ID8ff04679-dcd4-4cf8-8ebb-d8fb81430b5d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "825"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-7687-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-7687-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, rpn. 859.7-862.5"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot 1977"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1977"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/2d8a688a-986b-455e-a398-f6a491b1b193",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-7687-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-2b44-908c-e063-6df0900a4619-ID39f46b09-fe76-4597-9ab3-8d1b482d5332-main",
+      "inventoryNumber": "824",
+      "series": "D.02",
+      "title": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, km. 859.7-862.5",
+      "sourceRecordId": "4e7675ea-2b44-908c-e063-6df0900a4619",
+      "sourceImageId": "ID39f46b09-fe76-4597-9ab3-8d1b482d5332",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7270,
+        "height": 5154,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1817,
+            "height": 1288
+          },
+          {
+            "width": 3635,
+            "height": 2577
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=1b/7c/6e/dd/62/c5/47/ec/b3/56/56/a5/f0/93/6a/33/39f46b09-fe76-4597-9ab3-8d1b482d5332.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-2b44-908c-e063-6df0900a4619-ID39f46b09-fe76-4597-9ab3-8d1b482d5332",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "824"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-2b44-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-2b44-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, km. 859.7-862.5"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1983"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1983-10"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM juli 1983."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/1b7c6edd-62c5-47ec-b356-56a5f0936a33",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-2b44-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-7af1-9dce-e063-6df0900acdd5-IDed525d58-0475-4553-8649-dedb111a6db6-main",
+      "inventoryNumber": "480",
+      "series": "D.02",
+      "title": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, km. 859.7-862.5",
+      "sourceRecordId": "4e7657e3-7af1-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDed525d58-0475-4553-8649-dedb111a6db6",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7278,
+        "height": 5181,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 909,
+            "height": 647
+          },
+          {
+            "width": 1819,
+            "height": 1295
+          },
+          {
+            "width": 3639,
+            "height": 2590
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=3b/5b/b3/e0/77/3f/43/61/93/86/c1/d3/f7/ff/cc/41/ed525d58-0475-4553-8649-dedb111a6db6.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-7af1-9dce-e063-6df0900acdd5-IDed525d58-0475-4553-8649-dedb111a6db6",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "480"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-7af1-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-7af1-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 102 rivierkaart gedeelte Boven-Rijn, km. 859.7-862.5"
+        },
+        {
+          "label": "Datering",
+          "value": "april 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname april 1996."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/3b5bb3e0-773f-4361-9386-c1d3f7ffcc41",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-7af1-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4ed1-ed5c-e063-6df0900ae03b-IDaf7c7324-bcad-4754-adca-0d22050a185d-main",
+      "inventoryNumber": "827",
+      "series": "D.02",
+      "title": "Blad no. 103 rivierkaart gedeelte Boven-Rijn, rpn. 862.2-864.9",
+      "sourceRecordId": "4e77125b-4ed1-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDaf7c7324-bcad-4754-adca-0d22050a185d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=91/1d/4a/a2/c1/20/49/44/bb/c5/f6/6b/a8/9c/44/81/af7c7324-bcad-4754-adca-0d22050a185d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-4ed1-ed5c-e063-6df0900ae03b-IDaf7c7324-bcad-4754-adca-0d22050a185d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "827"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4ed1-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4ed1-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 103 rivierkaart gedeelte Boven-Rijn, rpn. 862.2-864.9"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot mei 1978"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1978-05"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM 30 oktober 1975."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/911d4aa2-c120-4944-bbc5-f66ba89c4481",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4ed1-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-2f97-f0f5-e063-6df0900abdfc-ID787f1667-da3c-47b5-bbc7-c27192f258c4-main",
+      "inventoryNumber": "828",
+      "series": "D.02",
+      "title": "Blad no. 103 rivierkaart gedeelte Boven-Rijn, km. 862.2-864.9",
+      "sourceRecordId": "4e773293-2f97-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID787f1667-da3c-47b5-bbc7-c27192f258c4",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=61/1d/68/cf/73/67/45/91/ae/af/80/11/96/df/98/42/787f1667-da3c-47b5-bbc7-c27192f258c4.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-2f97-f0f5-e063-6df0900abdfc-ID787f1667-da3c-47b5-bbc7-c27192f258c4",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "828"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-2f97-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-2f97-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 103 rivierkaart gedeelte Boven-Rijn, km. 862.2-864.9"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1983"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1983-10"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM juli 1983."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/611d68cf-7367-4591-aeaf-801196df9842",
+      "homepage": "http://hdl.handle.net/10648/4e773293-2f97-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b725-e0c7-e063-6df0900a2ca4-IDb2fef266-0d3e-4da8-b535-3bcdbc0bf98b-main",
+      "inventoryNumber": "830",
+      "series": "D.02",
+      "title": "Blad no. 104 rivierkaart gedeelte Boven-Rijn, rpn. 864.7-866.0 en 866A-867C",
+      "sourceRecordId": "4e76d073-b725-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "IDb2fef266-0d3e-4da8-b535-3bcdbc0bf98b",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=bd/1d/4d/3e/39/9f/4a/ca/ba/0e/b6/4f/20/6d/e2/82/b2fef266-0d3e-4da8-b535-3bcdbc0bf98b.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b725-e0c7-e063-6df0900a2ca4-IDb2fef266-0d3e-4da8-b535-3bcdbc0bf98b",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "830"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b725-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b725-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 104 rivierkaart gedeelte Boven-Rijn, rpn. 864.7-866.0 en 866A-867C"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juli 1977"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1977-07"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM oktober 1975."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/bd1d4d3e-399f-4aca-ba0e-b64f206de282",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b725-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-30bc-908c-e063-6df0900a4619-ID11da79df-eb51-428e-9314-ef966aac6351-main",
+      "inventoryNumber": "829",
+      "series": "D.02",
+      "title": "Blad no. 104 rivierkaart gedeelte Boven-Rijn, km. 864.7-867.4",
+      "sourceRecordId": "4e7675ea-30bc-908c-e063-6df0900a4619",
+      "sourceImageId": "ID11da79df-eb51-428e-9314-ef966aac6351",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7272,
+        "height": 5161,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 645
+          },
+          {
+            "width": 1818,
+            "height": 1290
+          },
+          {
+            "width": 3636,
+            "height": 2580
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=6a/be/ae/e1/52/5a/47/98/ac/de/58/ff/33/b9/42/62/11da79df-eb51-428e-9314-ef966aac6351.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-30bc-908c-e063-6df0900a4619-ID11da79df-eb51-428e-9314-ef966aac6351",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "829"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-30bc-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-30bc-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 104 rivierkaart gedeelte Boven-Rijn, km. 864.7-867.4"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot november 1988"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1988-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname oktober 1975."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/6abeaee1-525a-4798-acde-58ff33b94262",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-30bc-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-6c2c-9dce-e063-6df0900acdd5-IDf0145479-7441-4b92-8425-561f062d6f82-main",
+      "inventoryNumber": "832",
+      "series": "D.02",
+      "title": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, rpn. 867B-870O en 867B-872C",
+      "sourceRecordId": "4e7657e3-6c2c-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDf0145479-7441-4b92-8425-561f062d6f82",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 160
+          },
+          {
+            "width": 453,
+            "height": 321
+          },
+          {
+            "width": 907,
+            "height": 642
+          },
+          {
+            "width": 1814,
+            "height": 1285
+          },
+          {
+            "width": 3629,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=02/e0/3d/10/27/73/47/2c/a8/5b/23/98/e4/33/cf/46/f0145479-7441-4b92-8425-561f062d6f82.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-6c2c-9dce-e063-6df0900acdd5-IDf0145479-7441-4b92-8425-561f062d6f82",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "832"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-6c2c-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-6c2c-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, rpn. 867B-870O en 867B-872C"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1958 en maart 1961."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/02e03d10-2773-472c-a85b-2398e433cf46",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-6c2c-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-712b-9dce-e063-6df0900acdd5-ID1d73da46-ca0b-4ee7-9f3e-7c74d41c1a91-main",
+      "inventoryNumber": "833",
+      "series": "D.02",
+      "title": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, rpn. 867B-870O en 867B-872C",
+      "sourceRecordId": "4e7657e3-712b-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID1d73da46-ca0b-4ee7-9f3e-7c74d41c1a91",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=35/d5/d9/81/9d/49/4e/b8/90/31/81/a5/44/4e/a7/a0/1d73da46-ca0b-4ee7-9f3e-7c74d41c1a91.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-712b-9dce-e063-6df0900acdd5-ID1d73da46-ca0b-4ee7-9f3e-7c74d41c1a91",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "833"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-712b-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-712b-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, rpn. 867B-870O en 867B-872C"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1986"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1986-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970 en oktober 1972."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/35d5d981-9d49-4eb8-9031-81a5444ea7a0",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-712b-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-2b2c-908c-e063-6df0900a4619-ID3f419875-b28d-4c4c-9221-f044c35442eb-main",
+      "inventoryNumber": "831",
+      "series": "D.02",
+      "title": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, km. 867.0-870.0 en km. 867.0-872.3",
+      "sourceRecordId": "4e7675ea-2b2c-908c-e063-6df0900a4619",
+      "sourceImageId": "ID3f419875-b28d-4c4c-9221-f044c35442eb",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7275,
+        "height": 5146,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 643
+          },
+          {
+            "width": 1818,
+            "height": 1286
+          },
+          {
+            "width": 3637,
+            "height": 2573
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=67/71/b6/f5/6e/f4/45/56/bd/ad/53/aa/78/69/21/52/3f419875-b28d-4c4c-9221-f044c35442eb.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-2b2c-908c-e063-6df0900a4619-ID3f419875-b28d-4c4c-9221-f044c35442eb",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "831"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-2b2c-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-2b2c-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, km. 867.0-870.0 en km. 867.0-872.3"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1991"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1991-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname Deltha-phot maart 1991."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/6771b6f5-6ef4-4556-bdad-53aa78692152",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-2b2c-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-82ef-9dce-e063-6df0900acdd5-IDf9f2e9e8-021b-4f06-9ce8-33e54aa402e6-main",
+      "inventoryNumber": "497",
+      "series": "D.02",
+      "title": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, km. 867.0-870.0 en 867.0-872.3",
+      "sourceRecordId": "4e7657e3-82ef-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDf9f2e9e8-021b-4f06-9ce8-33e54aa402e6",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7284,
+        "height": 5138,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 455,
+            "height": 321
+          },
+          {
+            "width": 910,
+            "height": 642
+          },
+          {
+            "width": 1821,
+            "height": 1284
+          },
+          {
+            "width": 3642,
+            "height": 2569
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=a8/63/3a/42/25/21/42/a8/87/b6/7e/3f/46/0b/7e/b6/f9f2e9e8-021b-4f06-9ce8-33e54aa402e6.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-82ef-9dce-e063-6df0900acdd5-IDf9f2e9e8-021b-4f06-9ce8-33e54aa402e6",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "497"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-82ef-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-82ef-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 105/201 rivierkaart gedeelte Waal - Pannerdensch Kanaal, km. 867.0-870.0 en 867.0-872.3"
+        },
+        {
+          "label": "Datering",
+          "value": "maart 1996"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1996-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname Delphot maart 1996."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/a8633a42-2521-42a8-87b6-7e3f460b7eb6",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-82ef-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-77ef-9dce-e063-6df0900acdd5-ID25ae1d87-378a-4b54-b576-c69470252d9f-main",
+      "inventoryNumber": "834",
+      "series": "D.02",
+      "title": "Blad no. 106 rivierkaart gedeelte Waal, rpn. 870O-872F",
+      "sourceRecordId": "4e7657e3-77ef-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID25ae1d87-378a-4b54-b576-c69470252d9f",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=a9/49/da/72/10/3a/43/3c/92/24/13/70/c5/c1/c4/21/25ae1d87-378a-4b54-b576-c69470252d9f.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-77ef-9dce-e063-6df0900acdd5-ID25ae1d87-378a-4b54-b576-c69470252d9f",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "834"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-77ef-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-77ef-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 106 rivierkaart gedeelte Waal, rpn. 870O-872F"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juli 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-07"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1958."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/a949da72-103a-433c-9224-1370c5c1c421",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-77ef-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-29c4-908c-e063-6df0900a4619-ID12cd9d0f-77f6-4bb2-aee8-f838db597664-main",
+      "inventoryNumber": "836",
+      "series": "D.02",
+      "title": "Blad no. 106 rivierkaart gedeelte Waal, rpn. 870O-872F",
+      "sourceRecordId": "4e7675ea-29c4-908c-e063-6df0900a4619",
+      "sourceImageId": "ID12cd9d0f-77f6-4bb2-aee8-f838db597664",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=73/50/4d/99/ef/8f/4c/5a/9c/ac/43/40/b5/5c/3a/85/12cd9d0f-77f6-4bb2-aee8-f838db597664.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-29c4-908c-e063-6df0900a4619-ID12cd9d0f-77f6-4bb2-aee8-f838db597664",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "836"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-29c4-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-29c4-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 106 rivierkaart gedeelte Waal, rpn. 870O-872F"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot januari 1976"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1976-01"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "1e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/73504d99-ef8f-4c5a-9cac-4340b55c3a85",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-29c4-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-2acc-908c-e063-6df0900a4619-ID6d3169fd-9523-4933-bec0-144faa7308e3-main",
+      "inventoryNumber": "835",
+      "series": "D.02",
+      "title": "Blad no. 106 rivierkaart gedeelte Waal, rpn. 870O-872F",
+      "sourceRecordId": "4e7675ea-2acc-908c-e063-6df0900a4619",
+      "sourceImageId": "ID6d3169fd-9523-4933-bec0-144faa7308e3",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7280,
+        "height": 5167,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 455,
+            "height": 322
+          },
+          {
+            "width": 910,
+            "height": 645
+          },
+          {
+            "width": 1820,
+            "height": 1291
+          },
+          {
+            "width": 3640,
+            "height": 2583
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=ef/b1/b2/74/aa/52/48/90/ad/a3/b1/1c/ed/05/4d/ec/6d3169fd-9523-4933-bec0-144faa7308e3.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-2acc-908c-e063-6df0900a4619-ID6d3169fd-9523-4933-bec0-144faa7308e3",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "835"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-2acc-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-2acc-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 106 rivierkaart gedeelte Waal, rpn. 870O-872F"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot januari 1976"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1976-01"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "2e exemplaar. Met aantekeningen."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/efb1b274-aa52-4890-ada3-b11ced054dec",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-2acc-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-7294-9dce-e063-6df0900acdd5-ID483641bb-1103-4602-ad6c-c5e916726391-main",
+      "inventoryNumber": "838",
+      "series": "D.02",
+      "title": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O",
+      "sourceRecordId": "4e7657e3-7294-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID483641bb-1103-4602-ad6c-c5e916726391",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=f7/f1/0a/a1/5c/06/41/19/93/89/65/59/50/14/45/21/483641bb-1103-4602-ad6c-c5e916726391.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-7294-9dce-e063-6df0900acdd5-ID483641bb-1103-4602-ad6c-c5e916726391",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "838"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-7294-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-7294-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot augustus 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1958."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/f7f10aa1-5c06-4119-9389-655950144521",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-7294-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-3672-f0f5-e063-6df0900abdfc-IDb187b99b-51c7-4c87-83be-e88bca31f553-main",
+      "inventoryNumber": "837",
+      "series": "D.02",
+      "title": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O",
+      "sourceRecordId": "4e773293-3672-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "IDb187b99b-51c7-4c87-83be-e88bca31f553",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=6a/d8/31/b7/43/c9/49/33/aa/3f/6f/80/cd/1c/30/d7/b187b99b-51c7-4c87-83be-e88bca31f553.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-3672-f0f5-e063-6df0900abdfc-IDb187b99b-51c7-4c87-83be-e88bca31f553",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "837"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-3672-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-3672-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot augustus 1988"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1988-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "1e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/6ad831b7-43c9-4933-aa3f-6f80cd1c30d7",
+      "homepage": "http://hdl.handle.net/10648/4e773293-3672-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-29ac-908c-e063-6df0900a4619-ID44a97f92-a474-4576-aad8-869ecf11b9b6-main",
+      "inventoryNumber": "839",
+      "series": "D.02",
+      "title": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O",
+      "sourceRecordId": "4e7675ea-29ac-908c-e063-6df0900a4619",
+      "sourceImageId": "ID44a97f92-a474-4576-aad8-869ecf11b9b6",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7275,
+        "height": 5158,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1818,
+            "height": 1289
+          },
+          {
+            "width": 3637,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=d3/d9/be/8d/ae/18/4b/dc/b8/c2/af/17/36/d9/48/77/44a97f92-a474-4576-aad8-869ecf11b9b6.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-29ac-908c-e063-6df0900a4619-ID44a97f92-a474-4576-aad8-869ecf11b9b6",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "839"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-29ac-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-29ac-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot augustus 1988"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1988-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "2e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/d3d9be8d-ae18-4bdc-b8c2-af1736d94877",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-29ac-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-34f2-f0f5-e063-6df0900abdfc-ID70014a19-b61c-4465-b3ac-3ea1fdbc1795-main",
+      "inventoryNumber": "840",
+      "series": "D.02",
+      "title": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O",
+      "sourceRecordId": "4e773293-34f2-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID70014a19-b61c-4465-b3ac-3ea1fdbc1795",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7289,
+        "height": 5178,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 455,
+            "height": 323
+          },
+          {
+            "width": 911,
+            "height": 647
+          },
+          {
+            "width": 1822,
+            "height": 1294
+          },
+          {
+            "width": 3644,
+            "height": 2589
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=16/12/b9/49/3a/8c/4f/fe/ab/7c/d6/1d/ab/cf/9f/c5/70014a19-b61c-4465-b3ac-3ea1fdbc1795.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-34f2-f0f5-e063-6df0900abdfc-ID70014a19-b61c-4465-b3ac-3ea1fdbc1795",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "840"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-34f2-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-34f2-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 107 rivierkaart gedeelte Waal, rpn. 872F-877O"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot augustus 1988"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1988-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Ordening / exemplaar",
+          "value": "3e exemplaar."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/1612b949-3a8c-4ffe-ab7c-d61dabcf9fc5",
+      "homepage": "http://hdl.handle.net/10648/4e773293-34f2-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e7693bd-a4db-8798-e063-6df0900ae38e-IDfdfed6fa-3299-4825-8838-2d9b5433d27c-main",
+      "inventoryNumber": "841",
+      "series": "D.02",
+      "title": "Blad no. 108 rivierkaart gedeelte Waal, rpn. 876O-880D",
+      "sourceRecordId": "4e7693bd-a4db-8798-e063-6df0900ae38e",
+      "sourceImageId": "IDfdfed6fa-3299-4825-8838-2d9b5433d27c",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7255,
+        "height": 5161,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 906,
+            "height": 645
+          },
+          {
+            "width": 1813,
+            "height": 1290
+          },
+          {
+            "width": 3627,
+            "height": 2580
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=3a/24/cc/7b/ff/25/4e/61/91/6a/34/e8/0c/c7/8a/04/fdfed6fa-3299-4825-8838-2d9b5433d27c.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7693bd-a4db-8798-e063-6df0900ae38e-IDfdfed6fa-3299-4825-8838-2d9b5433d27c",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "841"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7693bd-a4db-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7693bd-a4db-8798-e063-6df0900ae38e"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 108 rivierkaart gedeelte Waal, rpn. 876O-880D"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot augustus 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM 14 september 1958 en 17 maart 1961."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/3a24cc7b-ff25-4e61-916a-34e80cc78a04",
+      "homepage": "http://hdl.handle.net/10648/4e7693bd-a4db-8798-e063-6df0900ae38e",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4f19-ed5c-e063-6df0900ae03b-ID71ac6a66-3aae-4f23-b76d-73c978b7998b-main",
+      "inventoryNumber": "842",
+      "series": "D.02",
+      "title": "Blad no. 108 rivierkaart gedeelte Waal, rpn. 876.0-880.5",
+      "sourceRecordId": "4e77125b-4f19-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID71ac6a66-3aae-4f23-b76d-73c978b7998b",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=89/2b/70/d9/05/3d/4f/82/97/91/de/3b/45/d6/10/e4/71ac6a66-3aae-4f23-b76d-73c978b7998b.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-4f19-ed5c-e063-6df0900ae03b-ID71ac6a66-3aae-4f23-b76d-73c978b7998b",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "842"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4f19-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4f19-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 108 rivierkaart gedeelte Waal, rpn. 876.0-880.5"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1981"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1981-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1979."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/892b70d9-053d-4f82-9791-de3b45d610e4",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4f19-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-be34-e0c7-e063-6df0900a2ca4-ID3b6d84e2-c402-4ccb-b8df-7c184aa0eee0-main",
+      "inventoryNumber": "844",
+      "series": "D.02",
+      "title": "Blad no. 109 rivierkaart gedeelte Waal, rpn. 880C-885B",
+      "sourceRecordId": "4e76d073-be34-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID3b6d84e2-c402-4ccb-b8df-7c184aa0eee0",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=ba/ae/c8/bd/da/fe/45/cf/ac/75/e6/71/82/42/98/fd/3b6d84e2-c402-4ccb-b8df-7c184aa0eee0.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-be34-e0c7-e063-6df0900a2ca4-ID3b6d84e2-c402-4ccb-b8df-7c184aa0eee0",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "844"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-be34-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-be34-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 109 rivierkaart gedeelte Waal, rpn. 880C-885B"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM 17 maart 1961."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/baaec8bd-dafe-45cf-ac75-e671824298fd",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-be34-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b19e-e0c7-e063-6df0900a2ca4-ID0adf1e87-4f06-4678-959f-9f884456eb6d-main",
+      "inventoryNumber": "843",
+      "series": "D.02",
+      "title": "Blad no. 109 rivierkaart gedeelte Waal, km. 880.3-885.4",
+      "sourceRecordId": "4e76d073-b19e-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID0adf1e87-4f06-4678-959f-9f884456eb6d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7272,
+        "height": 5144,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 643
+          },
+          {
+            "width": 1818,
+            "height": 1286
+          },
+          {
+            "width": 3636,
+            "height": 2572
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=56/4f/79/dd/1c/80/4c/2d/a0/72/93/ec/b5/a7/52/d3/0adf1e87-4f06-4678-959f-9f884456eb6d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b19e-e0c7-e063-6df0900a2ca4-ID0adf1e87-4f06-4678-959f-9f884456eb6d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "843"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b19e-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b19e-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 109 rivierkaart gedeelte Waal, km. 880.3-885.4"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juli 1981"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1981-07"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1979."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/564f79dd-1c80-4c2d-a072-93ecb5a752d3",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b19e-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-6af2-9dce-e063-6df0900acdd5-ID85f98071-3898-495f-b6dc-57efe066cc04-main",
+      "inventoryNumber": "845",
+      "series": "D.02",
+      "title": "Blad no. 109 rivierkaart gedeelte Waal, km. 880.2-885.3",
+      "sourceRecordId": "4e7657e3-6af2-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID85f98071-3898-495f-b6dc-57efe066cc04",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=1c/bb/9d/b4/fc/11/42/e3/88/03/30/72/88/3b/db/c3/85f98071-3898-495f-b6dc-57efe066cc04.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-6af2-9dce-e063-6df0900acdd5-ID85f98071-3898-495f-b6dc-57efe066cc04",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "845"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-6af2-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-6af2-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 109 rivierkaart gedeelte Waal, km. 880.2-885.3"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot maart 1991"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1991-03"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname Delta-phot maart 1991."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/1cbb9db4-fc11-42e3-8803-3072883bdbc3",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-6af2-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-2fb2-908c-e063-6df0900a4619-IDd7592f97-5ec6-4f13-a19f-d9cc2193a6ad-main",
+      "inventoryNumber": "847",
+      "series": "D.02",
+      "title": "Blad no. 110 rivierkaart gedeelte Waal, rpn. 885A-889G",
+      "sourceRecordId": "4e7675ea-2fb2-908c-e063-6df0900a4619",
+      "sourceImageId": "IDd7592f97-5ec6-4f13-a19f-d9cc2193a6ad",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7268,
+        "height": 5153,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1817,
+            "height": 1288
+          },
+          {
+            "width": 3634,
+            "height": 2576
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=ae/1e/e8/ae/3b/e2/43/a3/85/44/da/28/e5/fa/5e/13/d7592f97-5ec6-4f13-a19f-d9cc2193a6ad.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-2fb2-908c-e063-6df0900a4619-IDd7592f97-5ec6-4f13-a19f-d9cc2193a6ad",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "847"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-2fb2-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-2fb2-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 110 rivierkaart gedeelte Waal, rpn. 885A-889G"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot mei 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-05"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM 17 maart 1961."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/ae1ee8ae-3be2-43a3-8544-da28e5fa5e13",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-2fb2-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b0f6-e0c7-e063-6df0900a2ca4-ID570dc65e-22cb-43e1-a259-14bacc485aee-main",
+      "inventoryNumber": "846",
+      "series": "D.02",
+      "title": "Blad no. 110 rivierkaart gedeelte Waal, km. 885.1-889.9",
+      "sourceRecordId": "4e76d073-b0f6-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID570dc65e-22cb-43e1-a259-14bacc485aee",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 160
+          },
+          {
+            "width": 453,
+            "height": 321
+          },
+          {
+            "width": 907,
+            "height": 642
+          },
+          {
+            "width": 1814,
+            "height": 1285
+          },
+          {
+            "width": 3629,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=f6/c7/f6/fc/25/c1/41/07/be/c7/31/2d/af/2d/38/99/570dc65e-22cb-43e1-a259-14bacc485aee.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b0f6-e0c7-e063-6df0900a2ca4-ID570dc65e-22cb-43e1-a259-14bacc485aee",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "846"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b0f6-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b0f6-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 110 rivierkaart gedeelte Waal, km. 885.1-889.9"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot juli 1981"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1981-07"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1979."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/f6c7f6fc-25c1-4107-bec7-312daf2d3899",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b0f6-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-bbd9-e0c7-e063-6df0900a2ca4-ID0ca1062e-be1d-457f-aa30-0c231e4556dc-main",
+      "inventoryNumber": "481",
+      "series": "D.02",
+      "title": "Blad no. 110 rivierkaart gedeelte Waal, km. 885.0-889.9",
+      "sourceRecordId": "4e76d073-bbd9-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID0ca1062e-be1d-457f-aa30-0c231e4556dc",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7264,
+        "height": 5158,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1816,
+            "height": 1289
+          },
+          {
+            "width": 3632,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=50/79/29/0b/64/31/4d/f3/96/bd/da/f7/39/a7/98/41/0ca1062e-be1d-457f-aa30-0c231e4556dc.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-bbd9-e0c7-e063-6df0900a2ca4-ID0ca1062e-be1d-457f-aa30-0c231e4556dc",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "481"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-bbd9-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-bbd9-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 110 rivierkaart gedeelte Waal, km. 885.0-889.9"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/5079290b-6431-4df3-96bd-daf739a79841",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-bbd9-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-2cf6-908c-e063-6df0900a4619-ID94ef8e9f-696c-4488-9bc4-e2550b7ad57c-main",
+      "inventoryNumber": "848",
+      "series": "D.02",
+      "title": "Blad no. 111 rivierkaart gedeelte Waal, rpn. 889G-894E",
+      "sourceRecordId": "4e7675ea-2cf6-908c-e063-6df0900a4619",
+      "sourceImageId": "ID94ef8e9f-696c-4488-9bc4-e2550b7ad57c",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=c7/f2/f6/91/60/82/4a/08/aa/d5/b9/d9/cc/7b/f0/26/94ef8e9f-696c-4488-9bc4-e2550b7ad57c.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-2cf6-908c-e063-6df0900a4619-ID94ef8e9f-696c-4488-9bc4-e2550b7ad57c",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "848"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-2cf6-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-2cf6-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 111 rivierkaart gedeelte Waal, rpn. 889G-894E"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1962"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1962-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1961."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/c7f2f691-6082-4a08-aad5-b9d9cc7bf026",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-2cf6-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4026-ed5c-e063-6df0900ae03b-ID08de171b-0614-43c8-9b5c-ec8700cfd51d-main",
+      "inventoryNumber": "849",
+      "series": "D.02",
+      "title": "Blad no. 111 rivierkaart gedeelte Waal, km. 889.8-894.7",
+      "sourceRecordId": "4e77125b-4026-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID08de171b-0614-43c8-9b5c-ec8700cfd51d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=84/50/ff/ec/9e/12/4e/a5/be/17/f8/80/6a/84/9e/b5/08de171b-0614-43c8-9b5c-ec8700cfd51d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-4026-ed5c-e063-6df0900ae03b-ID08de171b-0614-43c8-9b5c-ec8700cfd51d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "849"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4026-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4026-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 111 rivierkaart gedeelte Waal, km. 889.8-894.7"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1982"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1982-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1979."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/8450ffec-9e12-4ea5-be17-f8806a849eb5",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4026-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b76d-e0c7-e063-6df0900a2ca4-ID5fc29ab6-3dd8-4236-885d-f6b9220479df-main",
+      "inventoryNumber": "482",
+      "series": "D.02",
+      "title": "Blad no. 111 rivierkaart gedeelte Waal, km. 889.8-894.7",
+      "sourceRecordId": "4e76d073-b76d-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID5fc29ab6-3dd8-4236-885d-f6b9220479df",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7256,
+        "height": 5179,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 323
+          },
+          {
+            "width": 907,
+            "height": 647
+          },
+          {
+            "width": 1814,
+            "height": 1294
+          },
+          {
+            "width": 3628,
+            "height": 2589
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=38/53/29/39/6d/e5/45/23/ab/14/34/e4/14/70/82/fa/5fc29ab6-3dd8-4236-885d-f6b9220479df.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b76d-e0c7-e063-6df0900a2ca4-ID5fc29ab6-3dd8-4236-885d-f6b9220479df",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "482"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b76d-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b76d-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 111 rivierkaart gedeelte Waal, km. 889.8-894.7"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-12"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/38532939-6de5-4523-ab14-34e4147082fa",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b76d-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-8337-9dce-e063-6df0900acdd5-IDd934a891-ff1b-4fb1-bf35-a154880a461e-main",
+      "inventoryNumber": "851",
+      "series": "D.02",
+      "title": "Blad no. 112 rivierkaart gedeelte Waal, rpn. 894F-899D",
+      "sourceRecordId": "4e7657e3-8337-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDd934a891-ff1b-4fb1-bf35-a154880a461e",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 644
+          },
+          {
+            "width": 1814,
+            "height": 1289
+          },
+          {
+            "width": 3629,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=6c/1f/51/a4/27/7a/47/ff/9e/29/10/4f/ff/5e/e8/3f/d934a891-ff1b-4fb1-bf35-a154880a461e.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-8337-9dce-e063-6df0900acdd5-IDd934a891-ff1b-4fb1-bf35-a154880a461e",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "851"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-8337-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-8337-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 112 rivierkaart gedeelte Waal, rpn. 894F-899D"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "09-1979"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM maart 1961"
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/6c1f51a4-277a-47ff-9e29-104fff5ee83f",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-8337-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-b0ae-e0c7-e063-6df0900a2ca4-ID998d117e-6ee1-4f08-bfc0-aa8e3c39fedb-main",
+      "inventoryNumber": "850",
+      "series": "D.02",
+      "title": "Blad no. 112 rivierkaart gedeelte Waal, km. 894.7-899.5",
+      "sourceRecordId": "4e76d073-b0ae-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "ID998d117e-6ee1-4f08-bfc0-aa8e3c39fedb",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7265,
+        "height": 5173,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 908,
+            "height": 646
+          },
+          {
+            "width": 1816,
+            "height": 1293
+          },
+          {
+            "width": 3632,
+            "height": 2586
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=a2/bf/e3/3c/21/26/4f/84/8d/68/9a/d2/53/7c/5a/ae/998d117e-6ee1-4f08-bfc0-aa8e3c39fedb.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-b0ae-e0c7-e063-6df0900a2ca4-ID998d117e-6ee1-4f08-bfc0-aa8e3c39fedb",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "850"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-b0ae-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-b0ae-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 112 rivierkaart gedeelte Waal, km. 894.7-899.5"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot mei 1982"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1982-05"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1979."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/a2bfe33c-2126-4f84-8d68-9ad2537c5aae",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-b0ae-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-30a4-908c-e063-6df0900a4619-ID37fdef44-48f8-4be7-8dfd-53685b740825-main",
+      "inventoryNumber": "483",
+      "series": "D.02",
+      "title": "Blad no. 112 rivierkaart gedeelte Waal, km. 894.6-899.6",
+      "sourceRecordId": "4e7675ea-30a4-908c-e063-6df0900a4619",
+      "sourceImageId": "ID37fdef44-48f8-4be7-8dfd-53685b740825",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7277,
+        "height": 5183,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 323
+          },
+          {
+            "width": 909,
+            "height": 647
+          },
+          {
+            "width": 1819,
+            "height": 1295
+          },
+          {
+            "width": 3638,
+            "height": 2591
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=2b/4e/5a/cb/e2/4b/45/83/98/5c/3c/ec/c3/5a/ce/65/37fdef44-48f8-4be7-8dfd-53685b740825.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-30a4-908c-e063-6df0900a4619-ID37fdef44-48f8-4be7-8dfd-53685b740825",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "483"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-30a4-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-30a4-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 112 rivierkaart gedeelte Waal, km. 894.6-899.6"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/2b4e5acb-e24b-4583-985c-3cecc35ace65",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-30a4-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-44db-ed5c-e063-6df0900ae03b-IDe5a5cf98-ed63-4ffb-93b4-8fb0a06a6c1f-main",
+      "inventoryNumber": "853",
+      "series": "D.02",
+      "title": "Blad no. 113 rivierkaart gedeelte Waal, rpn. 899B-904O",
+      "sourceRecordId": "4e77125b-44db-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDe5a5cf98-ed63-4ffb-93b4-8fb0a06a6c1f",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=be/eb/d0/35/c9/fc/4d/b3/9c/13/af/a0/95/87/54/6b/e5a5cf98-ed63-4ffb-93b4-8fb0a06a6c1f.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-44db-ed5c-e063-6df0900ae03b-IDe5a5cf98-ed63-4ffb-93b4-8fb0a06a6c1f",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "853"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-44db-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-44db-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 113 rivierkaart gedeelte Waal, rpn. 899B-904O"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1979"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1979-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1968."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/beebd035-c9fc-4db3-9c13-afa09587546b",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-44db-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-500a-ed5c-e063-6df0900ae03b-IDe41e2c10-3fba-4663-bbdd-6c21d37d10dc-main",
+      "inventoryNumber": "852",
+      "series": "D.02",
+      "title": "Blad no. 113 rivierkaart gedeelte Waal, km. 899.2-904.0",
+      "sourceRecordId": "4e77125b-500a-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDe41e2c10-3fba-4663-bbdd-6c21d37d10dc",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 909,
+            "height": 644
+          },
+          {
+            "width": 1819,
+            "height": 1289
+          },
+          {
+            "width": 3638,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=aa/ae/9e/0e/e7/85/41/11/84/b5/5d/5b/79/26/b2/d0/e41e2c10-3fba-4663-bbdd-6c21d37d10dc.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-500a-ed5c-e063-6df0900ae03b-IDe41e2c10-3fba-4663-bbdd-6c21d37d10dc",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "852"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-500a-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-500a-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 113 rivierkaart gedeelte Waal, km. 899.2-904.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot september 1982"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1982-09"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM mei 1982."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/aaae9e0e-e785-4111-84b5-5d5b7926b2d0",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-500a-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-bd13-e0c7-e063-6df0900a2ca4-IDe824aac2-c5ec-4581-ab22-4c9144093cab-main",
+      "inventoryNumber": "484",
+      "series": "D.02",
+      "title": "Blad no. 113 rivierkaart gedeelte Waal, km. 899.0-904.0",
+      "sourceRecordId": "4e76d073-bd13-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "IDe824aac2-c5ec-4581-ab22-4c9144093cab",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7230,
+        "height": 5158,
+        "sizes": [
+          {
+            "width": 225,
+            "height": 161
+          },
+          {
+            "width": 451,
+            "height": 322
+          },
+          {
+            "width": 903,
+            "height": 644
+          },
+          {
+            "width": 1807,
+            "height": 1289
+          },
+          {
+            "width": 3615,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=86/74/bb/88/bb/92/4a/94/8e/6a/f0/86/21/47/30/d2/e824aac2-c5ec-4581-ab22-4c9144093cab.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-bd13-e0c7-e063-6df0900a2ca4-IDe824aac2-c5ec-4581-ab22-4c9144093cab",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "484"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-bd13-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-bd13-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 113 rivierkaart gedeelte Waal, km. 899.0-904.0"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/8674bb88-bb92-4a94-8e6a-f086214730d2",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-bd13-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-718b-9dce-e063-6df0900acdd5-ID7ea34d6e-7175-450b-be89-72f092b3ea24-main",
+      "inventoryNumber": "855",
+      "series": "D.02",
+      "title": "Blad no. 114 rivierkaart gedeelte Waal, rpn. 903E-908C",
+      "sourceRecordId": "4e7657e3-718b-9dce-e063-6df0900acdd5",
+      "sourceImageId": "ID7ea34d6e-7175-450b-be89-72f092b3ea24",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7259,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 160
+          },
+          {
+            "width": 453,
+            "height": 321
+          },
+          {
+            "width": 907,
+            "height": 642
+          },
+          {
+            "width": 1814,
+            "height": 1285
+          },
+          {
+            "width": 3629,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=62/29/0d/2d/ca/74/4c/c4/ae/33/cc/88/71/27/94/92/7ea34d6e-7175-450b-be89-72f092b3ea24.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-718b-9dce-e063-6df0900acdd5-ID7ea34d6e-7175-450b-be89-72f092b3ea24",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "855"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-718b-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-718b-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 114 rivierkaart gedeelte Waal, rpn. 903E-908C"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot februari 1971"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1971-02"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1968."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/62290d2d-ca74-4cc4-ae33-cc8871279492",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-718b-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-3329-f0f5-e063-6df0900abdfc-ID7b0b2ade-7304-43c0-8bbb-8361c828d64d-main",
+      "inventoryNumber": "854",
+      "series": "D.02",
+      "title": "Blad no. 114 rivierkaart gedeelte Waal, km. 903.6-908.5",
+      "sourceRecordId": "4e773293-3329-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID7b0b2ade-7304-43c0-8bbb-8361c828d64d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=a4/5f/69/18/98/1d/4b/e2/bb/f9/b6/09/b2/86/66/3a/7b0b2ade-7304-43c0-8bbb-8361c828d64d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-3329-f0f5-e063-6df0900abdfc-ID7b0b2ade-7304-43c0-8bbb-8361c828d64d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "854"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-3329-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-3329-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 114 rivierkaart gedeelte Waal, km. 903.6-908.5"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1982"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1982-10"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM mei 1982."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/a45f6918-981d-4be2-bbf9-b609b286663a",
+      "homepage": "http://hdl.handle.net/10648/4e773293-3329-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e76d073-bd43-e0c7-e063-6df0900a2ca4-IDa0ba5190-d4c5-4b55-9f8a-77947e57ab5d-main",
+      "inventoryNumber": "485",
+      "series": "D.02",
+      "title": "Blad no. 114 rivierkaart gedeelte Waal, km. 903.6-908.5",
+      "sourceRecordId": "4e76d073-bd43-e0c7-e063-6df0900a2ca4",
+      "sourceImageId": "IDa0ba5190-d4c5-4b55-9f8a-77947e57ab5d",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7274,
+        "height": 5148,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 643
+          },
+          {
+            "width": 1818,
+            "height": 1287
+          },
+          {
+            "width": 3637,
+            "height": 2574
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=7f/0f/bf/1e/05/2d/4a/50/a4/60/52/69/ae/08/6f/1f/a0ba5190-d4c5-4b55-9f8a-77947e57ab5d.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e76d073-bd43-e0c7-e063-6df0900a2ca4-IDa0ba5190-d4c5-4b55-9f8a-77947e57ab5d",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "485"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e76d073-bd43-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e76d073-bd43-e0c7-e063-6df0900a2ca4"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 114 rivierkaart gedeelte Waal, km. 903.6-908.5"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/7f0fbf1e-052d-4a50-a460-5269ae086f1f",
+      "homepage": "http://hdl.handle.net/10648/4e76d073-bd43-e0c7-e063-6df0900a2ca4",
+      "pilot": false
+    },
+    {
+      "id": "4e7675ea-2f9a-908c-e063-6df0900a4619-ID993e607a-7cc7-43af-bc5f-3fb49e57fd99-main",
+      "inventoryNumber": "857",
+      "series": "D.02",
+      "title": "Blad no. 115 rivierkaart gedeelte Waal, rpn. 908B-913O",
+      "sourceRecordId": "4e7675ea-2f9a-908c-e063-6df0900a4619",
+      "sourceImageId": "ID993e607a-7cc7-43af-bc5f-3fb49e57fd99",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=b7/e9/2d/93/1b/35/4e/65/bd/c5/8b/ba/ea/f6/cb/a8/993e607a-7cc7-43af-bc5f-3fb49e57fd99.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7675ea-2f9a-908c-e063-6df0900a4619-ID993e607a-7cc7-43af-bc5f-3fb49e57fd99",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "857"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7675ea-2f9a-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7675ea-2f9a-908c-e063-6df0900a4619"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 115 rivierkaart gedeelte Waal, rpn. 908B-913O"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot mei 1981"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1981-05"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1968."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/b7e92d93-1b35-4e65-bdc5-8bbaeaf6cba8",
+      "homepage": "http://hdl.handle.net/10648/4e7675ea-2f9a-908c-e063-6df0900a4619",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-315f-f0f5-e063-6df0900abdfc-ID53e1615e-0a2d-44aa-9911-3be6c3777cac-main",
+      "inventoryNumber": "856",
+      "series": "D.02",
+      "title": "Blad no. 115 rivierkaart gedeelte Waal, km. 908.3-913.0",
+      "sourceRecordId": "4e773293-315f-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID53e1615e-0a2d-44aa-9911-3be6c3777cac",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7294,
+        "height": 5159,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 455,
+            "height": 322
+          },
+          {
+            "width": 911,
+            "height": 644
+          },
+          {
+            "width": 1823,
+            "height": 1289
+          },
+          {
+            "width": 3647,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=ea/0b/4e/c0/38/ea/40/17/95/7f/87/f8/b8/68/c3/e1/53e1615e-0a2d-44aa-9911-3be6c3777cac.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-315f-f0f5-e063-6df0900abdfc-ID53e1615e-0a2d-44aa-9911-3be6c3777cac",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "856"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-315f-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-315f-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 115 rivierkaart gedeelte Waal, km. 908.3-913.0"
+        },
+        {
+          "label": "Datering",
+          "value": "augsutus 1986"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1986-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname augustus 1986."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/ea0b4ec0-38ea-4017-957f-87f8b868c3e1",
+      "homepage": "http://hdl.handle.net/10648/4e773293-315f-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e7657e3-715b-9dce-e063-6df0900acdd5-IDa4f62723-c336-4eb0-803d-47a882f533f8-main",
+      "inventoryNumber": "486",
+      "series": "D.02",
+      "title": "Blad no. 115 rivierkaart gedeelte Waal, km. 908.3-913.0",
+      "sourceRecordId": "4e7657e3-715b-9dce-e063-6df0900acdd5",
+      "sourceImageId": "IDa4f62723-c336-4eb0-803d-47a882f533f8",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7262,
+        "height": 5167,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 322
+          },
+          {
+            "width": 907,
+            "height": 645
+          },
+          {
+            "width": 1815,
+            "height": 1291
+          },
+          {
+            "width": 3631,
+            "height": 2583
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=86/bb/28/3d/ed/f0/40/0f/9b/07/1b/1c/60/d2/e2/e8/a4f62723-c336-4eb0-803d-47a882f533f8.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e7657e3-715b-9dce-e063-6df0900acdd5-IDa4f62723-c336-4eb0-803d-47a882f533f8",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "486"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e7657e3-715b-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e7657e3-715b-9dce-e063-6df0900acdd5"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 115 rivierkaart gedeelte Waal, km. 908.3-913.0"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/86bb283d-edf0-400f-9b07-1b1c60d2e2e8",
+      "homepage": "http://hdl.handle.net/10648/4e7657e3-715b-9dce-e063-6df0900acdd5",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-3359-f0f5-e063-6df0900abdfc-IDa7c73113-bbab-4b62-9e56-5abf873d5101-main",
+      "inventoryNumber": "859",
+      "series": "D.02",
+      "title": "Blad no. 116 rivierkaart gedeelte Waal, rpn. 912B-917C",
+      "sourceRecordId": "4e773293-3359-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "IDa7c73113-bbab-4b62-9e56-5abf873d5101",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=d6/45/09/f6/e5/7b/47/87/86/fa/e4/a1/8a/30/94/25/a7c73113-bbab-4b62-9e56-5abf873d5101.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-3359-f0f5-e063-6df0900abdfc-IDa7c73113-bbab-4b62-9e56-5abf873d5101",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "859"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-3359-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-3359-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 116 rivierkaart gedeelte Waal, rpn. 912B-917C"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot mei 1981"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1981-05"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM april 1968."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/d64509f6-e57b-4787-86fa-e4a18a309425",
+      "homepage": "http://hdl.handle.net/10648/4e773293-3359-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-51b9-ed5c-e063-6df0900ae03b-IDef88cf7a-0169-4a4f-b58f-6170fd31be46-main",
+      "inventoryNumber": "858",
+      "series": "D.02",
+      "title": "Blad no. 116 rivierkaart gedeelte Waal, km. 912.3-917.3",
+      "sourceRecordId": "4e77125b-51b9-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "IDef88cf7a-0169-4a4f-b58f-6170fd31be46",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7268,
+        "height": 5153,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1817,
+            "height": 1288
+          },
+          {
+            "width": 3634,
+            "height": 2576
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=c8/cd/b0/33/04/3f/4d/05/83/60/fa/95/da/7d/40/ed/ef88cf7a-0169-4a4f-b58f-6170fd31be46.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-51b9-ed5c-e063-6df0900ae03b-IDef88cf7a-0169-4a4f-b58f-6170fd31be46",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "858"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-51b9-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-51b9-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 116 rivierkaart gedeelte Waal, km. 912.3-917.3"
+        },
+        {
+          "label": "Datering",
+          "value": "augustus 1986"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1986-08"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname augustus 1986."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/c8cdb033-043f-4d05-8360-fa95da7d40ed",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-51b9-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-3431-f0f5-e063-6df0900abdfc-ID6e9f895b-ade7-41a8-9a0e-3917d63806f1-main",
+      "inventoryNumber": "487",
+      "series": "D.02",
+      "title": "Blad no. 116 rivierkaart gedeelte Waal, km. 912.0-917.3",
+      "sourceRecordId": "4e773293-3431-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID6e9f895b-ade7-41a8-9a0e-3917d63806f1",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7264,
+        "height": 5158,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 161
+          },
+          {
+            "width": 454,
+            "height": 322
+          },
+          {
+            "width": 908,
+            "height": 644
+          },
+          {
+            "width": 1816,
+            "height": 1289
+          },
+          {
+            "width": 3632,
+            "height": 2579
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=19/a8/02/bf/48/a7/4e/b1/a4/99/1c/d8/6b/cb/20/3f/6e9f895b-ade7-41a8-9a0e-3917d63806f1.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-3431-f0f5-e063-6df0900abdfc-ID6e9f895b-ade7-41a8-9a0e-3917d63806f1",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "487"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-3431-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-3431-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 116 rivierkaart gedeelte Waal, km. 912.0-917.3"
+        },
+        {
+          "label": "Datering",
+          "value": "november 1994"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1994-11"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname november 1994."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/19a802bf-48a7-4eb1-a499-1cd86bcb203f",
+      "homepage": "http://hdl.handle.net/10648/4e773293-3431-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e773293-3027-f0f5-e063-6df0900abdfc-ID582cc48e-e30e-43f7-865f-cf82e0b1f847-main",
+      "inventoryNumber": "861",
+      "series": "D.02",
+      "title": "Blad no. 117 rivierkaart gedeelte Waal, rpn. 917.0-922.0",
+      "sourceRecordId": "4e773293-3027-f0f5-e063-6df0900abdfc",
+      "sourceImageId": "ID582cc48e-e30e-43f7-865f-cf82e0b1f847",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7257,
+        "height": 5168,
+        "sizes": [
+          {
+            "width": 226,
+            "height": 161
+          },
+          {
+            "width": 453,
+            "height": 323
+          },
+          {
+            "width": 907,
+            "height": 646
+          },
+          {
+            "width": 1814,
+            "height": 1292
+          },
+          {
+            "width": 3628,
+            "height": 2584
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=b9/91/2c/de/bf/0f/47/13/91/84/e5/d3/46/0d/df/b2/582cc48e-e30e-43f7-865f-cf82e0b1f847.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e773293-3027-f0f5-e063-6df0900abdfc-ID582cc48e-e30e-43f7-865f-cf82e0b1f847",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "861"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e773293-3027-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e773293-3027-f0f5-e063-6df0900abdfc"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 117 rivierkaart gedeelte Waal, rpn. 917.0-922.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot oktober 1972"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1972-10"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname KLM september 1970."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/b9912cde-bf0f-4713-9184-e5d3460ddfb2",
+      "homepage": "http://hdl.handle.net/10648/4e773293-3027-f0f5-e063-6df0900abdfc",
+      "pilot": false
+    },
+    {
+      "id": "4e77125b-4855-ed5c-e063-6df0900ae03b-ID93d87bf1-5d33-4b9b-a89f-769252a8359a-main",
+      "inventoryNumber": "860",
+      "series": "D.02",
+      "title": "Blad no. 117 rivierkaart gedeelte Waal, km. 916.9-922.0",
+      "sourceRecordId": "4e77125b-4855-ed5c-e063-6df0900ae03b",
+      "sourceImageId": "ID93d87bf1-5d33-4b9b-a89f-769252a8359a",
+      "imageService": {
+        "@context": "http://iiif.io/api/image/3/context.json",
+        "protocol": "http://iiif.io/api/image",
+        "width": 7276,
+        "height": 5142,
+        "sizes": [
+          {
+            "width": 227,
+            "height": 160
+          },
+          {
+            "width": 454,
+            "height": 321
+          },
+          {
+            "width": 909,
+            "height": 642
+          },
+          {
+            "width": 1819,
+            "height": 1285
+          },
+          {
+            "width": 3638,
+            "height": 2571
+          }
+        ],
+        "tiles": [
+          {
+            "width": 256,
+            "height": 256,
+            "scaleFactors": [
+              1,
+              2,
+              4,
+              8,
+              16,
+              32
+            ]
+          }
+        ],
+        "id": "https://service.archief.nl/iip/iipsrv?IIIF=1e/d5/ff/06/77/eb/42/8e/b0/e1/44/61/71/d4/45/0b/93d87bf1-5d33-4b9b-a89f-769252a8359a.jp2",
+        "type": "ImageService3",
+        "profile": "level2",
+        "maxWidth": 5000,
+        "maxHeight": 5000,
+        "extraQualities": [
+          "gray",
+          "bitonal"
+        ],
+        "extraFormats": [
+          "tif",
+          "webp"
+        ],
+        "extraFeatures": [
+          "regionByPct",
+          "sizeByPct",
+          "sizeByConfinedWh",
+          "sizeUpscaling",
+          "rotationBy90s",
+          "mirroring"
+        ],
+        "service": [
+          {
+            "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+            "profile": "http://iiif.io/api/annex/services/physdim",
+            "physicalScale": 0.000628728,
+            "physicalUnits": "cm"
+          }
+        ]
+      },
+      "manifestPath": "manifests/nieuwe-stijl/series-02.json",
+      "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-02.json#canvas-4e77125b-4855-ed5c-e063-6df0900ae03b-ID93d87bf1-5d33-4b9b-a89f-769252a8359a",
+      "metadata": [
+        {
+          "label": "Identificatie (BD)",
+          "value": "860"
+        },
+        {
+          "label": "Identificatie (handle)",
+          "value": "http://hdl.handle.net/10648/4e77125b-4855-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Identificatie (urn:uuid)",
+          "value": "4e77125b-4855-ed5c-e063-6df0900ae03b"
+        },
+        {
+          "label": "Titel",
+          "value": "Blad no. 117 rivierkaart gedeelte Waal, km. 916.9-922.0"
+        },
+        {
+          "label": "Datering",
+          "value": "bijgewerkt tot april 1985"
+        },
+        {
+          "label": "Datering (ISO)",
+          "value": "1985-04"
+        },
+        {
+          "label": "Kaartschaal / materiaal (scale)",
+          "value": "Schaal 1:5.000"
+        },
+        {
+          "label": "Inhoud",
+          "value": "Luchtfotografie: opname april 1984."
+        },
+        {
+          "label": "Trefwoorden",
+          "value": "kaart"
+        }
+      ],
+      "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/1ed5ff06-77eb-428e-b0e1-446171d4450b",
+      "homepage": "http://hdl.handle.net/10648/4e77125b-4855-ed5c-e063-6df0900ae03b",
+      "pilot": false
+    }
+  ]
+}

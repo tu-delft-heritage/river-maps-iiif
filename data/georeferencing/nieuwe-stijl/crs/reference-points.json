@@ -1,0 +1,29 @@
+{
+  "source": "https://github.com/OSGeo/PROJ/issues/1663",
+  "description": "Two Z001_ETRS89andRDNAP reference coordinate pairs quoted by the proj-rdnap maintainer in the 2020-01-02 comment. ETRS89 is treated as WGS84 within the selected EPSG:4833 operation's 1 m accuracy, not as a current-epoch equivalence claim.",
+  "toleranceMetres": 1,
+  "points": [
+    {
+      "name": "08 No_geoid",
+      "rd": [
+        100000.67,
+        350000.89
+      ],
+      "etrs89LonLat": [
+        4.601375361,
+        51.136825197
+      ]
+    },
+    {
+      "name": "09 No_rd",
+      "rd": [
+        79000.01,
+        500000.23
+      ],
+      "etrs89LonLat": [
+        4.268403889,
+        52.482440839
+      ]
+    }
+  ]
+}

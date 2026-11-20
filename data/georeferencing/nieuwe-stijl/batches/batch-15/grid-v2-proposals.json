@@ -1,0 +1,4075 @@
+{
+  "1360": {
+    "referenceInventory": "742",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        627,
+        345,
+        102200,
+        415400
+      ],
+      [
+        "tr",
+        1098,
+        330,
+        103800,
+        415400
+      ],
+      [
+        "br",
+        576,
+        721,
+        103600,
+        414400
+      ],
+      [
+        "bl",
+        631,
+        719,
+        102200,
+        414400
+      ],
+      [
+        "tl",
+        1146,
+        343,
+        102400,
+        415400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        175,
+        168
+      ],
+      [
+        1574,
+        154
+      ],
+      [
+        1571,
+        847
+      ],
+      [
+        175,
+        846
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 156,
+        "inliers": 111,
+        "rmsPixels": 0.4759466041498683,
+        "affine": [
+          [
+            1.00007618179606,
+            -0.0004957298890923452,
+            -0.8523445063597173
+          ],
+          [
+            0.0019425393674976045,
+            0.985125758078262,
+            14.131504529727888
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 167,
+        "inliers": 34,
+        "rmsPixels": 1.076714492758953,
+        "affine": [
+          [
+            0.6833651754145473,
+            -0.0349421390288368,
+            69.49537940185257
+          ],
+          [
+            0.08943073017491701,
+            0.9700507484649495,
+            131.05733348051004
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 143,
+        "inliers": 13,
+        "rmsPixels": 0.7699801889335881,
+        "affine": [
+          [
+            1.0261502557244562,
+            -0.14272926233655422,
+            -16.34607015825859
+          ],
+          [
+            0.06608969699672276,
+            0.9876775042240052,
+            165.82722972406953
+          ]
+        ]
+      },
+      "br": {
+        "matches": 365,
+        "inliers": 78,
+        "rmsPixels": 0.7249084716098145,
+        "affine": [
+          [
+            0.9812739346054337,
+            -0.03601724574137621,
+            15.885520344806931
+          ],
+          [
+            0.0024935221417920943,
+            0.9835338026867765,
+            29.316299210809543
+          ]
+        ]
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      955.0320059693601,
+      673.0264837836859
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 7.675040716505283
+  },
+  "1361": {
+    "referenceInventory": "743",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        180,
+        334,
+        102200,
+        414400
+      ],
+      [
+        "tr",
+        1172,
+        430,
+        104000,
+        414400
+      ],
+      [
+        "br",
+        1211,
+        824,
+        104000,
+        413400
+      ],
+      [
+        "bl",
+        758,
+        750,
+        102400,
+        413400
+      ],
+      [
+        "tl",
+        703,
+        155,
+        102400,
+        414400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        179,
+        155
+      ],
+      [
+        1562,
+        160
+      ],
+      [
+        1561,
+        846
+      ],
+      [
+        184,
+        850
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 200,
+        "inliers": 134,
+        "rmsPixels": 0.4009262515487949,
+        "affine": [
+          [
+            1.000564552149417,
+            -0.0008937411924184797,
+            -2.7346953091547874
+          ],
+          [
+            0.0016994538441049824,
+            0.9895776745821421,
+            16.744527432113472
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "matches": 527,
+        "inliers": 138,
+        "rmsPixels": 0.9105603014863021,
+        "affine": [
+          [
+            0.9769206757464878,
+            0.0432594500433357,
+            -219.2595759824339
+          ],
+          [
+            0.009467339975171529,
+            0.9964923398848882,
+            26.210519369907338
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 145,
+        "inliers": 53,
+        "rmsPixels": 1.0276980094001156,
+        "affine": [
+          [
+            1.0256113173597774,
+            -0.08289252367164968,
+            105.06475588318716
+          ],
+          [
+            0.001161124046487958,
+            0.98568826835792,
+            31.333132402855885
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      935.2738184562279,
+      662.9330191489652
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 4.368800722519358
+  },
+  "1362": {
+    "referenceInventory": "747",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        325,
+        142,
+        99400,
+        412800
+      ],
+      [
+        "tr",
+        1407,
+        880,
+        101200,
+        413200
+      ],
+      [
+        "br",
+        1185,
+        770,
+        101400,
+        412400
+      ],
+      [
+        "bl",
+        434,
+        711,
+        99800,
+        411800
+      ],
+      [
+        "tl",
+        826,
+        307,
+        99600,
+        412800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        123,
+        100
+      ],
+      [
+        1614,
+        159
+      ],
+      [
+        1665,
+        843
+      ],
+      [
+        124,
+        897
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 164,
+        "inliers": 128,
+        "rmsPixels": 0.3567498774054482,
+        "affine": [
+          [
+            1.000145891386452,
+            -0.0007281176647530949,
+            -1.3947122556547682
+          ],
+          [
+            0.001958247496287949,
+            0.99141983152102,
+            4.754362382818652
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      977.2362955595809,
+      639.1265761972959
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.7702136904057233
+  },
+  "1363": {
+    "referenceInventory": "748",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        211,
+        277,
+        97600,
+        412200
+      ],
+      [
+        "tr",
+        1557,
+        193,
+        99400,
+        412800
+      ],
+      [
+        "br",
+        1313,
+        209,
+        99600,
+        412000
+      ],
+      [
+        "bl",
+        969,
+        616,
+        98200,
+        411400
+      ],
+      [
+        "tl",
+        711,
+        414,
+        97800,
+        412200,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        176,
+        159
+      ],
+      [
+        1674,
+        154
+      ],
+      [
+        1625,
+        844
+      ],
+      [
+        181,
+        899
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 128,
+        "inliers": 94,
+        "rmsPixels": 0.5614497814339658,
+        "affine": [
+          [
+            0.9999568315450822,
+            0.003926730108867815,
+            -0.18002916577012218
+          ],
+          [
+            0.0013144075264137753,
+            0.984530253503196,
+            24.340104430819647
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      997.8547566998514,
+      651.5478156982934
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 4.2682103962724804
+  },
+  "1364": {
+    "referenceInventory": "749",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        533,
+        448,
+        99000,
+        414400
+      ],
+      [
+        "tr",
+        1170,
+        460,
+        100600,
+        414800
+      ],
+      [
+        "br",
+        1167,
+        379,
+        100800,
+        414000
+      ],
+      [
+        "bl",
+        541,
+        370,
+        99200,
+        413600
+      ],
+      [
+        "tl",
+        1035,
+        570,
+        99200,
+        414400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        171,
+        153
+      ],
+      [
+        1615,
+        163
+      ],
+      [
+        1617,
+        902
+      ],
+      [
+        180,
+        842
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 570,
+        "inliers": 474,
+        "rmsPixels": 0.685274772347234,
+        "affine": [
+          [
+            0.9998200973373887,
+            -0.00026135337499349695,
+            1.2241390657716533
+          ],
+          [
+            -0.0018451726870383413,
+            1.0039367286396301,
+            3.350521221136428
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 1739,
+        "inliers": 1569,
+        "rmsPixels": 0.5873817216580247,
+        "affine": [
+          [
+            0.9997516364487192,
+            -0.0033330072363607324,
+            1.321933930549429
+          ],
+          [
+            0.000907023683171331,
+            0.9986662509517179,
+            -1.6655083818443182
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 149,
+        "inliers": 116,
+        "rmsPixels": 0.581326798255889,
+        "affine": [
+          [
+            0.9992531394245224,
+            -6.0328077851820675e-05,
+            -8.95639673219444
+          ],
+          [
+            0.001382361890696658,
+            1.0002500633162894,
+            -2.6981281142401414
+          ]
+        ]
+      },
+      "br": {
+        "matches": 947,
+        "inliers": 855,
+        "rmsPixels": 0.32103730313536266,
+        "affine": [
+          [
+            0.9996312086943029,
+            0.0004935535804255486,
+            -9.976098210514525
+          ],
+          [
+            0.0005240990131568889,
+            1.0001517637858186,
+            4.918114476793299
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 49,
+        "inliers": 31,
+        "rmsPixels": 0.5997181600804353,
+        "affine": [
+          [
+            0.9999766731985428,
+            2.4889717873394862e-05,
+            -3.9000712085881717
+          ],
+          [
+            0.0006039431814894937,
+            1.0004349995819544,
+            -9.137439764843753
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      993.9793806816464,
+      665.5444739846432
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 10.198039027184588
+  },
+  "1365": {
+    "referenceInventory": "750",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        416,
+        467,
+        98000,
+        412800
+      ],
+      [
+        "tr",
+        1621,
+        576,
+        98000,
+        414600
+      ],
+      [
+        "br",
+        1675,
+        323,
+        98800,
+        414600
+      ],
+      [
+        "bl",
+        495,
+        727,
+        99000,
+        412800
+      ],
+      [
+        "tl",
+        970,
+        461,
+        98000,
+        413000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        179,
+        93
+      ],
+      [
+        1621,
+        166
+      ],
+      [
+        1675,
+        899
+      ],
+      [
+        176,
+        751
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 184,
+        "inliers": 132,
+        "rmsPixels": 0.588497104078666,
+        "affine": [
+          [
+            1.000250005960746,
+            0.0007091042876466516,
+            -4.135792968486834
+          ],
+          [
+            0.004011340764679264,
+            0.9825046720484156,
+            16.84125157533725
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      1002.5412848576925,
+      660.9305843897068
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.8027756377319946
+  },
+  "1366": {
+    "referenceInventory": "1367",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        603,
+        409,
+        98200,
+        410200
+      ],
+      [
+        "tr",
+        1043,
+        951,
+        98000,
+        411800
+      ],
+      [
+        "br",
+        1052,
+        422,
+        98600,
+        412000
+      ],
+      [
+        "bl",
+        472,
+        389,
+        99000,
+        410400
+      ],
+      [
+        "tl",
+        1132,
+        531,
+        98200,
+        410400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        174,
+        105
+      ],
+      [
+        1624,
+        92
+      ],
+      [
+        1622,
+        898
+      ],
+      [
+        123,
+        900
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 263,
+        "inliers": 201,
+        "rmsPixels": 0.6057089731140268,
+        "affine": [
+          [
+            0.9996047927263967,
+            -0.0025673996150431793,
+            2.973582731606802
+          ],
+          [
+            0.0032392831317125596,
+            1.000142245030258,
+            -4.302555254748593
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "matches": 202,
+        "inliers": 12,
+        "rmsPixels": 0.5761019841321201,
+        "affine": [
+          [
+            1.0187705352490561,
+            -0.1232084660753945,
+            -273.5692787023495
+          ],
+          [
+            0.011505000677751079,
+            0.9463507191340209,
+            529.7030333251607
+          ]
+        ]
+      },
+      "br": {
+        "matches": 753,
+        "inliers": 451,
+        "rmsPixels": 0.9058896226695002,
+        "affine": [
+          [
+            0.9969450147743298,
+            -0.01034975677318478,
+            4.166297249509209
+          ],
+          [
+            0.002653423738016123,
+            0.9833625049928196,
+            -74.95854982662557
+          ]
+        ]
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      994.4183877561371,
+      658.3358685447936
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 2.3999999999984536
+  },
+  "751": {
+    "referenceInventory": "1367",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        517,
+        327,
+        98200,
+        410200
+      ],
+      [
+        "tr",
+        871,
+        872,
+        98000,
+        411800
+      ],
+      [
+        "br",
+        983,
+        423,
+        98600,
+        412000
+      ],
+      [
+        "bl",
+        507,
+        394,
+        99000,
+        410400
+      ],
+      [
+        "tl",
+        1019,
+        453,
+        98200,
+        410400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        177,
+        150
+      ],
+      [
+        1618,
+        173
+      ],
+      [
+        1615,
+        963
+      ],
+      [
+        174,
+        954
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 181,
+        "inliers": 144,
+        "rmsPixels": 0.4602339584094058,
+        "affine": [
+          [
+            1.0000256049741711,
+            -0.004521634086033629,
+            3.919533511848152
+          ],
+          [
+            0.001636559425607313,
+            1.0173195544231137,
+            -24.940248396669066
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      911.6002016235325,
+      753.5575648705762
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 11.313708498985868
+  },
+  "1368": {
+    "referenceInventory": "1369",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        556,
+        414,
+        96200,
+        410000
+      ],
+      [
+        "tr",
+        560,
+        651,
+        96200,
+        411400
+      ],
+      [
+        "br",
+        992,
+        577,
+        97000,
+        411600
+      ],
+      [
+        "bl",
+        489,
+        275,
+        97000,
+        410000
+      ],
+      [
+        "tl",
+        1071,
+        484,
+        96200,
+        410200,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        174,
+        116
+      ],
+      [
+        1619,
+        164
+      ],
+      [
+        1612,
+        938
+      ],
+      [
+        177,
+        955
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 292,
+        "inliers": 214,
+        "rmsPixels": 0.42989538943933464,
+        "affine": [
+          [
+            0.999827295511789,
+            0.009634260784990188,
+            -12.74032429634431
+          ],
+          [
+            -0.0021162379920051,
+            0.9996222136796759,
+            4.266960829561162
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "matches": 830,
+        "inliers": 667,
+        "rmsPixels": 0.6464694326135592,
+        "affine": [
+          [
+            1.0027046512197186,
+            -0.0007211143285686172,
+            -2.765764903215016
+          ],
+          [
+            -0.0020078628923388083,
+            1.001631466727491,
+            92.74078859234972
+          ]
+        ]
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      986.4321170797634,
+      745.8260071573904
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 2.9416086117109184
+  },
+  "1370": {
+    "referenceInventory": "752",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        539,
+        512,
+        97000,
+        412800
+      ],
+      [
+        "tr",
+        1569,
+        526,
+        97000,
+        414600
+      ],
+      [
+        "br",
+        1571,
+        371,
+        97800,
+        414600
+      ],
+      [
+        "bl",
+        542,
+        390,
+        97800,
+        412800
+      ],
+      [
+        "tl",
+        1059,
+        510,
+        97000,
+        413000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        124,
+        148
+      ],
+      [
+        1621,
+        115
+      ],
+      [
+        1676,
+        897
+      ],
+      [
+        177,
+        911
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 191,
+        "inliers": 144,
+        "rmsPixels": 0.4005464615693991,
+        "affine": [
+          [
+            0.9997286344212643,
+            0.0018690729000145215,
+            -4.554295006406851
+          ],
+          [
+            0.00012027998233967893,
+            0.9872531447761171,
+            18.552658449405524
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "matches": 103,
+        "inliers": 17,
+        "rmsPixels": 0.7083443126031868,
+        "affine": [
+          [
+            0.9959561031239186,
+            0.003693376754281618,
+            154.23801360406728
+          ],
+          [
+            0.008906785537185748,
+            1.0038463428713784,
+            -57.58732820654912
+          ]
+        ]
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      1070.052336491875,
+      636.2072463122016
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 11.180339887499397
+  },
+  "1371": {
+    "referenceInventory": "753",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        538,
+        519,
+        96000,
+        412800
+      ],
+      [
+        "tr",
+        1573,
+        624,
+        96000,
+        414600
+      ],
+      [
+        "br",
+        1572,
+        445,
+        96800,
+        414600
+      ],
+      [
+        "bl",
+        539,
+        439,
+        96800,
+        412800
+      ],
+      [
+        "tl",
+        1056,
+        516,
+        96000,
+        413000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        123,
+        91
+      ],
+      [
+        1676,
+        147
+      ],
+      [
+        1624,
+        905
+      ],
+      [
+        174,
+        842
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 217,
+        "inliers": 160,
+        "rmsPixels": 0.520940006844727,
+        "affine": [
+          [
+            1.0002375647887984,
+            0.0024304553572948467,
+            -3.260224154416482
+          ],
+          [
+            0.0015621030278654142,
+            0.9841641691679942,
+            19.00317897876666
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      989.1749493186699,
+      661.5900098348852
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 12.041594578792296
+  },
+  "1372": {
+    "referenceInventory": "755",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        675,
+        547,
+        94400,
+        411200
+      ],
+      [
+        "tr",
+        670,
+        525,
+        95800,
+        411200
+      ],
+      [
+        "br",
+        1202,
+        367,
+        96000,
+        410400
+      ],
+      [
+        "bl",
+        1216,
+        392,
+        94600,
+        410400
+      ],
+      [
+        "tl",
+        1194,
+        541,
+        94600,
+        411200,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        174,
+        110
+      ],
+      [
+        1677,
+        167
+      ],
+      [
+        1625,
+        849
+      ],
+      [
+        126,
+        846
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 461,
+        "inliers": 335,
+        "rmsPixels": 0.9569193702604918,
+        "affine": [
+          [
+            0.9998158323296568,
+            -0.008160051279471137,
+            7.006197356134954
+          ],
+          [
+            0.004223685996818606,
+            1.0043814042119423,
+            -13.45609508027212
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 43,
+        "inliers": 27,
+        "rmsPixels": 0.5321518368608822,
+        "affine": [
+          [
+            0.9999697701802384,
+            -0.003842957195345401,
+            -2.8588026876157637
+          ],
+          [
+            0.003067178057588509,
+            1.0003249949293807,
+            8.616718814567102
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 563,
+        "inliers": 432,
+        "rmsPixels": 0.4159274012925665,
+        "affine": [
+          [
+            0.9985924861742909,
+            -0.005858427649284413,
+            -0.46765657667457594
+          ],
+          [
+            0.003107026262908856,
+            1.0012744962539697,
+            0.40043348704224696
+          ]
+        ]
+      },
+      "br": {
+        "matches": 1074,
+        "inliers": 959,
+        "rmsPixels": 0.4374041027083483,
+        "affine": [
+          [
+            1.0011401807437754,
+            -0.0013158060753269275,
+            6.944063276850797
+          ],
+          [
+            0.0035064541775063815,
+            1.0006250677416237,
+            -5.364453916797411
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 1005,
+        "inliers": 856,
+        "rmsPixels": 0.6323822687832721,
+        "affine": [
+          [
+            0.9996876628874237,
+            -0.005321606536931857,
+            6.938215820875115
+          ],
+          [
+            0.003815520424076234,
+            1.0007122023190416,
+            0.06769937369173504
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      999.2080063710356,
+      657.5258682690189
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 8.246211251235321
+  },
+  "1373": {
+    "referenceInventory": "756",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        404,
+        553,
+        92400,
+        411200
+      ],
+      [
+        "tr",
+        1443,
+        548,
+        94200,
+        411200
+      ],
+      [
+        "br",
+        920,
+        403,
+        94000,
+        410400
+      ],
+      [
+        "bl",
+        412,
+        400,
+        92400,
+        410400
+      ],
+      [
+        "tl",
+        921,
+        550,
+        92600,
+        411200,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        171,
+        163
+      ],
+      [
+        1624,
+        161
+      ],
+      [
+        1623,
+        900
+      ],
+      [
+        125,
+        842
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 687,
+        "inliers": 534,
+        "rmsPixels": 0.6467393893734157,
+        "affine": [
+          [
+            1.0006733463055613,
+            -0.0021042982591463295,
+            1.0434077775503574
+          ],
+          [
+            -0.0007943277458649925,
+            1.0017088982285218,
+            -1.8625196015080048
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 296,
+        "inliers": 234,
+        "rmsPixels": 0.5087719489094891,
+        "affine": [
+          [
+            0.9951283044845921,
+            0.00292846938750222,
+            -6.017174912033821
+          ],
+          [
+            -0.0015195268475481647,
+            1.0010660470822768,
+            -4.130974460435125
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 62,
+        "inliers": 28,
+        "rmsPixels": 0.5315238128054591,
+        "affine": [
+          [
+            0.9974295250139812,
+            0.0026870385313297737,
+            4.057102157295698
+          ],
+          [
+            0.000542602686599646,
+            0.9975475719208393,
+            8.65318067224518
+          ]
+        ]
+      },
+      "br": {
+        "matches": 1804,
+        "inliers": 1538,
+        "rmsPixels": 0.6760588329436199,
+        "affine": [
+          [
+            0.9988001834266602,
+            0.0007303721657099694,
+            6.970635573527098
+          ],
+          [
+            -0.0009650793291785721,
+            0.9992766808794639,
+            1.2418827753678525
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 576,
+        "inliers": 453,
+        "rmsPixels": 0.38928505479425823,
+        "affine": [
+          [
+            1.0008625439506458,
+            0.0009218512300898409,
+            -1.40863772065851
+          ],
+          [
+            -0.00030310409900967557,
+            0.9992376987199176,
+            0.0938857064090286
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      999.2590722290722,
+      656.8083383393013
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 10.49220757291259
+  },
+  "1375": {
+    "referenceInventory": "759",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        670,
+        473,
+        91000,
+        412000
+      ],
+      [
+        "tr",
+        980,
+        322,
+        92400,
+        411400
+      ],
+      [
+        "br",
+        928,
+        422,
+        92000,
+        410600
+      ],
+      [
+        "bl",
+        627,
+        573,
+        90600,
+        411200
+      ],
+      [
+        "tl",
+        1139,
+        249,
+        91200,
+        412000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        121,
+        157
+      ],
+      [
+        1625,
+        106
+      ],
+      [
+        1676,
+        898
+      ],
+      [
+        125,
+        896
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 608,
+        "inliers": 527,
+        "rmsPixels": 0.7698672633166306,
+        "affine": [
+          [
+            0.9994492988907976,
+            -0.0007850413640285108,
+            1.5950407235323087
+          ],
+          [
+            0.00226620696721752,
+            1.0048210230598387,
+            -10.826530735853874
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "matches": 44,
+        "inliers": 18,
+        "rmsPixels": 0.7895963720642241,
+        "affine": [
+          [
+            0.9996736654777352,
+            -0.0010622457296109095,
+            0.22663681343054273
+          ],
+          [
+            0.002612473944816313,
+            0.9978833202812216,
+            -32.76284653523896
+          ]
+        ]
+      },
+      "br": {
+        "matches": 911,
+        "inliers": 786,
+        "rmsPixels": 0.5081556768483779,
+        "affine": [
+          [
+            0.9997558576726727,
+            0.001113989884442728,
+            -2.7289444500001223
+          ],
+          [
+            0.0032651280851072983,
+            1.000415594175945,
+            -1.3592750473655202
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 909,
+        "inliers": 829,
+        "rmsPixels": 0.3864679299332364,
+        "affine": [
+          [
+            0.999533196766941,
+            -0.003289953959927532,
+            3.9370422613536418
+          ],
+          [
+            0.0028090803913685043,
+            0.999345140505932,
+            8.684949617263992
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      997.7543486172137,
+      655.1772360346339
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 9.055385138138421
+  },
+  "1376": {
+    "referenceInventory": "759",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        672,
+        533,
+        91000,
+        412000
+      ],
+      [
+        "tr",
+        979,
+        368,
+        92400,
+        411400
+      ],
+      [
+        "br",
+        924,
+        420,
+        92000,
+        410600
+      ],
+      [
+        "bl",
+        627,
+        584,
+        90600,
+        411200
+      ],
+      [
+        "tl",
+        1141,
+        309,
+        91200,
+        412000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        177,
+        217
+      ],
+      [
+        1675,
+        203
+      ],
+      [
+        1618,
+        844
+      ],
+      [
+        126,
+        907
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 608,
+        "inliers": 500,
+        "rmsPixels": 0.9123537162859542,
+        "affine": [
+          [
+            0.9998535380284215,
+            -0.00638393236625397,
+            6.999656250380717
+          ],
+          [
+            0.002321747452677993,
+            1.0060352686330571,
+            -8.968939616414533
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 53,
+        "inliers": 13,
+        "rmsPixels": 0.44970883876180306,
+        "affine": [
+          [
+            1.0004350424922226,
+            -0.0009707765432633944,
+            -0.9698576149920741
+          ],
+          [
+            0.0038982441981807187,
+            1.000286420255343,
+            58.34216197995527
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 69,
+        "inliers": 27,
+        "rmsPixels": 0.5663853855550107,
+        "affine": [
+          [
+            0.9985676575590122,
+            -0.007527955046965923,
+            2.231113501634753
+          ],
+          [
+            0.003831524562276257,
+            1.0022368896441274,
+            10.784062339646743
+          ]
+        ]
+      },
+      "br": {
+        "matches": 938,
+        "inliers": 794,
+        "rmsPixels": 0.36300499526469915,
+        "affine": [
+          [
+            1.0011280318325249,
+            -0.0009141298909256156,
+            -7.185088976679638
+          ],
+          [
+            0.004711005900494627,
+            1.0001865463929973,
+            -4.9012153390811335
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 1150,
+        "inliers": 1059,
+        "rmsPixels": 0.5857502520939076,
+        "affine": [
+          [
+            1.0018176505977432,
+            -0.0046888144479299365,
+            2.1780956722028195
+          ],
+          [
+            0.0029753792999091325,
+            0.9997574430352814,
+            19.9315429641562
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      993.3460160370707,
+      652.9316053560408
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 10.049875621121434
+  },
+  "1374": {
+    "referenceInventory": "759",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        666,
+        470,
+        91000,
+        412000
+      ],
+      [
+        "tr",
+        982,
+        317,
+        92400,
+        411400
+      ],
+      [
+        "br",
+        929,
+        424,
+        92000,
+        410600
+      ],
+      [
+        "bl",
+        624,
+        571,
+        90600,
+        411200
+      ],
+      [
+        "tl",
+        1134,
+        245,
+        91200,
+        412000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        172,
+        102
+      ],
+      [
+        1627,
+        153
+      ],
+      [
+        1672,
+        900
+      ],
+      [
+        124,
+        894
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 650,
+        "inliers": 557,
+        "rmsPixels": 0.7067453253139883,
+        "affine": [
+          [
+            0.999292133686061,
+            -0.002021372399160791,
+            3.9763804784189074
+          ],
+          [
+            0.002157323986033877,
+            1.0025736716514657,
+            -6.460933129407783
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 58,
+        "inliers": 21,
+        "rmsPixels": 0.5838562904657466,
+        "affine": [
+          [
+            1.0003430257424737,
+            -0.001956105407151423,
+            -6.858159982213908
+          ],
+          [
+            0.0025682283744662836,
+            0.9991185760474908,
+            -3.893778319085202
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 62,
+        "inliers": 25,
+        "rmsPixels": 0.6292166643983567,
+        "affine": [
+          [
+            0.9983444377235603,
+            -0.003169466405949075,
+            3.183674068394435
+          ],
+          [
+            0.0024248331459341514,
+            1.0002079758086921,
+            -38.4887734366605
+          ]
+        ]
+      },
+      "br": {
+        "matches": 1033,
+        "inliers": 884,
+        "rmsPixels": 0.5537315977792466,
+        "affine": [
+          [
+            1.0000049733771748,
+            -0.0033729759992711505,
+            0.7028905072350184
+          ],
+          [
+            0.002600622719652243,
+            0.9986719784065736,
+            1.789696655248147
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 1261,
+        "inliers": 1087,
+        "rmsPixels": 0.4898398012099198,
+        "affine": [
+          [
+            0.9995681334741011,
+            -0.0037303550276371307,
+            1.2761739998487227
+          ],
+          [
+            0.002505991543803521,
+            0.9999023059240543,
+            5.974713473796011
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      998.5053105568858,
+      656.523121274393
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 10.000000000000455
+  },
+  "1378": {
+    "referenceInventory": "760",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        449,
+        638,
+        89200,
+        412800
+      ],
+      [
+        "tr",
+        1223,
+        247,
+        90800,
+        412200
+      ],
+      [
+        "br",
+        1185,
+        337,
+        90400,
+        411400
+      ],
+      [
+        "bl",
+        410,
+        732,
+        88800,
+        412000
+      ],
+      [
+        "tl",
+        916,
+        410,
+        89400,
+        412800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        127,
+        163
+      ],
+      [
+        1674,
+        171
+      ],
+      [
+        1622,
+        902
+      ],
+      [
+        175,
+        842
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 791,
+        "inliers": 715,
+        "rmsPixels": 0.5920661012686362,
+        "affine": [
+          [
+            0.9997897205790863,
+            0.001449740112343563,
+            -4.186252219603527
+          ],
+          [
+            -0.0016499544235022952,
+            1.0033441583086928,
+            -0.43112428727030394
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 58,
+        "inliers": 41,
+        "rmsPixels": 0.4910129626969482,
+        "affine": [
+          [
+            0.9995546791231665,
+            0.0014686321374414875,
+            18.619409645920836
+          ],
+          [
+            -0.0013940884928262682,
+            0.9990805589832459,
+            8.576560710245955
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 42,
+        "inliers": 22,
+        "rmsPixels": 0.5230658889058376,
+        "affine": [
+          [
+            0.9985796552314157,
+            0.001635149617327916,
+            -4.619697358684085
+          ],
+          [
+            -0.0016518046630672135,
+            0.999457808905842,
+            19.711303295814137
+          ]
+        ]
+      },
+      "br": {
+        "matches": 1253,
+        "inliers": 1150,
+        "rmsPixels": 0.48481305368466143,
+        "affine": [
+          [
+            0.9993554436013317,
+            0.00330645641662545,
+            0.6080816767536955
+          ],
+          [
+            -0.0016522981080531538,
+            1.000286990091348,
+            5.672605137650156
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 220,
+        "inliers": 161,
+        "rmsPixels": 0.5278915144676584,
+        "affine": [
+          [
+            0.9931848998750932,
+            0.0014849308028267376,
+            0.9393555995618409
+          ],
+          [
+            0.001733134579554952,
+            0.9996352718789893,
+            -6.592955974971413
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      994.1277977693312,
+      657.2209299441117
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 9.055385138137868
+  },
+  "1377": {
+    "referenceInventory": "760",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        446,
+        637,
+        89200,
+        412800
+      ],
+      [
+        "tr",
+        1216,
+        211,
+        90800,
+        412200
+      ],
+      [
+        "br",
+        1183,
+        332,
+        90400,
+        411400
+      ],
+      [
+        "bl",
+        411,
+        728,
+        88800,
+        412000
+      ],
+      [
+        "tl",
+        914,
+        411,
+        89400,
+        412800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        175,
+        163
+      ],
+      [
+        1668,
+        134
+      ],
+      [
+        1621,
+        896
+      ],
+      [
+        175,
+        839
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 751,
+        "inliers": 620,
+        "rmsPixels": 0.6798946784592893,
+        "affine": [
+          [
+            1.0000744686961496,
+            -0.0024323077105905685,
+            -2.383645340550599
+          ],
+          [
+            0.0010595239139374335,
+            1.0061245885394277,
+            -3.6551196838301783
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 51,
+        "inliers": 38,
+        "rmsPixels": 0.6210054201331909,
+        "affine": [
+          [
+            1.001180022275454,
+            -0.0012690739204705228,
+            15.238902386372338
+          ],
+          [
+            0.0025248556481726955,
+            1.0009138362635523,
+            5.204690203617815
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 47,
+        "inliers": 25,
+        "rmsPixels": 0.5864643935738953,
+        "affine": [
+          [
+            1.0000503636084945,
+            -0.004595605085082154,
+            -11.267071743377414
+          ],
+          [
+            0.0001708822095516533,
+            1.0021110570902039,
+            -18.97141998781337
+          ]
+        ]
+      },
+      "br": {
+        "matches": 1019,
+        "inliers": 936,
+        "rmsPixels": 0.4307314786196894,
+        "affine": [
+          [
+            1.0012769050602173,
+            -0.000923440372880365,
+            -2.45457862268964
+          ],
+          [
+            0.001255311069762295,
+            0.9995065926288051,
+            -2.369616767469145
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 228,
+        "inliers": 187,
+        "rmsPixels": 0.5348489843017878,
+        "affine": [
+          [
+            1.001418577079465,
+            -0.00040768810427006867,
+            -0.07612237392235739
+          ],
+          [
+            0.0016345055716860749,
+            0.9996426657552134,
+            -10.572328967857928
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      990.2091046335551,
+      651.5534568003449
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 12.041594578792749
+  },
+  "1379": {
+    "referenceInventory": "763",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        621,
+        392,
+        88000,
+        415400
+      ],
+      [
+        "tr",
+        759,
+        203,
+        89400,
+        415000
+      ],
+      [
+        "br",
+        1102,
+        606,
+        89200,
+        414000
+      ],
+      [
+        "bl",
+        310,
+        469,
+        87600,
+        414600
+      ],
+      [
+        "tl",
+        1113,
+        223,
+        88200,
+        415400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        174,
+        159
+      ],
+      [
+        1624,
+        156
+      ],
+      [
+        1624,
+        895
+      ],
+      [
+        178,
+        844
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 482,
+        "inliers": 394,
+        "rmsPixels": 0.8005765028160796,
+        "affine": [
+          [
+            0.9999945677809629,
+            -0.003973230338442622,
+            4.606719862651933
+          ],
+          [
+            0.0037472076436319075,
+            1.0011850047631432,
+            -4.529354968657097
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 1440,
+        "inliers": 1264,
+        "rmsPixels": 0.44335157360692695,
+        "affine": [
+          [
+            0.9997361877506802,
+            -0.005116633870903278,
+            3.055517138388114
+          ],
+          [
+            0.0039197337139091565,
+            0.9994385054126578,
+            -0.06634930102465375
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 1811,
+        "inliers": 1600,
+        "rmsPixels": 0.5686202080643459,
+        "affine": [
+          [
+            0.9980330234126387,
+            -0.003870884958046609,
+            5.766351714144203
+          ],
+          [
+            0.004833629849980433,
+            0.9994243565349341,
+            0.03892206998959678
+          ]
+        ]
+      },
+      "br": {
+        "matches": 868,
+        "inliers": 779,
+        "rmsPixels": 0.4456818426626769,
+        "affine": [
+          [
+            0.9999626534807482,
+            -0.003290602026436577,
+            -1.361299128714527
+          ],
+          [
+            0.004454544776685351,
+            1.0001003475676702,
+            -11.113150074731694
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 82,
+        "inliers": 42,
+        "rmsPixels": 0.43117324325475365,
+        "affine": [
+          [
+            1.0006724093255754,
+            -0.0054249690886858815,
+            2.589516193452032
+          ],
+          [
+            0.004200375079062731,
+            1.0001778257882197,
+            10.816486171711876
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      996.4196852085062,
+      656.407925139319
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 10.264756699255967
+  },
+  "1381": {
+    "referenceInventory": "764",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        685,
+        594,
+        87400,
+        412200
+      ],
+      [
+        "tr",
+        1378,
+        336,
+        88600,
+        413400
+      ],
+      [
+        "br",
+        1295,
+        777,
+        89200,
+        412600
+      ],
+      [
+        "bl",
+        210,
+        690,
+        87800,
+        411400
+      ],
+      [
+        "tl",
+        1438,
+        384,
+        87600,
+        412400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        175,
+        165
+      ],
+      [
+        1569,
+        152
+      ],
+      [
+        1568,
+        838
+      ],
+      [
+        178,
+        858
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 165,
+        "inliers": 126,
+        "rmsPixels": 0.4012581116795308,
+        "affine": [
+          [
+            0.999966892656547,
+            -0.006642282641709085,
+            4.138059755169998
+          ],
+          [
+            0.005214328849606877,
+            0.9888020805579225,
+            8.64290030183106
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      947.0171263929778,
+      642.4334732758207
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.5386185163242165
+  },
+  "1380": {
+    "referenceInventory": "764",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        858,
+        580,
+        87400,
+        412200
+      ],
+      [
+        "tr",
+        1547,
+        151,
+        88600,
+        413400
+      ],
+      [
+        "br",
+        1474,
+        678,
+        89200,
+        412600
+      ],
+      [
+        "bl",
+        390,
+        696,
+        87800,
+        411400
+      ],
+      [
+        "tl",
+        1539,
+        562,
+        87600,
+        412400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        127,
+        156
+      ],
+      [
+        1624,
+        149
+      ],
+      [
+        1625,
+        851
+      ],
+      [
+        174,
+        796
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 138,
+        "inliers": 93,
+        "rmsPixels": 0.48697935787254226,
+        "affine": [
+          [
+            1.0001131752433767,
+            -0.007134154407456488,
+            6.13424902495753
+          ],
+          [
+            0.004604021243284042,
+            0.988863187350768,
+            8.837950676377734
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 69,
+        "inliers": 23,
+        "rmsPixels": 0.7923300846856833,
+        "affine": [
+          [
+            0.979726747354659,
+            -0.19328869855664013,
+            -6.754284936718534
+          ],
+          [
+            0.2011271177514153,
+            0.9980498969831751,
+            -642.3959541857655
+          ]
+        ]
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      996.6604184692524,
+      644.1030220081971
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.641994252339962
+  },
+  "1382": {
+    "referenceInventory": "764",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        860,
+        586,
+        87400,
+        412200
+      ],
+      [
+        "tr",
+        1676,
+        444,
+        88600,
+        413400
+      ],
+      [
+        "br",
+        1464,
+        818,
+        89200,
+        412600
+      ],
+      [
+        "bl",
+        276,
+        689,
+        87800,
+        411400
+      ],
+      [
+        "tl",
+        1527,
+        563,
+        87600,
+        412400,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        116,
+        160
+      ],
+      [
+        1681,
+        170
+      ],
+      [
+        1621,
+        985
+      ],
+      [
+        169,
+        987
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 147,
+        "inliers": 104,
+        "rmsPixels": 0.48694236041078365,
+        "affine": [
+          [
+            1.00000664142925,
+            -0.0034740699733311928,
+            3.819293532509795
+          ],
+          [
+            0.005148931708048553,
+            0.9914227715974747,
+            6.1126252326507275
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 74,
+        "inliers": 17,
+        "rmsPixels": 0.6384099896800097,
+        "affine": [
+          [
+            0.9789640133221652,
+            -0.18141153054631778,
+            -26.84900409837861
+          ],
+          [
+            0.19958386076358983,
+            0.9854564818551746,
+            -624.7744889505441
+          ]
+        ]
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      987.6471043646907,
+      734.9085708353437
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 7.6571961618613384
+  },
+  "1384": {
+    "referenceInventory": "765",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        165,
+        622,
+        85800,
+        410800
+      ],
+      [
+        "tr",
+        1095,
+        229,
+        87000,
+        412000
+      ],
+      [
+        "br",
+        1611,
+        680,
+        87800,
+        411400
+      ],
+      [
+        "bl",
+        293,
+        608,
+        86400,
+        410200
+      ],
+      [
+        "tl",
+        522,
+        925,
+        86000,
+        410800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        169,
+        166
+      ],
+      [
+        1613,
+        153
+      ],
+      [
+        1615,
+        965
+      ],
+      [
+        175,
+        850
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 187,
+        "inliers": 162,
+        "rmsPixels": 0.4348141441643077,
+        "affine": [
+          [
+            1.0000518903600477,
+            -0.003354155092504549,
+            0.14353973507909512
+          ],
+          [
+            0.0025362065529167745,
+            0.9829635587369331,
+            20.38493126909757
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      985.9483905950419,
+      772.9861758143848
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 5.5595110635113025
+  },
+  "1383": {
+    "referenceInventory": "765",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        180,
+        537,
+        85800,
+        410800
+      ],
+      [
+        "tr",
+        1044,
+        230,
+        87000,
+        412000
+      ],
+      [
+        "br",
+        1560,
+        560,
+        87800,
+        411400
+      ],
+      [
+        "bl",
+        304,
+        525,
+        86400,
+        410200
+      ],
+      [
+        "tl",
+        570,
+        858,
+        86000,
+        410800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        176,
+        156
+      ],
+      [
+        1562,
+        154
+      ],
+      [
+        1565,
+        845
+      ],
+      [
+        176,
+        843
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 188,
+        "inliers": 141,
+        "rmsPixels": 0.45499339837217506,
+        "affine": [
+          [
+            1.0000675498980875,
+            -0.0005819187337393148,
+            -1.276247578737685
+          ],
+          [
+            0.0011809442366031973,
+            0.9856104618816063,
+            16.703907781547684
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "matches": 131,
+        "inliers": 16,
+        "rmsPixels": 0.9550490646782448,
+        "affine": [
+          [
+            0.036489502180085245,
+            9.2042415394928,
+            -7687.66912925686
+          ],
+          [
+            -0.005161138693861756,
+            -1.0436334704992476,
+            1787.024652609066
+          ]
+        ]
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      -1321.726566088856,
+      1064.2772218620062
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 2.4948927423677434
+  },
+  "1385": {
+    "referenceInventory": "765",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        120,
+        356,
+        85800,
+        410800
+      ],
+      [
+        "tr",
+        1020,
+        33,
+        87000,
+        412000
+      ],
+      [
+        "br",
+        1647,
+        516,
+        87800,
+        411400
+      ],
+      [
+        "bl",
+        334,
+        560,
+        86400,
+        410200
+      ],
+      [
+        "tl",
+        533,
+        716,
+        86000,
+        410800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        175,
+        17
+      ],
+      [
+        1673,
+        0
+      ],
+      [
+        1630,
+        846
+      ],
+      [
+        121,
+        851
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 175,
+        "inliers": 139,
+        "rmsPixels": 0.5180097702294931,
+        "affine": [
+          [
+            0.999824806920555,
+            0.0015220830580303408,
+            -2.2403046062615295
+          ],
+          [
+            0.001886417290606964,
+            0.9813769807543354,
+            22.962245794206545
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      994.5784293197347,
+      660.2127733769939
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.4708043058554814
+  },
+  "1386": {
+    "referenceInventory": "765",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        364,
+        506,
+        85800,
+        410800
+      ],
+      [
+        "tr",
+        962,
+        226,
+        87000,
+        412000
+      ],
+      [
+        "br",
+        1505,
+        630,
+        87800,
+        411400
+      ],
+      [
+        "bl",
+        512,
+        518,
+        86400,
+        410200
+      ],
+      [
+        "tl",
+        754,
+        843,
+        86000,
+        410800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        174,
+        152
+      ],
+      [
+        1623,
+        170
+      ],
+      [
+        1625,
+        912
+      ],
+      [
+        175,
+        844
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 414,
+        "inliers": 336,
+        "rmsPixels": 0.8788335255203736,
+        "affine": [
+          [
+            0.9985376900728291,
+            -0.004384329845923604,
+            2.505985295843173
+          ],
+          [
+            0.002613047654958673,
+            1.000529297707576,
+            -0.3401267346305286
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 344,
+        "inliers": 187,
+        "rmsPixels": 0.809871203460366,
+        "affine": [
+          [
+            0.9996789931318378,
+            0.0037676457644922998,
+            -1.6205658291567138
+          ],
+          [
+            0.001291647590592623,
+            1.0015119805547832,
+            -7.442155239019656
+          ]
+        ]
+      },
+      "tr": {
+        "matches": 683,
+        "inliers": 417,
+        "rmsPixels": 0.8818168878039419,
+        "affine": [
+          [
+            0.9957564739309998,
+            -0.006701752515233246,
+            9.542400739776275
+          ],
+          [
+            0.007119829640604623,
+            1.0005875060757399,
+            5.540354529966661
+          ]
+        ]
+      },
+      "br": {
+        "matches": 646,
+        "inliers": 441,
+        "rmsPixels": 0.6569170497343934,
+        "affine": [
+          [
+            0.9979431415137022,
+            -0.0037045266413458225,
+            7.4635990698283505
+          ],
+          [
+            0.004768785382583707,
+            0.9980666793552788,
+            12.42507570965898
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 982,
+        "inliers": 660,
+        "rmsPixels": 0.5736569655611794,
+        "affine": [
+          [
+            1.0015973288951843,
+            -0.002972469517572923,
+            -7.676489300171464
+          ],
+          [
+            0.0006136083930099223,
+            0.9985828653817791,
+            -72.77166031605029
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      919.0308023671336,
+      703.4631585165374
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 4.8539905737234275
+  },
+  "1389": {
+    "referenceInventory": "1390",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        897,
+        384,
+        84800,
+        410800
+      ],
+      [
+        "tr",
+        1198,
+        156,
+        85800,
+        412000
+      ],
+      [
+        "br",
+        1373,
+        531,
+        86600,
+        411400
+      ],
+      [
+        "bl",
+        381,
+        737,
+        85400,
+        410000
+      ],
+      [
+        "tl",
+        1629,
+        421,
+        85000,
+        411000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        176,
+        157
+      ],
+      [
+        1626,
+        153
+      ],
+      [
+        1623,
+        845
+      ],
+      [
+        177,
+        848
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 222,
+        "inliers": 180,
+        "rmsPixels": 0.34738720002132717,
+        "affine": [
+          [
+            1.0000671286932696,
+            -0.0016942352121207512,
+            2.1627795479106706
+          ],
+          [
+            0.001703514565505171,
+            1.0002449306945715,
+            -0.8259608404778555
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.9385700688661962
+  },
+  "1388": {
+    "referenceInventory": "1390",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        721,
+        155,
+        84800,
+        410800
+      ],
+      [
+        "tr",
+        1245,
+        104,
+        85800,
+        412000
+      ],
+      [
+        "br",
+        1468,
+        760,
+        86600,
+        411400
+      ],
+      [
+        "bl",
+        208,
+        644,
+        85400,
+        410000
+      ],
+      [
+        "tl",
+        1502,
+        241,
+        85000,
+        411000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        123,
+        2
+      ],
+      [
+        1679,
+        42
+      ],
+      [
+        1620,
+        941
+      ],
+      [
+        125,
+        885
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 240,
+        "inliers": 163,
+        "rmsPixels": 0.3727606626801846,
+        "affine": [
+          [
+            1.000125409147953,
+            -0.0032196863064465108,
+            2.8332229384369727
+          ],
+          [
+            0.003371334705844754,
+            1.000119893240583,
+            -4.308736587874709
+          ]
+        ]
+      },
+      "tl": {
+        "matches": 51,
+        "inliers": 22,
+        "rmsPixels": 0.43062964978021173,
+        "affine": [
+          [
+            0.9926266824223444,
+            -0.024511912336089473,
+            721.8692005094634
+          ],
+          [
+            -0.003373635588500925,
+            0.9873853249229227,
+            -261.3581102290298
+          ]
+        ]
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 5.711563642062833
+  },
+  "1387": {
+    "referenceInventory": "1390",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        938,
+        313,
+        84800,
+        410800
+      ],
+      [
+        "tr",
+        1175,
+        107,
+        85800,
+        412000
+      ],
+      [
+        "br",
+        1313,
+        665,
+        86600,
+        411400
+      ],
+      [
+        "bl",
+        355,
+        851,
+        85400,
+        410000
+      ],
+      [
+        "tl",
+        1629,
+        355,
+        85000,
+        411000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        169,
+        165
+      ],
+      [
+        1626,
+        161
+      ],
+      [
+        1626,
+        845
+      ],
+      [
+        177,
+        854
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 208,
+        "inliers": 173,
+        "rmsPixels": 0.2938037030463531,
+        "affine": [
+          [
+            0.9999925982572859,
+            -0.0023503445905442392,
+            2.3628542760565625
+          ],
+          [
+            0.002619725742134295,
+            1.0004083962287815,
+            -4.5451747230643305
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 1.9428047937974837
+  },
+  "766": {
+    "referenceInventory": "1390",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        822,
+        510,
+        84800,
+        410800
+      ],
+      [
+        "tr",
+        1185,
+        405,
+        85800,
+        412000
+      ],
+      [
+        "br",
+        1360,
+        770,
+        86600,
+        411400
+      ],
+      [
+        "bl",
+        251,
+        836,
+        85400,
+        410000
+      ],
+      [
+        "tl",
+        1619,
+        471,
+        85000,
+        411000,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        175,
+        154
+      ],
+      [
+        1620,
+        164
+      ],
+      [
+        1620,
+        851
+      ],
+      [
+        175,
+        838
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 180,
+        "inliers": 144,
+        "rmsPixels": 0.4786536913852365,
+        "affine": [
+          [
+            0.999930333900304,
+            -0.0037686267669494147,
+            6.8416053354810895
+          ],
+          [
+            0.0014614989562259605,
+            1.0154916966063137,
+            -23.384394239678674
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "error": "Unreliable registration"
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 5.690748227132063
+  },
+  "1392": {
+    "referenceInventory": "767",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        225,
+        290,
+        86400,
+        411400
+      ],
+      [
+        "tr",
+        765,
+        290,
+        87800,
+        410600
+      ],
+      [
+        "br",
+        1363,
+        240,
+        87600,
+        409800
+      ],
+      [
+        "bl",
+        383,
+        544,
+        86000,
+        410600
+      ],
+      [
+        "tl",
+        935,
+        470,
+        86600,
+        411200,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        176,
+        0
+      ],
+      [
+        1616,
+        41
+      ],
+      [
+        1616,
+        846
+      ],
+      [
+        181,
+        842
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 205,
+        "inliers": 153,
+        "rmsPixels": 0.6715743117847214,
+        "affine": [
+          [
+            1.0000462822787528,
+            -0.0012525007921366104,
+            -1.9722849386539827
+          ],
+          [
+            0.0004503440488152983,
+            1.0048714034078499,
+            -2.4314591428473844
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "matches": 118,
+        "inliers": 18,
+        "rmsPixels": 0.8420788534841922,
+        "affine": [
+          [
+            0.9989577764558384,
+            -0.0007645479376755007,
+            -10.456429271118182
+          ],
+          [
+            -0.0009752720070540123,
+            0.997479656528036,
+            -124.65408711600868
+          ]
+        ]
+      },
+      "br": {
+        "matches": 355,
+        "inliers": 92,
+        "rmsPixels": 0.9118549160108778,
+        "affine": [
+          [
+            1.0133444932235574,
+            0.040535788226724136,
+            -44.82214771822284
+          ],
+          [
+            -0.004586992381965478,
+            1.070352800612134,
+            -44.31068704411154
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 169,
+        "inliers": 25,
+        "rmsPixels": 0.8849467659300012,
+        "affine": [
+          [
+            1.0056108107317587,
+            0.0037979382456761164,
+            -19.26545857436143
+          ],
+          [
+            -0.0010882270014738117,
+            0.9974643870358766,
+            4.504014927660097
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      978.9813822669421,
+      655.4678552548186
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 12.557990484150343
+  },
+  "1391": {
+    "referenceInventory": "767",
+    "referenceCrs": "EPSG:28992",
+    "points": [
+      [
+        "tl",
+        224,
+        366,
+        86400,
+        411400
+      ],
+      [
+        "tr",
+        763,
+        187,
+        87800,
+        410600
+      ],
+      [
+        "br",
+        1361,
+        241,
+        87600,
+        409800
+      ],
+      [
+        "bl",
+        378,
+        562,
+        86000,
+        410600
+      ],
+      [
+        "tl",
+        933,
+        548,
+        86600,
+        411200,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        174,
+        72
+      ],
+      [
+        1616,
+        17
+      ],
+      [
+        1613,
+        845
+      ],
+      [
+        177,
+        859
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 227,
+        "inliers": 164,
+        "rmsPixels": 0.5364551475786138,
+        "affine": [
+          [
+            0.9998883981113195,
+            -0.005376993345708352,
+            2.473595193904496
+          ],
+          [
+            0.0019672906017347406,
+            1.0047711720525874,
+            -6.6493882186220885
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Unreliable registration"
+      },
+      "tr": {
+        "matches": 72,
+        "inliers": 14,
+        "rmsPixels": 0.8391903340607575,
+        "affine": [
+          [
+            1.0021323402465543,
+            -0.00031477338624104215,
+            -14.975109288147252
+          ],
+          [
+            -0.0005375908571182695,
+            0.9981864451692875,
+            -229.205146502992
+          ]
+        ]
+      },
+      "br": {
+        "matches": 409,
+        "inliers": 113,
+        "rmsPixels": 1.2093676835355218,
+        "affine": [
+          [
+            1.0129221880397716,
+            0.02559745620773757,
+            -38.05817985074983
+          ],
+          [
+            0.00162779815559766,
+            0.9729830575594529,
+            23.589608237356416
+          ]
+        ]
+      },
+      "bl": {
+        "matches": 161,
+        "inliers": 26,
+        "rmsPixels": 0.8115147657026817,
+        "affine": [
+          [
+            1.0027136494349826,
+            -0.001004707863638836,
+            -16.684576935217894
+          ],
+          [
+            0.00206793377587591,
+            0.9980944658761748,
+            18.94833146300877
+          ]
+        ]
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      975.5003793650767,
+      665.4142134965845
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 12.478105825805454
+  },
+  "1396": {
+    "referenceInventory": "1395",
+    "referenceCrs": "EPSG:28991",
+    "points": [
+      [
+        "tl",
+        568,
+        512,
+        -72800,
+        -55800
+      ],
+      [
+        "tr",
+        883,
+        549,
+        -71400,
+        -55200
+      ],
+      [
+        "br",
+        1193,
+        117,
+        -71000,
+        -55800
+      ],
+      [
+        "bl",
+        679,
+        551,
+        -72400,
+        -56600
+      ],
+      [
+        "tl",
+        1044,
+        719,
+        -72600,
+        -55800,
+        "check"
+      ]
+    ],
+    "frameCorners": [
+      [
+        127,
+        105
+      ],
+      [
+        1678,
+        101
+      ],
+      [
+        1672,
+        840
+      ],
+      [
+        125,
+        839
+      ]
+    ],
+    "registration": {
+      "overview": {
+        "matches": 237,
+        "inliers": 214,
+        "rmsPixels": 0.3204199685012137,
+        "affine": [
+          [
+            0.9996845486027601,
+            -0.0003009149501097451,
+            0.599158021383305
+          ],
+          [
+            0.0008350144942725947,
+            0.999841690051867,
+            0.7078365117582421
+          ]
+        ]
+      },
+      "tl": {
+        "error": "Too few image matches"
+      },
+      "tr": {
+        "error": "Unreliable registration"
+      },
+      "br": {
+        "matches": 82,
+        "inliers": 14,
+        "rmsPixels": 1.198351627148207,
+        "affine": [
+          [
+            -0.006156348326244791,
+            -0.019031490932946055,
+            655.4034095578958
+          ],
+          [
+            -0.0005291200122327846,
+            -0.020260622505733933,
+            854.0493716260848
+          ]
+        ]
+      },
+      "bl": {
+        "error": "Unreliable registration"
+      }
+    },
+    "reviewStatus": "unreviewed; geographic values and frame locations are proposals only",
+    "titleNotch": [
+      "br",
+      637.0019688755777,
+      840.4361224352458
+    ],
+    "proposalAlgorithm": "image correlation candidates with redundant grid consistency; unverified, requires vision",
+    "proposalFourthPointMisclosurePixels": 10.657725161785585
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "date": "2026-11-20",
+  "cases": [
+    {
+      "inventoryNumber": "1123",
+      "mapId": "4e77125b-4ca8-ed5c-e063-6df0900ae03b-ID284c8bd3-ea39-48d3-914b-e8b451216f93-main",
+      "series": "D.07",
+      "batchId": "batch-07",
+      "reportedByUser": true,
+      "description": "Swapped the previously transposed easting/northing assignments on all five points. Re-traced the +43000/+42500 top-left labels and +45000/+39500 top-right labels against the grid and north arrow.",
+      "beforeCanonical": "before/4e77125b-4ca8-ed5c-e063-6df0900ae03b-ID284c8bd3-ea39-48d3-914b-e8b451216f93-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "50136299ea5e043fccedd6c158a38046f0efb290f43364e3fe4811063c63937c",
+        "tr": "ba69e532f35fbc81a5acae104f2820c4b53e7c8115105b6056c8fa1d283659fe",
+        "br": "c00bab0360594cfbc52076e5c849e1ecd7da1177004e65aa8bdd72708d5fd0f1",
+        "bl": "e308f91e3ac7c91e1d8a1e8dcef7cad72ba28b93e48201f9f8b530b77a4c099f",
+        "overview": "1c71539d2611e337df68bbe218154ad8b8e85ae5af41e977a86843dfe1b224cf"
+      },
+      "before": {
+        "shape": {
+          "determinant": 1.080384024374183,
+          "mirrored": true,
+          "principalScaleRatio": 1.0002931885468156,
+          "gridAngleDegrees": 90.01517359846095,
+          "gridSkewDegrees": 0.015173598460947346,
+          "eastPixelsPerMetre": 1.0394805780189411,
+          "northPixelsPerMetre": 1.0393499264020034,
+          "flags": [
+            "mirrored-grid"
+          ]
+        },
+        "rmsPixels": 2.874605079187527,
+        "checkPixels": 1.3681969190766756
+      },
+      "after": {
+        "shape": {
+          "determinant": -1.080384024374179,
+          "mirrored": false,
+          "principalScaleRatio": 1.0002931885468218,
+          "gridAngleDegrees": 90.01517359846126,
+          "gridSkewDegrees": 0.015173598461259985,
+          "eastPixelsPerMetre": 1.0393499264020007,
+          "northPixelsPerMetre": 1.03948057801894,
+          "flags": []
+        },
+        "rmsPixels": 2.874605079183116,
+        "checkPixels": 1.3681969190802177
+      }
+    },
+    {
+      "inventoryNumber": "1148",
+      "mapId": "4e7675ea-282c-908c-e063-6df0900a4619-ID82400d8d-c29a-46e5-8735-eaf93b43f18f-main",
+      "series": "D.08",
+      "batchId": "batch-08",
+      "reportedByUser": true,
+      "description": "Corrected top-right easting 98600 to 98800 and bottom-left 97800 to 97600, following the 98.8 and 97.6 border labels along the rotated grid.",
+      "beforeCanonical": "before/4e7675ea-282c-908c-e063-6df0900a4619-ID82400d8d-c29a-46e5-8735-eaf93b43f18f-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "56c95e9a8c39394e60574a4c1d64fc2776183dc87ab3401b32ed08947194afcf",
+        "tr": "aeae9e70771dfe19c7cecab30d29401897a447687176c88dc85a06ea1af9ff6a",
+        "br": "c8ce1eac8bf331491cde1d590cc376526f62783e1daa6befd83383d3a7e0e805",
+        "bl": "a71d747f10bab28e16f5c40beefb85076e8a37ff82a46c5c066d48769612df14",
+        "overview": "f4cea6fe4d4528fe85e97b068d24473060e321204bb90da040ff6e1a27401db8",
+        "top-left-frame": "f33eb60d43de1aed699178da3aa0b485779707ad0a739a51769c64660ee66db1",
+        "top-right-frame": "951658c1479626f19eba89ad85c030cee42891313ca054b81132fbe1b887870a"
+      },
+      "before": {
+        "shape": {
+          "determinant": -6.76986701351593,
+          "mirrored": false,
+          "principalScaleRatio": 1.2828267810478289,
+          "gridAngleDegrees": 75.9815708865485,
+          "gridSkewDegrees": 14.018429113451504,
+          "eastPixelsPerMetre": 2.601475301320933,
+          "northPixelsPerMetre": 2.6822000394996484,
+          "flags": [
+            "directional-stretch-over-2pct",
+            "grid-skew-over-1deg"
+          ]
+        },
+        "rmsPixels": 2.2691613112752718,
+        "checkPixels": 0.703642367475644
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.770288197098725,
+          "mirrored": false,
+          "principalScaleRatio": 1.0003646549770302,
+          "gridAngleDegrees": 90.01586280976603,
+          "gridSkewDegrees": 0.015862809766034047,
+          "eastPixelsPerMetre": 2.601669192200346,
+          "northPixelsPerMetre": 2.6022864385943607,
+          "flags": []
+        },
+        "rmsPixels": 2.2384562332875264,
+        "checkPixels": 0.6783547022224834
+      }
+    },
+    {
+      "inventoryNumber": "1149",
+      "mapId": "4e773293-3389-f0f5-e063-6df0900abdfc-ID646de279-69e2-4e0a-8e5b-d8819cb603ae-main",
+      "series": "D.08",
+      "batchId": "batch-08",
+      "reportedByUser": true,
+      "description": "Corrected top-right easting 98600 to 98800 and bottom-left 97800 to 97600, following the 98.8 and 97.6 border labels along the rotated grid.",
+      "beforeCanonical": "before/4e773293-3389-f0f5-e063-6df0900abdfc-ID646de279-69e2-4e0a-8e5b-d8819cb603ae-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "59401b11daad1fd5b3dda2522e53f2344dd2a0cc079472c968afd4ef1bae475f",
+        "tr": "ff926e95811cb018c6aa8f0a3d276412ea8f1d13caf8b0c1e63ccf5f8dee34fd",
+        "br": "f78cb6d76262103e6e580ec65d2e4274a1cbd52a2c1ec1eb8135958dedb7decb",
+        "bl": "3654a70036db205cd5a04aa86e4d20d218397a567b44c13aa5db49e1938a3f1f",
+        "overview": "506c6882b254643e328c6ba2fe262fa39a3bf43c741973d51f62508fc66e5f1b",
+        "top-left-frame": "55e16904eead1bd44963180c39f9bf9178200af9f785715b671d51f8256f0485",
+        "top-right-frame": "1f6d4bf28780dcc113a2456539ba6c64db7e54c4afbd66766fabb366e55effeb"
+      },
+      "before": {
+        "shape": {
+          "determinant": -6.76894789102122,
+          "mirrored": false,
+          "principalScaleRatio": 1.2831783650697959,
+          "gridAngleDegrees": 75.96704474766948,
+          "gridSkewDegrees": 14.032955252330524,
+          "eastPixelsPerMetre": 2.601229043033175,
+          "northPixelsPerMetre": 2.6822596445794433,
+          "flags": [
+            "directional-stretch-over-2pct",
+            "grid-skew-over-1deg"
+          ]
+        },
+        "rmsPixels": 2.5581617925064117,
+        "checkPixels": 1.6911409201420171
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.768496366023793,
+          "mirrored": false,
+          "principalScaleRatio": 1.0003119003029695,
+          "gridAngleDegrees": 89.99454660923163,
+          "gridSkewDegrees": 0.005453390768366262,
+          "eastPixelsPerMetre": 2.601247132038913,
+          "northPixelsPerMetre": 2.6020197440359882,
+          "flags": []
+        },
+        "rmsPixels": 2.5659017840263134,
+        "checkPixels": 1.7281675901721287
+      }
+    },
+    {
+      "inventoryNumber": "625",
+      "mapId": "4e7657e3-79b7-9dce-e063-6df0900acdd5-ID729a293d-6d7b-4be9-9307-7eb29f44c970-main",
+      "series": "D.08",
+      "batchId": "batch-08",
+      "reportedByUser": false,
+      "description": "Collection-wide shape screening found the same assignment errors: top-right easting 98600 to 98800 and bottom-left 97800 to 97600. Rechecked this scan’s own 98.8 and 97.6 labels.",
+      "beforeCanonical": "before/4e7657e3-79b7-9dce-e063-6df0900acdd5-ID729a293d-6d7b-4be9-9307-7eb29f44c970-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "4bff06492d8fa2780a7d353080d261bc77c1e1067469f1b63bfb8e9c715a922c",
+        "tr": "a58a9f7941d37f71f06e9d953ed16d9604e7f8faa683e0182490a939ecadf821",
+        "br": "836f56c010c134f8463a50928cdc7ab091102751716aff890adb4a381f8fddde",
+        "bl": "00636d6c5236c6732917811ca9ff696e9049ac84ba2ea74101a81bb20579ad2a",
+        "overview": "064fe55f369abb7cc6d893429fe8ab0e6cefea9f853c2bb63b63d9a20ef747ee",
+        "bottom-left-frame": "d4e92c60cdb547e32b8356689a9627e476c1efde56755212311e9cc451b074ab",
+        "top-left-frame": "34b0b251f9122fdd082055ed51639815cbb2a51beee7b413735c26ba6be4e07f",
+        "top-right-frame": "68a45315ec651feadd0a564009856b396d065034095cd1ec7d3eb3293a629f2b"
+      },
+      "before": {
+        "shape": {
+          "determinant": -6.7819970709069075,
+          "mirrored": false,
+          "principalScaleRatio": 1.2838341116631486,
+          "gridAngleDegrees": 75.94804588373458,
+          "gridSkewDegrees": 14.05195411626542,
+          "eastPixelsPerMetre": 2.6020987523122288,
+          "northPixelsPerMetre": 2.6867550960332953,
+          "flags": [
+            "directional-stretch-over-2pct",
+            "grid-skew-over-1deg"
+          ]
+        },
+        "rmsPixels": 1.7682748845683849,
+        "checkPixels": 2.59052427008172
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.777919283575335,
+          "mirrored": false,
+          "principalScaleRatio": 1.001990290612687,
+          "gridAngleDegrees": 89.92008548695931,
+          "gridSkewDegrees": 0.0799145130406913,
+          "eastPixelsPerMetre": 2.6016010644017173,
+          "northPixelsPerMetre": 2.605290245750275,
+          "flags": []
+        },
+        "rmsPixels": 1.7632830140480311,
+        "checkPixels": 2.5678638804179985
+      }
+    },
+    {
+      "inventoryNumber": "1151",
+      "mapId": "4e773293-383c-f0f5-e063-6df0900abdfc-ID17efb324-fcda-430c-a2ae-be2645b6ed28-main",
+      "series": "D.08",
+      "batchId": "batch-08",
+      "reportedByUser": false,
+      "description": "Collection-wide shape screening found the same assignment errors: top-right easting 98600 to 98800 and bottom-left 97800 to 97600. Rechecked this scan’s own 98.8 and 97.6 labels.",
+      "beforeCanonical": "before/4e773293-383c-f0f5-e063-6df0900abdfc-ID17efb324-fcda-430c-a2ae-be2645b6ed28-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "13979fba3e2356d1f9af983e0eb9cf90121d627570ac975fa1fee6d90fbcc513",
+        "tr": "052c379222f8c6c6ddda433a9bcda8c72d2b49028b94f0c6c4790596d14302f1",
+        "br": "118f35afe8e39216255e4be2ea0096b91f0fab93bf6ff5cb777f65dbe17ec0d1",
+        "bl": "d0b7242a1696a1516e110c38ce70e957b607624b18464b48449843aabb2920c4",
+        "overview": "854f40e2cc031a68b374e4ac84db16ce6521f18c1378995d0db11224debae748",
+        "top-left-frame": "92b901867623575e3f2cdd6ec9f78e342034ba1c095c7b7cec19de2e3dd1890a",
+        "top-right-frame": "8468b685f4dffe2ef9139c38f488750e3282ca9a928fe52b6ad765d55d48ac07"
+      },
+      "before": {
+        "shape": {
+          "determinant": -6.774844090714177,
+          "mirrored": false,
+          "principalScaleRatio": 1.2830100821341035,
+          "gridAngleDegrees": 75.97332528861304,
+          "gridSkewDegrees": 14.02667471138696,
+          "eastPixelsPerMetre": 2.60252351851191,
+          "northPixelsPerMetre": 2.683187275660759,
+          "flags": [
+            "directional-stretch-over-2pct",
+            "grid-skew-over-1deg"
+          ]
+        },
+        "rmsPixels": 1.8724094926863046,
+        "checkPixels": 0.5006052100098415
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.774672933572666,
+          "mirrored": false,
+          "principalScaleRatio": 1.0002908556423449,
+          "gridAngleDegrees": 90.00604164525457,
+          "gridSkewDegrees": 0.0060416452545695165,
+          "eastPixelsPerMetre": 2.6024675076588,
+          "northPixelsPerMetre": 2.603172931573298,
+          "flags": []
+        },
+        "rmsPixels": 1.8867672107090396,
+        "checkPixels": 0.44311884850810546
+      }
+    },
+    {
+      "inventoryNumber": "1284",
+      "mapId": "4e7675ea-2cde-908c-e063-6df0900a4619-ID59a3757f-860d-46a1-b350-8be61f755b3f-main",
+      "series": "D.11",
+      "batchId": "batch-11",
+      "reportedByUser": true,
+      "description": "Corrected a uniform +400 m error in all five northings. Own border labels give -39200 at p1, -37600 at p2/p3, -39400 at p4 and -39000 at p5. Eastings and image points are unchanged.",
+      "beforeCanonical": "before/4e7675ea-2cde-908c-e063-6df0900a4619-ID59a3757f-860d-46a1-b350-8be61f755b3f-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "34f48cf0a35d2e90853e377c42befc57750dbbf21ad00f2b56e9a3925d42a437",
+        "tr": "6dc35b7776c7ea5b291e547f2b89b8dad56066c6eda5717104141f8072d25960",
+        "br": "1de836dfe9ef573371290035b715b78a272dddc8254a94f272e9335f54953985",
+        "bl": "49b28cae38bdb68681821629878d5c302c2c15d848f99de0e79ea1b3ae5c41d5",
+        "overview": "213c1b1a1665068d0cdc0160ff3e8cc9c33fd22534fd26ff0e5fdb74a2fb59cd"
+      },
+      "before": {
+        "shape": {
+          "determinant": -6.761396130078987,
+          "mirrored": false,
+          "principalScaleRatio": 1.0003161865507684,
+          "gridAngleDegrees": 89.98720272471188,
+          "gridSkewDegrees": 0.012797275288122023,
+          "eastPixelsPerMetre": 2.600559400274046,
+          "northPixelsPerMetre": 2.5999776425104084,
+          "flags": []
+        },
+        "rmsPixels": 1.960142362474641,
+        "checkPixels": 1.5276982793448228
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.761396130078987,
+          "mirrored": false,
+          "principalScaleRatio": 1.0003161865507684,
+          "gridAngleDegrees": 89.98720272471188,
+          "gridSkewDegrees": 0.012797275288122023,
+          "eastPixelsPerMetre": 2.600559400274046,
+          "northPixelsPerMetre": 2.5999776425104084,
+          "flags": []
+        },
+        "rmsPixels": 1.960142362474641,
+        "checkPixels": 1.527698279445313
+      }
+    },
+    {
+      "inventoryNumber": "751",
+      "mapId": "4e76d073-ba87-e0c7-e063-6df0900a2ca4-ID13545970-161c-470d-bb21-09eac0c216e8-main",
+      "series": "D.15",
+      "batchId": "batch-15",
+      "reportedByUser": true,
+      "description": "Corrected p3 easting 97800 to 98000 and p4 96000 to 96200 after tracing the 200 m grid from the 96.0/96.2 top labels and the lower 96.2 line. The earlier suggestion of possible paper/scan distortion is superseded: coordinate-assignment errors caused the strong skew.",
+      "beforeCanonical": "before/4e76d073-ba87-e0c7-e063-6df0900a2ca4-ID13545970-161c-470d-bb21-09eac0c216e8-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "d94bc716c7a490d6fb04c2c2845fde7fc3c2de227d5a767205d3c4187491f732",
+        "tr": "8b4676136cacf85a25463abeeb1b9655937ec694a2c667bf516bc548a79dcec8",
+        "br": "3afc2fdef54018b6e5ac54f68e2c4599aad922a7b3eedd8070832c1ce493535e",
+        "bl": "bb11ef1a46a2048332125f749f1e3a3dae147b26b229ff91896066b063fa6691",
+        "overview": "dd91bc15b5a2f3236ead0c368fdeb656deae7237f7ab0d515e966e9a332a9799"
+      },
+      "before": {
+        "shape": {
+          "determinant": -7.154373424863348,
+          "mirrored": false,
+          "principalScaleRatio": 1.2631874411480346,
+          "gridAngleDegrees": 103.15996805556615,
+          "gridSkewDegrees": 13.159968055566154,
+          "eastPixelsPerMetre": 2.7509107280825287,
+          "northPixelsPerMetre": 2.6708708892163777,
+          "flags": [
+            "directional-stretch-over-2pct",
+            "grid-skew-over-1deg"
+          ]
+        },
+        "rmsPixels": 13.02877651190382,
+        "checkPixels": 45.738898379246166
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.763147881833585,
+          "mirrored": false,
+          "principalScaleRatio": 1.0008278764269123,
+          "gridAngleDegrees": 89.95278035045291,
+          "gridSkewDegrees": 0.04721964954708824,
+          "eastPixelsPerMetre": 2.6005083577502144,
+          "northPixelsPerMetre": 2.6007031119345867,
+          "flags": []
+        },
+        "rmsPixels": 2.2851967316432407,
+        "checkPixels": 0.6657193072270465
+      }
+    },
+    {
+      "inventoryNumber": "1381",
+      "mapId": "4e7657e3-76b7-9dce-e063-6df0900acdd5-ID3d406bb5-03e3-477f-b2d2-9c56a6ec67cd-main",
+      "series": "D.15",
+      "batchId": "batch-15",
+      "reportedByUser": true,
+      "description": "Corrected p3 easting -66800 to -66600 and p4 -68200 to -68000, tracing the -66.6 right-border and -68.0 bottom-border labels to the selected crosses. Negative northing interpretation is retained. The earlier suggestion of possible paper/scan distortion is superseded: coordinate-assignment errors caused the strong skew.",
+      "beforeCanonical": "before/4e7657e3-76b7-9dce-e063-6df0900acdd5-ID3d406bb5-03e3-477f-b2d2-9c56a6ec67cd-main.json",
+      "sourceEvidenceKeys": {
+        "tl": "203cce5496a7df78f5da5660f17940bb4228e5dab5dfc33cab939e78095d266f",
+        "tr": "7094b4dc7f97bb65420d61d7d0d37ba2452d03f50d802a4457fd9c8f59393afc",
+        "br": "3c18697d596b752120fce4964c55d2f05e0ebedfa7b00518de40855f1cb0e12f",
+        "bl": "287ae691cddb3a443db27fe0db0c3cbf081d9cb65f4fe8b1f7dcda53bddc7036",
+        "overview": "3fdfdb63f7860c16ea32e992353a4c23fc38744a5f02dd5c43a9a13187ae79d1"
+      },
+      "before": {
+        "shape": {
+          "determinant": -6.004540807186617,
+          "mirrored": false,
+          "principalScaleRatio": 1.229248189155478,
+          "gridAngleDegrees": 99.12067265828438,
+          "gridSkewDegrees": 9.120672658284377,
+          "eastPixelsPerMetre": 2.3108491705276437,
+          "northPixelsPerMetre": 2.6316863798108003,
+          "flags": [
+            "directional-stretch-over-2pct",
+            "grid-skew-over-1deg"
+          ]
+        },
+        "rmsPixels": 5.247961732331282,
+        "checkPixels": 30.93201088549221
+      },
+      "after": {
+        "shape": {
+          "determinant": -6.75620841835994,
+          "mirrored": false,
+          "principalScaleRatio": 1.0006399615077097,
+          "gridAngleDegrees": 90.00749108411918,
+          "gridSkewDegrees": 0.007491084119180869,
+          "eastPixelsPerMetre": 2.600084788541878,
+          "northPixelsPerMetre": 2.598456983356366,
+          "flags": []
+        },
+        "rmsPixels": 2.301701441160416,
+        "checkPixels": 1.4430507077054961
+      }
+    }
+  ],
+  "note": "The user approved all eight corrections and their corresponding series on 20 November 2026. Exact accepted geometry is recorded in human-reviews.json; original records remain in before/."
+}

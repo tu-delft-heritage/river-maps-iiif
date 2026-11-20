@@ -1,0 +1,373 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "urn:map-series-editor:map:https%3A%2F%2Fobjects.library.uu.nl%2Ffcgi-bin%2Fiipsrv.fcgi%3FIIIF%3D%2Fmanifestation%2Fviewer%2F58%2F02%2F74%2F58027421064446388927309413620615990877.jp2:1",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/58/02/74/58027421064446388927309413620615990877.jp2",
+          "type": "ImageService2",
+          "height": 6704,
+          "width": 10806,
+          "partOf": [
+            {
+              "id": "https://objects.library.uu.nl/iiif_manifest/20.500.14918-462061/canvas/p3",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "3"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-1.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Series 1 — Boven Rijn, de Waal, de Merwede, de Oude en een gedeelte van de Nieuwe Maas, van Lobith tot Brielle"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"10806\" height=\"6704\"><polygon points=\"349,379 10468,398 10492,6280 327,6258\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "thinPlateSpline"
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                349.47140286481897,
+                379.218619548969
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                5.18577588,
+                53.6111249
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                10468.149589870578,
+                398.1845901427452
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                5.79012375,
+                53.60815248
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                10491.560359931702,
+                6280.477926428141
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                5.78533746,
+                53.38353277
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                326.78211767716056,
+                6257.634831139132
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                5.18417494,
+                53.38649005
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "mapEdgeAssist": {
+            "status": "confirmed",
+            "confirmedAt": 1795094089220
+          }
+        }
+      }
+    },
+    {
+      "id": "urn:map-series-editor:map:https%3A%2F%2Fobjects.library.uu.nl%2Ffcgi-bin%2Fiipsrv.fcgi%3FIIIF%3D%2Fmanifestation%2Fviewer%2F42%2F58%2F64%2F42586479901348328751413985233667051334.jp2:1",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/42/58/64/42586479901348328751413985233667051334.jp2",
+          "type": "ImageService2",
+          "height": 6848,
+          "width": 10746,
+          "partOf": [
+            {
+              "id": "https://objects.library.uu.nl/iiif_manifest/20.500.14918-462061/canvas/p4",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "4"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-1.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Series 1 — Boven Rijn, de Waal, de Merwede, de Oude en een gedeelte van de Nieuwe Maas, van Lobith tot Brielle"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"10746\" height=\"6848\"><polygon points=\"675,430 9977,438 10003,6300 703,6276\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "thinPlateSpline"
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                674.8435574186312,
+                430.02720192613134
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                5.79012375,
+                53.60815248
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                9976.895350368493,
+                437.52739614888065
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                6.39434264,
+                53.60221576
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                10003.298858726623,
+                6300.129073949974
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                6.38637357,
+                53.37762627
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                703.4249644498404,
+                6276.242716006465
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                5.78533746,
+                53.38353277
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "mapEdgeAssist": {
+            "status": "confirmed",
+            "confirmedAt": 1795094299498
+          }
+        }
+      }
+    },
+    {
+      "id": "urn:map-series-editor:map:https%3A%2F%2Fobjects.library.uu.nl%2Ffcgi-bin%2Fiipsrv.fcgi%3FIIIF%3D%2Fmanifestation%2Fviewer%2F88%2F55%2F21%2F88552181753853146119455691427170055619.jp2:1",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://objects.library.uu.nl/fcgi-bin/iipsrv.fcgi?IIIF=/manifestation/viewer/88/55/21/88552181753853146119455691427170055619.jp2",
+          "type": "ImageService2",
+          "height": 5299,
+          "width": 7194,
+          "partOf": [
+            {
+              "id": "https://objects.library.uu.nl/iiif_manifest/20.500.14918-462061/canvas/p5",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "5"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/first-edition/series-1.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Series 1 — Boven Rijn, de Waal, de Merwede, de Oude en een gedeelte van de Nieuwe Maas, van Lobith tot Brielle"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"7194\" height=\"5299\"><polygon points=\"1419,1289 6070,1279 6082,4185 1417,4196\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "thinPlateSpline"
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1418.709766810218,
+                1288.7117152095257
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                6.39434264,
+                53.60221576
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6069.708804343575,
+                1279.3016634759617
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                6.99834687,
+                53.59331594
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6081.558199017636,
+                4185.356176182911
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                6.98719929,
+                53.36877173
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1416.580042438909,
+                4196.397415772214
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                6.38637357,
+                53.37762627
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "mapEdgeAssist": {
+            "status": "adjusted",
+            "confirmedAt": null
+          }
+        }
+      }
+    }
+  ],
+  "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/first-edition/series-1.json"
+}

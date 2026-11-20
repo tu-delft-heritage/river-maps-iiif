@@ -3,3 +3,12 @@ node_modules/
 .pnpm-store/
 .cache/
 __pycache__/
+
+.venv/
+
+# Rebuildable local review pages; measurements and approval evidence remain versioned.
+/dashboard/
+/data/georeferencing/nieuwe-stijl/draft-annotations/
+/data/georeferencing/nieuwe-stijl/pilot-screen-annotations/
+/data/georeferencing/nieuwe-stijl/review-annotations.json
+/data/georeferencing/nieuwe-stijl/batches/*/review-annotations.json

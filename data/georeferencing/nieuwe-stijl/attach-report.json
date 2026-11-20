@@ -1,0 +1,143 @@
+{
+  "package": "@allmaps/attach@1.0.0-beta.51",
+  "options": {
+    "clone": true,
+    "averageOut": false,
+    "evaluateAttachmentScps": true,
+    "evaluateSingleScps": false,
+    "evaluateGcps": false,
+    "removeExistingGcps": false,
+    "useMapTransformationTypes": false
+  },
+  "solver": "Joint first-order polynomial image-to-RD fit; equal weights in RD metres. Native resource pixels centred/scaled for conditioning.",
+  "baseline": "Independent weighted affine RD-to-image fits, inverted; also report package inverse-fit baseline.",
+  "trainingTieCount": 3,
+  "heldOutTieCount": 3,
+  "heldOutTieRmsBeforeMetres": 2.987713143702413,
+  "heldOutTieRmsAfterMetres": 2.265907077405476,
+  "ties": [
+    {
+      "id": "tie-1",
+      "role": "fit",
+      "beforeMetres": 1.3752094599403233,
+      "independentPackageMetres": 1.3727414594645275,
+      "afterMetres": 0.6325311329829822
+    },
+    {
+      "id": "tie-2",
+      "role": "check",
+      "beforeMetres": 3.8146181078994426,
+      "independentPackageMetres": 3.8110986959425,
+      "afterMetres": 3.041133385122924
+    },
+    {
+      "id": "tie-3",
+      "role": "fit",
+      "beforeMetres": 1.015621687835171,
+      "independentPackageMetres": 1.012587701869289,
+      "afterMetres": 0.16244957221273928
+    },
+    {
+      "id": "tie-4",
+      "role": "check",
+      "beforeMetres": 1.8064643200140529,
+      "independentPackageMetres": 1.8047076073747648,
+      "afterMetres": 0.9086819532684374
+    },
+    {
+      "id": "tie-5",
+      "role": "fit",
+      "beforeMetres": 1.680011591585637,
+      "independentPackageMetres": 1.6786400584486978,
+      "afterMetres": 0.6823668788192814
+    },
+    {
+      "id": "tie-6",
+      "role": "check",
+      "beforeMetres": 2.994105014617608,
+      "independentPackageMetres": 2.9910556097353935,
+      "afterMetres": 2.3084214285965463
+    }
+  ],
+  "gridErrors": [
+    {
+      "inventoryNumber": "947",
+      "controls": [
+        {
+          "id": "p1",
+          "beforeMetres": 3.166204144379267,
+          "afterMetres": 3.1618161161468064,
+          "displacementMetres": 0.029046047323108694
+        },
+        {
+          "id": "p2",
+          "beforeMetres": 2.374653108272465,
+          "afterMetres": 2.804749283011231,
+          "displacementMetres": 0.5560186671195226
+        },
+        {
+          "id": "p3",
+          "beforeMetres": 2.7704286262653626,
+          "afterMetres": 2.2955764220253427,
+          "displacementMetres": 0.6303397331705196
+        },
+        {
+          "id": "p4",
+          "beforeMetres": 3.5619796624376927,
+          "afterMetres": 3.689889642223851,
+          "displacementMetres": 0.14196064227934255
+        }
+      ],
+      "checks": [
+        {
+          "id": "p5",
+          "beforeMetres": 5.150805485575453,
+          "afterMetres": 5.300027553952525
+        }
+      ]
+    },
+    {
+      "inventoryNumber": "948",
+      "controls": [
+        {
+          "id": "p1",
+          "beforeMetres": 1.1012846338276159,
+          "afterMetres": 1.3381321849143972,
+          "displacementMetres": 0.2802343913597128
+        },
+        {
+          "id": "p2",
+          "beforeMetres": 1.101284633827443,
+          "afterMetres": 0.911551007627297,
+          "displacementMetres": 0.29502396864065905
+        },
+        {
+          "id": "p3",
+          "beforeMetres": 1.4683795118867409,
+          "afterMetres": 1.8091906122144332,
+          "displacementMetres": 0.39075962924098345
+        },
+        {
+          "id": "p4",
+          "beforeMetres": 1.4683795117701546,
+          "afterMetres": 1.144255183331134,
+          "displacementMetres": 0.38458511906326337
+        }
+      ],
+      "checks": [
+        {
+          "id": "p5",
+          "beforeMetres": 2.0576111225470832,
+          "afterMetres": 2.2993380071727563
+        }
+      ]
+    }
+  ],
+  "conclusion": "Experimental only. Relative overlap consistency is not absolute accuracy; preserve original RD observations and baseline annotations. No automatic promotion.",
+  "limitations": [
+    "Three tie equations plus eight absolute controls, all equal-weight; no calibrated joint covariance.",
+    "Both images depict the same sheet. Repeated features are correlated, not independent surveyed points.",
+    "No averaging of destinations to conceal attachment disagreement; evaluate the solved transforms directly.",
+    "Only this same-sheet pair was evaluated. Transfer to different dates/sheets is untested."
+  ]
+}

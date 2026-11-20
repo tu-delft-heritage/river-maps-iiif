@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-10",
+  "startedAt": "2026-11-19T20:21:26.993052+00:00",
+  "completedAt": "2026-11-19T22:30:05.162Z",
+  "elapsedSeconds": 7718.169,
+  "timingBasis": "Recorded wall-clock interval including preparation, review and waits; not CPU or model latency.",
+  "commands": [
+    {
+      "command": "select",
+      "startedAt": "2026-11-19T20:21:26.993052+00:00",
+      "completedAt": "2026-11-19T20:21:27.052060+00:00",
+      "elapsedSeconds": 0.059010750032030046,
+      "success": true
+    },
+    {
+      "command": "acquire",
+      "startedAt": "2026-11-19T20:21:27.054171+00:00",
+      "completedAt": "2026-11-19T20:25:21.705786+00:00",
+      "elapsedSeconds": 234.6512898330111,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:17:12.036838+00:00",
+      "completedAt": "2026-11-19T22:17:13.081175+00:00",
+      "elapsedSeconds": 1.0443385830149055,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:20:39.491546+00:00",
+      "completedAt": "2026-11-19T22:20:41.201062+00:00",
+      "elapsedSeconds": 1.7095267080003396,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:22:34.047857+00:00",
+      "completedAt": "2026-11-19T22:22:37.469041+00:00",
+      "elapsedSeconds": 3.421197041985579,
+      "success": true
+    },
+    {
+      "command": "propose",
+      "startedAt": "2026-11-19T22:22:52.585479+00:00",
+      "completedAt": "2026-11-19T22:23:31.209425+00:00",
+      "elapsedSeconds": 38.62385041592643,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:25:51.467576+00:00",
+      "completedAt": "2026-11-19T22:25:53.385438+00:00",
+      "elapsedSeconds": 1.9178723329678178,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:26:49.538353+00:00",
+      "completedAt": "2026-11-19T22:26:51.114999+00:00",
+      "elapsedSeconds": 1.5766595830209553,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:27:02.509599+00:00",
+      "completedAt": "2026-11-19T22:27:07.691187+00:00",
+      "elapsedSeconds": 5.181502416962758,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:29:31.199505+00:00",
+      "completedAt": "2026-11-19T22:29:36.050020+00:00",
+      "elapsedSeconds": 4.85039987496566,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:29:59.354149+00:00",
+      "completedAt": "2026-11-19T22:30:04.421155+00:00",
+      "elapsedSeconds": 5.066904707928188,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T22:30:05.077Z",
+      "completedAt": "2026-11-19T22:30:05.162Z",
+      "elapsedSeconds": 0.08277924999999998,
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-11",
+  "startedAt": "2026-11-19T20:25:21.708071+00:00",
+  "completedAt": "2026-11-19T22:50:53.799Z",
+  "elapsedSeconds": 8732.091,
+  "timingBasis": "Recorded wall-clock interval including preparation, review and waits; not CPU or model latency.",
+  "commands": [
+    {
+      "command": "select",
+      "startedAt": "2026-11-19T20:25:21.708071+00:00",
+      "completedAt": "2026-11-19T20:25:21.758263+00:00",
+      "elapsedSeconds": 0.05019866698421538,
+      "success": true
+    },
+    {
+      "command": "acquire",
+      "startedAt": "2026-11-19T20:25:21.760276+00:00",
+      "completedAt": "2026-11-19T20:32:04.976716+00:00",
+      "elapsedSeconds": 403.2158804999199,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:30:40.870545+00:00",
+      "completedAt": "2026-11-19T22:30:42.784571+00:00",
+      "elapsedSeconds": 1.9140355839626864,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:30:52.027472+00:00",
+      "completedAt": "2026-11-19T22:30:53.382067+00:00",
+      "elapsedSeconds": 1.3545916250441223,
+      "success": true
+    },
+    {
+      "command": "targeted-label-detail",
+      "startedAt": "2026-11-19T22:37:30.898020+00:00",
+      "completedAt": "2026-11-19T22:37:32.975121+00:00",
+      "elapsedSeconds": 2.0770977919455618,
+      "success": true
+    },
+    {
+      "command": "propose",
+      "startedAt": "2026-11-19T22:36:50.998096+00:00",
+      "completedAt": "2026-11-19T22:38:22.992451+00:00",
+      "elapsedSeconds": 91.99427712499164,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-detail",
+      "startedAt": "2026-11-19T22:39:58.561677+00:00",
+      "completedAt": "2026-11-19T22:39:59.592741+00:00",
+      "elapsedSeconds": 1.03106683306396,
+      "success": true
+    },
+    {
+      "command": "targeted-top-frame-detail",
+      "startedAt": "2026-11-19T22:40:26.970825+00:00",
+      "completedAt": "2026-11-19T22:40:28.338453+00:00",
+      "elapsedSeconds": 1.3676312499446794,
+      "success": true
+    },
+    {
+      "command": "targeted-top-frame-detail",
+      "startedAt": "2026-11-19T22:46:00.079917+00:00",
+      "completedAt": "2026-11-19T22:46:02.642025+00:00",
+      "elapsedSeconds": 2.5621162080205977,
+      "success": true
+    },
+    {
+      "command": "targeted-top-frame-detail",
+      "startedAt": "2026-11-19T22:46:48.955706+00:00",
+      "completedAt": "2026-11-19T22:46:49.502118+00:00",
+      "elapsedSeconds": 0.5464139590039849,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:48:22.143579+00:00",
+      "completedAt": "2026-11-19T22:48:29.950987+00:00",
+      "elapsedSeconds": 7.8073119999608025,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:49:31.413827+00:00",
+      "completedAt": "2026-11-19T22:49:39.505569+00:00",
+      "elapsedSeconds": 8.0916377089452,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:50:15.471372+00:00",
+      "completedAt": "2026-11-19T22:50:23.436820+00:00",
+      "elapsedSeconds": 7.965318875038065,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T22:50:45.543090+00:00",
+      "completedAt": "2026-11-19T22:50:52.991102+00:00",
+      "elapsedSeconds": 7.447899791994132,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T22:50:53.668Z",
+      "completedAt": "2026-11-19T22:50:53.799Z",
+      "elapsedSeconds": 0.12853583300000002,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-20T10:51:57.661276+00:00",
+      "completedAt": "2026-11-20T10:52:05.661377+00:00",
+      "elapsedSeconds": 7.9999149579089135,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-20T10:53:49.403578+00:00",
+      "completedAt": "2026-11-20T10:53:57.160953+00:00",
+      "elapsedSeconds": 7.757256624987349,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-20T10:54:28.980Z",
+      "completedAt": "2026-11-20T10:54:29.085Z",
+      "elapsedSeconds": 0.10422020800000001,
+      "success": true
+    }
+  ]
+}

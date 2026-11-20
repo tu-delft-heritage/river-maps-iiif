@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical Nieuwe Stijl georeferencing observation",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "source",
+    "sourceSha256",
+    "eadSha256",
+    "nativeSize",
+    "mask",
+    "anchors",
+    "points",
+    "adjustment",
+    "evidence",
+    "quality",
+    "review"
+  ],
+  "$defs": {
+    "point": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "number"
+      }
+    }
+  },
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 20
+    },
+    "sourceSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "nativeSize": {
+      "$ref": "#/$defs/point"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "inventoryNumber",
+        "series",
+        "imageService",
+        "canvasId",
+        "manifestPath",
+        "metadata"
+      ],
+      "properties": {
+        "series": {
+          "type": "string",
+          "pattern": "^D\\.(0[2-9]|1[0-7])$"
+        }
+      }
+    },
+    "mask": {
+      "type": "object",
+      "required": [
+        "resourceMask",
+        "reviewStatus"
+      ],
+      "properties": {
+        "resourceMask": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "$ref": "#/$defs/point"
+          }
+        },
+        "reviewStatus": {
+          "const": "ai-visually-reviewed"
+        }
+      }
+    },
+    "anchors": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Reviewed border evidence groups; a single crop can contain both easting and northing labels."
+    },
+    "points": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "role",
+          "resourceCoords",
+          "originalProjected",
+          "rdNew",
+          "geo",
+          "evidenceId",
+          "coordinateDerivation",
+          "localization"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "control",
+              "check"
+            ]
+          },
+          "resourceCoords": {
+            "$ref": "#/$defs/point"
+          },
+          "rdNew": {
+            "$ref": "#/$defs/point"
+          },
+          "geo": {
+            "$ref": "#/$defs/point"
+          },
+          "originalProjected": {
+            "type": "object",
+            "required": [
+              "crs",
+              "coordinates",
+              "unit",
+              "printedUnit"
+            ],
+            "properties": {
+              "crs": {
+                "enum": [
+                  "EPSG:28991",
+                  "EPSG:28992"
+                ]
+              },
+              "coordinates": {
+                "$ref": "#/$defs/point"
+              },
+              "unit": {
+                "const": "metre"
+              },
+              "printedUnit": {
+                "enum": [
+                  "metre",
+                  "kilometre",
+                  "hectometre"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "adjustment": {
+      "type": "object",
+      "required": [
+        "linear",
+        "intercept",
+        "rmsPixels",
+        "degreesOfFreedom",
+        "heldOutChecks",
+        "parameterCovariancePerAxis",
+        "statisticalPass"
+      ],
+      "properties": {
+        "statisticalPass": {
+          "type": "null"
+        }
+      }
+    },
+    "quality": {
+      "type": "object",
+      "required": [
+        "status",
+        "reasons",
+        "releaseEligible"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pilot-pass",
+            "needs-review",
+            "batch-pass"
+          ]
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "releaseEligible": {
+          "type": "boolean"
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 5
+    },
+    "review": {
+      "type": "object"
+    }
+  }
+}

@@ -1,5 +1,8 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
   "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json",
   "type": "Manifest",
   "label": {
@@ -229,6 +232,17 @@
       "label": {
         "nl": [
           "EAD-bronbestand — Versie: 30-07-2026"
+        ]
+      }
+    },
+    {
+      "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "http://iiif.io/api/extension/georef/1/context.json",
+      "label": {
+        "en": [
+          "Georeference annotations — 12 maps"
         ]
       }
     }
@@ -538,6 +552,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -652,7 +677,70 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1966-07-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7675ea-2e2f-908c-e063-6df0900a4619-IDe04502e6-476a-432a-b73a-50fffce3bdcd-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7675ea-2e2f-908c-e063-6df0900a4619-IDe04502e6-476a-432a-b73a-50fffce3bdcd-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.620923190938049,
+                    51.79490566241257
+                  ],
+                  [
+                    4.617368846652082,
+                    51.790398058730354
+                  ],
+                  [
+                    4.613814502366114,
+                    51.78589000451103
+                  ],
+                  [
+                    4.62498646838436,
+                    51.78251847463742
+                  ],
+                  [
+                    4.636158434402606,
+                    51.77914669278773
+                  ],
+                  [
+                    4.636619298500852,
+                    51.779734919385106
+                  ],
+                  [
+                    4.6398045189043495,
+                    51.778774659128075
+                  ],
+                  [
+                    4.643094487881724,
+                    51.783005334782985
+                  ],
+                  [
+                    4.646384456859099,
+                    51.78723561374066
+                  ],
+                  [
+                    4.633653823898574,
+                    51.791070801123475
+                  ],
+                  [
+                    4.620923190938049,
+                    51.79490566241257
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7693bd-a7c3-8798-e063-6df0900ae38e-ID1620ddb1-b232-4392-a3ab-24de26cda4c0",
@@ -942,6 +1030,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -1056,7 +1155,70 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1977-09-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7693bd-a7c3-8798-e063-6df0900ae38e-ID1620ddb1-b232-4392-a3ab-24de26cda4c0-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7693bd-a7c3-8798-e063-6df0900ae38e-ID1620ddb1-b232-4392-a3ab-24de26cda4c0-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.62092777183354,
+                    51.79493591408514
+                  ],
+                  [
+                    4.61735778358341,
+                    51.79041372833404
+                  ],
+                  [
+                    4.6137877953332795,
+                    51.785891089125755
+                  ],
+                  [
+                    4.625012580877841,
+                    51.782507166762585
+                  ],
+                  [
+                    4.636237366422401,
+                    51.77912299056763
+                  ],
+                  [
+                    4.636692410707235,
+                    51.77970058155177
+                  ],
+                  [
+                    4.6398356329334955,
+                    51.77874534548687
+                  ],
+                  [
+                    4.643137977754873,
+                    51.782995972291005
+                  ],
+                  [
+                    4.64644032257625,
+                    51.787246198647864
+                  ],
+                  [
+                    4.633684047204895,
+                    51.79109122025071
+                  ],
+                  [
+                    4.62092777183354,
+                    51.79493591408514
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-47dd-ed5c-e063-6df0900ae03b-ID9db1c3f1-c115-429b-9bf4-0c8cf38f5ac7",
@@ -1346,6 +1508,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -1460,7 +1633,70 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1980-08-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-47dd-ed5c-e063-6df0900ae03b-ID9db1c3f1-c115-429b-9bf4-0c8cf38f5ac7-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-47dd-ed5c-e063-6df0900ae03b-ID9db1c3f1-c115-429b-9bf4-0c8cf38f5ac7-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.620928300115543,
+                    51.79493700098379
+                  ],
+                  [
+                    4.6173586687409,
+                    51.790414870052174
+                  ],
+                  [
+                    4.6137890373662565,
+                    51.785892285674365
+                  ],
+                  [
+                    4.625014503126191,
+                    51.78250830561172
+                  ],
+                  [
+                    4.636239968886126,
+                    51.779124071708615
+                  ],
+                  [
+                    4.636694671225309,
+                    51.77969877661951
+                  ],
+                  [
+                    4.639834193246895,
+                    51.77874092910637
+                  ],
+                  [
+                    4.6431426257305395,
+                    51.78299300808826
+                  ],
+                  [
+                    4.646451058214183,
+                    51.787244686349325
+                  ],
+                  [
+                    4.633689679164863,
+                    51.79109100766157
+                  ],
+                  [
+                    4.620928300115543,
+                    51.79493700098379
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7693bd-a914-8798-e063-6df0900ae38e-ID33bbc3d9-5f98-463b-a91d-4e7ae7b74ced",
@@ -1750,6 +1986,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -1864,7 +2111,86 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1966-08-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7693bd-a914-8798-e063-6df0900ae38e-ID33bbc3d9-5f98-463b-a91d-4e7ae7b74ced-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7693bd-a914-8798-e063-6df0900ae38e-ID33bbc3d9-5f98-463b-a91d-4e7ae7b74ced-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.619119322713719,
+                    51.76749431636328
+                  ],
+                  [
+                    4.6352978715248945,
+                    51.76755417915822
+                  ],
+                  [
+                    4.635236821466838,
+                    51.771211103799
+                  ],
+                  [
+                    4.635175771408781,
+                    51.774867732165944
+                  ],
+                  [
+                    4.635114721350723,
+                    51.77852406426812
+                  ],
+                  [
+                    4.635053671292666,
+                    51.78218010011471
+                  ],
+                  [
+                    4.633996271452044,
+                    51.78217437960305
+                  ],
+                  [
+                    4.633965987026261,
+                    51.78436066486404
+                  ],
+                  [
+                    4.635017161964836,
+                    51.78436635142353
+                  ],
+                  [
+                    4.635003571456056,
+                    51.78518015111404
+                  ],
+                  [
+                    4.618820405128158,
+                    51.78505110968088
+                  ],
+                  [
+                    4.618895134524549,
+                    51.780662551722635
+                  ],
+                  [
+                    4.618969863920939,
+                    51.77627356686077
+                  ],
+                  [
+                    4.61904459331733,
+                    51.771884155079576
+                  ],
+                  [
+                    4.619119322713719,
+                    51.76749431636328
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7675ea-2dfe-908c-e063-6df0900a4619-IDa2f3e3a8-bfbb-426e-b823-2b0a1bbc5be2",
@@ -2154,6 +2480,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -2268,7 +2605,86 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1980-08-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7675ea-2dfe-908c-e063-6df0900a4619-IDa2f3e3a8-bfbb-426e-b823-2b0a1bbc5be2-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7675ea-2dfe-908c-e063-6df0900a4619-IDa2f3e3a8-bfbb-426e-b823-2b0a1bbc5be2-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.619444394257327,
+                    51.76750102645311
+                  ],
+                  [
+                    4.634204908685441,
+                    51.76757033867322
+                  ],
+                  [
+                    4.634198460247939,
+                    51.76972644975681
+                  ],
+                  [
+                    4.63529532022531,
+                    51.76972801092035
+                  ],
+                  [
+                    4.635225328458107,
+                    51.773595290110194
+                  ],
+                  [
+                    4.635155336690904,
+                    51.777462237934394
+                  ],
+                  [
+                    4.6350853449236995,
+                    51.7813288544037
+                  ],
+                  [
+                    4.635015353156496,
+                    51.78519513952887
+                  ],
+                  [
+                    4.618796116126719,
+                    51.78506854716011
+                  ],
+                  [
+                    4.618860415690335,
+                    51.781340341956586
+                  ],
+                  [
+                    4.618924715253952,
+                    51.777611828654344
+                  ],
+                  [
+                    4.618989014817569,
+                    51.77388300724365
+                  ],
+                  [
+                    4.619053314381186,
+                    51.770153877714854
+                  ],
+                  [
+                    4.619436458520543,
+                    51.77015442303971
+                  ],
+                  [
+                    4.619444394257327,
+                    51.76750102645311
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7657e3-6ea1-9dce-e063-6df0900acdd5-IDfd63eddd-3f39-4f62-907e-32626eb2b8bd",
@@ -2558,6 +2974,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -2672,7 +3099,78 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1966-03-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7657e3-6ea1-9dce-e063-6df0900acdd5-IDfd63eddd-3f39-4f62-907e-32626eb2b8bd-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7657e3-6ea1-9dce-e063-6df0900acdd5-IDfd63eddd-3f39-4f62-907e-32626eb2b8bd-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.619405332263917,
+                    51.75072719979498
+                  ],
+                  [
+                    4.635566677082963,
+                    51.750796141481075
+                  ],
+                  [
+                    4.635500787122729,
+                    51.75465171582905
+                  ],
+                  [
+                    4.635434897162496,
+                    51.758506961038016
+                  ],
+                  [
+                    4.6353690072022635,
+                    51.76236187711859
+                  ],
+                  [
+                    4.635303117242032,
+                    51.76621646408144
+                  ],
+                  [
+                    4.634249775268554,
+                    51.766211520455855
+                  ],
+                  [
+                    4.6342242108131195,
+                    51.768400987683314
+                  ],
+                  [
+                    4.619094493334788,
+                    51.7682885165381
+                  ],
+                  [
+                    4.6191722030670705,
+                    51.763898827667965
+                  ],
+                  [
+                    4.6192499127993525,
+                    51.75950871193122
+                  ],
+                  [
+                    4.619327622531634,
+                    51.75511816931215
+                  ],
+                  [
+                    4.619405332263917,
+                    51.75072719979498
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-421f-ed5c-e063-6df0900ae03b-ID3792a7d3-aff5-4288-a21d-2c2b5d5adb69",
@@ -2962,6 +3460,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -3076,7 +3585,86 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1980-08-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-421f-ed5c-e063-6df0900ae03b-ID3792a7d3-aff5-4288-a21d-2c2b5d5adb69-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-421f-ed5c-e063-6df0900ae03b-ID3792a7d3-aff5-4288-a21d-2c2b5d5adb69-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.619735090570842,
+                    51.75073746286602
+                  ],
+                  [
+                    4.635606817359849,
+                    51.750803275963534
+                  ],
+                  [
+                    4.63554180978368,
+                    51.75467047825029
+                  ],
+                  [
+                    4.635476802207508,
+                    51.75853734940961
+                  ],
+                  [
+                    4.635411794631339,
+                    51.762403889452216
+                  ],
+                  [
+                    4.635346787055168,
+                    51.76627009838888
+                  ],
+                  [
+                    4.6342751220175495,
+                    51.766264489469116
+                  ],
+                  [
+                    4.634243461974871,
+                    51.76842482382504
+                  ],
+                  [
+                    4.619093200733519,
+                    51.768307543084
+                  ],
+                  [
+                    4.619157357937811,
+                    51.764575333253774
+                  ],
+                  [
+                    4.6192215151421046,
+                    51.760842814848374
+                  ],
+                  [
+                    4.619285672346396,
+                    51.75710998785808
+                  ],
+                  [
+                    4.619349829550689,
+                    51.75337685227322
+                  ],
+                  [
+                    4.619696396412457,
+                    51.75337866666544
+                  ],
+                  [
+                    4.619735090570842,
+                    51.75073746286602
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-506a-ed5c-e063-6df0900ae03b-IDb50d2b96-f607-4ae2-9dc7-48dc3835bf3d",
@@ -3366,6 +3954,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -3480,7 +4079,86 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1990-11-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-506a-ed5c-e063-6df0900ae03b-IDb50d2b96-f607-4ae2-9dc7-48dc3835bf3d-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-506a-ed5c-e063-6df0900ae03b-IDb50d2b96-f607-4ae2-9dc7-48dc3835bf3d-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.619731560107743,
+                    51.75073559931339
+                  ],
+                  [
+                    4.635595244611546,
+                    51.75080582923604
+                  ],
+                  [
+                    4.6355261598749715,
+                    51.75467005530965
+                  ],
+                  [
+                    4.635457075138398,
+                    51.75853395076531
+                  ],
+                  [
+                    4.635387990401823,
+                    51.76239751561366
+                  ],
+                  [
+                    4.635318905665249,
+                    51.766260749865495
+                  ],
+                  [
+                    4.634272319734133,
+                    51.766259986203806
+                  ],
+                  [
+                    4.634267122269042,
+                    51.76842181693354
+                  ],
+                  [
+                    4.619093768444972,
+                    51.768310701926964
+                  ],
+                  [
+                    4.619157081222872,
+                    51.764578821997404
+                  ],
+                  [
+                    4.619220394000771,
+                    51.76084663354718
+                  ],
+                  [
+                    4.6192837067786705,
+                    51.75711413656656
+                  ],
+                  [
+                    4.619347019556571,
+                    51.753381331045915
+                  ],
+                  [
+                    4.6197252007388565,
+                    51.75338160707186
+                  ],
+                  [
+                    4.619731560107743,
+                    51.75073559931339
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e76d073-b457-e0c7-e063-6df0900a2ca4-IDbe14cd1e-01e1-46e9-82d5-fce3d4b21aea",
@@ -3770,6 +4448,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -3884,7 +4573,78 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1966-01-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e76d073-b457-e0c7-e063-6df0900a2ca4-IDbe14cd1e-01e1-46e9-82d5-fce3d4b21aea-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e76d073-b457-e0c7-e063-6df0900a2ca4-IDbe14cd1e-01e1-46e9-82d5-fce3d4b21aea-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.623761248164732,
+                    51.73407837474057
+                  ],
+                  [
+                    4.639890957732766,
+                    51.73416458812397
+                  ],
+                  [
+                    4.639829614952721,
+                    51.73801387460543
+                  ],
+                  [
+                    4.6397682721726765,
+                    51.741862833216395
+                  ],
+                  [
+                    4.639706929392631,
+                    51.74571146396735
+                  ],
+                  [
+                    4.639645586612585,
+                    51.749559766868906
+                  ],
+                  [
+                    4.638588351046532,
+                    51.74955570064704
+                  ],
+                  [
+                    4.638568467597971,
+                    51.751746030824584
+                  ],
+                  [
+                    4.623451849977962,
+                    51.75162576609713
+                  ],
+                  [
+                    4.623529199524655,
+                    51.74723955717643
+                  ],
+                  [
+                    4.623606549071348,
+                    51.74285292232052
+                  ],
+                  [
+                    4.62368389861804,
+                    51.738465861513795
+                  ],
+                  [
+                    4.623761248164732,
+                    51.73407837474057
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e76d073-aefc-e0c7-e063-6df0900a2ca4-IDcadbe0c0-a38a-43c2-aa8c-2f7494e62799",
@@ -4174,6 +4934,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -4288,7 +5059,86 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1980-08-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e76d073-aefc-e0c7-e063-6df0900a2ca4-IDcadbe0c0-a38a-43c2-aa8c-2f7494e62799-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e76d073-aefc-e0c7-e063-6df0900a2ca4-IDcadbe0c0-a38a-43c2-aa8c-2f7494e62799-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.6240656574211165,
+                    51.734074687765705
+                  ],
+                  [
+                    4.638831981476661,
+                    51.73415159334522
+                  ],
+                  [
+                    4.638819033260264,
+                    51.73630796161904
+                  ],
+                  [
+                    4.6399095437212825,
+                    51.73631134777486
+                  ],
+                  [
+                    4.639843236434346,
+                    51.7401773254455
+                  ],
+                  [
+                    4.639776929147409,
+                    51.744042972370465
+                  ],
+                  [
+                    4.639710621860472,
+                    51.74790828856047
+                  ],
+                  [
+                    4.639644314573535,
+                    51.751773274026206
+                  ],
+                  [
+                    4.623448301389166,
+                    51.75164017372074
+                  ],
+                  [
+                    4.623508553632867,
+                    51.747906373186495
+                  ],
+                  [
+                    4.62356880587657,
+                    51.744172263998706
+                  ],
+                  [
+                    4.623629058120271,
+                    51.74043784614773
+                  ],
+                  [
+                    4.623689310363972,
+                    51.7367031196239
+                  ],
+                  [
+                    4.624049867854217,
+                    51.7367042391851
+                  ],
+                  [
+                    4.6240656574211165,
+                    51.734074687765705
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7657e3-81b7-9dce-e063-6df0900acdd5-IDfc90ad15-74c7-4c9b-9d88-2bdffd8781d4",
@@ -4578,6 +5428,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -4692,7 +5553,78 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1966-07-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7657e3-81b7-9dce-e063-6df0900acdd5-IDfc90ad15-74c7-4c9b-9d88-2bdffd8781d4-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e7657e3-81b7-9dce-e063-6df0900acdd5-IDfc90ad15-74c7-4c9b-9d88-2bdffd8781d4-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.617968710774065,
+                    51.718904351220516
+                  ],
+                  [
+                    4.634116103992826,
+                    51.71897926806196
+                  ],
+                  [
+                    4.634049831058468,
+                    51.722826990935566
+                  ],
+                  [
+                    4.633983558124112,
+                    51.72667438638347
+                  ],
+                  [
+                    4.633917285189755,
+                    51.73052145441614
+                  ],
+                  [
+                    4.633851012255398,
+                    51.73436819504416
+                  ],
+                  [
+                    4.632793013590837,
+                    51.73436306073647
+                  ],
+                  [
+                    4.6327645642668145,
+                    51.736570265099346
+                  ],
+                  [
+                    4.617681269694668,
+                    51.73645904847825
+                  ],
+                  [
+                    4.617753129964516,
+                    51.73207101326631
+                  ],
+                  [
+                    4.617824990234366,
+                    51.727682551996445
+                  ],
+                  [
+                    4.6178968505042155,
+                    51.72329366465306
+                  ],
+                  [
+                    4.617968710774065,
+                    51.718904351220516
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     },
     {
       "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-4237-ed5c-e063-6df0900ae03b-IDad42b34c-a1d2-49a6-9fb8-676a52ca7ca2",
@@ -4982,6 +5914,17 @@
               "IIIF Image API metadata"
             ]
           }
+        },
+        {
+          "id": "https://tu-delft-heritage.github.io/river-maps-iiif/annotations/nieuwe-stijl/series-13.json",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "http://iiif.io/api/extension/georef/1/context.json",
+          "label": {
+            "en": [
+              "Georeference annotations for this series"
+            ]
+          }
         }
       ],
       "rendering": [
@@ -5096,7 +6039,86 @@
             }
           ]
         }
-      ]
+      ],
+      "navDate": "1996-02-01T00:00:00Z",
+      "navPlace": {
+        "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-4237-ed5c-e063-6df0900ae03b-IDad42b34c-a1d2-49a6-9fb8-676a52ca7ca2-navplace",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-13.json#canvas-4e77125b-4237-ed5c-e063-6df0900ae03b-IDad42b34c-a1d2-49a6-9fb8-676a52ca7ca2-mask",
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    4.6182826618206425,
+                    51.718890788123204
+                  ],
+                  [
+                    4.634147610598374,
+                    51.71896808001803
+                  ],
+                  [
+                    4.634080895965012,
+                    51.72283544170457
+                  ],
+                  [
+                    4.634014181331651,
+                    51.72670247261452
+                  ],
+                  [
+                    4.633947466698289,
+                    51.7305691727586
+                  ],
+                  [
+                    4.633880752064927,
+                    51.73443554214747
+                  ],
+                  [
+                    4.632823399347627,
+                    51.734429931312796
+                  ],
+                  [
+                    4.632795489970677,
+                    51.73658665616209
+                  ],
+                  [
+                    4.617648974913108,
+                    51.73646829901681
+                  ],
+                  [
+                    4.617712669527821,
+                    51.73273338781112
+                  ],
+                  [
+                    4.617776364142532,
+                    51.72899816793639
+                  ],
+                  [
+                    4.617840058757245,
+                    51.725262639383025
+                  ],
+                  [
+                    4.617903753371957,
+                    51.72152680214135
+                  ],
+                  [
+                    4.618248538007844,
+                    51.72152863226096
+                  ],
+                  [
+                    4.6182826618206425,
+                    51.718890788123204
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
     }
   ],
   "structures": [

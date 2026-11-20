@@ -1,0 +1,274 @@
+{
+  "sourceCrs": "EPSG:28992",
+  "targetCrs": "OGC:CRS84",
+  "axisOrder": [
+    "longitude",
+    "latitude"
+  ],
+  "operation": "Inverse of RD New + Amersfoort to WGS 84 (4), EPSG:4833",
+  "accuracyMetres": 1,
+  "pipeline": "+proj=pipeline +step +inv +proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +step +proj=push +v_3 +step +proj=cart +ellps=bessel +step +proj=helmert +x=565.4171 +y=50.3319 +z=465.5524 +rx=0.398957388243134 +ry=-0.343987817378283 +rz=1.87740163998045 +s=4.0725 +convention=coordinate_frame +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=unitconvert +xy_in=rad +xy_out=deg",
+  "gridFiles": [],
+  "networkEnabled": false,
+  "ballpark": false,
+  "suppliedDefinitionUrl": "https://epsg.io/28992.json",
+  "suppliedDefinitionSha256": "729bdf38cc127d454cfd3f7907459d3854aa9faa53ccdd301a375ed3c274a622",
+  "pyprojVersion": "3.7.2",
+  "projVersion": "9.5.1",
+  "epsgVersion": "v11.022",
+  "sourceDefinition": {
+    "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+    "type": "ProjectedCRS",
+    "name": "Amersfoort / RD New",
+    "base_crs": {
+      "name": "Amersfoort",
+      "datum": {
+        "type": "GeodeticReferenceFrame",
+        "name": "Amersfoort",
+        "ellipsoid": {
+          "name": "Bessel 1841",
+          "semi_major_axis": 6377397.155,
+          "inverse_flattening": 299.1528128
+        }
+      },
+      "coordinate_system": {
+        "subtype": "ellipsoidal",
+        "axis": [
+          {
+            "name": "Geodetic latitude",
+            "abbreviation": "Lat",
+            "direction": "north",
+            "unit": "degree"
+          },
+          {
+            "name": "Geodetic longitude",
+            "abbreviation": "Lon",
+            "direction": "east",
+            "unit": "degree"
+          }
+        ]
+      },
+      "id": {
+        "authority": "EPSG",
+        "code": 4289
+      }
+    },
+    "conversion": {
+      "name": "RD New",
+      "method": {
+        "name": "Oblique Stereographic",
+        "id": {
+          "authority": "EPSG",
+          "code": 9809
+        }
+      },
+      "parameters": [
+        {
+          "name": "Latitude of natural origin",
+          "value": 52.1561605555556,
+          "unit": "degree",
+          "id": {
+            "authority": "EPSG",
+            "code": 8801
+          }
+        },
+        {
+          "name": "Longitude of natural origin",
+          "value": 5.38763888888889,
+          "unit": "degree",
+          "id": {
+            "authority": "EPSG",
+            "code": 8802
+          }
+        },
+        {
+          "name": "Scale factor at natural origin",
+          "value": 0.9999079,
+          "unit": "unity",
+          "id": {
+            "authority": "EPSG",
+            "code": 8805
+          }
+        },
+        {
+          "name": "False easting",
+          "value": 155000,
+          "unit": "metre",
+          "id": {
+            "authority": "EPSG",
+            "code": 8806
+          }
+        },
+        {
+          "name": "False northing",
+          "value": 463000,
+          "unit": "metre",
+          "id": {
+            "authority": "EPSG",
+            "code": 8807
+          }
+        }
+      ]
+    },
+    "coordinate_system": {
+      "subtype": "Cartesian",
+      "axis": [
+        {
+          "name": "Easting",
+          "abbreviation": "X",
+          "direction": "east",
+          "unit": "metre"
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "Y",
+          "direction": "north",
+          "unit": "metre"
+        }
+      ]
+    },
+    "scope": "Engineering survey, topographic mapping.",
+    "area": "Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone.",
+    "bbox": {
+      "south_latitude": 50.75,
+      "west_longitude": 3.2,
+      "north_latitude": 53.7,
+      "east_longitude": 7.22
+    },
+    "id": {
+      "authority": "EPSG",
+      "code": 28992
+    }
+  },
+  "rdOldDefinition": {
+    "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+    "type": "ProjectedCRS",
+    "name": "Amersfoort / RD Old",
+    "base_crs": {
+      "name": "Amersfoort",
+      "datum": {
+        "type": "GeodeticReferenceFrame",
+        "name": "Amersfoort",
+        "ellipsoid": {
+          "name": "Bessel 1841",
+          "semi_major_axis": 6377397.155,
+          "inverse_flattening": 299.1528128
+        }
+      },
+      "coordinate_system": {
+        "subtype": "ellipsoidal",
+        "axis": [
+          {
+            "name": "Geodetic latitude",
+            "abbreviation": "Lat",
+            "direction": "north",
+            "unit": "degree"
+          },
+          {
+            "name": "Geodetic longitude",
+            "abbreviation": "Lon",
+            "direction": "east",
+            "unit": "degree"
+          }
+        ]
+      },
+      "id": {
+        "authority": "EPSG",
+        "code": 4289
+      }
+    },
+    "conversion": {
+      "name": "RD Old",
+      "method": {
+        "name": "Oblique Stereographic",
+        "id": {
+          "authority": "EPSG",
+          "code": 9809
+        }
+      },
+      "parameters": [
+        {
+          "name": "Latitude of natural origin",
+          "value": 52.1561605555556,
+          "unit": "degree",
+          "id": {
+            "authority": "EPSG",
+            "code": 8801
+          }
+        },
+        {
+          "name": "Longitude of natural origin",
+          "value": 5.38763888888889,
+          "unit": "degree",
+          "id": {
+            "authority": "EPSG",
+            "code": 8802
+          }
+        },
+        {
+          "name": "Scale factor at natural origin",
+          "value": 0.9999079,
+          "unit": "unity",
+          "id": {
+            "authority": "EPSG",
+            "code": 8805
+          }
+        },
+        {
+          "name": "False easting",
+          "value": 0,
+          "unit": "metre",
+          "id": {
+            "authority": "EPSG",
+            "code": 8806
+          }
+        },
+        {
+          "name": "False northing",
+          "value": 0,
+          "unit": "metre",
+          "id": {
+            "authority": "EPSG",
+            "code": 8807
+          }
+        }
+      ]
+    },
+    "coordinate_system": {
+      "subtype": "Cartesian",
+      "axis": [
+        {
+          "name": "Easting",
+          "abbreviation": "X",
+          "direction": "east",
+          "unit": "metre"
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "Y",
+          "direction": "north",
+          "unit": "metre"
+        }
+      ]
+    },
+    "scope": "Engineering survey, topographic mapping.",
+    "area": "Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone.",
+    "bbox": {
+      "south_latitude": 50.75,
+      "west_longitude": 3.2,
+      "north_latitude": 53.7,
+      "east_longitude": 7.22
+    },
+    "id": {
+      "authority": "EPSG",
+      "code": 28991
+    }
+  },
+  "rdOldNormalization": {
+    "offsetMetres": [
+      155000,
+      463000
+    ],
+    "reason": "Same Amersfoort oblique stereographic conversion; different false origin. Applied only after signed border-label review."
+  }
+}

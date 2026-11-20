@@ -1,0 +1,1027 @@
+{
+  "schemaVersion": 1,
+  "id": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+  "batchId": "batch-04",
+  "source": {
+    "id": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+    "inventoryNumber": "1006",
+    "series": "D.04",
+    "title": "Blad no. 318 rivierkaart gedeelte Maas, rpn. 78.2-81.6",
+    "sourceRecordId": "4e7693bd-a583-8798-e063-6df0900ae38e",
+    "sourceImageId": "ID965ccad9-0003-439a-bd75-4b43850755c3",
+    "imageService": {
+      "@context": "http://iiif.io/api/image/3/context.json",
+      "protocol": "http://iiif.io/api/image",
+      "width": 7259,
+      "height": 5159,
+      "sizes": [
+        {
+          "width": 226,
+          "height": 161
+        },
+        {
+          "width": 453,
+          "height": 322
+        },
+        {
+          "width": 907,
+          "height": 644
+        },
+        {
+          "width": 1814,
+          "height": 1289
+        },
+        {
+          "width": 3629,
+          "height": 2579
+        }
+      ],
+      "tiles": [
+        {
+          "width": 256,
+          "height": 256,
+          "scaleFactors": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32
+          ]
+        }
+      ],
+      "id": "https://service.archief.nl/iip/iipsrv?IIIF=20/fb/39/99/84/35/46/28/9d/4b/4f/0f/12/bb/56/b9/965ccad9-0003-439a-bd75-4b43850755c3.jp2",
+      "type": "ImageService3",
+      "profile": "level2",
+      "maxWidth": 5000,
+      "maxHeight": 5000,
+      "extraQualities": [
+        "gray",
+        "bitonal"
+      ],
+      "extraFormats": [
+        "tif",
+        "webp"
+      ],
+      "extraFeatures": [
+        "regionByPct",
+        "sizeByPct",
+        "sizeByConfinedWh",
+        "sizeUpscaling",
+        "rotationBy90s",
+        "mirroring"
+      ],
+      "service": [
+        {
+          "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+          "profile": "http://iiif.io/api/annex/services/physdim",
+          "physicalScale": 0.000628728,
+          "physicalUnits": "cm"
+        }
+      ]
+    },
+    "manifestPath": "manifests/nieuwe-stijl/series-04.json",
+    "canvasId": "https://tu-delft-heritage.github.io/river-maps-iiif/manifests/nieuwe-stijl/series-04.json#canvas-4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3",
+    "metadata": [
+      {
+        "label": "Identificatie (BD)",
+        "value": "1006"
+      },
+      {
+        "label": "Identificatie (handle)",
+        "value": "http://hdl.handle.net/10648/4e7693bd-a583-8798-e063-6df0900ae38e"
+      },
+      {
+        "label": "Identificatie (urn:uuid)",
+        "value": "4e7693bd-a583-8798-e063-6df0900ae38e"
+      },
+      {
+        "label": "Titel",
+        "value": "Blad no. 318 rivierkaart gedeelte Maas, rpn. 78.2-81.6"
+      },
+      {
+        "label": "Datering",
+        "value": "bijgewerkt tot juli 1967"
+      },
+      {
+        "label": "Datering (ISO)",
+        "value": "1967-07"
+      },
+      {
+        "label": "Kaartschaal / materiaal (scale)",
+        "value": "Schaal 1:5.000"
+      },
+      {
+        "label": "Inhoud",
+        "value": "Luchtfotografie: opname KLM april en mei 1963."
+      },
+      {
+        "label": "Trefwoorden",
+        "value": "kaart"
+      }
+    ],
+    "metsUrl": "https://service.archief.nl/gaf/api/mets/v1/20fb3999-8435-4628-9d4b-4f0f12bb56b9",
+    "homepage": "http://hdl.handle.net/10648/4e7693bd-a583-8798-e063-6df0900ae38e",
+    "pilot": false
+  },
+  "sourceSha256": "d9a49265828e8d29cdabdde3ffc83889e67e46b5495f5794086ddd722ff71745",
+  "eadSha256": "4ed28eb23044c5753d0bbaefd6c04159ea0547d59a69fd33839a2f3b745606ab",
+  "nativeSize": [
+    7259,
+    5159
+  ],
+  "mask": {
+    "resourceMask": [
+      [
+        1080.7408328474596,
+        1120.9846324173038
+      ],
+      [
+        6161.267404300915,
+        1098.999055625835
+      ],
+      [
+        6179.258366680116,
+        3785.0
+      ],
+      [
+        5546.0,
+        3785.0
+      ],
+      [
+        5546.0,
+        4002.0167841645552
+      ],
+      [
+        1083.7343113065103,
+        4021.0039255589513
+      ]
+    ],
+    "candidateFrame": [
+      [
+        1088.449834619625,
+        1116.5696129369255
+      ],
+      [
+        6218.065367740834,
+        1106.34953528738
+      ],
+      [
+        6233.672004598028,
+        3900.4077658298324
+      ],
+      [
+        1088.449834619625,
+        4015.6186966640807
+      ]
+    ],
+    "reviewedFrame": [
+      [
+        1079.0,
+        1120.0
+      ],
+      [
+        6163.0,
+        1098.0
+      ],
+      [
+        6181.0,
+        4003.0
+      ],
+      [
+        1082.0,
+        4022.0
+      ]
+    ],
+    "method": "Canny/Hough overview proposal; saved native detail visual corrections and conservative concave notches",
+    "edgeKinds": [
+      "printed-inner-frame",
+      "title-or-table-notch"
+    ],
+    "tablePolicy": "Internal tables removed with a notch to the nearest blank edge; no holes or disconnected polygons.",
+    "reviewStatus": "ai-visually-reviewed"
+  },
+  "anchors": [
+    {
+      "id": "1006-tl",
+      "evidenceId": "58b1a7ceff9cd98a985185c70af855e817155945193ecfdbfa511d197ffc42b0",
+      "verbatimLabels": [
+        "-103000",
+        "+40500",
+        "-103500",
+        "+41000",
+        "+40000"
+      ],
+      "parsedMetres": [
+        -103000,
+        40500,
+        -103500,
+        41000,
+        40000
+      ],
+      "unit": "metre",
+      "readingMethod": "vision, native-resolution evidence",
+      "coordinateSystem": "EPSG:28991"
+    },
+    {
+      "id": "1006-tr",
+      "evidenceId": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+      "verbatimLabels": [
+        "+43000",
+        "-105500",
+        "-106000",
+        "-106500"
+      ],
+      "parsedMetres": [
+        43000,
+        -105500,
+        -106000,
+        -106500
+      ],
+      "unit": "metre",
+      "readingMethod": "vision, native-resolution evidence",
+      "coordinateSystem": "EPSG:28991"
+    },
+    {
+      "id": "1006-br",
+      "evidenceId": "19bb229b1a1ce3a5250f73062c2a6f9a152271c126a3e3186870453c3055ae57",
+      "verbatimLabels": [
+        "+42000",
+        "-108000"
+      ],
+      "parsedMetres": [
+        42000,
+        -108000
+      ],
+      "unit": "metre",
+      "readingMethod": "vision, native-resolution evidence",
+      "coordinateSystem": "EPSG:28991"
+    },
+    {
+      "id": "1006-bl",
+      "evidenceId": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+      "verbatimLabels": [
+        "-105000",
+        "+38500",
+        "-105500",
+        "+39000"
+      ],
+      "parsedMetres": [
+        -105000,
+        38500,
+        -105500,
+        39000
+      ],
+      "unit": "metre",
+      "readingMethod": "vision, native-resolution evidence",
+      "coordinateSystem": "EPSG:28991"
+    }
+  ],
+  "points": [
+    {
+      "id": "p1",
+      "role": "control",
+      "resourceCoords": [
+        1459.8393847786147,
+        1698.5590883849688
+      ],
+      "reviewedSeedResourceCoords": [
+        1460.0,
+        1698.0
+      ],
+      "originalProjected": {
+        "crs": "EPSG:28991",
+        "coordinates": [
+          40000,
+          -103500
+        ],
+        "unit": "metre",
+        "printedUnit": "metre"
+      },
+      "rdNew": [
+        195000,
+        359500
+      ],
+      "geo": [
+        5.959791548980601,
+        51.22345772133806
+      ],
+      "evidenceId": "58b1a7ceff9cd98a985185c70af855e817155945193ecfdbfa511d197ffc42b0",
+      "resourceFromEvidence": [
+        [
+          1.0,
+          0,
+          908
+        ],
+        [
+          0,
+          1.0,
+          956
+        ]
+      ],
+      "coordinateDerivation": {
+        "method": "border-label and verified grid-interval tracing",
+        "axes": [
+          {
+            "axis": "easting",
+            "borderText": "+40000",
+            "borderValueMetres": 40000,
+            "evidenceId": "58b1a7ceff9cd98a985185c70af855e817155945193ecfdbfa511d197ffc42b0",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": 40000,
+            "method": "value read on border and cross associated by grid direction"
+          },
+          {
+            "axis": "northing",
+            "borderText": "-103500",
+            "borderValueMetres": -103500,
+            "evidenceId": "58b1a7ceff9cd98a985185c70af855e817155945193ecfdbfa511d197ffc42b0",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": -103500,
+            "method": "value read on border and cross associated by grid direction"
+          }
+        ],
+        "anchorIds": [
+          "1006-tl",
+          "1006-tr",
+          "1006-br",
+          "1006-bl"
+        ],
+        "sharedAnchorWarning": "Controls and checks share border anchors; checks test geometry, not independent protection against a uniform grid-origin error."
+      },
+      "sigmaPixels": 2.0,
+      "uncertaintyStatus": "assumed",
+      "localization": {
+        "method": "symmetric short cross-arm dark-ridge template; bounded subpixel search",
+        "seed": [
+          552,
+          742
+        ],
+        "candidate": [
+          551.8393847786148,
+          742.5590883849688
+        ],
+        "shiftPixels": 0.5817018751454198,
+        "accepted": true,
+        "reason": "within 3 px seed window",
+        "score": 101.8637894982846
+      },
+      "visualReview": "Source cross and coordinate assignment inspected by Codex vision; final geometry approval is separately recorded."
+    },
+    {
+      "id": "p2",
+      "role": "control",
+      "resourceCoords": [
+        5868.485081177745,
+        1767.1748732115616
+      ],
+      "reviewedSeedResourceCoords": [
+        5868.0,
+        1767.0
+      ],
+      "originalProjected": {
+        "crs": "EPSG:28991",
+        "coordinates": [
+          43000,
+          -106500
+        ],
+        "unit": "metre",
+        "printedUnit": "metre"
+      },
+      "rdNew": [
+        198000,
+        356500
+      ],
+      "geo": [
+        6.002371771754955,
+        51.19627321541688
+      ],
+      "evidenceId": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+      "resourceFromEvidence": [
+        [
+          1.0,
+          0,
+          4598
+        ],
+        [
+          0,
+          1.0,
+          946
+        ]
+      ],
+      "coordinateDerivation": {
+        "method": "border-label and verified grid-interval tracing",
+        "axes": [
+          {
+            "axis": "easting",
+            "borderText": "+43000",
+            "borderValueMetres": 43000,
+            "evidenceId": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": 43000,
+            "method": "value read on border and cross associated by grid direction"
+          },
+          {
+            "axis": "northing",
+            "borderText": "-106500",
+            "borderValueMetres": -106500,
+            "evidenceId": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": -106500,
+            "method": "value read on border and cross associated by grid direction"
+          }
+        ],
+        "anchorIds": [
+          "1006-tl",
+          "1006-tr",
+          "1006-br",
+          "1006-bl"
+        ],
+        "sharedAnchorWarning": "Controls and checks share border anchors; checks test geometry, not independent protection against a uniform grid-origin error."
+      },
+      "sigmaPixels": 2.0,
+      "uncertaintyStatus": "assumed",
+      "localization": {
+        "method": "symmetric short cross-arm dark-ridge template; bounded subpixel search",
+        "seed": [
+          1270,
+          821
+        ],
+        "candidate": [
+          1270.4850811777446,
+          821.1748732115616
+        ],
+        "shiftPixels": 0.5156397862112505,
+        "accepted": true,
+        "reason": "within 3 px seed window",
+        "score": 79.96489186140252
+      },
+      "visualReview": "Source cross and coordinate assignment inspected by Codex vision; final geometry approval is separately recorded."
+    },
+    {
+      "id": "p3",
+      "role": "control",
+      "resourceCoords": [
+        5847.798335272488,
+        3238.1473176822155
+      ],
+      "reviewedSeedResourceCoords": [
+        5848.0,
+        3238.0
+      ],
+      "originalProjected": {
+        "crs": "EPSG:28991",
+        "coordinates": [
+          42000,
+          -107500
+        ],
+        "unit": "metre",
+        "printedUnit": "metre"
+      },
+      "rdNew": [
+        197000,
+        355500
+      ],
+      "geo": [
+        5.987948498271335,
+        51.18735969655614
+      ],
+      "evidenceId": "19bb229b1a1ce3a5250f73062c2a6f9a152271c126a3e3186870453c3055ae57",
+      "resourceFromEvidence": [
+        [
+          1.0,
+          0,
+          4613
+        ],
+        [
+          0,
+          1.0,
+          3060
+        ]
+      ],
+      "coordinateDerivation": {
+        "method": "border-label and verified grid-interval tracing",
+        "axes": [
+          {
+            "axis": "easting",
+            "borderText": "+42000",
+            "borderValueMetres": 42000,
+            "evidenceId": "19bb229b1a1ce3a5250f73062c2a6f9a152271c126a3e3186870453c3055ae57",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": 42000,
+            "method": "value read on border and cross associated by grid direction"
+          },
+          {
+            "axis": "northing",
+            "borderText": "-108000",
+            "borderValueMetres": -108000,
+            "evidenceId": "19bb229b1a1ce3a5250f73062c2a6f9a152271c126a3e3186870453c3055ae57",
+            "gridIntervalMetres": 500,
+            "signedSteps": 1,
+            "resultMetres": -107500,
+            "method": "integer intervals traced from a reviewed border value"
+          }
+        ],
+        "anchorIds": [
+          "1006-tl",
+          "1006-tr",
+          "1006-br",
+          "1006-bl"
+        ],
+        "sharedAnchorWarning": "Controls and checks share border anchors; checks test geometry, not independent protection against a uniform grid-origin error."
+      },
+      "sigmaPixels": 2.0,
+      "uncertaintyStatus": "assumed",
+      "localization": {
+        "method": "symmetric short cross-arm dark-ridge template; bounded subpixel search",
+        "seed": [
+          1235,
+          178
+        ],
+        "candidate": [
+          1234.798335272488,
+          178.14731768221577
+        ],
+        "shiftPixels": 0.24974219070058262,
+        "accepted": true,
+        "reason": "within 3 px seed window",
+        "score": 72.07678143256277
+      },
+      "visualReview": "Source cross and coordinate assignment inspected by Codex vision; final geometry approval is separately recorded."
+    },
+    {
+      "id": "p4",
+      "role": "control",
+      "resourceCoords": [
+        1421.3355696638764,
+        3904.124819664725
+      ],
+      "reviewedSeedResourceCoords": [
+        1422.0,
+        3904.0
+      ],
+      "originalProjected": {
+        "crs": "EPSG:28991",
+        "coordinates": [
+          38500,
+          -105000
+        ],
+        "unit": "metre",
+        "printedUnit": "metre"
+      },
+      "rdNew": [
+        193500,
+        358000
+      ],
+      "geo": [
+        5.9381582734125535,
+        51.21007885385717
+      ],
+      "evidenceId": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+      "resourceFromEvidence": [
+        [
+          1.0,
+          0,
+          908
+        ],
+        [
+          0,
+          1.0,
+          3175
+        ]
+      ],
+      "coordinateDerivation": {
+        "method": "border-label and verified grid-interval tracing",
+        "axes": [
+          {
+            "axis": "easting",
+            "borderText": "+38500",
+            "borderValueMetres": 38500,
+            "evidenceId": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": 38500,
+            "method": "value read on border and cross associated by grid direction"
+          },
+          {
+            "axis": "northing",
+            "borderText": "-105000",
+            "borderValueMetres": -105000,
+            "evidenceId": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": -105000,
+            "method": "value read on border and cross associated by grid direction"
+          }
+        ],
+        "anchorIds": [
+          "1006-tl",
+          "1006-tr",
+          "1006-br",
+          "1006-bl"
+        ],
+        "sharedAnchorWarning": "Controls and checks share border anchors; checks test geometry, not independent protection against a uniform grid-origin error."
+      },
+      "sigmaPixels": 2.0,
+      "uncertaintyStatus": "assumed",
+      "localization": {
+        "method": "symmetric short cross-arm dark-ridge template; bounded subpixel search",
+        "seed": [
+          514,
+          729
+        ],
+        "candidate": [
+          513.3355696638764,
+          729.1248196647246
+        ],
+        "shiftPixels": 0.6760529714920667,
+        "accepted": true,
+        "reason": "within 3 px seed window",
+        "score": 103.43547288940725
+      },
+      "visualReview": "Source cross and coordinate assignment inspected by Codex vision; final geometry approval is separately recorded."
+    },
+    {
+      "id": "p5",
+      "role": "check",
+      "resourceCoords": [
+        2157.173832672932,
+        3915.1551036585342
+      ],
+      "reviewedSeedResourceCoords": [
+        2158.0,
+        3916.0
+      ],
+      "originalProjected": {
+        "crs": "EPSG:28991",
+        "coordinates": [
+          39000,
+          -105500
+        ],
+        "unit": "metre",
+        "printedUnit": "metre"
+      },
+      "rdNew": [
+        194000,
+        357500
+      ],
+      "geo": [
+        5.94525855800468,
+        51.20555050136947
+      ],
+      "evidenceId": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+      "resourceFromEvidence": [
+        [
+          1.0,
+          0,
+          908
+        ],
+        [
+          0,
+          1.0,
+          3175
+        ]
+      ],
+      "coordinateDerivation": {
+        "method": "border-label and verified grid-interval tracing",
+        "axes": [
+          {
+            "axis": "easting",
+            "borderText": "+39000",
+            "borderValueMetres": 39000,
+            "evidenceId": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": 39000,
+            "method": "value read on border and cross associated by grid direction"
+          },
+          {
+            "axis": "northing",
+            "borderText": "-105500",
+            "borderValueMetres": -105500,
+            "evidenceId": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+            "gridIntervalMetres": 500,
+            "signedSteps": 0,
+            "resultMetres": -105500,
+            "method": "value read on border and cross associated by grid direction"
+          }
+        ],
+        "anchorIds": [
+          "1006-tl",
+          "1006-tr",
+          "1006-br",
+          "1006-bl"
+        ],
+        "sharedAnchorWarning": "Controls and checks share border anchors; checks test geometry, not independent protection against a uniform grid-origin error."
+      },
+      "sigmaPixels": 2.0,
+      "uncertaintyStatus": "assumed",
+      "localization": {
+        "method": "symmetric short cross-arm dark-ridge template; bounded subpixel search",
+        "seed": [
+          1250,
+          741
+        ],
+        "candidate": [
+          1249.1738326729321,
+          740.1551036585342
+        ],
+        "shiftPixels": 1.1816946645122426,
+        "accepted": true,
+        "reason": "within 3 px seed window",
+        "score": 101.82131800141858
+      },
+      "visualReview": "Source cross and coordinate assignment inspected by Codex vision; final geometry approval is separately recorded."
+    }
+  ],
+  "adjustment": {
+    "model": "affine-rd-to-image",
+    "linear": [
+      [
+        0.7473214379154026,
+        -0.7231852937377515
+      ],
+      [
+        -0.7237869566257262,
+        -0.7467733638020551
+      ]
+    ],
+    "intercept": [
+      115716.12229057266,
+      411301.90254255943
+    ],
+    "normalization": {
+      "centre": [
+        195875.0,
+        357375.0
+      ],
+      "scale": [
+        1745.5300054711176,
+        1515.5444566227677
+      ]
+    },
+    "normalizedParameters": [
+      [
+        3649.3645927231805,
+        2652.001524735868
+      ],
+      [
+        1304.4719936131562,
+        -1263.3918503588275
+      ],
+      [
+        -1096.0194630353574,
+        -1131.768231863742
+      ]
+    ],
+    "parameterCovariancePerAxis": [
+      [
+        1.0,
+        -1.8356346468271106e-17,
+        -2.6562953225894868e-17
+      ],
+      [
+        -1.8356346468271106e-17,
+        1.9140625000000009,
+        1.3227141618302316
+      ],
+      [
+        -2.6562953225894868e-17,
+        1.3227141618302316,
+        1.9140625000000007
+      ]
+    ],
+    "covarianceBasis": "assumed independent 2 px per coordinate; not empirically calibrated",
+    "controlCount": 4,
+    "degreesOfFreedom": 2,
+    "condition": 2.339562635122312,
+    "residualPixels": [
+      [
+        1.1497994241335618,
+        0.13737468095769145
+      ],
+      [
+        -1.724699136198069,
+        -0.2060620214363098
+      ],
+      [
+        1.7246991361953405,
+        0.20606202143653718
+      ],
+      [
+        -1.1497994241283322,
+        -0.13737468095860095
+      ]
+    ],
+    "residualMetres": [
+      [
+        0.7020655861515288,
+        -0.8644129881968706
+      ],
+      [
+        -1.0530983792258752,
+        1.296619482293627
+      ],
+      [
+        1.0530983792238393,
+        -1.2966194822919581
+      ],
+      [
+        -0.7020655861473096,
+        0.8644129881939993
+      ]
+    ],
+    "rmsPixels": 1.4761367121266808,
+    "rmsMetres": 1.4195675714110159,
+    "leverage": [
+      0.8461538461538463,
+      0.653846153846154,
+      0.6538461538461539,
+      0.8461538461538463
+    ],
+    "standardizedResiduals": [
+      [
+        1.4657124250936953,
+        0.17511904471921302
+      ],
+      [
+        -1.4657124250917626,
+        -0.17511904471901976
+      ],
+      [
+        1.4657124250894435,
+        0.17511904471921297
+      ],
+      [
+        -1.4657124250870288,
+        -0.1751190447203724
+      ]
+    ],
+    "weightedResidualStatistic": 2.1789795928881674,
+    "chiSquareUpperTailAssumingSigma": 0.33638807632468903,
+    "statisticalPass": null,
+    "uncertaintyStatus": "uncalibrated",
+    "minimalControl": false,
+    "heldOutChecks": [
+      {
+        "pointId": "p5",
+        "residualPixels": [
+          -0.5649022416546359,
+          -0.6002942753502793
+        ],
+        "errorPixels": 0.8242983438323467,
+        "errorMetres": 0.7929357941119606,
+        "usedInFit": false
+      }
+    ],
+    "controlHullFraction": 0.5547780469293692,
+    "maskVertexPredictedSigmaPixels": [
+      2.386863364131462,
+      2.1100977340595857,
+      2.067409582871513,
+      1.8889682795887262,
+      2.0613641088451047,
+      1.9897677226106392
+    ]
+  },
+  "conversion": "../projection.json",
+  "evidence": [
+    {
+      "id": "58b1a7ceff9cd98a985185c70af855e817155945193ecfdbfa511d197ffc42b0",
+      "mapId": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+      "inventoryNumber": "1006",
+      "kind": "detail",
+      "url": "https://service.archief.nl/iip/iipsrv?IIIF=20/fb/39/99/84/35/46/28/9d/4b/4f/0f/12/bb/56/b9/965ccad9-0003-439a-bd75-4b43850755c3.jp2/908,956,1800,1000/1800,/0/default.jpg",
+      "region": [
+        908,
+        956,
+        1800,
+        1000
+      ],
+      "decodedSize": [
+        1800,
+        1000
+      ],
+      "sha256": "87c0bae469d7ae273b692cf5a7ff59b7060c334867c320afccb8e5eb1ede09c6",
+      "bytes": 177309,
+      "retrievedAt": "2026-11-19T19:43:37.446343+00:00",
+      "etag": null,
+      "lastModified": "Thu, 02 Apr 2026 07:35:26 GMT"
+    },
+    {
+      "id": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+      "mapId": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+      "inventoryNumber": "1006",
+      "kind": "detail",
+      "url": "https://service.archief.nl/iip/iipsrv?IIIF=20/fb/39/99/84/35/46/28/9d/4b/4f/0f/12/bb/56/b9/965ccad9-0003-439a-bd75-4b43850755c3.jp2/4598,946,1800,1000/1800,/0/default.jpg",
+      "region": [
+        4598,
+        946,
+        1800,
+        1000
+      ],
+      "decodedSize": [
+        1800,
+        1000
+      ],
+      "sha256": "df3c9715c04f03ddb211fdd9967c00f6c51c9b806fea6d46d1615bb77d6b96a8",
+      "bytes": 177526,
+      "retrievedAt": "2026-11-19T19:43:38.380780+00:00",
+      "etag": null,
+      "lastModified": "Thu, 02 Apr 2026 07:35:26 GMT"
+    },
+    {
+      "id": "19bb229b1a1ce3a5250f73062c2a6f9a152271c126a3e3186870453c3055ae57",
+      "mapId": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+      "inventoryNumber": "1006",
+      "kind": "detail",
+      "url": "https://service.archief.nl/iip/iipsrv?IIIF=20/fb/39/99/84/35/46/28/9d/4b/4f/0f/12/bb/56/b9/965ccad9-0003-439a-bd75-4b43850755c3.jp2/4613,3060,1800,1000/1800,/0/default.jpg",
+      "region": [
+        4613,
+        3060,
+        1800,
+        1000
+      ],
+      "decodedSize": [
+        1800,
+        1000
+      ],
+      "sha256": "b0bed5b84e3894f78bbcdfc95fe9c84161e7259bed71405da5423991e73d2e4c",
+      "bytes": 240949,
+      "retrievedAt": "2026-11-19T19:43:39.429392+00:00",
+      "etag": null,
+      "lastModified": "Thu, 02 Apr 2026 07:35:26 GMT"
+    },
+    {
+      "id": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+      "mapId": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+      "inventoryNumber": "1006",
+      "kind": "detail",
+      "url": "https://service.archief.nl/iip/iipsrv?IIIF=20/fb/39/99/84/35/46/28/9d/4b/4f/0f/12/bb/56/b9/965ccad9-0003-439a-bd75-4b43850755c3.jp2/908,3175,1800,1000/1800,/0/default.jpg",
+      "region": [
+        908,
+        3175,
+        1800,
+        1000
+      ],
+      "decodedSize": [
+        1800,
+        1000
+      ],
+      "sha256": "04e03ad6f725260b1c1bab2394f5d3ba3d18ff2620eaa46d848c2a52a6312538",
+      "bytes": 166880,
+      "retrievedAt": "2026-11-19T19:43:40.404492+00:00",
+      "etag": null,
+      "lastModified": "Thu, 02 Apr 2026 07:35:26 GMT"
+    },
+    {
+      "id": "e7ccf14a1e484dd36c4c31a2c2688997b5df3d0c36125c2273564f2b91d86b06",
+      "mapId": "4e7693bd-a583-8798-e063-6df0900ae38e-ID965ccad9-0003-439a-bd75-4b43850755c3-main",
+      "inventoryNumber": "1006",
+      "kind": "overview",
+      "url": "https://service.archief.nl/iip/iipsrv?IIIF=20/fb/39/99/84/35/46/28/9d/4b/4f/0f/12/bb/56/b9/965ccad9-0003-439a-bd75-4b43850755c3.jp2/full/1814,/0/default.jpg",
+      "region": [
+        0,
+        0,
+        7259,
+        5159
+      ],
+      "decodedSize": [
+        1814,
+        1289
+      ],
+      "sha256": "7534124502e11cd254bebd376dd6ce592233921a984e6ef490b193fc87dfd74a",
+      "bytes": 237243,
+      "retrievedAt": "2026-11-19T19:43:36.438470+00:00",
+      "etag": null,
+      "lastModified": "Thu, 02 Apr 2026 07:35:26 GMT"
+    }
+  ],
+  "evidenceKeys": {
+    "tl": "58b1a7ceff9cd98a985185c70af855e817155945193ecfdbfa511d197ffc42b0",
+    "tr": "4e6aa6532fd26f36a9ead1de6ed7c16d384a2867c116a20863cec8a8b2f569d2",
+    "br": "19bb229b1a1ce3a5250f73062c2a6f9a152271c126a3e3186870453c3055ae57",
+    "bl": "df8cb680e1cb103e872cf5cea5220b42b93dc30c9730af784c379e485963ac90",
+    "overview": "e7ccf14a1e484dd36c4c31a2c2688997b5df3d0c36125c2273564f2b91d86b06"
+  },
+  "quality": {
+    "status": "batch-pass",
+    "reasons": [],
+    "config": "../config.json",
+    "releaseEligible": false,
+    "humanReview": "pending"
+  },
+  "review": {
+    "reviewer": "Codex vision",
+    "date": "2026-11-19",
+    "type": "AI visual review; not an independent human survey",
+    "notes": "Original native border labels, arrow directions, grid intervals, crosses and map/title edges visually inspected. Four controls and a held-out check. No overlap tie points enter the fit. Final native frame/title edges, mask overlay and all five cross-centre patches were visually checked and the resulting geometry fingerprint recorded.",
+    "corrections": [],
+    "candidateRegistration": null
+  }
+}

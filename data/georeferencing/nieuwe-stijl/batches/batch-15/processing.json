@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "batchId": "batch-15",
+  "startedAt": "2026-11-19T20:36:10.628114+00:00",
+  "completedAt": "2026-11-19T23:32:24.987Z",
+  "elapsedSeconds": 10574.359,
+  "timingBasis": "Recorded wall-clock interval including preparation, review and waits; not CPU or model latency.",
+  "commands": [
+    {
+      "command": "select",
+      "startedAt": "2026-11-19T20:36:10.628114+00:00",
+      "completedAt": "2026-11-19T20:36:10.711219+00:00",
+      "elapsedSeconds": 0.08311162504833192,
+      "success": true
+    },
+    {
+      "command": "acquire",
+      "startedAt": "2026-11-19T20:36:10.712527+00:00",
+      "completedAt": "2026-11-19T20:42:13.970422+00:00",
+      "elapsedSeconds": 363.2594715419691,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:09:08.242894+00:00",
+      "completedAt": "2026-11-19T23:09:12.176804+00:00",
+      "elapsedSeconds": 3.93392462504562,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:11:45.433551+00:00",
+      "completedAt": "2026-11-19T23:11:47.367824+00:00",
+      "elapsedSeconds": 1.934273666003719,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:15:12.874298+00:00",
+      "completedAt": "2026-11-19T23:15:16.861172+00:00",
+      "elapsedSeconds": 3.986886083963327,
+      "success": true
+    },
+    {
+      "command": "propose",
+      "startedAt": "2026-11-19T23:19:02.536293+00:00",
+      "completedAt": "2026-11-19T23:19:55.485336+00:00",
+      "elapsedSeconds": 52.94896266690921,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:24:11.915188+00:00",
+      "completedAt": "2026-11-19T23:24:43.081897+00:00",
+      "elapsedSeconds": 31.166727834031917,
+      "success": false
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:25:10.467627+00:00",
+      "completedAt": "2026-11-19T23:25:12.063504+00:00",
+      "elapsedSeconds": 1.595877542044036,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:26:21.606162+00:00",
+      "completedAt": "2026-11-19T23:26:23.579173+00:00",
+      "elapsedSeconds": 1.9730098750442266,
+      "success": true
+    },
+    {
+      "command": "targeted-frame-and-border-details",
+      "startedAt": "2026-11-19T23:27:29.341214+00:00",
+      "completedAt": "2026-11-19T23:27:30.435654+00:00",
+      "elapsedSeconds": 1.0944416250567883,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-19T23:32:17.659774+00:00",
+      "completedAt": "2026-11-19T23:32:24.241852+00:00",
+      "elapsedSeconds": 6.581965415971354,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-19T23:32:24.879Z",
+      "completedAt": "2026-11-19T23:32:24.987Z",
+      "elapsedSeconds": 0.10644945800000005,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-20T10:52:05.887264+00:00",
+      "completedAt": "2026-11-20T10:52:12.924325+00:00",
+      "elapsedSeconds": 7.036954166018404,
+      "success": true
+    },
+    {
+      "command": "measure",
+      "startedAt": "2026-11-20T10:53:57.386163+00:00",
+      "completedAt": "2026-11-20T10:54:03.824902+00:00",
+      "elapsedSeconds": 6.438622958026826,
+      "success": true
+    },
+    {
+      "command": "export",
+      "startedAt": "2026-11-20T10:54:30.573Z",
+      "completedAt": "2026-11-20T10:54:30.668Z",
+      "elapsedSeconds": 0.093850542,
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,1760 @@
+{
+  "reviewer": "Codex vision",
+  "date": "2026-11-19",
+  "scope": "All 11 native source labels and crosses, final frame/title corners, 55 final control/check patches and 11 mask overlays visually inspected. Corrections rechecked. AI visual review only; human acceptance remains pending.",
+  "maps": {
+    "4e7675ea-2dfe-908c-e063-6df0900a4619-IDa2f3e3a8-bfbb-426e-b823-2b0a1bbc5be2-main": {
+      "resourceMask": [
+        [
+          1084.7442523530276,
+          1188.0
+        ],
+        [
+          1853.0,
+          1188.0
+        ],
+        [
+          1853.0,
+          1119.187684689873
+        ],
+        [
+          6172.27267707078,
+          1081.0081445819878
+        ],
+        [
+          6202.254880641728,
+          3994.0229849410653
+        ],
+        [
+          1723.0,
+          4035.994986640562
+        ],
+        [
+          1723.0,
+          3839.0
+        ],
+        [
+          1098.7291466529332,
+          3839.0
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            2261.999725613101,
+            1167.00225023871
+          ],
+          "rdNew": [
+            102000,
+            420600
+          ],
+          "geo": [
+            4.619317270507148,
+            51.77155989130454
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              420600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            5902.0007741155705,
+            1135.9989694259682
+          ],
+          "rdNew": [
+            102000,
+            422000
+          ],
+          "geo": [
+            4.619103142854251,
+            51.784142747198594
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              422000
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5926.999755134961,
+            3737.998988903308
+          ],
+          "rdNew": [
+            103000,
+            422000
+          ],
+          "geo": [
+            4.633594369845563,
+            51.7842367442947
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              103000,
+              422000
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1759.0001333604107,
+            3773.9986111660496
+          ],
+          "rdNew": [
+            103000,
+            420400
+          ],
+          "geo": [
+            4.633834459145308,
+            51.769856297065836
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              103000,
+              420400
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1226.999910497747,
+            1696.0024241385481
+          ],
+          "rdNew": [
+            102200,
+            420200
+          ],
+          "geo": [
+            4.622275625639131,
+            51.76798372005025
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102200,
+              420200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    },
+    "4e76d073-b457-e0c7-e063-6df0900a2ca4-IDbe14cd1e-01e1-46e9-82d5-fce3d4b21aea-main": {
+      "resourceMask": [
+        [
+          1088.7415105766818,
+          1113.9834332266635
+        ],
+        [
+          6169.2685361164795,
+          1087.001015894012
+        ],
+        [
+          6187.258750520798,
+          3804.0
+        ],
+        [
+          5553.0,
+          3804.0
+        ],
+        [
+          5553.0,
+          3994.0161045527207
+        ],
+        [
+          1095.7335822570312,
+          4013.0026572514394
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1542.9999962969623,
+            1468.0009460552756
+          ],
+          "rdNew": [
+            102400,
+            416600
+          ],
+          "geo": [
+            4.625718560869614,
+            51.73564653496772
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52600,
+              -46400
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            5181.035865801481,
+            1451.0309151922415
+          ],
+          "rdNew": [
+            102400,
+            418000
+          ],
+          "geo": [
+            4.625506439205674,
+            51.748229456307044
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52600,
+              -45000
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5714.999824090274,
+            3530.0008655840984
+          ],
+          "rdNew": [
+            103200,
+            418200
+          ],
+          "geo": [
+            4.637060355767748,
+            51.75010170939322
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -51800,
+              -44800
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1547.0016520009624,
+            3550.000025648782
+          ],
+          "rdNew": [
+            103200,
+            416600
+          ],
+          "geo": [
+            4.637299104657631,
+            51.73572119834783
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -51800,
+              -46400
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            2063.0013850529313,
+            1466.9999963916434
+          ],
+          "rdNew": [
+            102400,
+            416800
+          ],
+          "geo": [
+            4.625688266120757,
+            51.73744409623893
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52600,
+              -46200
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        }
+      ]
+    },
+    "4e77125b-4237-ed5c-e063-6df0900ae03b-IDad42b34c-a1d2-49a6-9fb8-676a52ca7ca2-main": {
+      "resourceMask": [
+        [
+          1083.7381317189436,
+          1171.0
+        ],
+        [
+          1847.0,
+          1171.0
+        ],
+        [
+          1847.0,
+          1109.0402542596462
+        ],
+        [
+          6171.266447025561,
+          1097.9973936458657
+        ],
+        [
+          6182.260932378742,
+          3820.0
+        ],
+        [
+          5558.0,
+          3820.0
+        ],
+        [
+          5558.0,
+          4010.0122531656884
+        ],
+        [
+          1081.7347985312929,
+          4022.0047743693895
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1239.9999643978817,
+            1516.9966612631029
+          ],
+          "rdNew": [
+            102000,
+            414800
+          ],
+          "geo": [
+            4.620202905559708,
+            51.71943072433612
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              414800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            5915.000873231859,
+            1505.9967977241774
+          ],
+          "rdNew": [
+            102000,
+            416600
+          ],
+          "geo": [
+            4.619928305619288,
+            51.73560877416023
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              416600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5925.995407415121,
+            3066.00000001689
+          ],
+          "rdNew": [
+            102600,
+            416600
+          ],
+          "geo": [
+            4.628613692671552,
+            51.73566530809233
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102600,
+              416600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1238.0000043742914,
+            3597.9945603068545
+          ],
+          "rdNew": [
+            102800,
+            414800
+          ],
+          "geo": [
+            4.631779282570139,
+            51.719505924797
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102800,
+              414800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1757.995123712291,
+            1514.9993660746381
+          ],
+          "rdNew": [
+            102000,
+            415000
+          ],
+          "geo": [
+            4.620172405655166,
+            51.72122828683896
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              415000
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    },
+    "4e77125b-506a-ed5c-e063-6df0900ae03b-IDb50d2b96-f607-4ae2-9dc7-48dc3835bf3d-main": {
+      "resourceMask": [
+        [
+          1060.7445787324446,
+          1200.0
+        ],
+        [
+          1827.0,
+          1200.0
+        ],
+        [
+          1827.0,
+          1132.0583693818894
+        ],
+        [
+          6151.272800558529,
+          1093.0083561322176
+        ],
+        [
+          6180.254880641728,
+          3819.0
+        ],
+        [
+          5554.0,
+          3819.0
+        ],
+        [
+          5554.0,
+          4007.0229849410653
+        ],
+        [
+          1077.728679204476,
+          4049.99418281581
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            2408.0012830930427,
+            1176.9998560367776
+          ],
+          "rdNew": [
+            102000,
+            418800
+          ],
+          "geo": [
+            4.619592375207301,
+            51.75538190674759
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              418800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            6048.9992318582545,
+            1143.999936179971
+          ],
+          "rdNew": [
+            102000,
+            420200
+          ],
+          "geo": [
+            4.619378424543293,
+            51.76796478622982
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              420200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            6071.998434078612,
+            3225.999998680934
+          ],
+          "rdNew": [
+            102800,
+            420200
+          ],
+          "geo": [
+            4.630967245674486,
+            51.7680400919946
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102800,
+              420200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1388.000659065217,
+            3787.9998106786584
+          ],
+          "rdNew": [
+            103000,
+            418400
+          ],
+          "geo": [
+            4.634134322719844,
+            51.751880704419754
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              103000,
+              418400
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1889.0005172252108,
+            1182.0003854572622
+          ],
+          "rdNew": [
+            102000,
+            418600
+          ],
+          "geo": [
+            4.619622928359607,
+            51.75358435105919
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              418600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    },
+    "4e7693bd-a7c3-8798-e063-6df0900ae38e-ID1620ddb1-b232-4392-a3ab-24de26cda4c0-main": {
+      "resourceMask": [
+        [
+          1079.7384983063187,
+          1090.9887485215802
+        ],
+        [
+          6165.267302573233,
+          1074.9988791855244
+        ],
+        [
+          6180.260381482789,
+          3802.227472353139
+        ],
+        [
+          5552.744798953214,
+          3802.227472353139
+        ],
+        [
+          5552.744798953214,
+          3988.0132237261787
+        ],
+        [
+          1077.734431401432,
+          4002.004134690971
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1457.140758934519,
+            1482.2459597841607
+          ],
+          "rdNew": [
+            102200,
+            423000
+          ],
+          "geo": [
+            4.621848927420471,
+            51.79314943755471
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52800,
+              -40000
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            6100.278775324385,
+            1471.362124440985
+          ],
+          "rdNew": [
+            103800,
+            422200
+          ],
+          "geo": [
+            4.64515783947014,
+            51.786108210842734
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -51200,
+              -40800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5875.8593783333035,
+            3331.021633919622
+          ],
+          "rdNew": [
+            103400,
+            421600
+          ],
+          "geo": [
+            4.639450457095255,
+            51.78067872840784
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -51600,
+              -41400
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1455.8998468148875,
+            3805.817330836304
+          ],
+          "rdNew": [
+            101800,
+            422200
+          ],
+          "geo": [
+            4.616174189473526,
+            51.78592128125803
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53200,
+              -40800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            2151.9746836127606,
+            1710.8556193888053
+          ],
+          "rdNew": [
+            102400,
+            422800
+          ],
+          "geo": [
+            4.624778128624598,
+            51.79137076373727
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52600,
+              -40200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    },
+    "4e77125b-47dd-ed5c-e063-6df0900ae03b-ID9db1c3f1-c115-429b-9bf4-0c8cf38f5ac7-main": {
+      "resourceMask": [
+        [
+          1074.7400955766154,
+          1101.9859347768709
+        ],
+        [
+          6162.268727630294,
+          1078.0013470836295
+        ],
+        [
+          6180.259102503678,
+          3807.0
+        ],
+        [
+          5553.0,
+          3807.0
+        ],
+        [
+          5553.0,
+          3992.0154818908222
+        ],
+        [
+          1077.732990836424,
+          4013.00162994793
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1452.6002847482976,
+            1493.1440726801911
+          ],
+          "rdNew": [
+            102200,
+            423000
+          ],
+          "geo": [
+            4.621848927420471,
+            51.79314943755471
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52800,
+              -40000
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            6096.352361182862,
+            1474.7442441279177
+          ],
+          "rdNew": [
+            103800,
+            422200
+          ],
+          "geo": [
+            4.64515783947014,
+            51.786108210842734
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -51200,
+              -40800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5874.389247462543,
+            3335.190987478878
+          ],
+          "rdNew": [
+            103400,
+            421600
+          ],
+          "geo": [
+            4.639450457095255,
+            51.78067872840784
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -51600,
+              -41400
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1455.7982108980495,
+            3816.4742272778894
+          ],
+          "rdNew": [
+            101800,
+            422200
+          ],
+          "geo": [
+            4.616174189473526,
+            51.78592128125803
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53200,
+              -40800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            2147.3333333707533,
+            1720.5532392617956
+          ],
+          "rdNew": [
+            102400,
+            422800
+          ],
+          "geo": [
+            4.624778128624598,
+            51.79137076373727
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52600,
+              -40200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    },
+    "4e7657e3-6ea1-9dce-e063-6df0900acdd5-IDfd63eddd-3f39-4f62-907e-32626eb2b8bd-main": {
+      "resourceMask": [
+        [
+          1066.7396970977402,
+          1103.986637728913
+        ],
+        [
+          6145.266737192719,
+          1084.9978978108493
+        ],
+        [
+          6157.2597264159485,
+          3800.0
+        ],
+        [
+          5524.0,
+          3800.0
+        ],
+        [
+          5524.0,
+          3989.0143794580817
+        ],
+        [
+          1064.7350373279392,
+          4004.005190736544
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1376.9998332145844,
+            1150.9961669921984
+          ],
+          "rdNew": [
+            102000,
+            418400
+          ],
+          "geo": [
+            4.619653478705985,
+            51.751786795004236
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -44600
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            6046.999696385478,
+            1135.0016102185368
+          ],
+          "rdNew": [
+            102000,
+            420200
+          ],
+          "geo": [
+            4.619378424543293,
+            51.76796478622982
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -42800
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            6063.000055046879,
+            3734.9951280816376
+          ],
+          "rdNew": [
+            103000,
+            420200
+          ],
+          "geo": [
+            4.633864457900233,
+            51.76805873946991
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52000,
+              -42800
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1375.9988644501975,
+            3749.00154587244
+          ],
+          "rdNew": [
+            103000,
+            418400
+          ],
+          "geo": [
+            4.634134322719844,
+            51.751880704419754
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52000,
+              -44600
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1895.0001101833193,
+            1149.0017419757082
+          ],
+          "rdNew": [
+            102000,
+            418600
+          ],
+          "geo": [
+            4.619622928359607,
+            51.75358435105919
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -44400
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        }
+      ]
+    },
+    "4e7693bd-a914-8798-e063-6df0900ae38e-ID33bbc3d9-5f98-463b-a91d-4e7ae7b74ced-main": {
+      "resourceMask": [
+        [
+          1100.7380106472638,
+          1106.9896054718918
+        ],
+        [
+          6175.26527250885,
+          1096.9953494519257
+        ],
+        [
+          6187.26046792032,
+          3998.0130713583226
+        ],
+        [
+          5952.0,
+          3998.428442059145
+        ],
+        [
+          5952.0,
+          3810.0
+        ],
+        [
+          5320.0,
+          3810.0
+        ],
+        [
+          5320.0,
+          3999.544287340081
+        ],
+        [
+          1092.7365596759346,
+          4007.007850569764
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1758.999728417698,
+            1153.9990650243794
+          ],
+          "rdNew": [
+            102000,
+            420400
+          ],
+          "geo": [
+            4.619347848929894,
+            51.76976233895439
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -42600
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            5909.000891631006,
+            1145.000031409783
+          ],
+          "rdNew": [
+            102000,
+            422000
+          ],
+          "geo": [
+            4.619103142854251,
+            51.784142747198594
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -41000
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5919.999995879273,
+            3743.5000296134444
+          ],
+          "rdNew": [
+            103000,
+            422000
+          ],
+          "geo": [
+            4.633594369845563,
+            51.7842367442947
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52000,
+              -41000
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1757.0021912350182,
+            3749.9999999657475
+          ],
+          "rdNew": [
+            103000,
+            420400
+          ],
+          "geo": [
+            4.633834459145308,
+            51.769856297065836
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52000,
+              -42600
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1238.9988929234478,
+            1672.9997674770664
+          ],
+          "rdNew": [
+            102200,
+            420200
+          ],
+          "geo": [
+            4.622275625639131,
+            51.76798372005025
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52800,
+              -42800
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        }
+      ]
+    },
+    "4e77125b-421f-ed5c-e063-6df0900ae03b-ID3792a7d3-aff5-4288-a21d-2c2b5d5adb69-main": {
+      "resourceMask": [
+        [
+          1089.7371786750102,
+          1157.0
+        ],
+        [
+          1854.0,
+          1157.0
+        ],
+        [
+          1854.0,
+          1094.7895604354546
+        ],
+        [
+          6175.265679244144,
+          1087.9960579881747
+        ],
+        [
+          6186.261778262713,
+          3807.641671790529
+        ],
+        [
+          5560.932412013598,
+          3807.641671790529
+        ],
+        [
+          5560.932412013598,
+          4000.0107653503733
+        ],
+        [
+          1084.7359625789475,
+          4006.006806199932
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            2435.999979076508,
+            1143.0020059808178
+          ],
+          "rdNew": [
+            102000,
+            418800
+          ],
+          "geo": [
+            4.619592375207301,
+            51.75538190674759
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              418800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            6073.001041032121,
+            1139.0005276397362
+          ],
+          "rdNew": [
+            102000,
+            420200
+          ],
+          "geo": [
+            4.619378424543293,
+            51.76796478622982
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              420200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            6081.998791465527,
+            3218.0003191333694
+          ],
+          "rdNew": [
+            102800,
+            420200
+          ],
+          "geo": [
+            4.630967245674486,
+            51.7680400919946
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102800,
+              420200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1396.9997818430318,
+            3745.0019881824883
+          ],
+          "rdNew": [
+            103000,
+            418400
+          ],
+          "geo": [
+            4.634134322719844,
+            51.751880704419754
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              103000,
+              418400
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1916.9999358675934,
+            1144.9984051079066
+          ],
+          "rdNew": [
+            102000,
+            418600
+          ],
+          "geo": [
+            4.619622928359607,
+            51.75358435105919
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102000,
+              418600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    },
+    "4e7657e3-81b7-9dce-e063-6df0900acdd5-IDfc90ad15-74c7-4c9b-9d88-2bdffd8781d4-main": {
+      "resourceMask": [
+        [
+          1078.7386393017568,
+          1103.988500570757
+        ],
+        [
+          6154.2654418739585,
+          1092.995644568801
+        ],
+        [
+          6165.260214395833,
+          3802.0
+        ],
+        [
+          5527.0,
+          3802.0
+        ],
+        [
+          5527.0,
+          3992.0135183470875
+        ],
+        [
+          1077.7354248981746,
+          4004.0058669994432
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1230.000078994909,
+            1505.9998445049532
+          ],
+          "rdNew": [
+            102000,
+            414800
+          ],
+          "geo": [
+            4.620202905559708,
+            51.71943072433612
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -48200
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            5902.999908723319,
+            1495.0001096543197
+          ],
+          "rdNew": [
+            102000,
+            416600
+          ],
+          "geo": [
+            4.619928305619288,
+            51.73560877416023
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -46400
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5913.000397628037,
+            3574.0000061828578
+          ],
+          "rdNew": [
+            102800,
+            416600
+          ],
+          "geo": [
+            4.631508827243914,
+            51.73568400969734
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52200,
+              -46400
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1230.9997888727726,
+            3585.9999970762824
+          ],
+          "rdNew": [
+            102800,
+            414800
+          ],
+          "geo": [
+            4.631779282570139,
+            51.719505924797
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -52200,
+              -48200
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            1749.0001741383946,
+            1504.999932378237
+          ],
+          "rdNew": [
+            102000,
+            415000
+          ],
+          "geo": [
+            4.620172405655166,
+            51.72122828683896
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28991",
+            "coordinates": [
+              -53000,
+              -48000
+            ],
+            "unit": "metre",
+            "printedUnit": "metre"
+          }
+        }
+      ]
+    },
+    "4e76d073-aefc-e0c7-e063-6df0900a2ca4-IDcadbe0c0-a38a-43c2-aa8c-2f7494e62799-main": {
+      "resourceMask": [
+        [
+          1072.7419700360067,
+          1173.0
+        ],
+        [
+          1834.0,
+          1173.0
+        ],
+        [
+          1834.0,
+          1108.1966343862512
+        ],
+        [
+          6159.270214392727,
+          1081.003913219792
+        ],
+        [
+          6183.256944370832,
+          3992.0193078599145
+        ],
+        [
+          1706.0,
+          4022.9985578528513
+        ],
+        [
+          1706.0,
+          3827.0
+        ],
+        [
+          1081.7312173826283,
+          3827.0
+        ]
+      ],
+      "points": [
+        {
+          "id": "p1",
+          "role": "control",
+          "resourceCoords": [
+            1528.0090901121744,
+            1471.9999937421474
+          ],
+          "rdNew": [
+            102400,
+            416600
+          ],
+          "geo": [
+            4.625718560869614,
+            51.73564653496772
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102400,
+              416600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p2",
+          "role": "control",
+          "resourceCoords": [
+            5167.999996957569,
+            1446.9951535654204
+          ],
+          "rdNew": [
+            102400,
+            418000
+          ],
+          "geo": [
+            4.625506439205674,
+            51.748229456307044
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102400,
+              418000
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p3",
+          "role": "control",
+          "resourceCoords": [
+            5702.9997269432215,
+            3526.0076421434655
+          ],
+          "rdNew": [
+            103200,
+            418200
+          ],
+          "geo": [
+            4.637060355767748,
+            51.75010170939322
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              103200,
+              418200
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p4",
+          "role": "control",
+          "resourceCoords": [
+            1536.000009151722,
+            3552.9915604894923
+          ],
+          "rdNew": [
+            103200,
+            416600
+          ],
+          "geo": [
+            4.637299104657631,
+            51.73572119834783
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              103200,
+              416600
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        },
+        {
+          "id": "p5",
+          "role": "check",
+          "resourceCoords": [
+            2046.0004514323252,
+            1467.9925300290581
+          ],
+          "rdNew": [
+            102400,
+            416800
+          ],
+          "geo": [
+            4.625688266120757,
+            51.73744409623893
+          ],
+          "originalProjected": {
+            "crs": "EPSG:28992",
+            "coordinates": [
+              102400,
+              416800
+            ],
+            "unit": "metre",
+            "printedUnit": "kilometre"
+          }
+        }
+      ]
+    }
+  }
+}
